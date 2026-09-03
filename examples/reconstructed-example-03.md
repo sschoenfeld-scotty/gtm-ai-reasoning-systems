@@ -271,33 +271,11 @@ Independent review would be useful in a later structured test set.
 
 ## Framework Implication
 
-**Proposed framework change for review**
+**No canonical framework change is made in this public artifact.**
 
-This case reveals a potentially reusable lesson that may deserve canonical consideration.
+The case exposes a possible overdiagnosis failure mode that may warrant separate internal review.
 
-The proposed change is **not automatically adopted into Full Stack v4**.
-
-### Proposed rule
-
-Before expanding a diagnosis into deeper competing explanations, test whether the leading explanation is
-
-- directly supported by the available evidence
-- cheap to test
-- reversible
-- measurable
-- unlikely to create material downside if tried first
-
-If those conditions hold, the better reasoning sequence may be
-
-**Act on the supported explanation → observe the result → expand the diagnosis only if the intervention fails**
-
-rather than
-
-**Generate deeper explanations → delay action until the causal picture is broader**
-
-This could become a guardrail against overdiagnosis and framework theater.
-
-It remains a **proposed canonical framework change** until explicitly approved.
+Any proposed change to Full Stack v4 should be evaluated against additional cases and considered separately from this publication before the canonical framework changes.
 
 ## What This Case Demonstrates
 
