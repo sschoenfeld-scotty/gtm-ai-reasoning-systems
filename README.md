@@ -76,6 +76,7 @@ The purpose is to make the reasoning behind different answers more disciplined.
 | [Reconstructed Evaluation Case 02](examples/reconstructed-example-02.md) | A counterexample where the baseline is already strong and Full Stack produces no material decision change |
 | [Reconstructed Evaluation Case 03](examples/reconstructed-example-03.md) | A degradation case where added causal complexity produces a weaker decision than the baseline |
 | [Reconstructed Evaluation Case 04](examples/reconstructed-example-04.md) | A behavioral case testing whether repeated manager behavior is kept separate from unsupported motive attribution |
+| [Reconstructed Evaluation Case 05](examples/reconstructed-example-05.md) | An AI workflow case where the evidence is insufficient to decide whether automation removes admin friction or productive thinking |
 
 If you only read one document, start with **Building Friction Into AI**.
 
@@ -94,6 +95,8 @@ If you want to see an unfinished research direction and its current limits, read
 If you want to see the methodology applied across the first three outcome categories, read **Cases 01 through 03** together. They show an **Improved** outcome, a **No material change** outcome, and a **Degraded** outcome.
 
 **Case 04** extends the set into behavioral inference by testing whether observable manager behavior is kept separate from unsupported motive attribution.
+
+**Case 05** adds the fourth working outcome category, **Indeterminate**, in an AI workflow where the available evidence does not justify forcing a winner.
 
 ## How the Work Is Developed
 
@@ -129,7 +132,7 @@ The public [Evaluation Approach](evaluation/evaluation-approach.md) defines a wo
 
 The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) application note, [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md), and [GTM Framework Evolution](architecture/gtm-evolution.md) are derived from the private GTM Diagnostic Framework v8. The complete v8 framework remains private and is currently a field-test draft rather than a formally validated methodology.
 
-The first three reconstructed cases establish useful evaluation symmetry. [Case 01](examples/reconstructed-example-01.md) shows a material improvement in diagnosis and recommended action. [Case 02](examples/reconstructed-example-02.md) shows no material decision change when the baseline is already strong. [Case 03](examples/reconstructed-example-03.md) shows a degraded result where added causal complexity produces a weaker decision. [Case 04](examples/reconstructed-example-04.md) adds a manager-behavior case where Full Stack improves evidence discipline by separating an observable rescue pattern from unproven motive. All four are reconstructed and author-adjudicated rather than independent validation.
+The reconstructed case set now includes all four working outcome categories. [Case 01](examples/reconstructed-example-01.md) shows a material improvement in diagnosis and recommended action. [Case 02](examples/reconstructed-example-02.md) shows no material decision change when the baseline is already strong. [Case 03](examples/reconstructed-example-03.md) shows a degraded result where added causal complexity produces a weaker decision. [Case 04](examples/reconstructed-example-04.md) adds a manager-behavior case where Full Stack improves evidence discipline by separating an observable rescue pattern from unproven motive. [Case 05](examples/reconstructed-example-05.md) is Indeterminate because both AI workflow designs remain defensible under the frozen evidence packet. All five are reconstructed and author-adjudicated rather than independent validation.
 
 The [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a separate research direction. It is not a finished or validated standalone system. The current public note documents the attribution guardrail, the longitudinal inference problem, and unresolved model-revision questions without claiming that a complete BIE architecture exists.
 
