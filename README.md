@@ -70,6 +70,7 @@ The purpose is to make the reasoning behind different answers more disciplined.
 | [Evaluation Approach](evaluation/evaluation-approach.md) | How I am testing whether the architecture improves reasoning rather than merely improving the writing |
 | [Reconstructed Evaluation Case 01](examples/reconstructed-example-01.md) | A controlled GTM example showing how the reasoning intervention changes diagnosis and the recommended action |
 | [Reconstructed Evaluation Case 02](examples/reconstructed-example-02.md) | A counterexample where the baseline is already strong and Full Stack produces no material decision change |
+| [Reconstructed Evaluation Case 03](examples/reconstructed-example-03.md) | A degradation case where added causal complexity produces a weaker decision than the baseline |
 
 If you only read one document, start with **Building Friction Into AI**.
 
@@ -77,7 +78,7 @@ If you want the architecture, go directly to **Full Stack v4 Public Architecture
 
 If you want the current testing methodology, see **Evaluation Approach**.
 
-If you want to see the methodology applied, read **Reconstructed Evaluation Case 01** and **Case 02** together. The first shows a material decision change. The second shows a case where Full Stack does not receive credit merely for adding analysis.
+If you want to see the methodology applied, read **Cases 01 through 03** together. They show an **Improved** outcome, a **No material change** outcome, and a **Degraded** outcome.
 
 ## How the Work Is Developed
 
@@ -111,7 +112,7 @@ The current work can show observed failure modes, framework revisions, later ret
 
 The public [Evaluation Approach](evaluation/evaluation-approach.md) defines a working methodology for moving from practical use toward more structured testing while keeping formal validation as a separate, higher standard.
 
-The reconstructed cases apply that method in two different conditions. [Case 01](examples/reconstructed-example-01.md) shows a material change in diagnosis and recommended action. [Case 02](examples/reconstructed-example-02.md) shows a strong baseline where Full Stack adds pressure testing but does not materially change the decision. Both are illustrative and author-adjudicated rather than independent validation.
+The reconstructed cases apply that method across three outcomes. [Case 01](examples/reconstructed-example-01.md) shows a material improvement in diagnosis and recommended action. [Case 02](examples/reconstructed-example-02.md) shows no material decision change when the baseline is already strong. [Case 03](examples/reconstructed-example-03.md) shows a degraded result where added causal complexity produces a weaker decision. All three are illustrative and author-adjudicated rather than independent validation.
 
 A separate behavioral inference research direction is also still work in progress and will be documented publicly only when the underlying design is mature enough to support a dedicated artifact.
 
