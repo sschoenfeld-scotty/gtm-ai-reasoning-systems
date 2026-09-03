@@ -68,6 +68,7 @@ The purpose is to make the reasoning behind different answers more disciplined.
 | [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) | The high-level architecture behind the current reasoning system |
 | [Evolution of the Reasoning System](architecture/evolution.md) | The design decisions that materially changed the system |
 | [Evaluation Approach](evaluation/evaluation-approach.md) | How I am testing whether the architecture improves reasoning rather than merely improving the writing |
+| [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) | How the reasoning disciplines become practical GTM diagnosis without exposing the complete private commercial framework |
 | [Reconstructed Evaluation Case 01](examples/reconstructed-example-01.md) | A controlled GTM example showing how the reasoning intervention changes diagnosis and the recommended action |
 | [Reconstructed Evaluation Case 02](examples/reconstructed-example-02.md) | A counterexample where the baseline is already strong and Full Stack produces no material decision change |
 | [Reconstructed Evaluation Case 03](examples/reconstructed-example-03.md) | A degradation case where added causal complexity produces a weaker decision than the baseline |
@@ -77,6 +78,8 @@ If you only read one document, start with **Building Friction Into AI**.
 If you want the architecture, go directly to **Full Stack v4 Public Architecture**.
 
 If you want the current testing methodology, see **Evaluation Approach**.
+
+If you want to see how the reasoning system applies to commercial operating decisions, read **GTM Diagnostic Reasoning**.
 
 If you want to see the methodology applied, read **Cases 01 through 03** together. They show an **Improved** outcome, a **No material change** outcome, and a **Degraded** outcome.
 
@@ -112,6 +115,8 @@ The current work can show observed failure modes, framework revisions, later ret
 
 The public [Evaluation Approach](evaluation/evaluation-approach.md) defines a working methodology for moving from practical use toward more structured testing while keeping formal validation as a separate, higher standard.
 
+The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) application note is derived from GTM Diagnostic Framework v8. The complete v8 framework remains private and is currently a field-test draft rather than a formally validated methodology.
+
 The reconstructed cases apply that method across three outcomes. [Case 01](examples/reconstructed-example-01.md) shows a material improvement in diagnosis and recommended action. [Case 02](examples/reconstructed-example-02.md) shows no material decision change when the baseline is already strong. [Case 03](examples/reconstructed-example-03.md) shows a degraded result where added causal complexity produces a weaker decision. All three are illustrative and author-adjudicated rather than independent validation.
 
 A separate behavioral inference research direction is also still work in progress and will be documented publicly only when the underlying design is mature enough to support a dedicated artifact.
@@ -137,7 +142,6 @@ See [Rights and Reuse](RIGHTS.md) for the repository's reuse terms.
 Planned additions include
 
 - additional structured, reconstructed, or anonymized cases using the public evaluation approach
-- a public GTM diagnostic application note
 - a Behavioral Inference Engine design note when the design is sufficiently mature
 
 These will be added only when the underlying material is strong enough to support the claim the artifact is intended to prove.
