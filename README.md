@@ -71,6 +71,7 @@ The purpose is to make the reasoning behind different answers more disciplined.
 | [Evolution of the Reasoning System](architecture/evolution.md) | The design decisions that materially changed the system |
 | [Evaluation Approach](evaluation/evaluation-approach.md) | How I am testing whether the architecture improves reasoning rather than merely improving the writing |
 | [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) | How the reasoning disciplines become practical GTM diagnosis without exposing the complete private commercial framework |
+| [Behavioral Inference Engine](research/behavioral-inference-engine.md) | A work-in-progress research direction for longitudinal behavioral inference without turning observation into unsupported motive |
 | [Reconstructed Evaluation Case 01](examples/reconstructed-example-01.md) | A controlled GTM example showing how the reasoning intervention changes diagnosis and the recommended action |
 | [Reconstructed Evaluation Case 02](examples/reconstructed-example-02.md) | A counterexample where the baseline is already strong and Full Stack produces no material decision change |
 | [Reconstructed Evaluation Case 03](examples/reconstructed-example-03.md) | A degradation case where added causal complexity produces a weaker decision than the baseline |
@@ -86,6 +87,8 @@ If you want to see how the reasoning system applies to commercial operating deci
 If you want the GTM architecture itself, read **GTM Diagnostic Framework v8 Public Architecture**.
 
 If you want to understand how GTM v7 became v8 and how future versions should be governed, read **GTM Framework Evolution**.
+
+If you want to see an unfinished research direction and its current limits, read **Behavioral Inference Engine**.
 
 If you want to see the methodology applied, read **Cases 01 through 03** together. They show an **Improved** outcome, a **No material change** outcome, and a **Degraded** outcome.
 
@@ -125,7 +128,7 @@ The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) applica
 
 The reconstructed cases apply that method across three outcomes. [Case 01](examples/reconstructed-example-01.md) shows a material improvement in diagnosis and recommended action. [Case 02](examples/reconstructed-example-02.md) shows no material decision change when the baseline is already strong. [Case 03](examples/reconstructed-example-03.md) shows a degraded result where added causal complexity produces a weaker decision. All three are illustrative and author-adjudicated rather than independent validation.
 
-A separate behavioral inference research direction is also still work in progress and will be documented publicly only when the underlying design is mature enough to support a dedicated artifact.
+The [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a separate research direction. It is not a finished or validated standalone system. The current public note documents the attribution guardrail, the longitudinal inference problem, and unresolved model-revision questions without claiming that a complete BIE architecture exists.
 
 ## Public Architecture and Private Implementation
 
@@ -148,7 +151,7 @@ See [Rights and Reuse](RIGHTS.md) for the repository's reuse terms.
 Planned additions include
 
 - additional structured, reconstructed, or anonymized cases using the public evaluation approach
-- a Behavioral Inference Engine design note when the design is sufficiently mature
+- more structured evaluation as the case set becomes large enough to support stronger testing
 
 These will be added only when the underlying material is strong enough to support the claim the artifact is intended to prove.
 
