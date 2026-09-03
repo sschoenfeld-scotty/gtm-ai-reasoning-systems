@@ -67,10 +67,13 @@ The purpose is to make the reasoning behind different answers more disciplined.
 | [What I Mean by a Logic Lens](docs/what-is-a-logic-lens.md) | A plain-English explanation of the core concept |
 | [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) | The high-level architecture behind the current reasoning system |
 | [Evolution of the Reasoning System](architecture/evolution.md) | The design decisions that materially changed the system |
+| [Evaluation Approach](evaluation/evaluation-approach.md) | How I am testing whether the architecture improves reasoning rather than merely improving the writing |
 
 If you only read one document, start with **Building Friction Into AI**.
 
 If you want the architecture, go directly to **Full Stack v4 Public Architecture**.
+
+If you want the current testing methodology, see **Evaluation Approach**.
 
 ## How the Work Is Developed
 
@@ -102,7 +105,7 @@ That is not the same as formal validation.
 
 The current work can show observed failure modes, framework revisions, later retesting, and changes in how the system approaches diagnosis. It does not yet include a formal benchmark demonstrating that the architecture consistently improves reasoning quality.
 
-A future evaluation layer should test diagnostic quality over time rather than relying only on whether the final writing improves.
+The public [Evaluation Approach](evaluation/evaluation-approach.md) defines a working methodology for moving from practical use toward more structured testing while keeping formal validation as a separate, higher standard.
 
 A separate behavioral inference research direction is also still work in progress and will be documented publicly only when the underlying design is mature enough to support a dedicated artifact.
 
@@ -126,10 +129,9 @@ See [Rights and Reuse](RIGHTS.md) for the repository's reuse terms.
 
 Planned additions include
 
-- an evaluation approach focused on reasoning quality
+- structured, reconstructed, or anonymized cases using the public evaluation approach
 - a public GTM diagnostic application note
 - a Behavioral Inference Engine design note when the design is sufficiently mature
-- reconstructed and anonymized examples showing how a reasoning intervention changed the diagnosis, confidence, recommendation, or decision
 
 These will be added only when the underlying material is strong enough to support the claim the artifact is intended to prove.
 
