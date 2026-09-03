@@ -57,6 +57,14 @@ The two reasoning conditions can differ in length and structure, and a reviewer 
 
 Reviewer familiarity is therefore recorded rather than ignored.
 
+Pack v1 independently adjudicates **existing reconstructed response pairs**. It does not independently regenerate the baseline and Full Stack responses.
+
+That distinction matters.
+
+Independent review can reduce self-grading bias in the outcome classification, but it does not eliminate case-construction, response-construction, or response-selection bias in the underlying reconstructed examples.
+
+A stronger later evaluation round should use fixed source packets and independently generated condition outputs preserved before adjudication.
+
 ## Reviewer Qualification
 
 The preferred reviewer understands consequential GTM or executive operating decisions well enough to judge whether a diagnosis and intervention would survive contact with a real business.
