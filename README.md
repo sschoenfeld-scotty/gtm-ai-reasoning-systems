@@ -68,12 +68,15 @@ The purpose is to make the reasoning behind different answers more disciplined.
 | [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) | The high-level architecture behind the current reasoning system |
 | [Evolution of the Reasoning System](architecture/evolution.md) | The design decisions that materially changed the system |
 | [Evaluation Approach](evaluation/evaluation-approach.md) | How I am testing whether the architecture improves reasoning rather than merely improving the writing |
+| [Reconstructed Evaluation Case 01](examples/reconstructed-example-01.md) | A controlled GTM example showing how the reasoning intervention changes diagnosis and the recommended action |
 
 If you only read one document, start with **Building Friction Into AI**.
 
 If you want the architecture, go directly to **Full Stack v4 Public Architecture**.
 
 If you want the current testing methodology, see **Evaluation Approach**.
+
+If you want to see that methodology applied, start with **Reconstructed Evaluation Case 01**.
 
 ## How the Work Is Developed
 
@@ -107,6 +110,8 @@ The current work can show observed failure modes, framework revisions, later ret
 
 The public [Evaluation Approach](evaluation/evaluation-approach.md) defines a working methodology for moving from practical use toward more structured testing while keeping formal validation as a separate, higher standard.
 
+The first [reconstructed evaluation case](examples/reconstructed-example-01.md) applies that method to an activity-versus-conversion GTM diagnosis. It is an illustrative, author-adjudicated example rather than independent validation.
+
 A separate behavioral inference research direction is also still work in progress and will be documented publicly only when the underlying design is mature enough to support a dedicated artifact.
 
 ## Public Architecture and Private Implementation
@@ -129,7 +134,7 @@ See [Rights and Reuse](RIGHTS.md) for the repository's reuse terms.
 
 Planned additions include
 
-- structured, reconstructed, or anonymized cases using the public evaluation approach
+- additional structured, reconstructed, or anonymized cases using the public evaluation approach
 - a public GTM diagnostic application note
 - a Behavioral Inference Engine design note when the design is sufficiently mature
 
