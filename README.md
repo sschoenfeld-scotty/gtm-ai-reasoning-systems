@@ -70,6 +70,7 @@ The purpose is to make the reasoning behind different answers more disciplined.
 | [GTM Framework Evolution](architecture/gtm-evolution.md) | The documented changes from v7 to v8 and the discipline for future version changes |
 | [Evolution of the Reasoning System](architecture/evolution.md) | The design decisions that materially changed the system |
 | [Evaluation Approach](evaluation/evaluation-approach.md) | How I am testing whether the architecture improves reasoning rather than merely improving the writing |
+| [Independent Review Protocol v1](evaluation/independent-review-protocol.md) | How the five reconstructed cases are prepared for blinded independent domain review without changing their current classifications |
 | [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) | How the reasoning disciplines become practical GTM diagnosis without exposing the complete private commercial framework |
 | [Behavioral Inference Engine](research/behavioral-inference-engine.md) | A work-in-progress research direction for longitudinal behavioral inference without turning observation into unsupported motive |
 | [Reconstructed Evaluation Case 01](examples/reconstructed-example-01.md) | A controlled GTM example showing how the reasoning intervention changes diagnosis and the recommended action |
@@ -130,6 +131,8 @@ The current work can show observed failure modes, framework revisions, later ret
 
 The public [Evaluation Approach](evaluation/evaluation-approach.md) defines a working methodology for moving from practical use toward more structured testing while keeping formal validation as a separate, higher standard.
 
+The [Independent Review Protocol v1](evaluation/independent-review-protocol.md) now defines the next evidence step. The five reconstructed cases have been prepared for blinded pairwise review by independent domain-qualified reviewers. The protocol is ready, but no independent review result is claimed until a reviewer actually completes and submits the pack.
+
 The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) application note, [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md), and [GTM Framework Evolution](architecture/gtm-evolution.md) are derived from the private GTM Diagnostic Framework v8. The complete v8 framework remains private and is currently a field-test draft rather than a formally validated methodology.
 
 The reconstructed case set now includes all four working outcome categories. [Case 01](examples/reconstructed-example-01.md) shows a material improvement in diagnosis and recommended action. [Case 02](examples/reconstructed-example-02.md) shows no material decision change when the baseline is already strong. [Case 03](examples/reconstructed-example-03.md) shows a degraded result where added causal complexity produces a weaker decision. [Case 04](examples/reconstructed-example-04.md) adds a manager-behavior case where Full Stack improves evidence discipline by separating an observable rescue pattern from unproven motive. [Case 05](examples/reconstructed-example-05.md) is Indeterminate because both AI workflow designs remain defensible under the frozen evidence packet. All five are reconstructed and author-adjudicated rather than independent validation.
@@ -156,8 +159,9 @@ See [Rights and Reuse](RIGHTS.md) for the repository's reuse terms.
 
 Planned additions include
 
-- additional structured, reconstructed, or anonymized cases using the public evaluation approach
-- more structured evaluation as the case set becomes large enough to support stronger testing
+- completed independent reviews using the blinded Pack v1 protocol
+- preservation of reviewer agreement and disagreement as separate evidence
+- additional cases only when they introduce a genuinely different reasoning condition or domain
 
 These will be added only when the underlying material is strong enough to support the claim the artifact is intended to prove.
 
