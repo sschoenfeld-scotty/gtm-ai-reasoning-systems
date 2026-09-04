@@ -188,6 +188,58 @@ For example, leadership may not need to know whether weak pipeline subtraction r
 
 This preserves human judgment while reducing the temptation to psychoanalyze.
 
+## Framing Can Contaminate Behavioral Evidence
+
+Behavioral evidence is not produced in a vacuum.
+
+The way a question, choice, or challenge is framed can change the incentives around the response.
+
+A prompt may make one answer easier because it protects status, competence, identity, relationship standing, or face. Another answer may require the person to concede that they missed something, were wrong, or should defer to someone else's judgment.
+
+That does not prove ego, defensiveness, or any other motive.
+
+It means the response may not be clean evidence of the person's underlying belief.
+
+A useful research distinction is therefore
+
+**What the person answered**
+
+versus
+
+**What the framing made easier or harder to answer**
+
+For example, consider a forced choice between
+
+> Is this a missing layer that others have overlooked?
+
+and
+
+> Is this overengineered?
+
+A negative answer may reflect the merits of the work.
+
+It may also be easier to give because the positive answer carries an implied status concession.
+
+The current BIE does not contain a validated rule for separating those effects.
+
+The research hypothesis is narrower.
+
+> **Before interpreting a response as evidence, inspect whether the way the evidence was elicited created a status, identity, face-saving, relationship, or role incentive that could have influenced the response.**
+
+This should not become a new form of mind-reading.
+
+The point is not to infer that a respondent felt threatened.
+
+The point is to recognize that **choice architecture can become part of the evidence environment**.
+
+A more neutral question can sometimes reduce that contamination.
+
+Instead of asking the respondent to validate or reject a status-loaded claim, the system can ask for an open judgment such as
+
+> Where does this land for you?
+
+Whether that produces meaningfully different evidence remains a research question.
+
 ## The Model-Revision Problem
 
 The most explicit unresolved BIE problem in the current source material is **model revision**.
@@ -304,6 +356,10 @@ Its research question is narrower.
 
 If the answer eventually requires a material change to Full Stack, that should be proposed separately and approved through normal version discipline.
 
+The framing problem described above may eventually justify a behavioral-evidence guardrail inside Full Stack. That possibility is being tracked separately as a proposed framework change.
+
+It is not an active Full Stack v4 rule.
+
 This design note does not make that change.
 
 ## Relationship to GTM Diagnostic Framework v8
@@ -368,6 +424,10 @@ The same behavior is assumed to mean the same thing across different roles, ince
 
 The system preferentially notices evidence that supports the current model.
 
+### Status-sensitive framing confound
+
+A response is treated as clean evidence of underlying judgment even though the framing may have created a status, identity, face-saving, relationship, or role incentive that made one answer easier to give.
+
 ### Intervention overreach
 
 Leadership acts as though motive is known when a lower-regret action could test the condition first.
@@ -389,6 +449,7 @@ Useful questions would include
 - Does it revise when genuinely disconfirming evidence appears?
 - Does it improve intervention quality?
 - Does it know when the evidence is insufficient?
+- Does it inspect whether the way evidence was elicited could have biased the response?
 - Does it reduce false certainty rather than add psychological sophistication?
 
 A system that produces more elaborate stories about people would fail the intended design.
@@ -401,7 +462,11 @@ The underlying attribution guardrail exists in Full Stack v4 and GTM v8.
 
 The need for longitudinal behavioral inference and disciplined model revision has been identified as a next-stage design problem.
 
-That supports a **research direction**.
+A documented design observation also suggests that response framing may contaminate behavioral evidence when different answers carry different status, identity, face-saving, relationship, or role implications.
+
+That is a working hypothesis, not validation.
+
+Together, these observations support a **research direction**.
 
 It does not support a claim that the Behavioral Inference Engine is implemented, validated, or ready for operational use as a standalone system.
 
@@ -418,6 +483,8 @@ The most important unresolved questions currently include
 - What information should persist across cases?
 - What should be deliberately forgotten or treated as local context?
 - How should human review override, revise, or reject the model?
+- How should the system detect potentially status-loaded framing without itself inferring motive?
+- When is neutral reframing a useful test of whether the original response was contaminated by the choice architecture?
 - What evaluation design can distinguish better inference from merely more sophisticated narrative?
 
 These questions are part of the work.
