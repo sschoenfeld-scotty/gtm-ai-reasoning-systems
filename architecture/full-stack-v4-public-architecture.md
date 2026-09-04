@@ -25,6 +25,8 @@ flowchart LR
     B --> C[Competing Explanations]
     C --> D[Causal Diagnosis]
     D --> E[Prognosis]
+    D -. when useful .-> SD[System Dynamics]
+    SD --> E
     E --> F[Pressure Testing]
     F --> G[Confidence and Revision]
     G --> H[Output]
@@ -52,11 +54,21 @@ The first plausible explanation is not automatically accepted.
 
 The architecture keeps credible alternatives open long enough to reduce premature certainty, unsupported motive attribution, and other stories that can fill gaps in the evidence.
 
+When a problem spans multiple stakeholders, the system may compare how the same condition appears from different operating positions. The purpose is to surface competing evidence, incentives, constraints, and consequences without inventing motives or fictional authority.
+
 ### 4. Causal Diagnosis
 
 The system distinguishes what happened from what is governing the outcome.
 
 It looks beyond the visible symptom for the unresolved dependency, operating condition, assumption, behavior, or decision that materially constrains movement.
+
+#### Optional system dynamics scan
+
+A governing constraint explains what currently blocks the outcome. It does not always explain why the blocking condition keeps returning.
+
+When recurrence matters, Full Stack can inspect reinforcing feedback loops, incentives, asymmetries, dependencies, and behaviors that may reproduce the condition over time.
+
+This does not assume that every repeated problem is a system pattern. Recurrence must be supported by evidence rather than inferred from one vivid example.
 
 ### 5. Prognosis
 
@@ -71,6 +83,8 @@ Prognosis is treated as reasoned judgment, not certainty.
 The first coherent answer is challenged before it is trusted.
 
 The architecture tests whether the diagnosis remains defensible against credible alternatives, missing context, and likely rebuttal.
+
+It also tests whether the reasoning survives contact with operating reality. An experienced operator may notice evidence, ownership, measurability, handoffs, incentives, or execution constraints that a more abstract analysis misses. That difference is useful only when it can be supported rather than asserted as authority.
 
 The purpose is not endless revision. It is stronger reasoning.
 
@@ -100,6 +114,8 @@ The private implementation contains substantially more procedural detail than th
 Full Stack v4 is not a universal checklist.
 
 It is not a claim that every problem has one simple root cause.
+
+It is not a claim that every recurring problem is a feedback loop.
 
 It is not a substitute for executive judgment, domain expertise, reliable evidence, or human accountability.
 
