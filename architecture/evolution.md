@@ -22,6 +22,7 @@ The development pattern has been
 | **Initial problem** | AI could produce fluent output before the diagnosis deserved confidence | Introduce deliberate reasoning friction before writing | Shifted the objective from faster output to more inspectable judgment |
 | **v3** | Surface agreement and first-order explanations were too easy to accept | Add hidden-assumption analysis, a human-systems view, and early consequence modeling | Moved the system beyond response generation toward diagnosis |
 | **v4** | The framework needed clearer evidence discipline and stronger self-challenge | Make evidence separation, competing explanations, prognosis, pressure testing, confidence, and revision more explicit | Turned a collection of useful reasoning moves into a more coherent architecture |
+| **v4 refinement** | A governing constraint could explain what blocked an outcome without explaining why the same condition kept recurring | Add optional system-dynamics reasoning, stakeholder perspective triangulation, and an experienced-operator delta inside pressure testing | Extended diagnosis from a static blocker toward recurring system behavior while preserving evidence and attribution discipline |
 | **Two-part implementation** | Deep reasoning and recurring daily use required different operating forms | Separate the Operating Manual from the Execution Prompt | Preserved one reasoning architecture while allowing different execution depth |
 | **Current direction** | Behavioral observations can still become unsupported stories about motive | Strengthen attribution discipline and explore longitudinal behavioral inference | Extends evidence discipline from a single case across time |
 | **Future evaluation** | Better writing does not prove better reasoning | Develop evaluation around diagnostic quality rather than output polish alone | Creates a path from practical iteration toward stronger evidence |
@@ -58,6 +59,34 @@ The current version distinguishes confidence in the reasoning from confidence cr
 
 It also includes more explicit discipline for deciding whether a lesson belongs only to one case or should influence the framework itself.
 
+## Current v4 Refinement
+
+A later review exposed a narrower reasoning gap inside the existing v4 architecture.
+
+Causal diagnosis could identify the governing constraint but still stop too early when the real question was why that condition repeatedly regenerated.
+
+The framework was refined without creating a new major version.
+
+### System dynamics became an optional extension of causal diagnosis
+
+The framework can now distinguish between a condition that blocks an outcome and a feedback structure that may keep recreating that condition.
+
+The refinement looks for recurrence only when the evidence supports it. A single example does not justify a system-level claim.
+
+### Perspective triangulation strengthened competing explanations
+
+For multi-stakeholder problems, the framework can compare how the same condition appears from different operating positions.
+
+The purpose is not to invent personas or motives. It is to expose differences in evidence, incentives, constraints, and consequences that may generate competing explanations.
+
+### Operator proof gained an experienced-operator delta
+
+Pressure testing now asks whether an experienced operator would notice practical evidence, ownership, measurability, handoffs, incentives, or execution constraints that a more abstract analysis might miss.
+
+The framework does not treat experience as proof. The distinction matters only when the reasoning can show what is different and what evidence supports it.
+
+These changes are refinements inside v4 rather than a new version because they deepen existing reasoning functions without changing the framework's purpose or core architecture.
+
 ## Why the System Split in Two
 
 As Full Stack became more detailed, a single artifact was no longer the best form for every use case.
@@ -79,7 +108,7 @@ It is functional and used in live GTM thought leadership and executive work.
 
 The evidence today is repeated practical use and iterative testing, not a formal benchmark.
 
-Minor wording or example improvements do not justify a new version. A future version should reflect a meaningful change in purpose, architecture, or reasoning capability.
+Minor wording, example improvements, or refinements that deepen an existing reasoning function do not justify a new version. A future version should reflect a meaningful change in purpose, architecture, or reasoning capability.
 
 ## Unresolved Work
 
