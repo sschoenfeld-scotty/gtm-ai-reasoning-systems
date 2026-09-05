@@ -101,7 +101,11 @@ If you want to see the methodology applied across the first three outcome catego
 
 ## How the Work Is Developed
 
-The development loop is practical rather than theoretical.
+This body of work did not begin as an attempt to design a complete AI reasoning architecture. It developed through repeated use of AI on real GTM, leadership, communication, and executive problems.
+
+Most of that work still happens inside separate conversations and projects because the original evidence and context matter. When a case exposes a reasoning failure or produces a lesson that appears useful beyond the immediate situation, that learning may be carried forward, compared against prior work, and tested again before it changes a durable framework.
+
+The development loop is therefore practical rather than theoretical.
 
 ```mermaid
 flowchart LR
@@ -118,6 +122,12 @@ AI serves two roles in that process.
 It is the tool being guided by the reasoning system, and it is part of the environment used to expose where the reasoning system fails or overreaches.
 
 A lesson is more useful when it survives a different case rather than merely improving the answer that revealed the weakness.
+
+As the work has evolved, one additional operating principle has become visible.
+
+> **Context stays local. Learning moves upstream. Canonical knowledge is earned.**
+
+That is a description of how this body of work is currently being developed, not a claim that the method is universal or formally validated. The frameworks in this repository represent the current durable state of an evolving operating discipline. Some lessons become framework changes. Others remain hypotheses, reveal boundary conditions, or are discarded.
 
 ## Current Evidence and Limits
 
