@@ -2,19 +2,35 @@
 
 *How I am using AI to make executive and GTM reasoning more inspectable, evidence-disciplined, and harder to fool.*
 
-## What This Repository Is
+## In 60 Seconds
 
-This repository documents a body of work focused on one question.
+I am an enterprise GTM executive who has spent my career operating in complex technology markets. I use AI as a reasoning and decision-support tool, not as a substitute for commercial judgment.
 
-**How can AI help improve judgment without allowing speed, fluency, or confidence to outrun the evidence?**
+This work started with a simple problem.
 
-I am an enterprise GTM executive, not a software developer. The work here is not a prompt library or a software codebase. It is a public portfolio of reasoning architectures, design principles, experiments, and practical applications developed through repeated use.
+**AI is very good at producing answers quickly. It is not automatically good at knowing when an answer should be trusted.**
 
-The point is not the tooling.
+I have been developing reasoning systems that introduce deliberate friction before a conclusion is accepted. The goal is to separate evidence from inference, test competing explanations, diagnose causes rather than symptoms, pressure-test conclusions, and make uncertainty visible when the evidence is weak.
 
-The point is the reasoning discipline underneath it.
+The current body of work includes **Full Stack v4**, the **GTM Diagnostic Framework v8**, a structured evaluation approach, reconstructed test cases, an independent review protocol, and several research and calibration threads that remain deliberately unfinished.
 
-## Why It Exists
+This is not a software codebase or a prompt library.
+
+It is a public record of how the reasoning systems are built, challenged, revised, and sometimes left unchanged when the evidence does not justify a modification.
+
+## Why GitHub
+
+I am not using GitHub because this work is software.
+
+I am using it because the development history matters.
+
+A finished framework can look more certain than the process that produced it. GitHub makes it possible to inspect how the work changes over time, what failure modes caused revisions, what evidence supports a change, what remains unresolved, and when an observation is deliberately held as a hypothesis rather than promoted into the framework.
+
+That distinction is important to the way I work.
+
+**The frameworks are the work. GitHub is the evidence trail.**
+
+## The Problem
 
 Most AI workflows optimize for faster output.
 
@@ -59,45 +75,19 @@ The purpose is not to make every answer follow the same visible structure.
 
 The purpose is to make the reasoning behind different answers more disciplined.
 
-## Start Here
+## If You Have Five Minutes
 
-| Document | What it shows |
+Start with these three documents.
+
+| Read | Why |
 | --- | --- |
-| [Building Friction Into AI](docs/building-friction-into-ai.md) | Why the work started, how the reasoning system is being built, and what remains unresolved |
-| [What I Mean by a Logic Lens](docs/what-is-a-logic-lens.md) | A plain-English explanation of the core concept |
-| [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) | The high-level architecture behind the current reasoning system |
-| [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md) | The compressed public architecture of the private GTM v8 framework and its public/private boundary |
-| [GTM Framework Evolution](architecture/gtm-evolution.md) | The documented changes from v7 to v8 and the discipline for future version changes |
-| [Evolution of the Reasoning System](architecture/evolution.md) | The design decisions that materially changed the system |
-| [Evaluation Approach](evaluation/evaluation-approach.md) | How I am testing whether the architecture improves reasoning rather than merely improving the writing |
-| [Independent Review Protocol v1](evaluation/independent-review-protocol.md) | How the five reconstructed cases are prepared for blinded independent domain review without changing their current classifications |
-| [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) | How the reasoning disciplines become practical GTM diagnosis without exposing the complete private commercial framework |
-| [Behavioral Inference Engine](research/behavioral-inference-engine.md) | A work-in-progress research direction for longitudinal behavioral inference without turning observation into unsupported motive |
-| [Reconstructed Evaluation Case 01](examples/reconstructed-example-01.md) | A controlled GTM example showing how the reasoning intervention changes diagnosis and the recommended action |
-| [Reconstructed Evaluation Case 02](examples/reconstructed-example-02.md) | A counterexample where the baseline is already strong and Full Stack produces no material decision change |
-| [Reconstructed Evaluation Case 03](examples/reconstructed-example-03.md) | A degradation case where added causal complexity produces a weaker decision than the baseline |
-| [Reconstructed Evaluation Case 04](examples/reconstructed-example-04.md) | A behavioral case testing whether repeated manager behavior is kept separate from unsupported motive attribution |
-| [Reconstructed Evaluation Case 05](examples/reconstructed-example-05.md) | An AI workflow case where the evidence is insufficient to decide whether automation removes admin friction or productive thinking |
+| [Building Friction Into AI](docs/building-friction-into-ai.md) | Why the work started, what problem it is trying to solve, and what remains unresolved |
+| [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) | The reasoning architecture behind the current system |
+| [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md) | How the reasoning approach becomes a practical GTM diagnostic system |
 
-If you only read one document, start with **Building Friction Into AI**.
+If you want to inspect how the work is tested and revised, continue to the [Evaluation Approach](evaluation/evaluation-approach.md), [Independent Review Protocol v1](evaluation/independent-review-protocol.md), and [GTM Framework Evolution](architecture/gtm-evolution.md).
 
-If you want the architecture, go directly to **Full Stack v4 Public Architecture**.
-
-If you want the current testing methodology, see **Evaluation Approach**.
-
-If you want to see how the reasoning system applies to commercial operating decisions, read **GTM Diagnostic Reasoning**.
-
-If you want the GTM architecture itself, read **GTM Diagnostic Framework v8 Public Architecture**.
-
-If you want to understand how GTM v7 became v8 and how future versions should be governed, read **GTM Framework Evolution**.
-
-If you want to see an unfinished research direction and its current limits, read **Behavioral Inference Engine**.
-
-If you want to see the methodology applied across the first three outcome categories, read **Cases 01 through 03** together. They show an **Improved** outcome, a **No material change** outcome, and a **Degraded** outcome.
-
-**Case 04** extends the set into behavioral inference by testing whether observable manager behavior is kept separate from unsupported motive attribution.
-
-**Case 05** adds the fourth working outcome category, **Indeterminate**, in an AI workflow where the available evidence does not justify forcing a winner.
+If you want to see how an observation is preserved without automatically changing the framework, see the [GTM Calibration Log](architecture/gtm-calibration-log.md).
 
 ## How the Work Is Developed
 
@@ -105,7 +95,7 @@ This body of work did not begin as an attempt to design a complete AI reasoning 
 
 Most of that work still happens inside separate conversations and projects because the original evidence and context matter. When a case exposes a reasoning failure or produces a lesson that appears useful beyond the immediate situation, that learning may be carried forward, compared against prior work, and tested again before it changes a durable framework.
 
-The development loop is therefore practical rather than theoretical.
+The development loop is practical rather than theoretical.
 
 ```mermaid
 flowchart LR
@@ -129,6 +119,18 @@ As the work has evolved, one additional operating principle has become visible.
 
 That is a description of how this body of work is currently being developed, not a claim that the method is universal or formally validated. The frameworks in this repository represent the current durable state of an evolving operating discipline. Some lessons become framework changes. Others remain hypotheses, reveal boundary conditions, or are discarded.
 
+## What Makes the Work Inspectable
+
+The repository is designed to show more than finished artifacts.
+
+It preserves the architecture behind the reasoning systems, the evolution history behind material changes, examples where the system helped and where it did not, the evaluation method used to compare outcomes, and explicit limits on what has and has not been validated.
+
+That includes negative evidence.
+
+A framework should not become more credible merely because every example appears to prove it works. The reconstructed case set includes an improvement, a no-material-change result, a degradation case, a behavioral attribution case, and an indeterminate case where the evidence does not justify forcing a winner.
+
+The same discipline applies to framework development. A useful observation can be recorded without becoming architecture. A proposed change can remain private until there is enough evidence to justify promotion. Version history is intended to show meaningful intellectual evolution rather than cosmetic editing.
+
 ## Current Evidence and Limits
 
 Full Stack v4 is functional and already used in live GTM thought leadership and executive work.
@@ -141,13 +143,43 @@ The current work can show observed failure modes, framework revisions, later ret
 
 The public [Evaluation Approach](evaluation/evaluation-approach.md) defines a working methodology for moving from practical use toward more structured testing while keeping formal validation as a separate, higher standard.
 
-The [Independent Review Protocol v1](evaluation/independent-review-protocol.md) now defines the next evidence step. The five reconstructed cases have been prepared for blinded pairwise review by independent domain-qualified reviewers. The protocol is ready, but no independent review result is claimed until a reviewer actually completes and submits the pack.
+The [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the next evidence step. The five reconstructed cases have been prepared for blinded pairwise review by domain-qualified external reviewers. The protocol is ready, but no independent review result is claimed until a reviewer actually completes and submits the pack.
 
 The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) application note, [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md), and [GTM Framework Evolution](architecture/gtm-evolution.md) are derived from the private GTM Diagnostic Framework v8. The complete v8 framework remains private and is currently a field-test draft rather than a formally validated methodology.
 
-The reconstructed case set now includes all four working outcome categories. [Case 01](examples/reconstructed-example-01.md) shows a material improvement in diagnosis and recommended action. [Case 02](examples/reconstructed-example-02.md) shows no material decision change when the baseline is already strong. [Case 03](examples/reconstructed-example-03.md) shows a degraded result where added causal complexity produces a weaker decision. [Case 04](examples/reconstructed-example-04.md) adds a manager-behavior case where Full Stack improves evidence discipline by separating an observable rescue pattern from unproven motive. [Case 05](examples/reconstructed-example-05.md) is Indeterminate because both AI workflow designs remain defensible under the frozen evidence packet. All five are reconstructed and author-adjudicated rather than independent validation.
+The reconstructed case set includes all four working outcome categories. [Case 01](examples/reconstructed-example-01.md) shows a material improvement in diagnosis and recommended action. [Case 02](examples/reconstructed-example-02.md) shows no material decision change when the baseline is already strong. [Case 03](examples/reconstructed-example-03.md) shows a degraded result where added causal complexity produces a weaker decision. [Case 04](examples/reconstructed-example-04.md) adds a manager-behavior case where Full Stack improves evidence discipline by separating an observable rescue pattern from unproven motive. [Case 05](examples/reconstructed-example-05.md) is Indeterminate because both AI workflow designs remain defensible under the frozen evidence packet. All five are reconstructed and author-adjudicated rather than independent validation.
 
 The [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a separate research direction. It is not a finished or validated standalone system. The current public note documents the attribution guardrail, the longitudinal inference problem, and unresolved model-revision questions without claiming that a complete BIE architecture exists.
+
+## Repository Map
+
+### Core reasoning system
+
+- [Building Friction Into AI](docs/building-friction-into-ai.md) explains why the work started and how the reasoning system is being developed.
+- [What I Mean by a Logic Lens](docs/what-is-a-logic-lens.md) gives a plain-English explanation of the core concept.
+- [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) documents the high-level architecture behind the current reasoning system.
+- [Evolution of the Reasoning System](architecture/evolution.md) records the design decisions that materially changed the system.
+
+### GTM application
+
+- [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md) is the compressed public architecture of the private GTM v8 framework.
+- [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) shows how the reasoning disciplines become practical commercial diagnosis.
+- [GTM Framework Evolution](architecture/gtm-evolution.md) documents the shift from v7 to v8 and the discipline for future version changes.
+- [GTM Calibration Log](architecture/gtm-calibration-log.md) preserves working observations that may deserve future testing without silently changing the framework.
+
+### Evaluation
+
+- [Evaluation Approach](evaluation/evaluation-approach.md) defines how I am testing whether the architecture improves reasoning rather than merely improving the writing.
+- [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the external review process for the frozen reconstructed cases.
+- [Reconstructed Evaluation Case 01](examples/reconstructed-example-01.md) shows an Improved outcome.
+- [Reconstructed Evaluation Case 02](examples/reconstructed-example-02.md) shows No material change.
+- [Reconstructed Evaluation Case 03](examples/reconstructed-example-03.md) shows a Degraded outcome.
+- [Reconstructed Evaluation Case 04](examples/reconstructed-example-04.md) tests behavioral attribution discipline.
+- [Reconstructed Evaluation Case 05](examples/reconstructed-example-05.md) shows an Indeterminate outcome.
+
+### Research
+
+- [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a work-in-progress research direction for longitudinal behavioral inference without turning observation into unsupported motive.
 
 ## Public Architecture and Private Implementation
 
@@ -179,8 +211,6 @@ These will be added only when the underlying material is strong enough to suppor
 
 I am an enterprise GTM executive who has spent my career operating in complex technology markets.
 
-I use AI as a reasoning and decision-support tool, not as a substitute for commercial judgment.
+I use AI systematically to improve diagnosis, reasoning, and decision support in work where human judgment still owns the outcome.
 
-This repository makes that approach inspectable. It shows how I am developing, testing, challenging, and revising systems intended to improve diagnosis before action.
-
-The work is practical, versioned, and still evolving.
+This repository makes that approach inspectable. The work is practical, versioned, and still evolving.
