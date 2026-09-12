@@ -155,7 +155,7 @@ Full Stack sits inside a larger body of reasoning work.
 | System or layer | Role | Current status |
 | --- | --- | --- |
 | **Logic Lens** | General concept for designing problem-specific reasoning discipline | Concept used across the current body of work |
-| **Full Stack v5** | Core reasoning harness for diagnosis, strategic adjudication, and decision support | Current canonical architecture and in active use |
+| **Full Stack v5** | Core reasoning harness for diagnosis, strategic adjudication, and decision support | Current canonical architecture; v5-specific evaluation pending |
 | **Full Stack v4** | Prior major version that made the diagnostic architecture and recursive evidence loop explicit | Historical canonical version preserved for evidence and version history |
 | **GTM Diagnostic Framework v8** | Separate applied system for diagnosing governing GTM constraints and installing operating discipline | Field-test draft |
 | **Full Stack v5 Evaluation Plan** | Public plan for testing the reasoning capability added in v5 | Work in progress |
