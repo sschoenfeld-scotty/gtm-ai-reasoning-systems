@@ -1,13 +1,17 @@
-# Full Stack v4 Public Architecture
+# Full Stack v4
 
-*Public architecture specification for a private reasoning system*
+*A human-directed reasoning harness for AI-assisted judgment*
 
 **Status**  
-Functional and in active use. Current evidence is repeated practical use and iterative testing, not formal validation.
+Functional and in active use. Current evidence includes repeated practical use, observed reasoning failures, iterative revision, later retesting, and structured reconstructed comparisons. This is meaningful evidence of system behavior and development, not formal validation.
 
 ## Purpose
 
-Full Stack v4 is a reasoning architecture designed to improve diagnosis before AI produces a recommendation, explanation, or piece of writing.
+Full Stack v4 is a diagnostic reasoning system designed to improve diagnosis before a recommendation, explanation, or piece of writing is trusted.
+
+When used with AI, it functions as a **human-directed reasoning harness around the model**.
+
+The model provides the underlying capability. Full Stack changes what must be inspected, challenged, distinguished, and pressure-tested before the human operator accepts the conclusion.
 
 > **Better decisions come from better diagnosis.**
 
@@ -140,11 +144,13 @@ Full Stack v4 currently operates through two private components.
 
 Both implement the same underlying architecture at different levels of depth.
 
-The private implementation contains substantially more procedural detail than this public specification.
+When Full Stack is used with AI, these components provide the operating logic for the reasoning harness. The private implementation contains substantially more procedural detail than this public specification.
 
 ## What Full Stack v4 Is Not
 
-Full Stack v4 is not a universal checklist.
+Full Stack v4 is not an AI model, an alignment technique, an agent runtime, or a claim about model internals.
+
+It is not a universal checklist.
 
 It is not a claim that every problem has one simple root cause.
 
@@ -164,18 +170,21 @@ Its purpose is to make the thinking behind different outputs more disciplined.
 
 Full Stack v4 is already used in live GTM thought leadership and executive work.
 
-The evidence today is repeated practical use, observed reasoning failures, iterative revision, and later retesting.
+The evidence today includes repeated practical use, observed reasoning failures, iterative revision, later retesting, and structured reconstructed comparisons.
 
-That is useful evidence of development.
+Those are real test instances of the system encountering reasoning problems and being challenged against evidence.
 
-It is not the same as formal validation.
+They do not establish a generalized performance claim, and they are not the same as formal validation.
 
-A later evaluation layer should test whether the architecture improves diagnostic quality over time rather than relying only on whether the final writing improves.
+The public [Evaluation Approach](../evaluation/evaluation-approach.md) defines a separate portfolio-level methodology for testing whether the architecture improves diagnostic quality rather than merely improving writing quality.
+
+Recursive Evidence Re-entry strengthens the ongoing evidence loop by allowing material real-world responses and outcomes to return as new source truth. Those outcomes can strengthen, weaken, or change an earlier diagnosis without being converted automatically into a causal claim.
 
 ## Related Public Documents
 
 - [Building Friction Into AI](../docs/building-friction-into-ai.md)
 - [What I Mean by a Logic Lens](../docs/what-is-a-logic-lens.md)
+- [Evaluation Approach](../evaluation/evaluation-approach.md)
 - [Evolution of the Reasoning System](./evolution.md)
 
 ## Public and Private Boundary
