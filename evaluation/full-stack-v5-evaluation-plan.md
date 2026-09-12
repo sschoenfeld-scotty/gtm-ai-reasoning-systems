@@ -1,20 +1,20 @@
 # Full Stack v5 Evaluation Plan
 
-*How I plan to test the reasoning capability added in v5 without rewriting the v4 evidence history*
+*How I plan to test the reasoning capability added in v5 and its current refinements without rewriting the v4 evidence history*
 
 > Work in progress | September 2026
 
 ## Status and Scope
 
-This document defines the public evaluation plan for the new reasoning capability introduced in Full Stack v5.
+This document defines the public evaluation plan for the new reasoning capability introduced in Full Stack v5 and the later refinements now inside the current v5 architecture.
 
 It is not evidence that v5 has already been validated.
 
-Existing Full Stack v4 evidence remains v4 evidence. The reconstructed cases, Evaluation Approach, and Independent Review Protocol were developed around v4 and should not be silently relabeled as proof that v5 Strategic Adjudication works.
+Existing Full Stack v4 evidence remains v4 evidence. The reconstructed cases, Evaluation Approach, and Independent Review Protocol were developed around v4 and should not be silently relabeled as proof that v5 Strategic Adjudication, Reasoning Depth Routing, Reflexivity, or Cascade Integrity work.
 
 The purpose of this plan is narrower.
 
-It asks whether v5 improves decision quality in cases where the diagnosis may already be correct but the decision to intervene is still uncertain.
+It asks whether v5 improves decision quality in cases where the diagnosis may already be correct but the decision to intervene is still uncertain, whether it routes reasoning depth appropriately, whether it detects causal feedback created by signaling without inventing causality, and whether it catches material translation failure without assuming organizational handoffs are inherently destructive.
 
 ## What Changed in v5
 
@@ -27,17 +27,31 @@ That gate, **Strategic Adjudication**, asks two additional questions at a public
 
 A separate conditional **Communication Function** check is also available when misunderstanding the purpose or audience of a statement could materially change the diagnosis.
 
+Three later refinements now sit inside the same v5 architecture.
+
+- **Reasoning Depth Routing** calibrates Fast, Standard, or Deep reasoning by decision consequence rather than output length.
+- **Reflexivity** sits inside System Dynamics and tests whether signaling itself changes the resources or behavior that govern feasibility.
+- **Cascade Integrity** sits inside Operator Proof and tests whether strategic intent materially changes as it travels through organizational handoffs.
+
 The evaluation therefore has to test more than whether v5 produces a different answer.
 
-It has to test whether the new reasoning changes the decision for a defensible reason.
+It has to test whether the added reasoning changes the decision or execution path for a defensible reason without creating avoidable analytical weight or new causal stories unsupported by evidence.
 
 ## Primary Evaluation Question
 
-The central evaluation question is
+The central evaluation question remains
 
 > **When Full Stack v4 and Full Stack v5 reach the same or materially similar diagnosis, does v5 make a better decision about whether and how to act?**
 
-That isolates the new reasoning capability rather than giving v5 credit for diagnostic improvements inherited from v4.
+That isolates the major v5 reasoning capability rather than giving v5 credit for diagnostic improvements inherited from v4.
+
+The current refinements add three secondary questions.
+
+> **Does v5 apply the right amount of reasoning for the consequence of the task?**
+
+> **When signaling changes the system, does v5 detect the reflexive loop without confusing influence with proof of causality?**
+
+> **When a decision passes through an organization, does v5 identify material translation variance without assuming middle management is the problem?**
 
 ## Primary Comparison Design
 
@@ -49,7 +63,7 @@ The v4 condition uses the preserved v4 implementation.
 
 The v5 condition uses the current v5 implementation.
 
-The comparison should focus on whether the new decision gate changes the recommendation, confidence, risk boundary, or resource-allocation judgment in a way that is better supported by the same evidence.
+The comparison should focus on whether the new decision gate or later v5 refinements change the recommendation, confidence, risk boundary, resource-allocation judgment, reasoning depth, causal model, or execution assessment in a way that is better supported by the same evidence.
 
 A separate baseline-versus-v5 comparison can still be useful for broader system evaluation, but it does not isolate the incremental value of the v5 architecture change as cleanly.
 
@@ -61,10 +75,13 @@ A separate baseline-versus-v5 comparison can still be useful for broader system 
 | **Communication function discipline** | When communication purpose matters, does v5 distinguish plausible functions without converting incentive or context into unsupported motive? |
 | **Ruin and irreversibility** | Does v5 identify credible material irreversible downside without treating theoretical catastrophe as an automatic veto? |
 | **Strategic worth** | Does v5 make scarce-resource tradeoffs explicit rather than assuming every diagnosed constraint deserves intervention? |
+| **Reasoning depth routing** | Does v5 keep low-stakes, reversible work efficient while escalating cases where consequence, ambiguity, irreversibility, or strategic tradeoff materially raise the reasoning requirement? |
+| **Reflexivity discipline** | When signaling changes resources or behavior, does v5 identify the feedback loop without treating narrative influence as automatic proof of the later outcome? |
+| **Cascade integrity** | Does v5 identify material translation variance across organizational handoffs without assuming that local adaptation is necessarily distortion? |
 | **Decision boundary** | Does the new reasoning change action only when the evidence supports a materially different strategic choice? |
 | **Non-intervention quality** | When v5 recommends not fixing a diagnosed problem, is that conclusion based on explicit evidence and tradeoffs rather than avoidance or preference? |
-| **Confidence calibration** | Does uncertainty remain visible around risk, opportunity cost, communication intent, and strategic value? |
-| **Operating usefulness** | Does the resulting decision survive practical scrutiny around ownership, timing, implementation, and consequences? |
+| **Confidence calibration** | Does uncertainty remain visible around risk, opportunity cost, communication intent, reflexivity, translation effects, and strategic value? |
+| **Operating usefulness** | Does the resulting decision survive practical scrutiny around ownership, timing, implementation, handoffs, and consequences? |
 
 ## Required Case Types
 
@@ -85,6 +102,42 @@ The diagnosed problem is real and solvable, but another use of capital, attentio
 ### Misread communication function
 
 A statement appears operational on the surface, but the decision quality changes when its broader communication function is considered.
+
+### Reflexive narrative loop
+
+A strategic signal changes capital, talent, customer confidence, partner behavior, competitive behavior, or another operating condition that materially changes whether the original claim can become true.
+
+A strong v5 response should detect the loop while keeping the causal attribution appropriately qualified.
+
+### False-positive reflexivity case
+
+A narrative and an operational outcome move together, but the frozen evidence does not establish that the signal changed the resources or behavior governing the outcome.
+
+A strong v5 response should resist turning correlation or sequence into a reflexive causal story.
+
+### Cascade translation failure
+
+Executive intent is coherent, but incentives, handoffs, process design, or localized risk management materially change the behavior that reaches the frontline or customer.
+
+A strong v5 response should identify where the translation changed without reducing the explanation to motive attribution.
+
+### Beneficial local translation
+
+A local manager or operating team modifies an executive directive because field evidence exposes a weakness in the original decision.
+
+A strong v5 response should not treat every deviation from executive intent as execution failure.
+
+### Fast-path appropriate case
+
+The task is low stakes, narrow, reversible, and adequately evidenced.
+
+A strong v5 response should preserve the core reasoning discipline without forcing the full architecture or adding analytical ceremony that does not improve the decision.
+
+### Fast-path escalation case
+
+The requested output is short or apparently simple, but the underlying decision carries material irreversibility, strategic tradeoff, stakeholder complexity, or causal uncertainty.
+
+A strong v5 response should escalate reasoning depth even though the final artifact may remain brief.
 
 ### False-positive ruin case
 
@@ -112,7 +165,7 @@ Do not alter v4 to make it more competitive with v5.
 
 Use the same case and context with the current v5 architecture.
 
-Capture the diagnosis, Strategic Adjudication result when material, confidence, recommendation, and supporting rationale.
+Record the initial reasoning-depth route, the diagnosis, Strategic Adjudication result when material, any Reflexivity or Cascade Integrity finding when material, confidence, recommendation, and supporting rationale.
 
 ### 4. Separate diagnosis from decision
 
@@ -120,21 +173,29 @@ The comparison should explicitly record whether the diagnosis changed.
 
 If the diagnosis is materially the same but the recommendation changes, identify the exact strategic reason for the change.
 
-That is the core v5 test.
+That remains the core v5 test.
 
-### 5. Inspect the new reasoning for false positives
+### 5. Inspect the routing decision
+
+Ask whether the selected reasoning depth matched the actual consequence of the task.
+
+A fast path should not win merely because it is shorter. A deep path should not win merely because it is more complete.
+
+The test is whether additional reasoning materially improved the judgment enough to justify the added analytical weight.
+
+### 6. Inspect the new reasoning for false positives
 
 A v5 result is not better merely because it is more cautious, more strategic-sounding, or more complex.
 
-Reviewers should test whether the claimed irreversible downside is credible, whether the opportunity cost is explicit, and whether the competing use of resources is real rather than invented.
+Reviewers should test whether the claimed irreversible downside is credible, whether the opportunity cost is explicit, whether a reflexive loop has actual evidence, whether translation variance is observed or inferred, and whether the competing use of resources is real rather than invented.
 
-### 6. Record the strongest counterargument
+### 7. Record the strongest counterargument
 
 For every v5 recommendation, record the strongest credible reason that v4 may still be the better decision.
 
-This is especially important when v5 recommends non-intervention.
+This is especially important when v5 recommends non-intervention, deep escalation, a reflexive causal explanation, or a translation-friction diagnosis.
 
-### 7. Preserve the original outputs
+### 8. Preserve the original outputs
 
 Do not rewrite either condition after seeing the comparison.
 
@@ -146,16 +207,16 @@ The existing qualitative categories remain useful.
 
 | Outcome | Meaning in the v5 comparison |
 | --- | --- |
-| **Improved** | v5 materially improves the strategic decision while preserving or strengthening evidence discipline |
-| **No material change** | v5 adds little because the v4 recommendation was already strategically sound |
-| **Degraded** | v5 introduces unsupported risk aversion, invented opportunity cost, unnecessary complexity, or a worse decision |
-| **Indeterminate** | The frozen evidence is insufficient to determine which decision is stronger |
+| **Improved** | v5 materially improves the strategic decision, routing choice, causal model, or execution assessment while preserving or strengthening evidence discipline |
+| **No material change** | v5 adds little because the v4 recommendation was already strategically sound or the new refinement was not material to the case |
+| **Degraded** | v5 introduces unsupported risk aversion, invented opportunity cost, analytical bloat, causal overreach, translation bias, or a worse decision |
+| **Indeterminate** | The frozen evidence is insufficient to determine which reasoning path is stronger |
 
 These are not benchmark scores or statistical validation.
 
 ## What Counts as Material Improvement
 
-Material improvement requires more than a different recommendation.
+Material improvement requires more than a different recommendation or a longer analysis.
 
 Examples include
 
@@ -163,6 +224,11 @@ Examples include
 - identifying a credible irreversible downside that v4 underweighted
 - showing that a fixable constraint is not worth the resources required
 - distinguishing a communication function that materially changes the decision frame without inventing motive
+- recognizing that strategic signaling changed a real operating constraint while preserving causal uncertainty
+- identifying a meaningful organizational translation failure that changes what the field or customer will actually experience
+- recognizing that local translation improved a weak executive decision rather than treating deviation as failure
+- keeping a low-risk task on a fast path without losing the reasoning needed for a sound decision
+- escalating an apparently simple task because the decision consequence makes deeper reasoning necessary
 - converting an automatic intervention into a defensible containment, deferral, exit, or reallocation decision
 - rejecting a false ruin story and preserving rational action
 - rejecting a weak opportunity-cost argument and preserving necessary intervention
@@ -195,6 +261,22 @@ Preference is restated as strategic judgment without evidence.
 
 Audience, incentives, or timing are converted into asserted motive.
 
+### Analytical bloat
+
+Low-stakes or reversible work is routed through unnecessary layers that do not materially improve the judgment.
+
+### Routing underreach
+
+A short or familiar-looking task stays on the fast path even though irreversibility, stakeholder complexity, strategic tradeoff, or causal uncertainty makes deeper reasoning necessary.
+
+### Reflexivity inflation
+
+A narrative is treated as causally self-fulfilling merely because later conditions moved in the same direction.
+
+### Cascade obstruction bias
+
+The framework assumes that middle management or organizational handoffs degrade strategy even when local translation is neutral, beneficial, or better informed by field evidence.
+
 ### Non-intervention bias
 
 The existence of a new decision gate causes the framework to overvalue doing nothing.
@@ -209,11 +291,11 @@ The current evidence status should remain explicit.
 
 Full Stack v4 has practical-use evidence, observed failure modes, iterative revisions, reconstructed comparisons, and an independent review protocol prepared around its frozen case set.
 
-Full Stack v5 inherits the architecture that produced that development history, but the new Strategic Adjudication capability has not yet earned the same evidence status.
+Full Stack v5 inherits the architecture that produced that development history, but the new Strategic Adjudication capability and current v5 refinements have not yet earned the same evidence status.
 
 Until v5-specific cases are run and reviewed, the correct claim is
 
-> **v5 is an accepted architecture change with a defined evaluation plan, not a validated improvement claim.**
+> **v5 is an accepted architecture change with current refinements and a defined evaluation plan, not a validated improvement claim.**
 
 ## Relationship to Existing Evaluation Artifacts
 
@@ -223,11 +305,11 @@ The [Independent Review Protocol v1](./independent-review-protocol.md) remains t
 
 Those artifacts should remain unchanged as part of the historical evidence trail.
 
-This v5 plan is additive. It exists to evaluate the new decision capability without rewriting the meaning of earlier evidence.
+This v5 plan is additive. It exists to evaluate the new decision capability and current refinements without rewriting the meaning of earlier evidence.
 
 ## Next Evidence Step
 
-The next useful step is to build a small frozen v5 case set that includes both positive and negative tests of Strategic Adjudication.
+The next useful step is to build a small frozen v5 case set that includes positive and negative tests of Strategic Adjudication, Reasoning Depth Routing, Reflexivity, and Cascade Integrity.
 
 The case set should be designed so v5 has an opportunity to improve the decision, add no value, and make the decision worse.
 

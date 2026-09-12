@@ -25,7 +25,8 @@ The development pattern has been
 | **v4 refinement** | A governing constraint could explain what blocked an outcome without explaining why the same condition kept recurring | Add optional system-dynamics reasoning, stakeholder perspective triangulation, and an experienced-operator delta inside pressure testing | Extended diagnosis from a static blocker toward recurring system behavior while preserving evidence and attribution discipline |
 | **v4 refinement** | The written sequence did not make it explicit enough that material real-world responses and outcomes should be allowed to reopen the diagnosis | Make external evidence recursively re-enter at Source Truth, reinforce outcome-attribution discipline, and distinguish compliance from commitment | Turned an implicitly recursive system into an explicitly closed-loop reasoning process without adding another architectural layer |
 | **v5** | A diagnosis could be correct and the resulting intervention could still be strategically wrong | Add Communication Function when material and Strategic Adjudication between prognosis and intervention | Separated diagnostic correctness from whether action is survivable and worth scarce resources |
-| **Current evaluation direction** | Existing v4 evidence does not validate the new v5 strategic-decision capability | Create a v5-specific evaluation plan while preserving v4 evidence as v4 evidence | Keeps version claims and evidence claims aligned |
+| **v5 refinement** | The framework could still over-process simple work, miss cases where narrative changes operating reality, or treat organizational layers as static stakeholder states rather than translation channels | Add Reasoning Depth Routing, Reflexivity inside System Dynamics, and Cascade Integrity inside Operator Proof | Made existing v5 functions more deterministic without changing the governing reasoning spine |
+| **Current evaluation direction** | Existing v4 evidence does not validate the new v5 strategic-decision capability or later v5 refinements | Expand the v5-specific evaluation plan while preserving v4 evidence as v4 evidence | Keeps version claims and evidence claims aligned |
 | **Separate research direction** | Behavioral observations can still become unsupported stories about motive | Explore longitudinal behavioral inference with attribution discipline | Extends evidence discipline across time without treating motive as fact |
 
 ## What Materially Changed in v4
@@ -156,6 +157,58 @@ The result may still be intervention. It may also be deliberate non-intervention
 
 The important change is that v5 can preserve the diagnosis while changing the decision.
 
+## Current v5 Refinements
+
+Later review exposed three narrower gaps inside v5. These changes are meaningful, but they do not create a new major architecture or a new numbered minor release.
+
+### Reasoning Depth Routing
+
+The framework was designed to use conditional lenses, but the execution sequence still risked making simple work inherit too much analytical weight.
+
+The refinement adds an explicit entry-routing decision based on decision consequence, reversibility, ambiguity, stakeholder complexity, and strategic tradeoff rather than output length.
+
+Low-stakes, reversible work can remain on a fast path. More ambiguous work uses the standard v5 execution path. High-stakes or difficult-to-reverse work can escalate to the deeper Operating Manual.
+
+The governing principle is
+
+> **Reasoning depth should be proportional to decision consequence, not output length.**
+
+A short comment can still deserve deep reasoning. A long artifact can still be low risk.
+
+### Reflexivity became explicit inside System Dynamics
+
+Communication Function already distinguished what a statement may be doing. System Dynamics already looked for reinforcing feedback loops.
+
+The missing connection was reflexivity.
+
+A strategic signal can alter capital availability, talent flows, customer confidence, partner or competitor behavior, employee commitment, market expectations, or resource allocation. Those changes can then alter the feasibility of the original claim.
+
+The refinement makes that causal loop inspectable without treating narrative influence as automatic proof of causality.
+
+### Cascade Integrity became explicit inside Operator Proof
+
+Perspective Triangulation compared stakeholder views. Operator Proof already considered handoffs and incentives.
+
+The missing question was how strategic intent changes as it travels through the organization.
+
+Cascade Integrity examines translation across executive intent, functional interpretation, management incentives, process design, frontline behavior, and customer experience.
+
+The guardrail matters. Middle management is not assumed to be the source of distortion. Local translation can weaken, delay, redirect, improve, or correctly adapt an executive decision in light of field evidence.
+
+The relevant test is translation variance, not automatic obstruction.
+
+### Why these changes remain v5
+
+The three refinements do not alter Full Stack's governing purpose or insert another peer layer into the reasoning spine.
+
+Reasoning Depth Routing sits inside Pre-diagnosis. Reflexivity sits inside System Dynamics. Cascade Integrity sits inside Operator Proof.
+
+That makes the existing architecture more deterministic without changing the reason v5 exists.
+
+The version decision is therefore deliberate.
+
+These are **Full Stack v5 refinements**, not v5.1 and not v6.
+
 ## What v5 Did Not Change
 
 The new version does not replace the Logic Lens concept or the core Full Stack thesis.
@@ -192,6 +245,8 @@ A non-zero severe-risk probability as an automatic veto was rejected because con
 
 Importing the separate Five Lens Decision Review architecture was rejected. Full Stack v5 does not adopt its independent-lens or Chairman structure.
 
+The later refinement review also rejected adding Reflexivity, Cascade Integrity, and Fast-Path Routing as three new peer stages. Doing so would have increased checklist weight without changing the underlying architecture. Each belongs inside the existing function it sharpens.
+
 ## Evidence and Evaluation Boundary
 
 Existing Full Stack v4 evidence remains evidence about v4.
@@ -200,7 +255,7 @@ It must not be silently relabeled as v5 validation.
 
 The broader development history still matters. Repeated practical use, observed reasoning failures, framework revision, later retesting, and reconstructed comparisons show that the system has been exercised and changed in response to evidence.
 
-But the new v5 Strategic Adjudication capability requires its own evaluation.
+But the new v5 Strategic Adjudication capability and the current v5 refinements require their own evaluation.
 
 The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) is designed to test cases where
 
@@ -208,6 +263,12 @@ The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.
 - an optimization has attractive expected upside but credible irreversible downside
 - a constraint can be fixed but another use of scarce resources has greater strategic value
 - a communication is misdiagnosed because its function is misunderstood
+- a strategic signal changes the resources or behavior that determine whether the claim can become true
+- an apparent reflexive loop is actually coincidence or post hoc storytelling
+- strategic intent mutates materially as it passes through organizational handoffs
+- local translation improves rather than degrades an executive decision
+- a low-stakes task is over-processed by the full architecture
+- a seemingly simple task is routed too shallowly even though the decision consequence is material
 - ruin reasoning creates a false positive and causes unnecessary paralysis
 - opportunity-cost reasoning becomes an excuse to avoid necessary work
 
@@ -220,7 +281,7 @@ Full Stack continues to operate through two private components.
 | Component | Role |
 | --- | --- |
 | **Operating Manual** | Deeper reasoning for complex or high-stakes work |
-| **Execution Prompt** | Faster application of the same underlying discipline |
+| **Execution Prompt** | Faster application of the same underlying discipline, with entry routing that can remain fast, use the standard path, or escalate to deeper reasoning |
 
 The two components implement the same v5 architecture at different levels of depth.
 
@@ -230,9 +291,9 @@ Full Stack v5 is the active canonical version for new work.
 
 Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact.
 
-The v5 Operating Manual and Execution Prompt are complete and cross-audited against the v5 architecture change specification.
+The v5 Operating Manual and Execution Prompt are complete and aligned with the current v5 architecture, including Reasoning Depth Routing, Reflexivity, and Cascade Integrity.
 
-The next Full Stack work is evaluation of the new strategic-adjudication capability rather than further version expansion.
+The next Full Stack work is evaluation of the v5 decision capability and current refinements rather than version expansion.
 
 ## Version Discipline
 
@@ -240,7 +301,9 @@ Full Stack v5 supersedes v4 for new work.
 
 v4 and v3 remain historical source material.
 
-Minor wording, voice, example, or implementation refinements should update v5 rather than create v6.
+Minor wording, voice, example, execution-routing, or nested reasoning refinements should update v5 rather than create a new numbered release.
+
+Reasoning Depth Routing, Reflexivity, and Cascade Integrity are current v5 refinements. They do not create v5.1 or v6.
 
 A future major version should require another meaningful change in purpose, architecture, or reasoning capability.
 
