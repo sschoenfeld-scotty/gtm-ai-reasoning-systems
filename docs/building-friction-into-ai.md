@@ -2,7 +2,7 @@
 
 *How I’m using AI to build a repeatable reasoning system for GTM judgment*
 
-> Work in progress | August 2026
+> Work in progress | September 2026
 
 **The most useful thing I’ve built with AI isn’t a prompt. It’s friction.**
 
@@ -16,20 +16,25 @@ The risk is not just bad writing. It is bad intervention. The visible issue can 
 
 I call the core approach a **logic lens**. A prompt mostly defines the output. A logic lens defines how the problem should be examined before the output is trusted.
 
-The current implementation is **Full Stack v4**, a reusable reasoning architecture designed to separate observation from inference and keep alternative explanations open. It also asks what evidence would weaken the current conclusion before that conclusion becomes a recommendation.
+The current implementation is **Full Stack v5**. It preserves the evidence discipline, competing explanations, causal diagnosis, prognosis, recursive evidence re-entry, and pressure testing developed through v4, then adds an explicit strategic decision discipline before intervention.
 
-### The two-part system
+The change came from a new failure mode.
 
-| Component | Plain English | Role |
-| --- | --- | --- |
-| **Operating Manual** | The playbook | Defines the deep reasoning architecture, evidence discipline, and the conditions that should force the system to challenge its own diagnosis. |
-| **Execution Prompt** | The game-day call sheet | Applies the same reasoning quickly to daily LinkedIn work and executive GTM analysis. |
+> **A diagnosis can be correct and the intervention can still be strategically wrong.**
 
-Today, that discipline is encoded in working prompts and source documents, but the asset is not a single prompt. It is a repeatable reasoning system that can be applied across different problems and revised when the evidence changes.
+Full Stack v5 therefore separates diagnostic correctness from the decision to act.
+
+When the distinction is material, it asks whether a communication has been interpreted in the right functional context, whether a proposed action creates credible material downside that is difficult or impossible to reverse, and whether removing the governing constraint is worth the scarce resources and opportunity cost required.
+
+The governing distinction is simple.
+
+> **A correct diagnosis is necessary for a good decision. It does not make every diagnosed problem worth solving.**
+
+Today, that discipline is encoded in an Operating Manual and an Execution Prompt. The asset is not a single prompt. It is a repeatable reasoning system that can be applied across different problems and revised when evidence exposes a real reasoning failure.
 
 ## Where the idea is going
 
-The next layer is a **Behavioral Inference Engine**. This is not a finished product. It is the design direction.
+A separate research direction is the **Behavioral Inference Engine**. This is not a finished product.
 
 The goal is for AI to maintain a longitudinal view of behavior without silently converting an observation into motive. Assumed intention stays a hypothesis, and competing explanations stay open until the evidence meaningfully favors one.
 
@@ -37,11 +42,34 @@ A current design problem is model revision. A vivid outlier may reveal something
 
 ## How I’m using AI to build it
 
-AI is not just receiving instructions. It is also the design partner and test environment. I run real GTM situations and public writing through the system, then inspect where the reasoning fails or overreaches. If the lesson is reusable, I codify it into the lens and test it again against a different case.
+AI is not just receiving instructions. It is also the design partner and test environment. I run real GTM situations, executive decisions, and public writing through the system, then inspect where the reasoning fails or overreaches.
 
-**Live case → Initial diagnosis → Challenge it → Codify lesson → Re-test → Use in live work**
+If the lesson appears reusable, I compare it against the existing architecture before deciding whether it belongs in the framework.
 
-That loop is the point. AI is both the tool and part of the experiment. The system is being shaped through repeated use, with each revision expected to survive a new case rather than merely improve the last answer.
+The development loop is practical.
+
+```mermaid
+flowchart LR
+    A[Live Case] --> B[Initial Diagnosis]
+    B --> C[Challenge It]
+    C --> D[Use in Real Work]
+    D --> E[Material New Evidence]
+    E --> F[Re-enter and Reassess]
+    F --> G[Calibration or Framework Learning]
+    G --> H[Re-test]
+    H --> A
+```
+
+Material new evidence does not appear after every case. When it does, it can strengthen, weaken, or change the earlier reasoning without being treated as automatic proof of causality.
+
+That loop is the point. AI is both the tool and part of the experiment. A revision should survive a new case rather than merely improve the answer that exposed the weakness.
+
+## The two-part system
+
+| Component | Plain English | Role |
+| --- | --- | --- |
+| **Operating Manual** | The playbook | Defines the deep reasoning architecture, evidence discipline, strategic decision gates, guardrails, and conditions that should force the system to challenge its own diagnosis or intervention |
+| **Execution Prompt** | The game-day call sheet | Applies the same reasoning quickly to daily LinkedIn work, executive reactions, and GTM analysis |
 
 ## Build journey and current state
 
@@ -49,28 +77,37 @@ That loop is the point. AI is both the tool and part of the experiment. The syst
 | --- | --- |
 | **1 · Problem** | AI was fluent but too willing to accept the premise. The first design goal was deliberate reasoning friction before writing. |
 | **2 · v3** | The framework moved beyond surface agreement. It added hidden-assumption analysis and a human-systems view, then began playing likely consequences forward. |
-| **3 · v4** | The architecture became explicit around evidence discipline and structured self-challenge. The system was designed to make uncertainty visible before a recommendation was trusted. |
+| **3 · v4** | The architecture became explicit around evidence discipline, competing explanations, causal diagnosis, prognosis, structured self-challenge, and confidence calibration. Later v4 refinements added system dynamics, perspective triangulation, experienced-operator proof, and explicit recursive evidence re-entry. |
 | **4 · Two-part system** | The work split into an Operating Manual for deep reasoning and an Execution Prompt for daily application. A separate plain-English guide made the logic-lens concept easier to explain without AI jargon. |
-| **5 · Now** | Full Stack v4 is being used in live GTM thought leadership and executive work. The next layer is focused on attribution discipline and longitudinal behavioral inference. |
+| **5 · v5** | A new failure mode became visible. Correct diagnosis did not necessarily imply that the diagnosed constraint should be fixed. v5 added Communication Function when material and Strategic Adjudication between prognosis and intervention. |
+| **6 · Now** | Full Stack v5 is the current canonical implementation. Full Stack v4 remains preserved as historical canonical source material rather than being rewritten retroactively. |
 
 ## Current state
 
-Full Stack v4 is functional and already used in live work. The Operating Manual and Execution Prompt now operate as a matched system, with a plain-English guide explaining the concept.
+Full Stack v5 is functional as a reasoning architecture and matched Operating Manual and Execution Prompt.
 
-The framework has moved beyond one-off prompting into reusable reasoning architecture. The evidence today is repeated practical use and iterative testing, not a formal benchmark. The Behavioral Inference Engine remains a work in progress.
+The evidence supporting the broader Full Stack development includes repeated practical use, observed reasoning failures, framework revision, later retesting, and structured reconstructed comparisons developed under v4.
+
+That evidence should not be silently relabeled as formal validation of the new v5 strategic-adjudication capability.
+
+The v5 additions therefore have a different evidence status. They are accepted architecture changes grounded in an identified reasoning gap and pressure testing, but they still require v5-specific evaluation.
+
+The Behavioral Inference Engine remains a work in progress.
 
 ## Work left
 
-The next work is to formalize how the system handles attribution and assumed intention. It also needs a model-update rule for deciding when an outlier should change the pattern rather than be treated as noise.
+The next Full Stack work is to evaluate whether Strategic Adjudication improves decision quality without creating new failure modes such as generalized risk aversion, unnecessary paralysis, or opportunity-cost reasoning used as an excuse to avoid difficult but necessary work.
 
-A later evaluation layer should test diagnostic quality over time, not just whether the writing improves.
+Existing v4 evaluation evidence remains v4 evidence. The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) specifically tests cases where the diagnosis may be correct but intervention can still be strategically wrong.
+
+The Behavioral Inference Engine still needs a disciplined model-update rule for deciding when an outlier should change the pattern rather than be treated as noise.
 
 ## What this showcases about how I use AI
 
 I am not using AI to outsource commercial judgment. I am using it to make the judgment process more inspectable and harder to fool.
 
-AI helps me expose assumptions and pressure-test causal logic, while I retain responsibility for the conclusion. The learning from one case is then carried forward and challenged against the next.
+AI helps me expose assumptions, pressure-test causal logic, inspect strategic tradeoffs, and revise conclusions when reality produces better evidence. I retain responsibility for the judgment.
 
 Whether the visible output is public writing or executive GTM work, the asset being built is the reasoning discipline underneath it.
 
-**The advantage isn’t getting to the first answer faster. It’s knowing when the first answer shouldn’t be trusted.**
+**The advantage isn’t getting to the first answer faster. It’s knowing when the first answer shouldn’t be trusted and when even a correct answer should not automatically become an intervention.**
