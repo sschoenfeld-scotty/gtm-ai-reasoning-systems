@@ -1,6 +1,6 @@
 # Evolution of the Reasoning System
 
-*The design decisions that moved Full Stack from prompt-level improvement toward an explicit reasoning architecture*
+*The design decisions that moved Full Stack from prompt-level improvement toward an explicit reasoning architecture and strategic decision gate*
 
 **Status**  
 Work in progress. This history includes only changes supported by the currently available source documents. It does not reconstruct undocumented intermediate versions.
@@ -24,13 +24,13 @@ The development pattern has been
 | **v4** | The framework needed clearer evidence discipline and stronger self-challenge | Make evidence separation, competing explanations, prognosis, pressure testing, confidence, and revision more explicit | Turned a collection of useful reasoning moves into a more coherent architecture |
 | **v4 refinement** | A governing constraint could explain what blocked an outcome without explaining why the same condition kept recurring | Add optional system-dynamics reasoning, stakeholder perspective triangulation, and an experienced-operator delta inside pressure testing | Extended diagnosis from a static blocker toward recurring system behavior while preserving evidence and attribution discipline |
 | **v4 refinement** | The written sequence did not make it explicit enough that material real-world responses and outcomes should be allowed to reopen the diagnosis | Make external evidence recursively re-enter at Source Truth, reinforce outcome-attribution discipline, and distinguish compliance from commitment | Turned an implicitly recursive system into an explicitly closed-loop reasoning process without adding another architectural layer |
-| **Two-part implementation** | Deep reasoning and recurring daily use required different operating forms | Separate the Operating Manual from the Execution Prompt | Preserved one reasoning architecture while allowing different execution depth |
-| **Current direction** | Behavioral observations can still become unsupported stories about motive | Strengthen attribution discipline and explore longitudinal behavioral inference | Extends evidence discipline from a single case across time |
-| **Future evaluation** | Better writing does not prove better reasoning | Develop evaluation around diagnostic quality rather than output polish alone | Creates a path from practical iteration toward stronger evidence |
+| **v5** | A diagnosis could be correct and the resulting intervention could still be strategically wrong | Add Communication Function when material and Strategic Adjudication between prognosis and intervention | Separated diagnostic correctness from whether action is survivable and worth scarce resources |
+| **Current evaluation direction** | Existing v4 evidence does not validate the new v5 strategic-decision capability | Create a v5-specific evaluation plan while preserving v4 evidence as v4 evidence | Keeps version claims and evidence claims aligned |
+| **Separate research direction** | Behavioral observations can still become unsupported stories about motive | Explore longitudinal behavioral inference with attribution discipline | Extends evidence discipline across time without treating motive as fact |
 
 ## What Materially Changed in v4
 
-The current source material supports several changes as substantive rather than cosmetic.
+Several v4 changes were substantive rather than cosmetic.
 
 ### Evidence became a first-class constraint
 
@@ -46,7 +46,7 @@ This reduced the risk that the first plausible explanation would become the defa
 
 ### Prognosis became explicit
 
-The framework began separating the diagnosis of the current state from the likely consequences of leaving that condition unchanged or intervening against the wrong issue.
+The framework separated diagnosis of the current state from the likely consequences of leaving that condition unchanged or intervening against the wrong issue.
 
 That created a clearer bridge between diagnosis and recommendation.
 
@@ -56,21 +56,21 @@ The architecture moved beyond polishing a plausible response and toward delibera
 
 ### Confidence and framework revision became more inspectable
 
-The current version distinguishes confidence in the reasoning from confidence created by polished output.
+v4 distinguished confidence in the reasoning from confidence created by polished output.
 
-It also includes more explicit discipline for deciding whether a lesson belongs only to one case or should influence the framework itself.
+It also added more explicit discipline for deciding whether a lesson belongs only to one case or should influence the framework itself.
 
-## Current v4 Refinements
+## Later v4 Refinements
 
-Later reviews exposed narrower gaps inside the existing v4 architecture. These refinements deepen existing reasoning functions without changing the framework's purpose or requiring a new major version.
+Later reviews exposed narrower gaps inside the existing v4 architecture. These changes deepened existing reasoning functions without changing the framework's purpose enough to justify a new major version.
 
 ### System dynamics became an optional extension of causal diagnosis
 
 Causal diagnosis could identify the governing constraint but still stop too early when the real question was why that condition repeatedly regenerated.
 
-The framework can now distinguish between a condition that blocks an outcome and a feedback structure that may keep recreating that condition.
+The framework learned to distinguish between a condition that blocks an outcome and a feedback structure that may keep recreating that condition.
 
-The refinement looks for recurrence only when the evidence supports it. A single example does not justify a system-level claim.
+The refinement remains conditional. A single example does not justify a system-level claim.
 
 ### Perspective triangulation strengthened competing explanations
 
@@ -80,111 +80,174 @@ The purpose is not to invent personas or motives. It is to expose differences in
 
 ### Operator proof gained an experienced-operator delta
 
-Pressure testing now asks whether an experienced operator would notice practical evidence, ownership, measurability, handoffs, incentives, or execution constraints that a more abstract analysis might miss.
+Pressure testing began asking whether an experienced operator would notice practical evidence, ownership, measurability, handoffs, incentives, or execution constraints that a more abstract analysis might miss.
 
-The framework does not treat experience as proof. The distinction matters only when the reasoning can show what is different and what evidence supports it.
+Experience is not treated as proof. The distinction matters only when the reasoning can show what is different and what evidence supports it.
 
 ### Recursive evidence re-entry made the system explicitly closed loop
 
-A later comparative review largely validated Full Stack's existing reasoning architecture but exposed an implementation ambiguity.
+A later comparative review largely validated the existing Full Stack architecture but exposed an implementation ambiguity.
 
-Full Stack had been designed with evidence revision, competing explanations, operator proof, confidence calibration, and iterative learning. The surrounding case-study and GTM work also treated real-world behavior and outcomes as evidence. What the written sequence did not make explicit enough was what should happen after an output or intervention encountered reality.
+The system already had evidence revision, competing explanations, operator proof, confidence calibration, and iterative learning. What the written sequence did not make explicit enough was what should happen after an output or intervention encountered reality.
 
 The refinement made the intended behavior deterministic.
 
-When a material external response or outcome appears, it re-enters Full Stack at Source Truth and Evidence Discipline. The system then reopens only the downstream reasoning that the new evidence materially affects.
+When a material external response or outcome appears, it re-enters at Source Truth and Evidence Discipline. Only the downstream reasoning materially affected by the new evidence is reopened.
 
 The earlier diagnosis is neither protected nor automatically discarded.
 
-This matters because a recursive system can otherwise become a confirmation loop. The model can diagnose a condition, observe a later result, and interpret that result as proof that its original explanation was correct.
-
-The revised architecture explicitly prevents that shortcut.
-
-### Outcomes update confidence without automatically proving causality
-
-The refinement also made post-intervention attribution more explicit.
-
-A positive result can strengthen confidence that an earlier diagnosis was material without proving that the intervention alone caused the outcome. A negative result can weaken confidence without proving that the diagnosis was wrong.
-
-Other conditions may have changed. Execution may have been weak. Adoption may have been incomplete. Another dependency may have become binding.
-
-The governing lesson is that external outcomes should pass through the same evidence and competing-explanation discipline as the original case.
-
-### Compliance is not commitment
-
-The False Equivalence logic was also sharpened with a distinction that generalizes across sales, management, organizational change, and AI adoption.
-
-Visible compliance can create the appearance of progress without proving ownership, judgment, internalization, or durable behavior change.
-
-The distinction was added as a refinement rather than a new architectural layer.
-
-### Why these changes remain inside v4
-
-These changes do not alter Full Stack's core purpose.
-
-The framework is still designed to improve decision quality through better diagnosis, evidence discipline, competing explanations, causal reasoning, prognosis, pressure testing, and calibrated confidence.
-
-The recursive-evidence refinement clarifies how the same architecture behaves after new evidence appears. It makes the existing system more explicit rather than creating a different system.
-
-A useful shorthand for the refinement is
+A positive result can strengthen confidence without proving that the intervention alone caused the outcome. A negative result can weaken confidence without proving that the diagnosis was wrong.
 
 > **Reality must retain the right to change the model.**
 
-## Why the System Split in Two
+### Compliance is not commitment
 
-As Full Stack became more detailed, a single artifact was no longer the best form for every use case.
+The False Equivalence logic was sharpened with a distinction that generalizes across sales, management, organizational change, and AI adoption.
 
-The system therefore split into two private components.
+Visible compliance can create the appearance of progress without proving ownership, judgment, internalization, or durable behavior change.
+
+This remained a v4 refinement rather than a new architectural layer.
+
+## Why v5 Crossed the Version Threshold
+
+The v5 change addresses a different class of failure.
+
+Full Stack v4 could correctly identify what was true, what condition governed an outcome, what trajectory followed, and what intervention was most likely to change that trajectory.
+
+The remaining assumption was subtle.
+
+Once the governing constraint was diagnosed, the architecture still tended to proceed toward fixing it.
+
+That is not always the right executive decision.
+
+A diagnosed constraint may be strategically unimportant relative to a better use of scarce resources. An apparently attractive intervention may expose the business to credible irreversible downside. A public statement may be misread as a literal operating directive when its function is broader or different.
+
+The important v5 distinction became
+
+> **A correctly diagnosed problem does not automatically deserve intervention.**
+
+That changed the reasoning path rather than merely sharpening an existing step.
+
+## The v5 Architecture Change
+
+Full Stack v5 preserves the diagnostic architecture of v4 and adds two connected changes.
+
+### Communication Function when material
+
+Before diagnosing an apparent operating claim, the system can ask whether the communication may serve more than one function and whether that distinction would materially change the diagnosis.
+
+The purpose is to prevent category error, not to infer hidden motive.
+
+Unverified intent remains a hypothesis. A communication can serve multiple audiences. Strategic signaling does not erase operational consequences.
+
+### Strategic Adjudication between prognosis and intervention
+
+This is the major architectural addition.
+
+Strategic Adjudication asks whether acting on the diagnosis is strategically warranted before Full Stack commits to intervention.
+
+It contains two connected tests.
+
+**Ruin and Irreversibility** asks whether expected upside is being purchased with credible material downside that is difficult or impossible to reverse.
+
+**Strategic Worth** asks whether removing the governing constraint creates enough strategic value to justify the scarce resources and opportunity cost required.
+
+The result may still be intervention. It may also be deliberate non-intervention, containment, deferral, simplification, work-around, exit, or reallocation.
+
+The important change is that v5 can preserve the diagnosis while changing the decision.
+
+## What v5 Did Not Change
+
+The new version does not replace the Logic Lens concept or the core Full Stack thesis.
+
+The following principles remain intact.
+
+- Better decisions come from better diagnosis.
+- Evidence and interpretation remain separate.
+- Competing explanations remain necessary when material.
+- Motive and intent remain hypotheses unless supported.
+- Causal diagnosis remains distinct from chronology.
+- System Dynamics remains conditional.
+- Prognosis remains probabilistic.
+- Operator Proof remains grounded in operating reality.
+- Recursive Evidence Re-entry remains active.
+- Outcomes remain evidence about a diagnosis rather than automatic proof of causality.
+- Human judgment retains responsibility for the conclusion.
+
+The GTM Diagnostic Framework v8 is not modified by this change.
+
+The Behavioral Inference Engine remains a separate work-in-progress research direction.
+
+## Rejected Alternatives
+
+The v5 design review rejected several ways of adding the new reasoning.
+
+Three independent mandatory lenses were rejected because the architecture should not become a heavier checklist.
+
+Strategic Intent inside the Evidence Ladder was rejected because epistemic classification and communication function answer different questions.
+
+Opportunity Cost inside Causal Diagnosis was rejected because diagnosis should identify what governs the outcome while Strategic Worth decides whether changing that condition deserves resources.
+
+A non-zero severe-risk probability as an automatic veto was rejected because consequential decisions almost always contain some theoretical severe-risk path. The relevant standard is credible and material irreversible downside.
+
+Importing the separate Five Lens Decision Review architecture was rejected. Full Stack v5 does not adopt its independent-lens or Chairman structure.
+
+## Evidence and Evaluation Boundary
+
+Existing Full Stack v4 evidence remains evidence about v4.
+
+It must not be silently relabeled as v5 validation.
+
+The broader development history still matters. Repeated practical use, observed reasoning failures, framework revision, later retesting, and reconstructed comparisons show that the system has been exercised and changed in response to evidence.
+
+But the new v5 Strategic Adjudication capability requires its own evaluation.
+
+The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) is designed to test cases where
+
+- the diagnosis is correct but intervention is strategically inferior to non-intervention
+- an optimization has attractive expected upside but credible irreversible downside
+- a constraint can be fixed but another use of scarce resources has greater strategic value
+- a communication is misdiagnosed because its function is misunderstood
+- ruin reasoning creates a false positive and causes unnecessary paralysis
+- opportunity-cost reasoning becomes an excuse to avoid necessary work
+
+No v5 performance result is claimed until those tests are actually run and reviewed.
+
+## Two-Part Implementation
+
+Full Stack continues to operate through two private components.
 
 | Component | Role |
 | --- | --- |
 | **Operating Manual** | Deeper reasoning for complex or high-stakes work |
 | **Execution Prompt** | Faster application of the same underlying discipline |
 
-A separate plain-English Logic Lens explanation was also created so the concept could be understood without exposing the private implementation.
+The two components implement the same v5 architecture at different levels of depth.
 
 ## Current State
 
-Full Stack v4 is the active version for new work.
+Full Stack v5 is the active canonical version for new work.
 
-It is functional and used in live GTM thought leadership and executive work.
+Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact.
 
-The evidence today is repeated practical use and iterative testing, not a formal benchmark.
+The v5 Operating Manual and Execution Prompt are complete and cross-audited against the v5 architecture change specification.
 
-Minor wording, example improvements, or refinements that deepen an existing reasoning function do not justify a new version. A future version should reflect a meaningful change in purpose, architecture, or reasoning capability.
-
-## Unresolved Work
-
-Two areas remain explicitly unfinished.
-
-### Behavioral inference
-
-The current architecture already treats observable behavior as evidence that may support a hypothesis without proving motive.
-
-The emerging design problem is how to preserve that discipline across a longitudinal pattern, especially when a vivid outlier may represent either meaningful model change or noise.
-
-The recursive-evidence refinement strengthens the foundation for that future work because new observations can update confidence without automatically redefining the person or pattern.
-
-There is not yet a standalone canonical Behavioral Inference Engine specification in the current source set.
-
-### Evaluation
-
-The existing development loop can show practical use, failure detection, revision, and retesting.
-
-It cannot yet establish that the architecture reliably improves reasoning quality.
-
-A later evaluation layer should test diagnostic quality directly rather than infer improvement from better writing alone.
+The next Full Stack work is evaluation of the new strategic-adjudication capability rather than further version expansion.
 
 ## Version Discipline
 
-Full Stack v4 supersedes v3 for new work.
+Full Stack v5 supersedes v4 for new work.
 
-v3 remains historical source material.
+v4 and v3 remain historical source material.
 
-Version changes should communicate meaningful intellectual evolution rather than cosmetic editing.
+Minor wording, voice, example, or implementation refinements should update v5 rather than create v6.
+
+A future major version should require another meaningful change in purpose, architecture, or reasoning capability.
 
 ## Related Public Documents
 
+- [Full Stack v5 Public Architecture](./full-stack-v5-public-architecture.md)
+- [Full Stack v4 Public Architecture](./full-stack-v4-public-architecture.md)
 - [Building Friction Into AI](../docs/building-friction-into-ai.md)
 - [What I Mean by a Logic Lens](../docs/what-is-a-logic-lens.md)
-- [Full Stack v4 Public Architecture](./full-stack-v4-public-architecture.md)
+- [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md)
