@@ -10,17 +10,17 @@ The problem that started this work was simple.
 
 **AI is very good at producing answers quickly. It is not automatically good at knowing when an answer should be trusted.**
 
-In consequential work, the larger risk is not bad writing. It is bad diagnosis.
+In consequential work, the larger risk is not bad writing. It is bad diagnosis and, sometimes, a strategically bad intervention built on a correct diagnosis.
 
 AI can accept the premise too easily, overweight a vivid observation, collapse inference into fact, settle on the first plausible causal explanation, or make a weak intervention sound more convincing than the evidence deserves.
 
 I started building systems to introduce deliberate friction before that happens.
 
-The governing idea is simple.
+The governing idea remains simple.
 
 > **Better decisions come from better diagnosis.**
 
-The current body of work includes **Full Stack v4**, the **GTM Diagnostic Framework v8**, a structured evaluation approach, reconstructed test cases, an independent review protocol, and research and calibration threads that remain deliberately unfinished.
+The current body of work includes **Full Stack v5**, the **GTM Diagnostic Framework v8**, a structured evaluation approach, a v5-specific evaluation plan, reconstructed test cases, an independent review protocol, and research and calibration threads that remain deliberately unfinished.
 
 This is not a software codebase or a prompt library.
 
@@ -28,7 +28,7 @@ It is a public record of how reasoning systems are built, challenged, revised, t
 
 ## The Core Reasoning System
 
-**Full Stack v4 is a diagnostic reasoning system designed to make the path from evidence to judgment more disciplined.**
+**Full Stack v5 is a reasoning system designed to make the path from evidence to judgment more disciplined.**
 
 It is one implementation of a broader concept I call a **logic lens**.
 
@@ -40,22 +40,30 @@ When I use Full Stack with AI, it functions as a **human-directed reasoning harn
 
 The model provides the underlying capability.
 
-The harness changes what must be inspected, challenged, distinguished, and pressure-tested before I trust the conclusion.
+The harness changes what must be inspected, challenged, distinguished, and pressure-tested before I trust the conclusion or act on it.
 
 The human retains responsibility for the judgment.
 
+Full Stack v5 adds one explicit executive discipline to the architecture developed through v4.
+
+> **A correct diagnosis is necessary for a good decision. It does not make every diagnosed problem worth solving.**
+
+That distinction is the reason v5 exists.
+
 ## What the Harness Does
 
-At the public level, the reasoning architecture can be understood as five connected functions.
+At the public level, the reasoning architecture can be understood as connected functions rather than a rigid checklist.
 
 ```mermaid
 flowchart LR
     A[Evidence] --> B[Challenge]
     B --> C[Diagnosis]
-    C --> D[Stress Test]
-    D --> E[Confidence and Decision]
-    E --> F[Output or Action]
-    F -. material new evidence .-> A
+    C --> D[Prognosis]
+    D --> E[Strategic Adjudication]
+    E --> F[Action or Non-Action]
+    F --> G[Pressure Test and Confidence]
+    G --> H[Output or Decision]
+    H -. material new evidence .-> A
 ```
 
 **Evidence**
@@ -70,21 +78,47 @@ Keep credible competing explanations open before accepting the first plausible s
 
 Look beyond the visible symptom toward the condition materially governing the outcome.
 
-**Stress Test**
+**Prognosis**
 
-Play the diagnosis forward and challenge whether it survives missing evidence, competing explanations, operating reality, and likely failure.
+Play the condition forward and distinguish the likely consequences of doing nothing, changing the wrong thing, or changing the governing condition.
 
-**Confidence and Revision**
+**Strategic Adjudication**
 
-Make material uncertainty visible and allow new evidence to strengthen, weaken, or change the previous conclusion.
+Ask whether action is strategically warranted even when the diagnosis is correct. This includes checking for credible irreversible downside and whether solving the problem is worth the scarce resources required.
+
+**Pressure Test and Confidence**
+
+Challenge whether the reasoning survives missing evidence, competing explanations, operating reality, likely failure, and material uncertainty.
 
 The detailed implementation remains private.
+
+## A New v5 Failure Mode
+
+Full Stack v4 became increasingly strong at diagnosis.
+
+It separated evidence from interpretation, generated competing explanations, identified governing constraints, established prognosis, pressure-tested the first answer, and made recursive evidence re-entry explicit.
+
+That exposed a different problem.
+
+A system can correctly diagnose the governing constraint and still make the wrong executive decision by assuming the constraint should be fixed.
+
+Full Stack v5 adds an explicit decision gate between prognosis and intervention.
+
+Two ideas sit inside that gate.
+
+**Ruin and Irreversibility** asks whether expected upside is being purchased with credible material downside that is difficult or impossible to reverse.
+
+**Strategic Worth** asks whether removing the constraint creates enough strategic value to justify the scarce resources and opportunity cost required.
+
+A separate **Communication Function** check is available when misunderstanding what a statement is for could materially change the diagnosis.
+
+These are conditional reasoning capabilities, not mandatory extra ceremony in every case.
 
 ## Reality Closes the Loop
 
 Full Stack is not intended to produce an answer and then protect it.
 
-When a recommendation, hypothesis, or intervention encounters the real world, a material response or outcome can become new evidence.
+When a recommendation, hypothesis, intervention, or deliberate non-intervention encounters the real world, a material response or outcome can become new evidence.
 
 The system then has to reconsider what it previously believed.
 
@@ -92,27 +126,27 @@ A positive outcome can strengthen confidence without automatically proving causa
 
 A negative outcome can weaken confidence without automatically proving the original diagnosis was wrong.
 
+If the new evidence changes the strategic decision boundary, the action itself should be reconsidered.
+
 The principle is more important than defending any previous answer.
 
 > **Reality must retain the right to change the model.**
 
 ## Evidence and Current Status
 
-Full Stack v4 is functional and already used in live GTM thought leadership and executive work.
+Full Stack v5 is the current canonical Full Stack architecture. The private Operating Manual and Execution Prompt are complete and matched to the same v5 architecture.
 
-Its current evidence includes repeated practical use, observed reasoning failures, iterative revision, later retesting, and structured reconstructed comparisons.
+The broader Full Stack development has meaningful evidence from repeated practical use, observed reasoning failures, iterative revision, later retesting, and structured reconstructed comparisons developed under v4.
 
-That matters.
+That evidence matters, but version discipline matters too.
 
-These are not claims based only on a framework that looks sensible on paper. The system has repeatedly been used against real reasoning problems, challenged, revised when warranted, and tested again.
+The existing reconstructed comparisons and Independent Review Protocol remain evidence about v4. They should not be silently relabeled as validation of the new v5 Strategic Adjudication capability.
 
-Recursive Evidence Re-entry now makes the relationship between the system and later real-world evidence explicit when a material response or outcome exists.
+The v5 changes are accepted architecture changes grounded in an identified reasoning gap and pressure testing. They still require v5-specific evaluation.
 
-That does not mean Full Stack has been formally validated or that every successful outcome can be attributed to the framework.
+The public [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines the next evidence step.
 
-It means there is already evidence to inspect while a higher standard of evaluation continues to develop.
-
-The public [Evaluation Approach](evaluation/evaluation-approach.md) documents how I separate practical evidence, structured testing, and eventual formal validation rather than collapsing them into one claim.
+The existing [Evaluation Approach](evaluation/evaluation-approach.md) and [Independent Review Protocol v1](evaluation/independent-review-protocol.md) remain part of the v4 evidence trail.
 
 ## The Body of Work
 
@@ -121,9 +155,10 @@ Full Stack sits inside a larger body of reasoning work.
 | System or layer | Role | Current status |
 | --- | --- | --- |
 | **Logic Lens** | General concept for designing problem-specific reasoning discipline | Concept used across the current body of work |
-| **Full Stack v4** | Core diagnostic reasoning system | Functional and in active use |
+| **Full Stack v5** | Core reasoning harness for diagnosis, strategic adjudication, and decision support | Current canonical architecture and in active use |
+| **Full Stack v4** | Prior major version that made the diagnostic architecture and recursive evidence loop explicit | Historical canonical version preserved for evidence and version history |
 | **GTM Diagnostic Framework v8** | Separate applied system for diagnosing governing GTM constraints and installing operating discipline | Field-test draft |
-| **Evaluation Approach** | Public methodology for testing reasoning quality rather than writing quality | Work in progress |
+| **Full Stack v5 Evaluation Plan** | Public plan for testing the reasoning capability added in v5 | Work in progress |
 | **Behavioral Inference Engine** | Research direction for longitudinal behavioral inference without unsupported motive attribution | Work in progress |
 
 These are related pieces of the same body of work, but they do not all have the same maturity, evidence base, or purpose.
@@ -146,12 +181,14 @@ Start with these documents.
 
 | Read | Why |
 | --- | --- |
-| [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) | The public architecture of the core reasoning system and how it functions as a reasoning harness in AI-assisted work |
-| [Building Friction Into AI](docs/building-friction-into-ai.md) | Why the work started, what problem it is trying to solve, and what remains unresolved |
-| [Evaluation Approach](evaluation/evaluation-approach.md) | How I am testing reasoning quality rather than merely comparing writing quality |
+| [Full Stack v5 Public Architecture](architecture/full-stack-v5-public-architecture.md) | The current public architecture of the core reasoning harness and the v5 strategic-adjudication change |
+| [Building Friction Into AI](docs/building-friction-into-ai.md) | Why the work started, how it evolved from v4 to v5, and what remains unresolved |
+| [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) | How the new v5 reasoning capability will be tested without rewriting the v4 evidence history |
 | [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md) | How a separate diagnostic system applies related evidence and causal disciplines to GTM operating problems |
 
-If you want to inspect how the work is tested and revised, continue to the [Independent Review Protocol v1](evaluation/independent-review-protocol.md), [Evolution of the Reasoning System](architecture/evolution.md), and [GTM Framework Evolution](architecture/gtm-evolution.md).
+If you want to inspect how the work evolved, continue to the [Evolution of the Reasoning System](architecture/evolution.md) and the preserved [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md).
+
+If you want to inspect the earlier v4 evaluation work, continue to the [Evaluation Approach](evaluation/evaluation-approach.md), [Independent Review Protocol v1](evaluation/independent-review-protocol.md), and reconstructed case set.
 
 If you want to see how an observation is preserved without automatically changing a framework, see the [GTM Calibration Log](architecture/gtm-calibration-log.md).
 
@@ -192,37 +229,40 @@ That is a description of how this body of work is currently being developed, not
 
 The repository is designed to show more than finished artifacts.
 
-It preserves the architecture behind the reasoning systems, the evolution history behind material changes, examples where the system helped and where it did not, the evaluation method used to compare outcomes, and explicit limits on what has and has not been validated.
+It preserves the architecture behind the reasoning systems, the evolution history behind material changes, examples where the system helped and where it did not, the evaluation methods used to compare outcomes, and explicit limits on what has and has not been validated.
 
 That includes negative evidence.
 
-A framework should not become more credible merely because every example appears to prove it works. The reconstructed case set includes an improvement, a no-material-change result, a degradation case, a behavioral attribution case, and an indeterminate case where the evidence does not justify forcing a winner.
+A framework should not become more credible merely because every example appears to prove it works. The reconstructed v4 case set includes an improvement, a no-material-change result, a degradation case, a behavioral attribution case, and an indeterminate case where the evidence does not justify forcing a winner.
 
 The same discipline applies to framework development. A useful observation can be recorded without becoming architecture. A proposed change can remain separate until there is enough evidence to justify promotion. Version history is intended to show meaningful intellectual evolution rather than cosmetic editing.
 
+v5 follows that same discipline. Its new capability is public, but its evaluation status is deliberately narrower than the older v4 evidence base.
+
 ## Evaluation and Limits
 
-The current work can show observed failure modes, framework revisions, later retesting, structured reconstructed comparisons, and changes in how the system approaches diagnosis.
+The current work can show observed failure modes, framework revisions, later retesting, structured reconstructed comparisons, and changes in how the system approaches diagnosis and decision support.
 
 That is meaningful evidence.
 
 It is not yet a formal benchmark demonstrating that the architecture consistently improves reasoning quality across domains.
 
-The [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the next evidence step. The five reconstructed cases have been prepared for blinded pairwise review by domain-qualified external reviewers. The protocol is ready, but no independent review result is claimed until a reviewer actually completes and submits the pack.
+The [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the next evidence step for the frozen v4 reconstructed cases. The protocol is ready, but no independent review result is claimed until a reviewer actually completes and submits the pack.
 
-The reconstructed case set includes all four working outcome categories. [Case 01](examples/reconstructed-example-01.md) shows a material improvement in diagnosis and recommended action. [Case 02](examples/reconstructed-example-02.md) shows no material decision change when the baseline is already strong. [Case 03](examples/reconstructed-example-03.md) shows a degraded result where added causal complexity produces a weaker decision. [Case 04](examples/reconstructed-example-04.md) tests behavioral attribution discipline by separating an observable rescue pattern from unproven motive. [Case 05](examples/reconstructed-example-05.md) is Indeterminate because both AI workflow designs remain defensible under the frozen evidence packet. All five are reconstructed and author-adjudicated rather than independent validation.
+The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines a separate test for the new v5 decision capability. Its primary question is whether v5 can preserve a correct diagnosis and still improve the decision about whether and how to act.
 
-The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) application note, [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md), and [GTM Framework Evolution](architecture/gtm-evolution.md) are derived from the private GTM Diagnostic Framework v8. The complete v8 framework remains private and is currently a field-test draft rather than a formally validated methodology.
+The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md), [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md), and [GTM Framework Evolution](architecture/gtm-evolution.md) are derived from the private GTM Diagnostic Framework v8. The complete v8 framework remains private and is currently a field-test draft rather than a formally validated methodology.
 
-The [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a separate research direction. It is not a finished or validated standalone system. The current public note documents the attribution guardrail, the longitudinal inference problem, and unresolved model-revision questions without claiming that a complete BIE architecture exists.
+The [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a separate research direction. It is not a finished or validated standalone system.
 
 ## Repository Map
 
 ### Core reasoning system
 
-- [Building Friction Into AI](docs/building-friction-into-ai.md) explains why the work started and how the reasoning system is being developed.
-- [What I Mean by a Logic Lens](docs/what-is-a-logic-lens.md) gives a plain-English explanation of the core concept.
-- [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) documents the high-level architecture behind the current reasoning system.
+- [Building Friction Into AI](docs/building-friction-into-ai.md) explains why the work started and how the reasoning system evolved from v4 to v5.
+- [What I Mean by a Logic Lens](docs/what-is-a-logic-lens.md) gives a plain-English explanation of the core concept using v5 as the current example.
+- [Full Stack v5 Public Architecture](architecture/full-stack-v5-public-architecture.md) documents the high-level architecture behind the current reasoning system.
+- [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) preserves the prior major version as part of the historical evidence trail.
 - [Evolution of the Reasoning System](architecture/evolution.md) records the design decisions that materially changed the system.
 
 ### GTM application
@@ -234,8 +274,9 @@ The [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a 
 
 ### Evaluation
 
-- [Evaluation Approach](evaluation/evaluation-approach.md) defines how I am testing whether the architecture improves reasoning rather than merely improving the writing.
-- [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the external review process for the frozen reconstructed cases.
+- [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines how the new v5 Strategic Adjudication capability should be tested.
+- [Evaluation Approach](evaluation/evaluation-approach.md) preserves the public methodology used for the v4 comparison work.
+- [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the external review process for the frozen reconstructed v4 cases.
 - [Reconstructed Evaluation Case 01](examples/reconstructed-example-01.md) shows an Improved outcome.
 - [Reconstructed Evaluation Case 02](examples/reconstructed-example-02.md) shows No material change.
 - [Reconstructed Evaluation Case 03](examples/reconstructed-example-03.md) shows a Degraded outcome.
@@ -264,12 +305,15 @@ See [Rights and Reuse](RIGHTS.md) for the repository's reuse terms.
 
 ## What Is Next
 
+The next Full Stack work is evidence, not another version number.
+
 Planned additions include
 
-- completed independent reviews using the blinded Pack v1 protocol
+- v5-specific cases that test Strategic Adjudication against both positive and negative examples
+- completed independent reviews of the frozen v4 case pack
 - preservation of reviewer agreement and disagreement as separate evidence
-- additional cases only when they introduce a genuinely different reasoning condition or domain
 - continued capture of material real-world evidence through recursive re-entry when later outcomes are available
+- additional cases only when they introduce a genuinely different reasoning condition or domain
 
 These will be added only when the underlying material is strong enough to support the claim the artifact is intended to prove.
 
