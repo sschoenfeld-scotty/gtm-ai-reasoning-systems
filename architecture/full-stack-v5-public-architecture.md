@@ -29,7 +29,7 @@ The system could correctly identify what was governing an outcome and still move
 
 Full Stack v5 adds an explicit strategic decision gate between prognosis and intervention so a correct diagnosis does not automatically become a mandate to act.
 
-The current v5 refinement work makes existing functions more deterministic without adding another peer layer to the governing reasoning spine. It routes reasoning depth by decision consequence, makes reflexive narrative effects explicit inside System Dynamics, makes organizational translation explicit inside Operator Proof, and distinguishes retrospective explanations from contemporaneous evidence of the reasoning that produced an earlier decision.
+The current v5 refinement work makes existing functions more deterministic without adding another peer layer to the governing reasoning spine. It requires user-declared consequence before reasoning-depth routing, then uses observable reasoning risk to determine whether deeper scrutiny is warranted. It also makes reflexive narrative effects explicit inside System Dynamics, makes organizational translation explicit inside Operator Proof, and distinguishes retrospective explanations from contemporaneous evidence of the reasoning that produced an earlier decision.
 
 This document describes the public architecture only. Detailed operating instructions, execution logic, internal tests, decision rules, and implementation prompts remain private.
 
@@ -37,7 +37,8 @@ This document describes the public architecture only. Detailed operating instruc
 
 ```mermaid
 flowchart LR
-    R{Reasoning Depth} --> A[Source Truth]
+    U{User Consequence} --> R{Reasoning Depth}
+    R --> A[Source Truth]
     R -. when material .-> CF[Communication Function]
     CF --> A
     A --> B[Evidence Discipline]
@@ -57,7 +58,9 @@ flowchart LR
 
 The architecture is connected rather than mechanically linear. Conditional elements are invoked when they materially change the reasoning rather than being forced into every case.
 
-Reasoning Depth is an entry-routing decision rather than another diagnostic stage. A short output can require deep reasoning. A long output can still be low risk. The routing question is how consequential, reversible, ambiguous, and strategically loaded the decision is, not how many words the final artifact contains.
+User Consequence is an entry condition rather than another diagnostic stage. If consequence has not already been explicitly established, Full Stack asks the user before routing. The user's declaration sets the minimum reasoning depth. Observable reasoning properties such as reversibility, evidence quality, causal uncertainty, stakeholder complexity, scarce-resource tradeoffs, and credible irreversible downside can justify escalation, but they do not downgrade the user's declared minimum.
+
+A short output can require deep reasoning. A long output can still be low risk. The router should not infer subjective importance from artifact length, topic, tone, seniority, or model intuition about what ought to matter.
 
 ## What Changed From v4
 
@@ -101,17 +104,17 @@ Four later observations exposed narrower gaps inside the accepted v5 architectur
 
 ### Reasoning Depth Routing
 
-The framework now makes an explicit entry decision about how much reasoning depth the task warrants.
+The framework now requires consequence to be explicitly established by the user before it selects Fast, Standard, or Deep reasoning.
 
-Low-stakes, reversible, well-bounded work can use a fast path that preserves evidence discipline, causal reasoning, operating reality, and pressure testing without forcing every conditional lens.
+If consequence is already explicit in the current context, the router uses it without asking again. If consequence has not been established, Full Stack obtains that human judgment before producing the framework output.
 
-More ambiguous or consequential work uses the standard v5 path. High-stakes, difficult-to-reverse, politically sensitive, resource-intensive, or strategically consequential work can escalate to the deeper Operating Manual.
+The user's declaration sets the minimum reasoning depth. The model then inspects observable reasoning properties such as reversibility, evidence quality, causal uncertainty, stakeholder complexity, material tradeoffs, and credible irreversible downside. Those indicators may justify escalation, but they do not downgrade the user's declared minimum.
 
 The governing principle is
 
-> **Reasoning depth should be proportional to decision consequence, not output length.**
+> **Reasoning depth should reflect user-declared consequence and observable reasoning risk, not output length or unsupported model judgment about what ought to matter.**
 
-Routing does not exempt a short task from deep reasoning when the decision boundary warrants it.
+This makes the division of responsibility explicit. The user establishes how much the situation matters. The model evaluates evidence-supported reasons that deeper reasoning may be required.
 
 ### Reflexivity inside System Dynamics
 
@@ -250,6 +253,8 @@ It does not assume organizational translation is necessarily distortion.
 
 It does not assume retrospective self-report is unreliable merely because it was given later.
 
+It does not infer personal or strategic importance merely from topic, tone, seniority, or artifact form.
+
 It does not reject action because severe downside is theoretically possible.
 
 It does not treat opportunity cost as permission to avoid difficult but necessary work.
@@ -268,7 +273,7 @@ That evidence remains evidence about v4 and about the development process. It sh
 
 The v5 changes are accepted architecture changes grounded in identified reasoning gaps and pressure testing. They still require v5-specific evaluation.
 
-The public [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) defines the next evidence step for testing whether Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity improve decision quality without creating new failure modes such as generalized risk aversion, analytical bloat, causal overreach, translation bias, hindsight reconstruction, or unnecessary trace bureaucracy.
+The public [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) defines the next evidence step for testing whether Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity improve decision quality without creating new failure modes such as generalized risk aversion, analytical bloat, causal overreach, translation bias, hindsight reconstruction, unnecessary trace bureaucracy, consequence-inference overreach, or routing-gate bypass.
 
 The existing [Evaluation Approach](../evaluation/evaluation-approach.md) and [Independent Review Protocol v1](../evaluation/independent-review-protocol.md) remain part of the v4 evidence trail.
 
@@ -279,6 +284,8 @@ Full Stack v5 supersedes v4 for new work.
 Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact in this repository.
 
 Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity are refinements inside v5. They make existing functions more deterministic without changing the governing reasoning spine, so they do not create v5.1 or v6.
+
+The Mandatory Consequence Declaration is a refinement inside Reasoning Depth Routing. It does not add another peer stage or create a new numbered release.
 
 A future major version should require another meaningful change in purpose, architecture, or reasoning capability rather than wording, examples, routing logic, or nested reasoning refinements.
 
