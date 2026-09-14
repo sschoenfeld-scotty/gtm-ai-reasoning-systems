@@ -44,7 +44,7 @@ The harness changes what must be inspected, challenged, distinguished, and press
 
 The human retains responsibility for the judgment.
 
-Full Stack v5 adds one explicit executive discipline to the architecture developed through v4.
+Full Stack v5 crossed the version threshold by adding one explicit executive discipline to the architecture developed through v4.
 
 > **A correct diagnosis is necessary for a good decision. It does not make every diagnosed problem worth solving.**
 
@@ -90,6 +90,8 @@ Ask whether action is strategically warranted even when the diagnosis is correct
 
 Challenge whether the reasoning survives missing evidence, competing explanations, operating reality, likely failure, and material uncertainty.
 
+Current v5 refinements stay nested inside these functions rather than appearing as additional peer stages. They route reasoning depth by decision consequence, inspect when signaling changes operating reality, test whether strategy survives organizational translation, and preserve enough of the original decision state to distinguish later explanation from what was actually believed at the time.
+
 The detailed implementation remains private.
 
 ## A New v5 Failure Mode
@@ -114,6 +116,8 @@ A separate **Communication Function** check is available when misunderstanding w
 
 These are conditional reasoning capabilities, not mandatory extra ceremony in every case.
 
+That major version change is distinct from the later v5 refinements. **Reasoning Depth Routing**, **Reflexivity**, **Cascade Integrity**, and **Decision Trace Integrity** sharpen existing functions without changing the governing reasoning spine or creating a new numbered version.
+
 ## Reality Closes the Loop
 
 Full Stack is not intended to produce an answer and then protect it.
@@ -132,6 +136,10 @@ The principle is more important than defending any previous answer.
 
 > **Reality must retain the right to change the model.**
 
+Decision Trace Integrity adds a complementary discipline.
+
+> **Reality should be able to change the model without rewriting what the model believed before reality arrived.**
+
 ## Evidence and Current Status
 
 Full Stack v5 is the current canonical Full Stack architecture. The private Operating Manual and Execution Prompt are complete and matched to the same v5 architecture.
@@ -140,11 +148,11 @@ The broader Full Stack development has meaningful evidence from repeated practic
 
 That evidence matters, but version discipline matters too.
 
-The existing reconstructed comparisons and Independent Review Protocol remain evidence about v4. They should not be silently relabeled as validation of the new v5 Strategic Adjudication capability.
+The existing reconstructed comparisons and Independent Review Protocol remain evidence about v4. They should not be silently relabeled as validation of the new v5 Strategic Adjudication capability or the current v5 refinements.
 
-The v5 changes are accepted architecture changes grounded in an identified reasoning gap and pressure testing. They still require v5-specific evaluation.
+The v5 changes and current refinements are accepted architecture changes grounded in identified reasoning gaps and pressure testing. They still require v5-specific evaluation.
 
-The public [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines the next evidence step.
+The public [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines the next evidence step for Strategic Adjudication and the current v5 refinements.
 
 The existing [Evaluation Approach](evaluation/evaluation-approach.md) and [Independent Review Protocol v1](evaluation/independent-review-protocol.md) remain part of the v4 evidence trail.
 
@@ -155,10 +163,10 @@ Full Stack sits inside a larger body of reasoning work.
 | System or layer | Role | Current status |
 | --- | --- | --- |
 | **Logic Lens** | General concept for designing problem-specific reasoning discipline | Concept used across the current body of work |
-| **Full Stack v5** | Core reasoning harness for diagnosis, strategic adjudication, and decision support | Current canonical architecture; v5-specific evaluation pending |
+| **Full Stack v5** | Core reasoning harness for diagnosis, strategic adjudication, and decision support | Current canonical architecture; Strategic Adjudication and current v5 refinements require v5-specific evaluation |
 | **Full Stack v4** | Prior major version that made the diagnostic architecture and recursive evidence loop explicit | Historical canonical version preserved for evidence and version history |
 | **GTM Diagnostic Framework v8** | Separate applied system for diagnosing governing GTM constraints and installing operating discipline | Field-test draft |
-| **Full Stack v5 Evaluation Plan** | Public plan for testing the reasoning capability added in v5 | Work in progress |
+| **Full Stack v5 Evaluation Plan** | Public plan for testing Strategic Adjudication and the current v5 refinements | Work in progress |
 | **Behavioral Inference Engine** | Research direction for longitudinal behavioral inference without unsupported motive attribution | Work in progress |
 
 These are related pieces of the same body of work, but they do not all have the same maturity, evidence base, or purpose.
@@ -181,9 +189,9 @@ Start with these documents.
 
 | Read | Why |
 | --- | --- |
-| [Full Stack v5 Public Architecture](architecture/full-stack-v5-public-architecture.md) | The current public architecture of the core reasoning harness and the v5 strategic-adjudication change |
+| [Full Stack v5 Public Architecture](architecture/full-stack-v5-public-architecture.md) | The current public architecture of the core reasoning harness, the v5 strategic-adjudication change, and later v5 refinements |
 | [Building Friction Into AI](docs/building-friction-into-ai.md) | Why the work started, how it evolved from v4 to v5, and what remains unresolved |
-| [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) | How the new v5 reasoning capability will be tested without rewriting the v4 evidence history |
+| [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) | How Strategic Adjudication and the current v5 refinements will be tested without rewriting the v4 evidence history |
 | [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md) | How a separate diagnostic system applies related evidence and causal disciplines to GTM operating problems |
 
 If you want to inspect how the work evolved, continue to the [Evolution of the Reasoning System](architecture/evolution.md) and the preserved [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md).
@@ -237,7 +245,7 @@ A framework should not become more credible merely because every example appears
 
 The same discipline applies to framework development. A useful observation can be recorded without becoming architecture. A proposed change can remain separate until there is enough evidence to justify promotion. Version history is intended to show meaningful intellectual evolution rather than cosmetic editing.
 
-v5 follows that same discipline. Its new capability is public, but its evaluation status is deliberately narrower than the older v4 evidence base.
+v5 follows that same discipline. Its current architecture is public, but its evaluation status is deliberately narrower than the older v4 evidence base.
 
 ## Evaluation and Limits
 
@@ -249,7 +257,7 @@ It is not yet a formal benchmark demonstrating that the architecture consistentl
 
 The [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the next evidence step for the frozen v4 reconstructed cases. The protocol is ready, but no independent review result is claimed until a reviewer actually completes and submits the pack.
 
-The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines a separate test for the new v5 decision capability. Its primary question is whether v5 can preserve a correct diagnosis and still improve the decision about whether and how to act.
+The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines separate tests for Strategic Adjudication and the current v5 refinements. Its primary question remains whether v5 can preserve a correct diagnosis and still improve the decision about whether and how to act. The plan also tests whether reasoning depth, reflexivity, organizational translation, and decision-trace integrity improve judgment without creating new failure modes.
 
 The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md), [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md), and [GTM Framework Evolution](architecture/gtm-evolution.md) are derived from the private GTM Diagnostic Framework v8. The complete v8 framework remains private and is currently a field-test draft rather than a formally validated methodology.
 
@@ -274,7 +282,7 @@ The [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a 
 
 ### Evaluation
 
-- [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines how the new v5 Strategic Adjudication capability should be tested.
+- [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines how Strategic Adjudication and the current v5 refinements should be tested.
 - [Evaluation Approach](evaluation/evaluation-approach.md) preserves the public methodology used for the v4 comparison work.
 - [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the external review process for the frozen reconstructed v4 cases.
 - [Reconstructed Evaluation Case 01](examples/reconstructed-example-01.md) shows an Improved outcome.
@@ -309,7 +317,7 @@ The next Full Stack work is evidence, not another version number.
 
 Planned additions include
 
-- v5-specific cases that test Strategic Adjudication against both positive and negative examples
+- v5-specific cases that test Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity against both positive and negative examples
 - completed independent reviews of the frozen v4 case pack
 - preservation of reviewer agreement and disagreement as separate evidence
 - continued capture of material real-world evidence through recursive re-entry when later outcomes are available
