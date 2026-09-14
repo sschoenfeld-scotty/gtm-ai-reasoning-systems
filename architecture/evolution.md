@@ -26,6 +26,7 @@ The development pattern has been
 | **v4 refinement** | The written sequence did not make it explicit enough that material real-world responses and outcomes should be allowed to reopen the diagnosis | Make external evidence recursively re-enter at Source Truth, reinforce outcome-attribution discipline, and distinguish compliance from commitment | Turned an implicitly recursive system into an explicitly closed-loop reasoning process without adding another architectural layer |
 | **v5** | A diagnosis could be correct and the resulting intervention could still be strategically wrong | Add Communication Function when material and Strategic Adjudication between prognosis and intervention | Separated diagnostic correctness from whether action is survivable and worth scarce resources |
 | **v5 refinement** | The framework could still over-process simple work, miss cases where narrative changes operating reality, or treat organizational layers as static stakeholder states rather than translation channels | Add Reasoning Depth Routing, Reflexivity inside System Dynamics, and Cascade Integrity inside Operator Proof | Made existing v5 functions more deterministic without changing the governing reasoning spine |
+| **v5 refinement** | A later explanation of a prior decision could be mistaken for evidence of the reasoning that actually produced the choice | Add Decision Trace Integrity across evidence discipline, Human Pattern 1, recursive evidence re-entry, and consequence-based trace preservation | Separated retrospective rationale from contemporaneous decision evidence without turning cognitive-bias labels into new peer lenses |
 | **Current evaluation direction** | Existing v4 evidence does not validate the new v5 strategic-decision capability or later v5 refinements | Expand the v5-specific evaluation plan while preserving v4 evidence as v4 evidence | Keeps version claims and evidence claims aligned |
 | **Separate research direction** | Behavioral observations can still become unsupported stories about motive | Explore longitudinal behavioral inference with attribution discipline | Extends evidence discipline across time without treating motive as fact |
 
@@ -159,7 +160,7 @@ The important change is that v5 can preserve the diagnosis while changing the de
 
 ## Current v5 Refinements
 
-Later review exposed three narrower gaps inside v5. These changes are meaningful, but they do not create a new major architecture or a new numbered minor release.
+Later review exposed narrower gaps inside v5. These changes are meaningful, but they do not create a new major architecture or a new numbered minor release.
 
 ### Reasoning Depth Routing
 
@@ -197,11 +198,35 @@ The guardrail matters. Middle management is not assumed to be the source of dist
 
 The relevant test is translation variance, not automatic obstruction.
 
+### Decision Trace Integrity strengthened evidence and revision
+
+A later human-reasoning review exposed a different epistemic risk.
+
+A person can give a sincere, coherent explanation of a prior choice without that explanation necessarily being a reliable record of the reasoning that produced the choice at the time.
+
+The framework therefore needed to distinguish **retrospective rationale** from **contemporaneous decision evidence**.
+
+Decision Trace Integrity treats a later explanation as evidence of the person's current account. It does not automatically promote that account into verified evidence of original causation.
+
+When the original decision matters, Full Stack can compare the later account with contemporaneous evidence such as the alternatives available, information known at the time, stated assumptions, observable behavior, forecasts, communications, and conditions that were expected to change the decision.
+
+When a current decision is consequential enough to justify it, the framework preserves a compact decision trace so later evaluation does not depend only on memory after the outcome is known.
+
+The refinement also strengthens Recursive Evidence Re-entry.
+
+Reality should be allowed to change the diagnosis, confidence, prognosis, or decision. It should not silently rewrite what the system believed before the new evidence arrived.
+
+> **Reality should be able to change the model without rewriting what the model believed before reality arrived.**
+
+The guardrail is equally important.
+
+Decision Trace Integrity does not assume retrospective explanation is false. It does not assume contemporaneous documentation is complete or neutral. Communication Function still applies to records that may themselves have been written for an audience. The framework compares evidence rather than automatically privileging memory or documentation.
+
 ### Why these changes remain v5
 
-The three refinements do not alter Full Stack's governing purpose or insert another peer layer into the reasoning spine.
+These refinements do not alter Full Stack's governing purpose or insert another peer layer into the reasoning spine.
 
-Reasoning Depth Routing sits inside Pre-diagnosis. Reflexivity sits inside System Dynamics. Cascade Integrity sits inside Operator Proof.
+Reasoning Depth Routing sits inside Pre-diagnosis. Reflexivity sits inside System Dynamics. Cascade Integrity sits inside Operator Proof. Decision Trace Integrity operates across Evidence Discipline, Human Pattern 1, Recursive Evidence Re-entry, and consequence-based routing for prospective trace preservation.
 
 That makes the existing architecture more deterministic without changing the reason v5 exists.
 
@@ -225,6 +250,7 @@ The following principles remain intact.
 - Operator Proof remains grounded in operating reality.
 - Recursive Evidence Re-entry remains active.
 - Outcomes remain evidence about a diagnosis rather than automatic proof of causality.
+- Retrospective explanation remains evidence rather than automatic proof of original reasoning.
 - Human judgment retains responsibility for the conclusion.
 
 The GTM Diagnostic Framework v8 is not modified by this change.
@@ -246,6 +272,8 @@ A non-zero severe-risk probability as an automatic veto was rejected because con
 Importing the separate Five Lens Decision Review architecture was rejected. Full Stack v5 does not adopt its independent-lens or Chairman structure.
 
 The later refinement review also rejected adding Reflexivity, Cascade Integrity, and Fast-Path Routing as three new peer stages. Doing so would have increased checklist weight without changing the underlying architecture. Each belongs inside the existing function it sharpens.
+
+The Decision Trace review rejected adding a dedicated **Choice Blindness** lens or a catalog of cognitive biases. The psychological observation exposed the failure mode, but the reusable architecture problem is broader. Retrospective rationale should be treated according to its evidence status, and consequential decisions should preserve enough contemporaneous state to make later comparison possible.
 
 ## Evidence and Evaluation Boundary
 
@@ -269,6 +297,11 @@ The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.
 - local translation improves rather than degrades an executive decision
 - a low-stakes task is over-processed by the full architecture
 - a seemingly simple task is routed too shallowly even though the decision consequence is material
+- a retrospective explanation conflicts with contemporaneous decision evidence
+- a retrospective explanation is well supported and should not trigger manufactured skepticism
+- a contemporaneous record was itself strategic communication rather than a neutral record of decision reasoning
+- a good outcome occurred through a mechanism different from the one originally expected
+- decision-trace requirements create unnecessary bureaucracy on low-consequence work
 - ruin reasoning creates a false positive and causes unnecessary paralysis
 - opportunity-cost reasoning becomes an excuse to avoid necessary work
 
@@ -291,7 +324,7 @@ Full Stack v5 is the active canonical version for new work.
 
 Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact.
 
-The v5 Operating Manual and Execution Prompt are complete and aligned with the current v5 architecture, including Reasoning Depth Routing, Reflexivity, and Cascade Integrity.
+The v5 Operating Manual and Execution Prompt are complete and aligned with the current v5 architecture, including Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity.
 
 The next Full Stack work is evaluation of the v5 decision capability and current refinements rather than version expansion.
 
@@ -303,7 +336,7 @@ v4 and v3 remain historical source material.
 
 Minor wording, voice, example, execution-routing, or nested reasoning refinements should update v5 rather than create a new numbered release.
 
-Reasoning Depth Routing, Reflexivity, and Cascade Integrity are current v5 refinements. They do not create v5.1 or v6.
+Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity are current v5 refinements. They do not create v5.1 or v6.
 
 A future major version should require another meaningful change in purpose, architecture, or reasoning capability.
 
