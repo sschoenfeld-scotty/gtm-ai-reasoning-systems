@@ -29,7 +29,7 @@ The system could correctly identify what was governing an outcome and still move
 
 Full Stack v5 adds an explicit strategic decision gate between prognosis and intervention so a correct diagnosis does not automatically become a mandate to act.
 
-The current v5 refinement work makes three existing functions more deterministic without adding another peer layer to the governing reasoning spine. It routes reasoning depth by decision consequence, makes reflexive narrative effects explicit inside System Dynamics, and makes organizational translation explicit inside Operator Proof.
+The current v5 refinement work makes existing functions more deterministic without adding another peer layer to the governing reasoning spine. It routes reasoning depth by decision consequence, makes reflexive narrative effects explicit inside System Dynamics, makes organizational translation explicit inside Operator Proof, and distinguishes retrospective explanations from contemporaneous evidence of the reasoning that produced an earlier decision.
 
 This document describes the public architecture only. Detailed operating instructions, execution logic, internal tests, decision rules, and implementation prompts remain private.
 
@@ -97,7 +97,7 @@ The important change is that Full Stack can preserve the diagnosis while changin
 
 ## Current v5 Refinements
 
-Three later observations exposed narrower gaps inside the accepted v5 architecture. They were added as refinements because they deepen existing functions rather than changing Full Stack's purpose or inserting another peer stage.
+Four later observations exposed narrower gaps inside the accepted v5 architecture. They were added as refinements because they deepen existing functions rather than changing Full Stack's purpose or inserting another peer stage.
 
 ### Reasoning Depth Routing
 
@@ -133,6 +133,18 @@ The purpose is not to assume that middle management blocks strategy. Local trans
 
 The public test is therefore translation variance rather than automatic obstruction.
 
+### Decision Trace Integrity across evidence and revision
+
+A later explanation of a decision can be sincere and coherent without proving that the same reasoning actually produced the original choice.
+
+Decision Trace Integrity separates the current account of a prior decision from contemporaneous evidence of what was known, assumed, expected, and chosen at the time.
+
+When consequence warrants it, Full Stack preserves enough of the original decision state to support later comparison. When the decision is revisited, later outcomes can update the model without silently rewriting the history of the reasoning that preceded them.
+
+The purpose is not to distrust self-report by default. Retrospective explanation remains evidence, but its strength depends on provenance, timing, consistency, incentives, and corroboration.
+
+> **Reality should be able to change the model without rewriting what the model believed before reality arrived.**
+
 ## Public Reasoning Functions
 
 ### Source Truth and Evidence Discipline
@@ -140,6 +152,8 @@ The public test is therefore translation variance rather than automatic obstruct
 The system begins with what the available evidence can actually support.
 
 Observation, interpretation, uncertainty, and recommendation are kept from collapsing into one another. Strong writing should not create stronger confidence than the evidence warrants.
+
+A person's retrospective explanation of a prior decision is treated as evidence of the current account rather than automatic proof of the causal reasoning that produced the original choice. When that distinction matters, contemporaneous records, observed behavior, available alternatives, assumptions, and other evidence can be compared against the later account.
 
 Outcomes can strengthen or weaken a diagnosis, but they do not automatically prove why the outcome occurred.
 
@@ -191,6 +205,8 @@ Material uncertainty remains visible when it could change the conclusion or deci
 
 A later outcome can strengthen the diagnosis, weaken it, favor a competing explanation, change the prognosis, alter Strategic Adjudication, or show that the original framing was wrong.
 
+When an earlier decision trace exists, revision can compare what was actually believed and expected before the outcome with the explanation available afterward. This reduces the risk that success launders weak reasoning into apparent foresight or that failure erases a decision that was sound given the evidence available at the time.
+
 Reusable lessons may improve later versions, but one-off insights are not automatically promoted into permanent rules.
 
 ## Recursive Evidence Re-entry
@@ -202,6 +218,8 @@ When an output, recommendation, hypothesis, intervention, or deliberate non-inte
 The system re-enters at Source Truth and reopens only the downstream reasoning materially affected by that evidence.
 
 A successful intervention can increase confidence without proving a single-cause explanation. A failed intervention can weaken confidence without proving that the original diagnosis was wrong.
+
+If an earlier decision trace exists, the new evidence is compared against the reasoning state that was preserved before the outcome was known. The system should update the model without retroactively changing the record of what the model believed, expected, or would have treated as disconfirming evidence at the time.
 
 If new evidence changes the strategic decision boundary, Strategic Adjudication must also be reconsidered rather than preserving the previous action for consistency.
 
@@ -230,6 +248,8 @@ It does not assume narratives automatically create operating reality.
 
 It does not assume organizational translation is necessarily distortion.
 
+It does not assume retrospective self-report is unreliable merely because it was given later.
+
 It does not reject action because severe downside is theoretically possible.
 
 It does not treat opportunity cost as permission to avoid difficult but necessary work.
@@ -248,7 +268,7 @@ That evidence remains evidence about v4 and about the development process. It sh
 
 The v5 changes are accepted architecture changes grounded in identified reasoning gaps and pressure testing. They still require v5-specific evaluation.
 
-The public [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) defines the next evidence step for testing whether Strategic Adjudication, Reasoning Depth Routing, Reflexivity, and Cascade Integrity improve decision quality without creating new failure modes such as generalized risk aversion, analytical bloat, causal overreach, or translation bias.
+The public [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) defines the next evidence step for testing whether Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity improve decision quality without creating new failure modes such as generalized risk aversion, analytical bloat, causal overreach, translation bias, hindsight reconstruction, or unnecessary trace bureaucracy.
 
 The existing [Evaluation Approach](../evaluation/evaluation-approach.md) and [Independent Review Protocol v1](../evaluation/independent-review-protocol.md) remain part of the v4 evidence trail.
 
@@ -258,7 +278,7 @@ Full Stack v5 supersedes v4 for new work.
 
 Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact in this repository.
 
-Reasoning Depth Routing, Reflexivity, and Cascade Integrity are refinements inside v5. They make existing functions more deterministic without changing the governing reasoning spine, so they do not create v5.1 or v6.
+Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity are refinements inside v5. They make existing functions more deterministic without changing the governing reasoning spine, so they do not create v5.1 or v6.
 
 A future major version should require another meaningful change in purpose, architecture, or reasoning capability rather than wording, examples, routing logic, or nested reasoning refinements.
 
