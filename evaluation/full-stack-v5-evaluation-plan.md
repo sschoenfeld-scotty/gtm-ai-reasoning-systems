@@ -14,7 +14,7 @@ Existing Full Stack v4 evidence remains v4 evidence. The reconstructed cases, Ev
 
 The purpose of this plan is narrower.
 
-It asks whether v5 improves decision quality in cases where the diagnosis may already be correct but the decision to intervene is still uncertain, whether it routes reasoning depth appropriately, whether it detects causal feedback created by signaling without inventing causality, whether it catches material translation failure without assuming organizational handoffs are inherently destructive, and whether it preserves enough decision history to evaluate later reasoning without confusing retrospective explanation with contemporaneous evidence.
+It asks whether v5 improves decision quality in cases where the diagnosis may already be correct but the decision to intervene is still uncertain, whether it obtains explicit user consequence before routing and honors that declaration as the minimum reasoning depth, whether it escalates when observable reasoning risk warrants it, whether it detects causal feedback created by signaling without inventing causality, whether it catches material translation failure without assuming organizational handoffs are inherently destructive, and whether it preserves enough decision history to evaluate later reasoning without confusing retrospective explanation with contemporaneous evidence.
 
 ## What Changed in v5
 
@@ -29,14 +29,14 @@ A separate conditional **Communication Function** check is also available when m
 
 Four later refinements now sit inside the same v5 architecture.
 
-- **Reasoning Depth Routing** calibrates Fast, Standard, or Deep reasoning by decision consequence rather than output length.
+- **Reasoning Depth Routing** requires explicit user-declared consequence before routing, treats that declaration as the minimum reasoning depth, and allows observable reasoning risk to escalate the route.
 - **Reflexivity** sits inside System Dynamics and tests whether signaling itself changes the resources or behavior that govern feasibility.
 - **Cascade Integrity** sits inside Operator Proof and tests whether strategic intent materially changes as it travels through organizational handoffs.
 - **Decision Trace Integrity** distinguishes retrospective rationale from contemporaneous decision evidence and preserves a compact decision state when consequence warrants later comparison.
 
 The evaluation therefore has to test more than whether v5 produces a different answer.
 
-It has to test whether the added reasoning changes the decision or execution path for a defensible reason without creating avoidable analytical weight, unsupported causal stories, unjustified distrust of self-report, or unnecessary trace bureaucracy.
+It has to test whether the added reasoning changes the decision or execution path for a defensible reason without creating avoidable analytical weight, unsupported causal stories, unjustified distrust of self-report, unnecessary trace bureaucracy, unsupported consequence inference, or routing-gate bypass.
 
 ## Primary Evaluation Question
 
@@ -48,7 +48,7 @@ That isolates the major v5 reasoning capability rather than giving v5 credit for
 
 The current refinements add four secondary questions.
 
-> **Does v5 apply the right amount of reasoning for the consequence of the task?**
+> **Does v5 obtain explicit user consequence before routing, honor it as the minimum reasoning depth, and escalate only when observable reasoning risk warrants it?**
 
 > **When signaling changes the system, does v5 detect the reflexive loop without confusing influence with proof of causality?**
 
@@ -78,7 +78,7 @@ A separate baseline-versus-v5 comparison can still be useful for broader system 
 | **Communication function discipline** | When communication purpose matters, does v5 distinguish plausible functions without converting incentive or context into unsupported motive? |
 | **Ruin and irreversibility** | Does v5 identify credible material irreversible downside without treating theoretical catastrophe as an automatic veto? |
 | **Strategic worth** | Does v5 make scarce-resource tradeoffs explicit rather than assuming every diagnosed constraint deserves intervention? |
-| **Reasoning depth routing** | Does v5 keep low-stakes, reversible work efficient while escalating cases where consequence, ambiguity, irreversibility, or strategic tradeoff materially raise the reasoning requirement? |
+| **Reasoning depth routing** | Does v5 obtain explicit user consequence before routing, treat that declaration as the minimum reasoning depth, and escalate only when observable reasoning properties such as reversibility, evidence quality, causal uncertainty, stakeholder complexity, material tradeoffs, or credible irreversible downside warrant deeper scrutiny? |
 | **Reflexivity discipline** | When signaling changes resources or behavior, does v5 identify the feedback loop without treating narrative influence as automatic proof of the later outcome? |
 | **Cascade integrity** | Does v5 identify material translation variance across organizational handoffs without assuming that local adaptation is necessarily distortion? |
 | **Decision trace integrity** | Does v5 distinguish retrospective rationale from contemporaneous evidence and preserve enough original decision state to support later evaluation when consequence warrants it? |
@@ -131,17 +131,41 @@ A local manager or operating team modifies an executive directive because field 
 
 A strong v5 response should not treat every deviation from executive intent as execution failure.
 
-### Fast-path appropriate case
+### Explicit routine consequence with Fast Path appropriate
 
-The task is low stakes, narrow, reversible, and adequately evidenced.
+The user explicitly states that the task is routine and easily reversible. The evidence is adequate, the causal scope is narrow, and there is no material stakeholder complexity, scarce-resource tradeoff, or credible irreversible downside.
 
-A strong v5 response should preserve the core reasoning discipline without forcing the full architecture or adding analytical ceremony that does not improve the decision.
+A strong v5 response should make Fast Path eligible without adding analytical ceremony that does not improve the decision.
 
-### Fast-path escalation case
+### No consequence declaration
 
-The requested output is short or apparently simple, but the underlying decision carries material irreversibility, strategic tradeoff, stakeholder complexity, or causal uncertainty.
+The user invokes Full Stack but does not establish how consequential it would be to get the reasoning wrong.
 
-A strong v5 response should escalate reasoning depth even though the final artifact may remain brief.
+A strong v5 response should ask the mandatory consequence question and withhold the Full Stack framework output until the user answers.
+
+### Explicit consequential task with a simple artifact
+
+The requested artifact is short or apparently simple, but the user explicitly states that the underlying decision is materially consequential, sensitive, or difficult to reverse.
+
+A strong v5 response should preserve Deep Path as the minimum regardless of artifact length.
+
+### User declares routine but observable risk warrants escalation
+
+The user describes the task as routine and easily reversible, but the frozen evidence contains material irreversibility, stakeholder complexity, scarce-resource tradeoffs, causal uncertainty, or another observable reason deeper reasoning is warranted.
+
+A strong v5 response should escalate above the user's minimum and explain the evidence-supported reason without claiming the situation matters more to the user than the user stated.
+
+### Meaningful but recoverable consequence floor
+
+The user explicitly states that the task is meaningful but recoverable.
+
+A strong v5 response should keep Standard Path as the minimum even if the requested artifact appears easy or brief.
+
+### User unsure about consequence
+
+The user cannot confidently classify how consequential an error would be.
+
+A strong v5 response should use Standard Path as the minimum and inspect observable reasoning properties for possible escalation.
 
 ### Retrospective rationale mismatch
 
@@ -169,7 +193,7 @@ A strong v5 response should separate decision quality, outcome quality, and caus
 
 ### Low-consequence trace burden
 
-A task is reversible, low stakes, and unlikely to require later adjudication, but the framework is tempted to create formal decision-trace overhead anyway.
+A task is reversible, low consequence, and unlikely to require later adjudication, but the framework is tempted to create formal decision-trace overhead anyway.
 
 A strong v5 response should avoid turning trace preservation into routine bureaucracy.
 
@@ -189,6 +213,8 @@ Create a fixed evidence packet and decision question.
 
 Do not give one version evidence that the other does not receive.
 
+For routing cases, freeze whether user consequence is explicitly stated, unstated, lower than observable reasoning risk, or uncertain. Do not let reviewers infer a different consequence state after seeing the output.
+
 For Decision Trace Integrity cases, freeze the contemporaneous decision evidence separately from any later retrospective account so reviewers can determine whether the framework keeps those evidence states distinct.
 
 ### 2. Run the v4 condition
@@ -201,7 +227,7 @@ Do not alter v4 to make it more competitive with v5.
 
 Use the same case and context with the current v5 architecture.
 
-Record the initial reasoning-depth route, the diagnosis, Strategic Adjudication result when material, any Reflexivity or Cascade Integrity finding when material, any Decision Trace Integrity finding when material, confidence, recommendation, and supporting rationale.
+Record whether user consequence was already explicit or had to be requested, the declared consequence, the resulting minimum route, any evidence-supported escalation, the diagnosis, Strategic Adjudication result when material, any Reflexivity or Cascade Integrity finding when material, any Decision Trace Integrity finding when material, confidence, recommendation, and supporting rationale.
 
 ### 4. Separate diagnosis from decision
 
@@ -213,11 +239,15 @@ That remains the core v5 test.
 
 ### 5. Inspect the routing decision
 
-Ask whether the selected reasoning depth matched the actual consequence of the task.
+Ask first whether Full Stack obtained explicit user consequence before routing when the context did not already establish it.
+
+Then ask whether the selected reasoning depth respected the user's declaration as the minimum route.
+
+If the route escalated above that minimum, identify the observable reasoning property that justified escalation. If no evidence-supported escalation criterion is present, deeper routing should count against the framework rather than for it.
 
 A fast path should not win merely because it is shorter. A deep path should not win merely because it is more complete.
 
-The test is whether additional reasoning materially improved the judgment enough to justify the added analytical weight.
+The test is whether the routing behavior preserved human authority over consequence while using observable reasoning risk to determine whether additional scrutiny was warranted.
 
 ### 6. Inspect Decision Trace Integrity
 
@@ -233,7 +263,7 @@ When an outcome is known, check whether v5 preserves the original reasoning stat
 
 A v5 result is not better merely because it is more cautious, more strategic-sounding, more skeptical, more documented, or more complex.
 
-Reviewers should test whether the claimed irreversible downside is credible, whether the opportunity cost is explicit, whether a reflexive loop has actual evidence, whether translation variance is observed or inferred, whether a retrospective rationale is being discounted without evidence, whether trace preservation adds real future value, and whether the competing use of resources is real rather than invented.
+Reviewers should test whether the claimed irreversible downside is credible, whether the opportunity cost is explicit, whether a reflexive loop has actual evidence, whether translation variance is observed or inferred, whether a retrospective rationale is being discounted without evidence, whether trace preservation adds real future value, whether an escalation is grounded in observable reasoning properties rather than invented importance, and whether the competing use of resources is real rather than invented.
 
 ### 8. Record the strongest counterargument
 
@@ -255,7 +285,7 @@ The existing qualitative categories remain useful.
 | --- | --- |
 | **Improved** | v5 materially improves the strategic decision, routing choice, causal model, execution assessment, or interpretation of prior reasoning while preserving or strengthening evidence discipline |
 | **No material change** | v5 adds little because the v4 recommendation was already strategically sound or the new refinement was not material to the case |
-| **Degraded** | v5 introduces unsupported risk aversion, invented opportunity cost, analytical bloat, causal overreach, translation bias, retrospective skepticism, trace bureaucracy, or a worse decision |
+| **Degraded** | v5 introduces unsupported risk aversion, invented opportunity cost, analytical bloat, causal overreach, translation bias, retrospective skepticism, trace bureaucracy, routing-gate failure, consequence-inference overreach, or a worse decision |
 | **Indeterminate** | The frozen evidence is insufficient to determine which reasoning path is stronger |
 
 These are not benchmark scores or statistical validation.
@@ -273,8 +303,10 @@ Examples include
 - recognizing that strategic signaling changed a real operating constraint while preserving causal uncertainty
 - identifying a meaningful organizational translation failure that changes what the field or customer will actually experience
 - recognizing that local translation improved a weak executive decision rather than treating deviation as failure
-- keeping a low-risk task on a fast path without losing the reasoning needed for a sound decision
-- escalating an apparently simple task because the decision consequence makes deeper reasoning necessary
+- obtaining user consequence before routing when it was not already explicit
+- honoring an explicit routine-and-reversible declaration and using Fast Path only when observable reasoning properties support it
+- preserving Standard or Deep as the minimum when the user declares greater consequence even if the artifact is simple
+- escalating above the user's minimum only when observable reasoning risk supports deeper scrutiny
 - distinguishing a current retrospective account from the evidence that actually existed when the original decision was made
 - allowing corroborated retrospective rationale to increase confidence instead of assuming it is unreliable
 - preserving the original causal expectation so a favorable outcome does not validate the wrong mechanism
@@ -315,11 +347,31 @@ Audience, incentives, or timing are converted into asserted motive.
 
 ### Analytical bloat
 
-Low-stakes or reversible work is routed through unnecessary layers that do not materially improve the judgment.
+Routine or reversible work is routed through unnecessary layers that do not materially improve the judgment.
 
 ### Routing underreach
 
-A short or familiar-looking task stays on the fast path even though irreversibility, stakeholder complexity, strategic tradeoff, or causal uncertainty makes deeper reasoning necessary.
+A short or familiar-looking task stays on the fast path even though the user's declared consequence or observable reasoning risk requires deeper scrutiny.
+
+### Consequence inference overreach
+
+The model assigns personal, political, financial, reputational, or strategic importance that the user never established.
+
+### Gate bypass
+
+The framework produces a Full Stack output before obtaining explicit user consequence when the context did not already establish it.
+
+### User-floor violation
+
+The model routes shallower than the user's declared consequence permits.
+
+### Unsupported escalation
+
+The model escalates beyond the user's declared minimum based on imagined risk rather than observable reasoning properties or evidence.
+
+### Artifact-length substitution
+
+The model treats a short deliverable as evidence of low consequence or a long artifact as evidence that deeper reasoning is required.
 
 ### Reflexivity inflation
 
@@ -377,7 +429,7 @@ This v5 plan is additive. It exists to evaluate the new decision capability and 
 
 ## Next Evidence Step
 
-The next useful step is to build a small frozen v5 case set that includes positive and negative tests of Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity.
+The next useful step is to build a small frozen v5 case set that includes positive and negative tests of Strategic Adjudication, Reasoning Depth Routing with the Mandatory Consequence Declaration, Reflexivity, Cascade Integrity, and Decision Trace Integrity.
 
 The case set should be designed so v5 has an opportunity to improve the decision, add no value, and make the decision worse.
 
