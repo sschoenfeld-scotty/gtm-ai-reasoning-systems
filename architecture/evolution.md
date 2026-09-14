@@ -28,6 +28,7 @@ The development pattern has been
 | **v5 refinement** | The framework could still over-process simple work, miss cases where narrative changes operating reality, or treat organizational layers as static stakeholder states rather than translation channels | Add Reasoning Depth Routing, Reflexivity inside System Dynamics, and Cascade Integrity inside Operator Proof | Made existing v5 functions more deterministic without changing the governing reasoning spine |
 | **v5 refinement** | A later explanation of a prior decision could be mistaken for evidence of the reasoning that actually produced the choice | Add Decision Trace Integrity across evidence discipline, Human Pattern 1, recursive evidence re-entry, and consequence-based trace preservation | Separated retrospective rationale from contemporaneous decision evidence without turning cognitive-bias labels into new peer lenses |
 | **v5 refinement** | Reasoning Depth Routing could still let the model infer how consequential a situation was, allowing unsupported model judgment to determine how deeply the user's problem was examined | Require explicit user consequence declaration before routing, treat it as the minimum reasoning depth, and allow observable reasoning risk to escalate the route | Separated human authority over importance from model judgment about reasoning difficulty and risk |
+| **v5 development governance** | Repeated use could either over-trigger framework changes if the process actively searched for improvements, or lose useful insights if only architecture-level lessons were retained | Add a passive two-lane carry-forward control that separates Framework Evolution from Insight Capture | Preserved learning while making no framework change the default and keeping content-worthy ideas separate from architecture evidence |
 | **Current evaluation direction** | Existing v4 evidence does not validate the new v5 strategic-decision capability or later v5 refinements | Expand the v5-specific evaluation plan while preserving v4 evidence as v4 evidence | Keeps version claims and evidence claims aligned |
 | **Separate research direction** | Behavioral observations can still become unsupported stories about motive | Explore longitudinal behavioral inference with attribution discipline | Extends evidence discipline across time without treating motive as fact |
 
@@ -251,6 +252,32 @@ The version decision is therefore deliberate.
 
 These are **Full Stack v5 refinements**, not v5.1 and not v6.
 
+### Framework development gained a two-lane carry-forward control
+
+Repeated practical use creates opportunities for Full Stack to expose its own weaknesses. It also creates a different risk.
+
+If every execution ends with an active search for something to improve, the development process can start manufacturing candidate changes from ordinary variation, interesting wording, or one-off observations.
+
+The governing rule is
+
+> **Full Stack should be allowed to evolve. It should not be looking for reasons to evolve.**
+
+The post-execution control is therefore passive. The default result is no carry-forward. It does not ask the system to invent a framework improvement or a content idea after every task.
+
+Two independent lanes exist.
+
+**Framework Evolution** uses a high threshold. It asks whether the execution itself exposed a material reasoning failure, a potential change or addition in the reasoning layer, a contradiction, a forced workaround, or a missing distinction that affected the diagnosis or decision and cannot already be handled by Full Stack as written.
+
+A candidate that crosses that trigger is still not automatically architecture. It must be tested against the existing framework, materiality, generality or repeatability, non-duplication, complexity cost, and evidence quality.
+
+**Insight Capture** uses a lower threshold. An idea can be worth preserving as a LinkedIn post topic, article thesis, example, design note, interview narrative, GTM observation, or other intellectual artifact even when it has no framework implication.
+
+A neat insight or novel distinction can therefore be worth communicating without being promoted into Full Stack. Insight Capture does not count as evidence for a framework change.
+
+Either lane, both lanes, or neither lane may trigger.
+
+This control also preserves the evidence boundary. Every real use gives the framework another opportunity to fail or expose a limitation. Repeated use can generate observations and reveal recurring failure modes. It is not, by itself, formal validation.
+
 ## What v5 Did Not Change
 
 The new version does not replace the Logic Lens concept or the core Full Stack thesis.
@@ -356,13 +383,13 @@ Full Stack v5 supersedes v4 for new work.
 
 v4 and v3 remain historical source material.
 
-Minor wording, voice, example, execution-routing, or nested reasoning refinements should update v5 rather than create a new numbered release.
+Minor wording, voice, example, execution-routing, framework-development governance, evaluation, or nested reasoning refinements should update v5 rather than create a numbered release.
 
-Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity are current v5 refinements. They do not create v5.1 or v6.
+Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity are current v5 refinements. The Mandatory Consequence Declaration remains inside Reasoning Depth Routing. The post-execution two-lane carry-forward control governs framework development rather than adding a peer reasoning stage. None of these creates v5.1 or v6.
 
-The Mandatory Consequence Declaration is a refinement inside Reasoning Depth Routing. It does not add a new peer stage or numbered version.
+A future **v5.1** should require an additive reasoning capability that materially expands what Full Stack must reason about across recurring cases while preserving v5's core purpose and governing reasoning spine. Making an existing function more deterministic, changing framework-development governance, or adding capture or evaluation discipline does not by itself justify v5.1.
 
-A future major version should require another meaningful change in purpose, architecture, or reasoning capability.
+A future **v6** should require a meaningful change in purpose, governing architecture, or reasoning spine.
 
 ## Related Public Documents
 
