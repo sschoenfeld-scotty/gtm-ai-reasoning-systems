@@ -10,11 +10,11 @@ This document defines the public evaluation plan for the new reasoning capabilit
 
 It is not evidence that v5 has already been validated.
 
-Existing Full Stack v4 evidence remains v4 evidence. The reconstructed cases, Evaluation Approach, and Independent Review Protocol were developed around v4 and should not be silently relabeled as proof that v5 Strategic Adjudication, Reasoning Depth Routing, Reflexivity, or Cascade Integrity work.
+Existing Full Stack v4 evidence remains v4 evidence. The reconstructed cases, Evaluation Approach, and Independent Review Protocol were developed around v4 and should not be silently relabeled as proof that v5 Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, or Decision Trace Integrity work.
 
 The purpose of this plan is narrower.
 
-It asks whether v5 improves decision quality in cases where the diagnosis may already be correct but the decision to intervene is still uncertain, whether it routes reasoning depth appropriately, whether it detects causal feedback created by signaling without inventing causality, and whether it catches material translation failure without assuming organizational handoffs are inherently destructive.
+It asks whether v5 improves decision quality in cases where the diagnosis may already be correct but the decision to intervene is still uncertain, whether it routes reasoning depth appropriately, whether it detects causal feedback created by signaling without inventing causality, whether it catches material translation failure without assuming organizational handoffs are inherently destructive, and whether it preserves enough decision history to evaluate later reasoning without confusing retrospective explanation with contemporaneous evidence.
 
 ## What Changed in v5
 
@@ -27,15 +27,16 @@ That gate, **Strategic Adjudication**, asks two additional questions at a public
 
 A separate conditional **Communication Function** check is also available when misunderstanding the purpose or audience of a statement could materially change the diagnosis.
 
-Three later refinements now sit inside the same v5 architecture.
+Four later refinements now sit inside the same v5 architecture.
 
 - **Reasoning Depth Routing** calibrates Fast, Standard, or Deep reasoning by decision consequence rather than output length.
 - **Reflexivity** sits inside System Dynamics and tests whether signaling itself changes the resources or behavior that govern feasibility.
 - **Cascade Integrity** sits inside Operator Proof and tests whether strategic intent materially changes as it travels through organizational handoffs.
+- **Decision Trace Integrity** distinguishes retrospective rationale from contemporaneous decision evidence and preserves a compact decision state when consequence warrants later comparison.
 
 The evaluation therefore has to test more than whether v5 produces a different answer.
 
-It has to test whether the added reasoning changes the decision or execution path for a defensible reason without creating avoidable analytical weight or new causal stories unsupported by evidence.
+It has to test whether the added reasoning changes the decision or execution path for a defensible reason without creating avoidable analytical weight, unsupported causal stories, unjustified distrust of self-report, or unnecessary trace bureaucracy.
 
 ## Primary Evaluation Question
 
@@ -45,13 +46,15 @@ The central evaluation question remains
 
 That isolates the major v5 reasoning capability rather than giving v5 credit for diagnostic improvements inherited from v4.
 
-The current refinements add three secondary questions.
+The current refinements add four secondary questions.
 
 > **Does v5 apply the right amount of reasoning for the consequence of the task?**
 
 > **When signaling changes the system, does v5 detect the reflexive loop without confusing influence with proof of causality?**
 
 > **When a decision passes through an organization, does v5 identify material translation variance without assuming middle management is the problem?**
+
+> **When a prior decision is revisited, does v5 distinguish the current explanation from contemporaneous evidence of what was believed, expected, and chosen at the time?**
 
 ## Primary Comparison Design
 
@@ -63,7 +66,7 @@ The v4 condition uses the preserved v4 implementation.
 
 The v5 condition uses the current v5 implementation.
 
-The comparison should focus on whether the new decision gate or later v5 refinements change the recommendation, confidence, risk boundary, resource-allocation judgment, reasoning depth, causal model, or execution assessment in a way that is better supported by the same evidence.
+The comparison should focus on whether the new decision gate or later v5 refinements change the recommendation, confidence, risk boundary, resource-allocation judgment, reasoning depth, causal model, execution assessment, or interpretation of prior reasoning in a way that is better supported by the same evidence.
 
 A separate baseline-versus-v5 comparison can still be useful for broader system evaluation, but it does not isolate the incremental value of the v5 architecture change as cleanly.
 
@@ -78,10 +81,11 @@ A separate baseline-versus-v5 comparison can still be useful for broader system 
 | **Reasoning depth routing** | Does v5 keep low-stakes, reversible work efficient while escalating cases where consequence, ambiguity, irreversibility, or strategic tradeoff materially raise the reasoning requirement? |
 | **Reflexivity discipline** | When signaling changes resources or behavior, does v5 identify the feedback loop without treating narrative influence as automatic proof of the later outcome? |
 | **Cascade integrity** | Does v5 identify material translation variance across organizational handoffs without assuming that local adaptation is necessarily distortion? |
+| **Decision trace integrity** | Does v5 distinguish retrospective rationale from contemporaneous evidence and preserve enough original decision state to support later evaluation when consequence warrants it? |
 | **Decision boundary** | Does the new reasoning change action only when the evidence supports a materially different strategic choice? |
 | **Non-intervention quality** | When v5 recommends not fixing a diagnosed problem, is that conclusion based on explicit evidence and tradeoffs rather than avoidance or preference? |
-| **Confidence calibration** | Does uncertainty remain visible around risk, opportunity cost, communication intent, reflexivity, translation effects, and strategic value? |
-| **Operating usefulness** | Does the resulting decision survive practical scrutiny around ownership, timing, implementation, handoffs, and consequences? |
+| **Confidence calibration** | Does uncertainty remain visible around risk, opportunity cost, communication intent, reflexivity, translation effects, retrospective rationale, and strategic value? |
+| **Operating usefulness** | Does the resulting decision survive practical scrutiny around ownership, timing, implementation, handoffs, trace burden, and consequences? |
 
 ## Required Case Types
 
@@ -139,6 +143,36 @@ The requested output is short or apparently simple, but the underlying decision 
 
 A strong v5 response should escalate reasoning depth even though the final artifact may remain brief.
 
+### Retrospective rationale mismatch
+
+A decision-maker gives a later explanation for a prior choice, but contemporaneous evidence points to a materially different decision rationale, assumption set, or decision boundary.
+
+A strong v5 response should identify the discrepancy without converting it into an accusation of deception or unsupported motive.
+
+### Retrospective rationale confirmed
+
+A later explanation closely matches the contemporaneous decision trace.
+
+A strong v5 response should allow that corroboration to increase confidence rather than manufacturing skepticism simply because the explanation was retrospective.
+
+### Contemporaneous record as strategic communication
+
+An original memo, board note, or public statement appears to document the decision rationale, but the source also served a strategic communication function.
+
+A strong v5 response should avoid automatically treating the contemporaneous document as a neutral record of internal reasoning.
+
+### Good outcome through a different mechanism
+
+A prior decision produces a favorable outcome, but the mechanism that actually occurred differs from the mechanism the original decision trace predicted.
+
+A strong v5 response should separate decision quality, outcome quality, and causal explanation rather than allowing success to validate reasoning that reality did not support.
+
+### Low-consequence trace burden
+
+A task is reversible, low stakes, and unlikely to require later adjudication, but the framework is tempted to create formal decision-trace overhead anyway.
+
+A strong v5 response should avoid turning trace preservation into routine bureaucracy.
+
 ### False-positive ruin case
 
 The severe-downside story sounds plausible but is not sufficiently credible or material. A strong v5 response should avoid turning caution into paralysis.
@@ -155,6 +189,8 @@ Create a fixed evidence packet and decision question.
 
 Do not give one version evidence that the other does not receive.
 
+For Decision Trace Integrity cases, freeze the contemporaneous decision evidence separately from any later retrospective account so reviewers can determine whether the framework keeps those evidence states distinct.
+
 ### 2. Run the v4 condition
 
 Capture the diagnosis, prognosis, confidence, recommendation, and supporting rationale using the preserved v4 implementation.
@@ -165,7 +201,7 @@ Do not alter v4 to make it more competitive with v5.
 
 Use the same case and context with the current v5 architecture.
 
-Record the initial reasoning-depth route, the diagnosis, Strategic Adjudication result when material, any Reflexivity or Cascade Integrity finding when material, confidence, recommendation, and supporting rationale.
+Record the initial reasoning-depth route, the diagnosis, Strategic Adjudication result when material, any Reflexivity or Cascade Integrity finding when material, any Decision Trace Integrity finding when material, confidence, recommendation, and supporting rationale.
 
 ### 4. Separate diagnosis from decision
 
@@ -183,19 +219,29 @@ A fast path should not win merely because it is shorter. A deep path should not 
 
 The test is whether additional reasoning materially improved the judgment enough to justify the added analytical weight.
 
-### 6. Inspect the new reasoning for false positives
+### 6. Inspect Decision Trace Integrity
 
-A v5 result is not better merely because it is more cautious, more strategic-sounding, or more complex.
+When a prior decision is being explained retrospectively, record whether v5 keeps the later account separate from contemporaneous evidence.
 
-Reviewers should test whether the claimed irreversible downside is credible, whether the opportunity cost is explicit, whether a reflexive loop has actual evidence, whether translation variance is observed or inferred, and whether the competing use of resources is real rather than invented.
+Ask whether the retrospective account is corroborated, contradicted, incomplete, or indeterminate based on the frozen case rather than on intuition about memory or motive.
 
-### 7. Record the strongest counterargument
+When prospective trace capture is relevant, ask whether preserving a compact decision state is justified by consequence, reversibility, expected reassessment, or accountability. More trace is not automatically better.
+
+When an outcome is known, check whether v5 preserves the original reasoning state instead of silently rewriting what was believed, expected, or treated as disconfirming evidence before the outcome occurred.
+
+### 7. Inspect the new reasoning for false positives
+
+A v5 result is not better merely because it is more cautious, more strategic-sounding, more skeptical, more documented, or more complex.
+
+Reviewers should test whether the claimed irreversible downside is credible, whether the opportunity cost is explicit, whether a reflexive loop has actual evidence, whether translation variance is observed or inferred, whether a retrospective rationale is being discounted without evidence, whether trace preservation adds real future value, and whether the competing use of resources is real rather than invented.
+
+### 8. Record the strongest counterargument
 
 For every v5 recommendation, record the strongest credible reason that v4 may still be the better decision.
 
-This is especially important when v5 recommends non-intervention, deep escalation, a reflexive causal explanation, or a translation-friction diagnosis.
+This is especially important when v5 recommends non-intervention, deep escalation, a reflexive causal explanation, a translation-friction diagnosis, or a different interpretation of a person's retrospective rationale.
 
-### 8. Preserve the original outputs
+### 9. Preserve the original outputs
 
 Do not rewrite either condition after seeing the comparison.
 
@@ -207,9 +253,9 @@ The existing qualitative categories remain useful.
 
 | Outcome | Meaning in the v5 comparison |
 | --- | --- |
-| **Improved** | v5 materially improves the strategic decision, routing choice, causal model, or execution assessment while preserving or strengthening evidence discipline |
+| **Improved** | v5 materially improves the strategic decision, routing choice, causal model, execution assessment, or interpretation of prior reasoning while preserving or strengthening evidence discipline |
 | **No material change** | v5 adds little because the v4 recommendation was already strategically sound or the new refinement was not material to the case |
-| **Degraded** | v5 introduces unsupported risk aversion, invented opportunity cost, analytical bloat, causal overreach, translation bias, or a worse decision |
+| **Degraded** | v5 introduces unsupported risk aversion, invented opportunity cost, analytical bloat, causal overreach, translation bias, retrospective skepticism, trace bureaucracy, or a worse decision |
 | **Indeterminate** | The frozen evidence is insufficient to determine which reasoning path is stronger |
 
 These are not benchmark scores or statistical validation.
@@ -229,6 +275,10 @@ Examples include
 - recognizing that local translation improved a weak executive decision rather than treating deviation as failure
 - keeping a low-risk task on a fast path without losing the reasoning needed for a sound decision
 - escalating an apparently simple task because the decision consequence makes deeper reasoning necessary
+- distinguishing a current retrospective account from the evidence that actually existed when the original decision was made
+- allowing corroborated retrospective rationale to increase confidence instead of assuming it is unreliable
+- preserving the original causal expectation so a favorable outcome does not validate the wrong mechanism
+- avoiding unnecessary decision-trace overhead on low-consequence work
 - converting an automatic intervention into a defensible containment, deferral, exit, or reallocation decision
 - rejecting a false ruin story and preserving rational action
 - rejecting a weak opportunity-cost argument and preserving necessary intervention
@@ -236,6 +286,8 @@ Examples include
 Better prose alone does not count.
 
 More strategic language alone does not count.
+
+More documentation alone does not count.
 
 Longer reasoning alone does not count.
 
@@ -277,6 +329,22 @@ A narrative is treated as causally self-fulfilling merely because later conditio
 
 The framework assumes that middle management or organizational handoffs degrade strategy even when local translation is neutral, beneficial, or better informed by field evidence.
 
+### Retrospective distrust bias
+
+A later explanation is discounted merely because it is retrospective even when contemporaneous evidence supports it.
+
+### Contemporaneous-record absolutism
+
+An earlier document is treated as a perfect record of original reasoning even when its audience, purpose, incentives, or incompleteness make that inference unwarranted.
+
+### Outcome rewrite
+
+The later result changes the remembered or represented history of what the system believed, expected, or would have treated as disconfirming evidence before the outcome was known.
+
+### Trace bureaucracy
+
+Decision Trace Integrity becomes a documentation requirement for low-consequence or easily reversible work where the future evaluation value does not justify the overhead.
+
 ### Non-intervention bias
 
 The existence of a new decision gate causes the framework to overvalue doing nothing.
@@ -309,7 +377,7 @@ This v5 plan is additive. It exists to evaluate the new decision capability and 
 
 ## Next Evidence Step
 
-The next useful step is to build a small frozen v5 case set that includes positive and negative tests of Strategic Adjudication, Reasoning Depth Routing, Reflexivity, and Cascade Integrity.
+The next useful step is to build a small frozen v5 case set that includes positive and negative tests of Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity.
 
 The case set should be designed so v5 has an opportunity to improve the decision, add no value, and make the decision worse.
 
