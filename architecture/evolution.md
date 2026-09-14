@@ -27,6 +27,7 @@ The development pattern has been
 | **v5** | A diagnosis could be correct and the resulting intervention could still be strategically wrong | Add Communication Function when material and Strategic Adjudication between prognosis and intervention | Separated diagnostic correctness from whether action is survivable and worth scarce resources |
 | **v5 refinement** | The framework could still over-process simple work, miss cases where narrative changes operating reality, or treat organizational layers as static stakeholder states rather than translation channels | Add Reasoning Depth Routing, Reflexivity inside System Dynamics, and Cascade Integrity inside Operator Proof | Made existing v5 functions more deterministic without changing the governing reasoning spine |
 | **v5 refinement** | A later explanation of a prior decision could be mistaken for evidence of the reasoning that actually produced the choice | Add Decision Trace Integrity across evidence discipline, Human Pattern 1, recursive evidence re-entry, and consequence-based trace preservation | Separated retrospective rationale from contemporaneous decision evidence without turning cognitive-bias labels into new peer lenses |
+| **v5 refinement** | Reasoning Depth Routing could still let the model infer how consequential a situation was, allowing unsupported model judgment to determine how deeply the user's problem was examined | Require explicit user consequence declaration before routing, treat it as the minimum reasoning depth, and allow observable reasoning risk to escalate the route | Separated human authority over importance from model judgment about reasoning difficulty and risk |
 | **Current evaluation direction** | Existing v4 evidence does not validate the new v5 strategic-decision capability or later v5 refinements | Expand the v5-specific evaluation plan while preserving v4 evidence as v4 evidence | Keeps version claims and evidence claims aligned |
 | **Separate research direction** | Behavioral observations can still become unsupported stories about motive | Explore longitudinal behavioral inference with attribution discipline | Extends evidence discipline across time without treating motive as fact |
 
@@ -166,15 +167,31 @@ Later review exposed narrower gaps inside v5. These changes are meaningful, but 
 
 The framework was designed to use conditional lenses, but the execution sequence still risked making simple work inherit too much analytical weight.
 
-The refinement adds an explicit entry-routing decision based on decision consequence, reversibility, ambiguity, stakeholder complexity, and strategic tradeoff rather than output length.
+The original refinement added an explicit entry-routing decision based on decision consequence, reversibility, ambiguity, stakeholder complexity, and strategic tradeoff rather than output length.
 
-Low-stakes, reversible work can remain on a fast path. More ambiguous work uses the standard v5 execution path. High-stakes or difficult-to-reverse work can escalate to the deeper Operating Manual.
+Low-consequence, reversible work could remain on a fast path. More ambiguous work used the standard v5 execution path. High-consequence or difficult-to-reverse work could escalate to the deeper Operating Manual.
 
-The governing principle is
+The governing principle was
 
 > **Reasoning depth should be proportional to decision consequence, not output length.**
 
-A short comment can still deserve deep reasoning. A long artifact can still be low risk.
+A short comment could still deserve deep reasoning. A long artifact could still be low risk.
+
+### Reasoning Depth Routing gained a human consequence gate
+
+Later review exposed an authority problem inside the router.
+
+The original rule reduced analytical bloat, but it still left the model with too much discretion to decide how consequential the situation was. That created a risk that unsupported model judgment about importance could determine how deeply the user's problem was examined.
+
+The refinement now requires consequence to be explicitly established by the user before routing. The user's declaration sets the minimum reasoning depth.
+
+The model may then inspect observable reasoning properties such as reversibility, evidence quality, causal uncertainty, stakeholder complexity, material tradeoffs, and credible irreversible downside. Those properties can justify escalation, but they cannot downgrade the user's declared minimum.
+
+The governing separation is
+
+> **The user establishes consequence. The model evaluates reasoning risk. The deeper requirement governs.**
+
+This prevents the model from inventing subjective importance while preserving its ability to identify evidence-supported reasons for deeper scrutiny.
 
 ### Reflexivity became explicit inside System Dynamics
 
@@ -226,7 +243,7 @@ Decision Trace Integrity does not assume retrospective explanation is false. It 
 
 These refinements do not alter Full Stack's governing purpose or insert another peer layer into the reasoning spine.
 
-Reasoning Depth Routing sits inside Pre-diagnosis. Reflexivity sits inside System Dynamics. Cascade Integrity sits inside Operator Proof. Decision Trace Integrity operates across Evidence Discipline, Human Pattern 1, Recursive Evidence Re-entry, and consequence-based routing for prospective trace preservation.
+Reasoning Depth Routing sits inside Pre-diagnosis and now includes the Mandatory Consequence Declaration. Reflexivity sits inside System Dynamics. Cascade Integrity sits inside Operator Proof. Decision Trace Integrity operates across Evidence Discipline, Human Pattern 1, Recursive Evidence Re-entry, and consequence-based routing for prospective trace preservation.
 
 That makes the existing architecture more deterministic without changing the reason v5 exists.
 
@@ -275,6 +292,8 @@ The later refinement review also rejected adding Reflexivity, Cascade Integrity,
 
 The Decision Trace review rejected adding a dedicated **Choice Blindness** lens or a catalog of cognitive biases. The psychological observation exposed the failure mode, but the reusable architecture problem is broader. Retrospective rationale should be treated according to its evidence status, and consequential decisions should preserve enough contemporaneous state to make later comparison possible.
 
+The routing review rejected letting the model independently infer subjective stakes from topic, tone, seniority, or artifact form. It also rejected treating the user's declaration as a ceiling that could prevent escalation when observable reasoning properties indicate greater risk. The adopted rule gives the user authority over consequence while preserving evidence-based model escalation.
+
 ## Evidence and Evaluation Boundary
 
 Existing Full Stack v4 evidence remains evidence about v4.
@@ -295,8 +314,11 @@ The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.
 - an apparent reflexive loop is actually coincidence or post hoc storytelling
 - strategic intent mutates materially as it passes through organizational handoffs
 - local translation improves rather than degrades an executive decision
-- a low-stakes task is over-processed by the full architecture
-- a seemingly simple task is routed too shallowly even though the decision consequence is material
+- the user explicitly declares a task routine and the observable reasoning properties support Fast Path
+- consequence has not been declared and the framework must obtain it before producing a Full Stack output
+- a simple artifact is explicitly declared materially consequential and therefore cannot be routed shallowly
+- the user declares a task routine but observable reasoning risk warrants escalation
+- the user is unsure about consequence and Standard becomes the minimum route
 - a retrospective explanation conflicts with contemporaneous decision evidence
 - a retrospective explanation is well supported and should not trigger manufactured skepticism
 - a contemporaneous record was itself strategic communication rather than a neutral record of decision reasoning
@@ -313,8 +335,8 @@ Full Stack continues to operate through two private components.
 
 | Component | Role |
 | --- | --- |
-| **Operating Manual** | Deeper reasoning for complex or high-stakes work |
-| **Execution Prompt** | Faster application of the same underlying discipline, with entry routing that can remain fast, use the standard path, or escalate to deeper reasoning |
+| **Operating Manual** | Deeper reasoning for complex or consequential work |
+| **Execution Prompt** | Faster application of the same underlying discipline, with an entry consequence gate and routing that can remain fast, use the standard path, or escalate to deeper reasoning |
 
 The two components implement the same v5 architecture at different levels of depth.
 
@@ -324,7 +346,7 @@ Full Stack v5 is the active canonical version for new work.
 
 Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact.
 
-The v5 Operating Manual and Execution Prompt are complete and aligned with the current v5 architecture, including Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity.
+The v5 Operating Manual and Execution Prompt are complete and aligned with the current v5 architecture, including Reasoning Depth Routing with the Mandatory Consequence Declaration, Reflexivity, Cascade Integrity, and Decision Trace Integrity.
 
 The next Full Stack work is evaluation of the v5 decision capability and current refinements rather than version expansion.
 
@@ -337,6 +359,8 @@ v4 and v3 remain historical source material.
 Minor wording, voice, example, execution-routing, or nested reasoning refinements should update v5 rather than create a new numbered release.
 
 Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity are current v5 refinements. They do not create v5.1 or v6.
+
+The Mandatory Consequence Declaration is a refinement inside Reasoning Depth Routing. It does not add a new peer stage or numbered version.
 
 A future major version should require another meaningful change in purpose, architecture, or reasoning capability.
 
