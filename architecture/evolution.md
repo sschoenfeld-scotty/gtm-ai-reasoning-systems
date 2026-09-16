@@ -28,6 +28,7 @@ The development pattern has been
 | **v5 refinement** | The framework could still over-process simple work, miss cases where narrative changes operating reality, or treat organizational layers as static stakeholder states rather than translation channels | Add Reasoning Depth Routing, Reflexivity inside System Dynamics, and Cascade Integrity inside Operator Proof | Made existing v5 functions more deterministic without changing the governing reasoning spine |
 | **v5 refinement** | A later explanation of a prior decision could be mistaken for evidence of the reasoning that actually produced the choice | Add Decision Trace Integrity across evidence discipline, Human Pattern 1, recursive evidence re-entry, and consequence-based trace preservation | Separated retrospective rationale from contemporaneous decision evidence without turning cognitive-bias labels into new peer lenses |
 | **v5 refinement** | Reasoning Depth Routing could still let the model infer how consequential a situation was, allowing unsupported model judgment to determine how deeply the user's problem was examined | Require explicit user consequence declaration before routing, treat it as the minimum reasoning depth, and allow observable reasoning risk to escalate the route | Separated human authority over importance from model judgment about reasoning difficulty and risk |
+| **v5 refinement** | On consequential work, a substantive user-supplied hypothesis or conclusion could anchor what evidence was noticed, gathered, weighted, or treated as sufficient before credible alternatives were fairly adjudicated | Add Anchoring Resistance across Deep Path routing, Evidence Discipline, and Competing Explanations | Preserved the value of a user hypothesis as something to test without allowing it to control the evidence search |
 | **v5 development governance** | Repeated use could either over-trigger framework changes if the process actively searched for improvements, or lose useful insights if only architecture-level lessons were retained | Add a passive two-lane carry-forward control that separates Framework Evolution from Insight Capture | Preserved learning while making no framework change the default and keeping content-worthy ideas separate from architecture evidence |
 | **Current evaluation direction** | Existing v4 evidence does not validate the new v5 strategic-decision capability or later v5 refinements | Expand the v5-specific evaluation plan while preserving v4 evidence as v4 evidence | Keeps version claims and evidence claims aligned |
 | **Separate research direction** | Behavioral observations can still become unsupported stories about motive | Explore longitudinal behavioral inference with attribution discipline | Extends evidence discipline across time without treating motive as fact |
@@ -240,11 +241,27 @@ The guardrail is equally important.
 
 Decision Trace Integrity does not assume retrospective explanation is false. It does not assume contemporaneous documentation is complete or neutral. Communication Function still applies to records that may themselves have been written for an audience. The framework compares evidence rather than automatically privileging memory or documentation.
 
+### Anchoring Resistance added a Deep Path framing check
+
+A later review exposed a different way the reasoning could become path dependent.
+
+A user may enter a consequential analysis with a substantive preferred hypothesis, diagnosis, conclusion, recommendation, or argument. That preference can be useful because it gives the system something concrete to test. It can also shape what evidence is noticed, collected, weighted, or treated as sufficient before the alternatives have been fairly examined.
+
+The refinement does not treat a user preference as contamination and does not assume the preferred position is wrong.
+
+On Deep Path work, Full Stack first establishes what the available evidence supports independently of the preferred position. It then tests the strongest defensible version of that position and asks whether the initial framing materially changed evidence selection, weighting, confidence, diagnosis, or action.
+
+If the preferred hypothesis existed before some evidence was collected, the framework also avoids assuming that the evidence set itself is neutral. It looks for discriminating evidence that can test the favored explanation against the strongest credible alternative.
+
+The check remains conditional. It is not added to Fast or Standard work merely because the user has an opinion, and it does not force extra visible analysis when the independent and preferred-position reads materially converge.
+
+> **On consequential work, a preferred hypothesis may guide investigation, but it must not control the searchlight.**
+
 ### Why these changes remain v5
 
 These refinements do not alter Full Stack's governing purpose or insert another peer layer into the reasoning spine.
 
-Reasoning Depth Routing sits inside Pre-diagnosis and now includes the Mandatory Consequence Declaration. Reflexivity sits inside System Dynamics. Cascade Integrity sits inside Operator Proof. Decision Trace Integrity operates across Evidence Discipline, Human Pattern 1, Recursive Evidence Re-entry, and consequence-based routing for prospective trace preservation.
+Reasoning Depth Routing sits inside Pre-diagnosis and now includes the Mandatory Consequence Declaration. Reflexivity sits inside System Dynamics. Cascade Integrity sits inside Operator Proof. Decision Trace Integrity operates across Evidence Discipline, Human Pattern 1, Recursive Evidence Re-entry, and consequence-based routing for prospective trace preservation. Anchoring Resistance operates across Deep Path routing, Evidence Discipline, and Competing Explanations when a substantive preferred position is present.
 
 That makes the existing architecture more deterministic without changing the reason v5 exists.
 
@@ -295,6 +312,7 @@ The following principles remain intact.
 - Recursive Evidence Re-entry remains active.
 - Outcomes remain evidence about a diagnosis rather than automatic proof of causality.
 - Retrospective explanation remains evidence rather than automatic proof of original reasoning.
+- A preferred user hypothesis remains something to test rather than evidence of its own correctness.
 - Human judgment retains responsibility for the conclusion.
 
 The GTM Diagnostic Framework v8 is not modified by this change.
@@ -320,6 +338,8 @@ The later refinement review also rejected adding Reflexivity, Cascade Integrity,
 The Decision Trace review rejected adding a dedicated **Choice Blindness** lens or a catalog of cognitive biases. The psychological observation exposed the failure mode, but the reusable architecture problem is broader. Retrospective rationale should be treated according to its evidence status, and consequential decisions should preserve enough contemporaneous state to make later comparison possible.
 
 The routing review rejected letting the model independently infer subjective stakes from topic, tone, seniority, or artifact form. It also rejected treating the user's declaration as a ceiling that could prevent escalation when observable reasoning properties indicate greater risk. The adopted rule gives the user authority over consequence while preserving evidence-based model escalation.
+
+The Anchoring Resistance review rejected applying a framing check to every task. That would convert a protection against consequential anchoring into routine ceremony. It also rejected treating a user-supplied hypothesis as presumptively wrong. The adopted rule is narrower. Deep Path work receives the check when a substantive preferred position is present, and the comparison matters only if it changes the evidentiary or decision picture.
 
 ## Evidence and Evaluation Boundary
 
@@ -351,6 +371,9 @@ The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.
 - a contemporaneous record was itself strategic communication rather than a neutral record of decision reasoning
 - a good outcome occurred through a mechanism different from the one originally expected
 - decision-trace requirements create unnecessary bureaucracy on low-consequence work
+- a Deep Path user preference materially anchors evidence selection or weighting and a stronger alternative survives independent review
+- a Deep Path preferred hypothesis is actually well supported and the framework should not manufacture divergence merely to appear independent
+- a user preference exists on lower-consequence work where the anchoring check should not add unnecessary analytical ceremony
 - ruin reasoning creates a false positive and causes unnecessary paralysis
 - opportunity-cost reasoning becomes an excuse to avoid necessary work
 
@@ -373,7 +396,7 @@ Full Stack v5 is the active canonical version for new work.
 
 Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact.
 
-The v5 Operating Manual and Execution Prompt are complete and aligned with the current v5 architecture, including Reasoning Depth Routing with the Mandatory Consequence Declaration, Reflexivity, Cascade Integrity, and Decision Trace Integrity.
+The v5 Operating Manual and Execution Prompt are complete and aligned with the current v5 architecture, including Reasoning Depth Routing with the Mandatory Consequence Declaration, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance.
 
 The next Full Stack work is evaluation of the v5 decision capability and current refinements rather than version expansion.
 
@@ -385,7 +408,7 @@ v4 and v3 remain historical source material.
 
 Minor wording, voice, example, execution-routing, framework-development governance, evaluation, or nested reasoning refinements should update v5 rather than create a numbered release.
 
-Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity are current v5 refinements. The Mandatory Consequence Declaration remains inside Reasoning Depth Routing. The post-execution two-lane carry-forward control governs framework development rather than adding a peer reasoning stage. None of these creates v5.1 or v6.
+Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance are current v5 refinements. The Mandatory Consequence Declaration remains inside Reasoning Depth Routing. The post-execution two-lane carry-forward control governs framework development rather than adding a peer reasoning stage. None of these creates v5.1 or v6.
 
 A future **v5.1** should require an additive reasoning capability that materially expands what Full Stack must reason about across recurring cases while preserving v5's core purpose and governing reasoning spine. Making an existing function more deterministic, changing framework-development governance, or adding capture or evaluation discipline does not by itself justify v5.1.
 
