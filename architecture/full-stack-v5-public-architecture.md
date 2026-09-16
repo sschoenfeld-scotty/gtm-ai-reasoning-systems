@@ -29,7 +29,7 @@ The system could correctly identify what was governing an outcome and still move
 
 Full Stack v5 adds an explicit strategic decision gate between prognosis and intervention so a correct diagnosis does not automatically become a mandate to act.
 
-The current v5 refinement work makes existing functions more deterministic without adding another peer layer to the governing reasoning spine. It requires user-declared consequence before reasoning-depth routing, then uses observable reasoning risk to determine whether deeper scrutiny is warranted. It also makes reflexive narrative effects explicit inside System Dynamics, makes organizational translation explicit inside Operator Proof, and distinguishes retrospective explanations from contemporaneous evidence of the reasoning that produced an earlier decision.
+The current v5 refinement work makes existing functions more deterministic without adding another peer layer to the governing reasoning spine. It requires user-declared consequence before reasoning-depth routing, then uses observable reasoning risk to determine whether deeper scrutiny is warranted. It also makes reflexive narrative effects explicit inside System Dynamics, makes organizational translation explicit inside Operator Proof, distinguishes retrospective explanations from contemporaneous evidence of the reasoning that produced an earlier decision, and adds a conditional Deep Path check when a user enters the analysis with a preferred hypothesis or conclusion.
 
 This document describes the public architecture only. Detailed operating instructions, execution logic, internal tests, decision rules, and implementation prompts remain private.
 
@@ -100,7 +100,7 @@ The important change is that Full Stack can preserve the diagnosis while changin
 
 ## Current v5 Refinements
 
-Four later observations exposed narrower gaps inside the accepted v5 architecture. They were added as refinements because they deepen existing functions rather than changing Full Stack's purpose or inserting another peer stage.
+Five later observations exposed narrower gaps inside the accepted v5 architecture. They were added as refinements because they deepen existing functions rather than changing Full Stack's purpose or inserting another peer stage.
 
 ### Reasoning Depth Routing
 
@@ -148,6 +148,20 @@ The purpose is not to distrust self-report by default. Retrospective explanation
 
 > **Reality should be able to change the model without rewriting what the model believed before reality arrived.**
 
+### Anchoring Resistance across routing and evidence discipline
+
+A preferred hypothesis can improve investigation by giving the reasoning something concrete to test. It can also influence what evidence is noticed, collected, weighted, or treated as sufficient.
+
+Anchoring Resistance is a conditional Deep Path refinement for cases where the user has supplied a substantive preferred hypothesis, diagnosis, conclusion, recommendation, or argument before adjudication.
+
+At the public level, Full Stack first establishes what the available evidence supports without allowing the preferred position to determine the answer. It then tests the strongest defensible version of the preferred position and checks whether the framing materially changed evidence selection, weighting, confidence, diagnosis, or action.
+
+If the preferred hypothesis existed before some evidence was collected, the framework does not assume the evidence set itself is neutral. It looks for discriminating evidence capable of testing the favored explanation against the strongest credible alternative.
+
+The extra reasoning is not forced into Fast or Standard work, and it is not exposed as three separate outputs unless the comparison materially changes the conclusion.
+
+> **On consequential work, a preferred hypothesis may guide investigation, but it must not control the searchlight.**
+
 ## Public Reasoning Functions
 
 ### Source Truth and Evidence Discipline
@@ -157,6 +171,8 @@ The system begins with what the available evidence can actually support.
 Observation, interpretation, uncertainty, and recommendation are kept from collapsing into one another. Strong writing should not create stronger confidence than the evidence warrants.
 
 A person's retrospective explanation of a prior decision is treated as evidence of the current account rather than automatic proof of the causal reasoning that produced the original choice. When that distinction matters, contemporaneous records, observed behavior, available alternatives, assumptions, and other evidence can be compared against the later account.
+
+On Deep Path work, when the user arrives with a preferred position, the framework can also distinguish evidence that supports the position from evidence that was selected or gathered after the position had already become attractive. The latter is not treated as invalid, but its selection process may require additional scrutiny.
 
 Outcomes can strengthen or weaken a diagnosis, but they do not automatically prove why the outcome occurred.
 
@@ -253,6 +269,8 @@ It does not assume organizational translation is necessarily distortion.
 
 It does not assume retrospective self-report is unreliable merely because it was given later.
 
+It does not treat a user's preferred hypothesis as evidence that the hypothesis is correct.
+
 It does not infer personal or strategic importance merely from topic, tone, seniority, or artifact form.
 
 It does not reject action because severe downside is theoretically possible.
@@ -273,7 +291,7 @@ That evidence remains evidence about v4 and about the development process. It sh
 
 The v5 changes are accepted architecture changes grounded in identified reasoning gaps and pressure testing. They still require v5-specific evaluation.
 
-The public [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) defines the next evidence step for testing whether Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity improve decision quality without creating new failure modes such as generalized risk aversion, analytical bloat, causal overreach, translation bias, hindsight reconstruction, unnecessary trace bureaucracy, consequence-inference overreach, or routing-gate bypass.
+The public [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) defines the next evidence step for testing whether Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance improve decision quality without creating new failure modes such as generalized risk aversion, analytical bloat, causal overreach, translation bias, hindsight reconstruction, unnecessary trace bureaucracy, consequence-inference overreach, routing-gate bypass, user-anchor capture, or unnecessary Deep Path ceremony.
 
 The existing [Evaluation Approach](../evaluation/evaluation-approach.md) and [Independent Review Protocol v1](../evaluation/independent-review-protocol.md) remain part of the v4 evidence trail.
 
@@ -283,7 +301,7 @@ Full Stack v5 supersedes v4 for new work.
 
 Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact in this repository.
 
-Reasoning Depth Routing, Reflexivity, Cascade Integrity, and Decision Trace Integrity are refinements inside v5. They make existing functions more deterministic without changing the governing reasoning spine, so they do not create v5.1 or v6.
+Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance are refinements inside v5. They make existing functions more deterministic without changing the governing reasoning spine, so they do not create v5.1 or v6.
 
 The Mandatory Consequence Declaration is a refinement inside Reasoning Depth Routing. It does not add another peer stage or create a new numbered release.
 

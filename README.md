@@ -92,7 +92,7 @@ Ask whether action is strategically warranted even when the diagnosis is correct
 
 Challenge whether the reasoning survives missing evidence, competing explanations, operating reality, likely failure, and material uncertainty.
 
-Current v5 refinements stay nested inside these functions rather than appearing as additional peer stages. Reasoning Depth Routing now combines explicit user-declared consequence with observable reasoning risk. The user establishes how much the situation matters. The model may escalate for evidence, causal, stakeholder, tradeoff, or irreversibility concerns, but it does not independently invent subjective importance. Other refinements inspect when signaling changes operating reality, test whether strategy survives organizational translation, and preserve enough of the original decision state to distinguish later explanation from what was actually believed at the time.
+Current v5 refinements stay nested inside these functions rather than appearing as additional peer stages. Reasoning Depth Routing now combines explicit user-declared consequence with observable reasoning risk. The user establishes how much the situation matters. The model may escalate for evidence, causal, stakeholder, tradeoff, or irreversibility concerns, but it does not independently invent subjective importance. Other refinements inspect when signaling changes operating reality, test whether strategy survives organizational translation, preserve enough of the original decision state to distinguish later explanation from what was actually believed at the time, and add a conditional Deep Path check so a substantive user-supplied preferred hypothesis can guide investigation without controlling the evidence search.
 
 The detailed implementation remains private.
 
@@ -118,7 +118,7 @@ A separate **Communication Function** check is available when misunderstanding w
 
 These are conditional reasoning capabilities, not mandatory extra ceremony in every case.
 
-That major version change is distinct from the later v5 refinements. **Reasoning Depth Routing**, **Reflexivity**, **Cascade Integrity**, and **Decision Trace Integrity** sharpen existing functions without changing the governing reasoning spine or creating a new numbered version.
+That major version change is distinct from the later v5 refinements. **Reasoning Depth Routing**, **Reflexivity**, **Cascade Integrity**, **Decision Trace Integrity**, and **Anchoring Resistance** sharpen existing functions without changing the governing reasoning spine or creating a new numbered version.
 
 ## Reality Closes the Loop
 
@@ -259,7 +259,7 @@ It is not yet a formal benchmark demonstrating that the architecture consistentl
 
 The [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the next evidence step for the frozen v4 reconstructed cases. The protocol is ready, but no independent review result is claimed until a reviewer actually completes and submits the pack.
 
-The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines separate tests for Strategic Adjudication and the current v5 refinements. Its primary question remains whether v5 can preserve a correct diagnosis and still improve the decision about whether and how to act. The plan also tests whether consequence is established before routing, whether selected reasoning depth respects both user judgment and observable reasoning risk, and whether reflexivity, organizational translation, and decision-trace integrity improve judgment without creating new failure modes.
+The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines separate tests for Strategic Adjudication and the current v5 refinements. Its primary question remains whether v5 can preserve a correct diagnosis and still improve the decision about whether and how to act. The plan also tests whether consequence is established before routing, whether selected reasoning depth respects both user judgment and observable reasoning risk, whether reflexivity, organizational translation, and decision-trace integrity improve judgment without creating new failure modes, and whether Anchoring Resistance can protect Deep Path reasoning from user-framing effects without manufacturing disagreement or unnecessary analytical ceremony.
 
 The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md), [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md), and [GTM Framework Evolution](architecture/gtm-evolution.md) are derived from the private GTM Diagnostic Framework v8. The complete v8 framework remains private and is currently a field-test draft rather than a formally validated methodology.
 
@@ -319,7 +319,7 @@ The next Full Stack work is evidence, not another version number.
 
 Planned additions include
 
-- v5-specific cases that test Strategic Adjudication, Reasoning Depth Routing with the Mandatory Consequence Declaration, Reflexivity, Cascade Integrity, and Decision Trace Integrity against both positive and negative examples
+- v5-specific cases that test Strategic Adjudication, Reasoning Depth Routing with the Mandatory Consequence Declaration, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance against both positive and negative examples
 - completed independent reviews of the frozen v4 case pack
 - preservation of reviewer agreement and disagreement as separate evidence
 - continued capture of material real-world evidence through recursive re-entry when later outcomes are available
