@@ -1,17 +1,17 @@
 # GTM Diagnostic Reasoning
 
-*How I apply evidence discipline and causal diagnosis to consequential GTM decisions*
+*How I apply evidence discipline, causal diagnosis, and dynamic dependency reasoning to consequential GTM decisions*
 
 > Public application note | September 2026  
-> Derived from GTM Diagnostic Framework v8, a private field-test framework
+> Derived from GTM Diagnostic Framework v9, the current private canonical field-test framework
 
 ## Status and Scope
 
 This document is a **public abstraction** of how I approach GTM diagnosis.
 
-The canonical source is **GTM Diagnostic Framework v8**, a private commercial framework and field-test draft.
+The canonical source is **GTM Diagnostic Framework v9**, a private commercial framework and field-test architecture.
 
-This public note does not publish the complete v8 architecture, diagnostic question library, engagement methodology, operating templates, commercial model, or implementation rules.
+This public note does not publish the complete v9 blueprint, diagnostic question library, detailed opportunity rules, engagement methodology, operating templates, commercial tactics, or implementation rules.
 
 Its purpose is narrower.
 
@@ -21,11 +21,11 @@ It shows how disciplined reasoning becomes practical GTM judgment.
 
 Growth problems rarely announce themselves accurately.
 
-Leadership sees pipeline below plan, forecast misses, weak conversion, inconsistent sellers, poor manager execution, stalled deals, or an AI initiative that is not producing business impact.
+Leadership sees pipeline below plan, forecast misses, weak conversion, inconsistent sellers, poor manager execution, stalled deals, procurement friction, or an AI initiative that is not producing business impact.
 
 Those conditions are real.
 
-The harder question is whether they have been **diagnosed correctly**.
+The harder question is whether they have been diagnosed correctly.
 
 A visible problem may be the outcome of another unresolved condition.
 
@@ -33,21 +33,29 @@ More activity can amplify weak qualification.
 
 More pipeline can make a forecast less trustworthy.
 
+A technically successful POC can still leave a weak commercial buying motion untouched.
+
 More enablement can produce better artifacts without changing seller behavior.
 
 More automation can scale a motion the organization never made inspectable.
 
-That is why the operating thesis behind the GTM framework is
+The operating thesis is
 
 > **Diagnosis without execution is observation. Execution without diagnosis is guessing.**
 
 ## What the Framework Is Trying to Determine
 
-The public version can be reduced to one question.
+The public version begins with one question.
 
 **What condition must change before the desired commercial outcome becomes materially more likely?**
 
-That question shifts the work from describing performance to diagnosing the system producing it.
+v9 adds another.
+
+**What else changes if that condition moves, and what is likely to become binding next?**
+
+That second question reflects the primary v9 evolution.
+
+The governing constraint is not assumed to remain permanent.
 
 ```mermaid
 flowchart LR
@@ -55,15 +63,17 @@ flowchart LR
     B[Business Data] --> D
     C[Field and Customer Evidence] --> D
     D --> E[Contradictions and Uncertainty]
-    E --> F[Causal Diagnosis]
-    F --> G[Governing Constraint]
-    G --> H[Operating Intervention]
-    H --> I[Observable Success Evidence]
+    E --> F[Governing Constraint]
+    F --> G[Connected Variables and Reinforcing Loops]
+    G --> H[Likely Next Constraint]
+    H --> I[Operating Decision]
+    I --> J[Observable Evidence]
+    J -. material new evidence .-> D
 ```
 
 The framework is not looking for complexity for its own sake.
 
-It is looking for the earliest operating condition that is both defensible and useful enough to change.
+It is looking for the earliest operating condition that is defensible enough to guide action, while preserving the dependencies that can change the diagnosis later.
 
 ## Three Evidence Views
 
@@ -74,8 +84,8 @@ I compare three views.
 | Evidence view | What it can reveal |
 | --- | --- |
 | **Leadership belief** | Strategy, growth thesis, priorities, assumptions, and the explanation leadership currently trusts |
-| **Business data** | Pipeline, conversion, forecast, bookings, velocity, retention, expansion, capacity, and other measurable operating signals |
-| **Field and customer evidence** | What buyers actually do, what sellers and managers actually do, what conversations reveal, and where handoffs or decisions break |
+| **Business data** | Pipeline, conversion, forecast, bookings, velocity, retention, expansion, pricing, capacity, and other measurable operating signals |
+| **Field and customer evidence** | What buyers actually do, what sellers and managers actually do, what conversations reveal, how procurement behaves, and where handoffs or decisions break |
 
 Agreement across the three increases confidence.
 
@@ -101,11 +111,13 @@ A reported belief is not a verified fact.
 
 An observable behavior does not prove motive.
 
-A pattern may justify a working hypothesis without proving causality.
+A stakeholder role can suggest an incentive without proving intent.
+
+A repeated pattern may justify a working hypothesis without proving causality.
 
 A recommendation should be no more confident than the evidence supporting the diagnosis.
 
-This is particularly important in GTM because operating narratives can become self-reinforcing.
+This matters because operating narratives can become self-reinforcing.
 
 A leadership explanation can shape the dashboard.
 
@@ -135,19 +147,46 @@ Those questions are useful, but they do not establish causality.
 
 The diagnostic question is different.
 
-> **Why can’t this outcome happen today?**
+> **Why can't this outcome happen today?**
 
 Applied to a deal, that may mean asking what buyer commitment is still missing.
 
-Applied to pipeline, it may mean distinguishing insufficient demand creation from weak conversion of created demand.
+Applied to pipeline, it may mean distinguishing insufficient demand creation from weak conversion of created demand into buyer movement.
 
-Applied to forecast, it may mean identifying the evidence that makes the number trustworthy rather than inspecting the seller's confidence.
+Applied to forecast, it may mean identifying the buyer evidence that makes the timing trustworthy rather than inspecting seller confidence.
 
 Applied to AI, it may mean asking whether the workflow itself is strong enough to accelerate.
 
 Chronology explains where the motion has been.
 
 Causal diagnosis asks what is preventing movement now.
+
+## The Constraint Can Move
+
+v9 adds a discipline that became visible through live application.
+
+Removing one dependency can expose another.
+
+A technical proof can remove product risk and expose procurement or commercial duration.
+
+A stronger buyer deadline can remove timing uncertainty and expose legal or paper process.
+
+A pricing concession can remove one objection while changing negotiating leverage or making another commercial variable more important.
+
+The diagnosis therefore has to preserve the relationships among variables.
+
+The operating questions become
+
+- what is binding now
+- what variables materially affect it
+- what keeps recreating the condition
+- what would change downstream if the constraint moved
+- what is likely to become binding next
+- what evidence would show that the diagnosis needs to change
+
+This is not an argument for endless analysis.
+
+It is a way to avoid treating a dynamic system as though one diagnosis remains correct forever.
 
 ## Buyer Movement Over Seller Activity
 
@@ -185,7 +224,99 @@ Did the buyer make a commitment that was not present before?
 
 Activity is an input.
 
-Buyer movement is evidence that the commercial system is working.
+Buyer movement is stronger evidence that the commercial system is working.
+
+## Buyer Progression as a Dependency Problem
+
+The private v9 framework makes several opportunity dependencies more explicit without prescribing a sales methodology.
+
+At a public level, I distinguish four motions.
+
+**Qualification** asks whether a credible buying motion exists and whether further seller investment is justified.
+
+**Discovery** develops the understanding of the customer problem, desired outcome, consequence, people, decision process, timing, alternatives, and risk.
+
+**Solution Education** uses what was learned to form a customer-specific solution hypothesis.
+
+**Validation** tests whether the business and technical hypothesis can actually be proven.
+
+The labels are less important than the dependencies.
+
+A company can combine or rename CRM stages.
+
+The diagnostic question is whether the underlying buyer progression is observable and evidence based.
+
+That produces an important implication.
+
+> **A weak POC may not be a POC problem.**
+
+The failure may have occurred earlier because the opportunity entered validation without a sufficiently strong buying motion or customer-specific hypothesis.
+
+## Time and the Compelling Event
+
+One of the strongest v9 refinements is the treatment of time.
+
+Buyer interest is not buyer urgency.
+
+A customer can see value without having a reason to act within a specific period.
+
+The public principle is
+
+> **A compelling event is not a date. It is the credible consequence that makes the date matter.**
+
+A seller may uncover a buyer-owned reason to act or help the buyer recognize a legitimate consequence or value difference that makes earlier action rational.
+
+But seller-developed urgency becomes useful timing evidence only when the buyer confirms that the consequence is real and affects the buying decision.
+
+An internal quarter-end target is not buyer urgency merely because the seller wants the deal closed.
+
+This distinction matters for forecast integrity.
+
+Sales stage describes the buyer's position in the buying process.
+
+Forecast category expresses confidence in whether and when an opportunity will close.
+
+The category should change because the evidence changed, not because the seller became more optimistic.
+
+## Stakeholder Incentives Matter
+
+Urgency is not necessarily an account-level property.
+
+Different members of the buying system can experience the same transaction differently.
+
+An economic buyer may care primarily about business outcome and timing.
+
+Procurement may care more heavily about terms, risk, savings, and negotiating leverage.
+
+That does not prove how any individual procurement leader will behave.
+
+It does mean the diagnostic should not assume that one stakeholder's urgency controls the entire buying system.
+
+A useful question is
+
+> **Who benefits from waiting?**
+
+That question often exposes whether the claimed compelling event is strong enough to survive the incentives of the people who can delay the transaction.
+
+## Price Is Not the Same as Duration or Optionality
+
+Commercial friction is often flattened into a price problem.
+
+v9 makes a cleaner diagnostic distinction among price, duration, total contract value, renewal economics, and buyer optionality.
+
+These variables interact without being interchangeable.
+
+A buyer may accept the product value and still resist a long commitment because the buyer values flexibility.
+
+Another discount may not solve that problem.
+
+The public reasoning principle is simple.
+
+**Change the variable the buyer is actually resisting.**
+
+One current field hypothesis is that rapid change in AI and SaaS markets may increase the value some buyers place on contractual optionality.
+
+That hypothesis is preserved as a calibration question rather than presented as a universal truth.
 
 ## From Diagnosis to Intervention
 
@@ -193,19 +324,30 @@ Diagnosis is only valuable if it changes what leadership does.
 
 A strong GTM diagnosis should make the relationship between evidence, intervention, ownership, and expected effect inspectable.
 
-For example
-
 | Visible issue | Weak intervention logic | Better diagnostic question |
 | --- | --- | --- |
 | Pipeline below plan | Increase activity | Is the constraint creation, acceptance, conversion, targeting, or buyer urgency? |
-| Forecast misses | Demand cleaner CRM data | What buyer evidence makes the forecast category trustworthy? |
-| POCs do not convert | Add more technical content | Was the POC validating an agreed requirement or compensating for weak discovery? |
+| Forecast misses | Demand cleaner CRM data | What buyer evidence makes the forecast category and timing trustworthy? |
+| POCs do not convert | Add more technical content | Was the POC validating an agreed requirement or compensating for weak discovery or solution education? |
 | Sellers are inconsistent | Add training | What behavior is missing, and what do managers actually inspect and reinforce? |
-| AI adoption is low | Add tools or prompt training | Is the workflow, evidence standard, ownership model, and human judgment clear enough to scale? |
+| Commercial negotiation stalls | Discount further | Is the buyer actually resisting price, duration, risk, or optionality? |
+| AI adoption is low | Add tools or prompt training | Is the workflow, evidence standard, context, ownership model, and human judgment clear enough to scale? |
 
 The goal is not to delay action indefinitely.
 
 The goal is to avoid scaling the wrong intervention.
+
+## A Correct Diagnosis Does Not Always Require Action
+
+v9 also makes one decision boundary more explicit.
+
+When consequence, scarce-resource tradeoffs, or difficult-to-reverse downside are material, leadership should ask whether the diagnosed constraint is actually worth changing now.
+
+The organization may choose to fix, contain, tolerate, defer, work around, simplify, exit, or reallocate.
+
+This is a conditional gate rather than an extra layer of ceremony for every decision.
+
+The purpose is to prevent a correct diagnosis from automatically becoming a strategically weak intervention.
 
 ## Installed Discipline
 
@@ -221,19 +363,19 @@ That can mean changing
 - who owns the outcome
 - what sellers must establish before an opportunity advances
 - what customer behavior counts as progress
-- which operating measures indicate that the constraint is actually changing
+- what timing evidence supports forecast confidence
+- which operating measures indicate that the constraint is changing
+- what evidence should reopen the diagnosis
 
 The intended outcome is not permanent dependence on the framework.
 
 It is stronger internal diagnostic capability.
 
-The organization should become better able to distinguish evidence from narrative and activity from movement after the diagnostic work is finished.
-
 ## AI Is a Leverage Layer, Not the Diagnosis
 
 AI is material to modern GTM systems, but it is not the identity of this framework.
 
-The principle is simple.
+The governing principle remains
 
 > **AI does not fix the motion. It accelerates the motion that already exists.**
 
@@ -243,34 +385,45 @@ If CRM definitions are unreliable, AI can make unreliable information easier to 
 
 If managers cannot distinguish buyer evidence from seller optimism, automated deal coaching can industrialize the same confusion.
 
-AI becomes leverage when the organization understands the workflow, evidence standard, decision rights, ownership, and human judgment that need to remain.
+v9 adds another public guardrail.
 
-The first question is therefore not whether a GTM process **can** be automated.
+> **Capture can be automated. Commercial interpretation remains accountable judgment.**
 
-It is whether the process is worth accelerating.
+AI can help capture activity and surface contradictions.
 
-## How This Connects to Full Stack v4
+Material commercial judgments still require governed evidence, clear ownership, human decision rights, and exception handling.
 
-[Full Stack v4](../architecture/full-stack-v4-public-architecture.md) is a general reasoning architecture.
+The first question is not whether a GTM process can be automated.
 
-GTM Diagnostic Framework v8 is a domain-specific commercial framework.
+It is whether the process is worth accelerating and whether the operating context is trustworthy enough to support it.
+
+## How This Connects to Full Stack v5
+
+[Full Stack v5](../architecture/full-stack-v5-public-architecture.md) is a general reasoning architecture.
+
+GTM Diagnostic Framework v9 is a domain-specific commercial framework.
 
 They are not the same artifact.
 
-They share several reasoning disciplines
+They share disciplines such as
 
 - source and evidence discipline
 - competing explanations
 - causal diagnosis
 - prognosis and consequence
+- strategic decision friction when consequence warrants it
 - confidence calibration
 - pressure testing
-- explicit separation of observation from inference
-- revision when evidence changes
+- separation of observation from inference
+- revision when material evidence changes
 
-Full Stack asks whether the reasoning deserves confidence.
+Full Stack asks whether the reasoning deserves confidence and whether action is strategically warranted.
 
-The GTM framework applies that discipline to commercial systems where diagnosis eventually has to become an operating decision.
+The GTM framework applies related discipline to commercial systems where diagnosis has to become an operating decision.
+
+The distinction matters.
+
+A concept exposed while Full Stack reviews the GTM framework does not automatically become GTM architecture. It still has to improve the domain framework on its own terms.
 
 ## Reconstructed Examples
 
@@ -296,21 +449,21 @@ It means applying enough reasoning friction to improve the decision without turn
 
 ## Current Evidence and Limits
 
-GTM Diagnostic Framework v8 is a **field-test draft**.
+GTM Diagnostic Framework v9 is the current canonical **field-test architecture**.
 
-It reflects direct operating experience, framework development, and structured commercial reasoning.
+It reflects direct operating experience, live framework calibration, development from v8, a full Full Stack v5 review, and a separate self-audit.
 
 That is not the same as formal validation.
 
-The framework should be challenged through live application, evidence capture, calibration, and version discipline.
+The framework should continue to be challenged through live application, evidence capture, calibration, and major-version discipline.
+
+Several current observations remain explicitly classified as field hypotheses rather than universal truths.
 
 A single engagement or successful example should not automatically change the architecture.
 
-Potential improvements should be separated from client execution and evaluated before becoming canonical framework changes.
-
 ## Public and Private Boundary
 
-The complete GTM Diagnostic Framework v8 remains private.
+The complete GTM Diagnostic Framework v9 remains private.
 
 This repository can make the system credible without publishing everything required to reproduce it.
 
@@ -320,13 +473,14 @@ The public material can show
 - the reasoning principles
 - the evidence discipline
 - the relationship between symptom and governing constraint
-- the emphasis on buyer movement
-- the translation from diagnosis into operating intervention
+- the v9 concept of connected variables and constraint migration
+- the emphasis on buyer movement and timing evidence
+- the translation from diagnosis into operating decision
 - the role of AI
 - reconstructed examples
 - evidence status and limits
 
-The private material retains substantially more detail, including the complete architecture, diagnostic question library, engagement design, operating artifacts, execution rules, and commercial implementation.
+The private material retains substantially more detail, including the complete architecture, diagnostic question library, detailed commercial logic, engagement design, operating artifacts, execution rules, and implementation methods.
 
 That boundary is deliberate.
 
@@ -338,11 +492,11 @@ It is not intended to publish the entire commercial methodology.
 
 The point of this work is not that I can ask AI better GTM questions.
 
-It is that I have developed a disciplined way to examine GTM systems before recommending what leadership should change.
+It is that I have developed a disciplined way to examine GTM systems before recommending what leadership should change, and to reconsider the diagnosis when the system changes.
 
-The core sequence is simple enough to state publicly.
+The public sequence is
 
-**Establish what is true → identify what is governing the outcome → determine what happens if it persists → choose the earliest useful intervention → inspect whether the system actually changes**
+**Establish what is true → identify what is governing the outcome → inspect the dependencies around it → determine what becomes binding next → decide whether intervention is warranted when consequence is material → install the operating discipline → re-enter when evidence changes**
 
 The implementation behind that sequence is deeper.
 
