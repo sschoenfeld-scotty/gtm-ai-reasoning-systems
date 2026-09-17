@@ -3,11 +3,11 @@
 *Working observations that may inform future framework evolution without silently changing the canonical framework*
 
 > Public calibration record | September 2026  
-> Canonical source remains the private GTM Diagnostic Framework v8 Blueprint
+> Canonical source is the private GTM Diagnostic Framework v9 Blueprint
 
 ## Purpose
 
-GTM Diagnostic Framework v8 is a field-test draft.
+GTM Diagnostic Framework v9 is the current canonical field-test architecture.
 
 This log preserves observations that appear potentially reusable but have not yet earned framework status.
 
@@ -18,6 +18,18 @@ The governing discipline is
 **Observation → working hypothesis → repeated testing → version decision**
 
 A useful idea should not become architecture simply because it appeared once.
+
+## Framework Transition Note
+
+The prior calibration process contributed to the v8 to v9 evolution.
+
+v9 promoted only the changes that survived framework drafting, a full Full Stack v5 review, and a separate self-audit. The major architectural change is stronger reasoning about connected variables, reinforcing loops, and constraint migration while preserving the six-lens GTM architecture.
+
+Several commercially useful observations remain explicitly classified as field hypotheses inside the private v9 framework rather than universal rules.
+
+Future calibration entries should therefore test v9 rather than silently extending it.
+
+There are no dot releases. Material changes accumulate until they justify a new numbered version.
 
 ## Calibration Observation 001
 
@@ -52,13 +64,13 @@ The first condition may be harder to diagnose when an unvalidated explanation ha
 
 ### Why it may matter
 
-The existing v8 architecture can already process both conditions.
+The current v9 architecture can already process both conditions.
 
 The Three Truths distinguish leadership belief from data and field evidence. The Causal Constraint Engine captures the leadership explanation, tests supporting evidence, generates alternatives, and searches for the unresolved dependency governing the outcome.
 
-The open question is therefore not whether v8 can handle both states.
+v9 also adds stronger reasoning about connected variables and constraint migration once the governing condition is identified.
 
-The question is whether explicitly distinguishing them would improve diagnostic entry behavior, questioning, or intervention quality across unrelated cases.
+The open question remains whether explicitly distinguishing the two starting states improves diagnostic entry behavior, questioning, or intervention quality across unrelated cases.
 
 ### What would strengthen the hypothesis
 
@@ -80,7 +92,7 @@ The distinction should remain local if repeated use shows that the existing evid
 **Classification**  
 Working hypothesis
 
-**Canonical GTM v8 change**  
+**Canonical GTM v9 change**  
 None
 
 **Public architecture change**  
@@ -89,11 +101,11 @@ None
 **Version decision**  
 Hold and test
 
-The observation is preserved for calibration. It should not change the operating thesis, six-lens architecture, Three Truths, Causal Constraint Engine, or public v8 architecture unless repeated evidence demonstrates that explicit treatment materially improves the framework.
+The observation remains preserved for calibration. It should not change the operating thesis, six-lens architecture, Three Truths, Causal Constraint Engine, or public v9 architecture unless repeated evidence demonstrates that explicit treatment materially improves the framework.
 
 ## Calibration Rule
 
-Future entries should preserve the same separation among observation, inference, working hypothesis, evidence required, and version decision.
+Future entries should preserve the separation among observation, inference, working hypothesis, evidence required, disconfirming evidence, and version decision.
 
 The purpose of this log is not to collect interesting ideas.
 
