@@ -46,12 +46,13 @@ Removing one dependency can expose another. A technical proof can remove product
 
 The framework therefore cannot stop after identifying one constraint once.
 
-v9 makes four connected reasoning disciplines more explicit.
+v9 makes five connected reasoning disciplines more explicit.
 
 - identify the variables materially connected to the current constraint
 - inspect reinforcing loops that recreate the condition
 - detect when another dependency becomes binding
 - recompute the diagnosis when material evidence changes
+- test whether commercial logic and buyer evidence survive handoffs across the operating system
 
 This is the primary architectural evolution from v8 to v9.
 
@@ -280,6 +281,29 @@ The additional v9 question is
 
 That question helps managers inspect the buying system rather than isolated facts.
 
+## Commercial System Coherence
+
+v9 also makes an operating-system requirement explicit.
+
+A GTM system can contain individually strong artifacts and still produce weak execution when those artifacts do not reinforce the same commercial logic.
+
+Messaging, discovery, qualification, opportunity progression, CRM stages, forecasting, manager inspection, coaching, and enablement have different jobs. They should still use compatible definitions of buyer progress, evidence, and good judgment.
+
+The public coherence test asks whether material commercial logic survives the handoffs between those mechanisms.
+
+Examples include
+
+- whether messaging leads naturally into discovery
+- whether discovery produces evidence used for qualification and progression
+- whether CRM and forecasting reflect the same buyer reality
+- whether manager inspection reinforces the evidence and behavior the process requires
+- whether coaching and enablement address gaps exposed through inspection
+- whether new customer evidence can change earlier assumptions and subsequent action
+
+The requirement is coherence, not uniformity.
+
+The diagnostic does not assume every connected component should be redesigned at once. It identifies the governing break in coherence and prioritizes the highest-leverage repair.
+
 ## AI as a Leverage and Governance Layer
 
 AI remains part of the architecture, not the identity of the framework.
@@ -376,7 +400,7 @@ The framework should continue to be challenged through live application, evidenc
 
 ## Public Architecture in One Line
 
-**Establish what is true → identify the governing constraint → inspect connected variables and reinforcing loops → determine what becomes binding next → decide whether intervention is warranted when consequence is material → install the operating discipline → re-enter when evidence changes**
+**Establish what is true → identify the governing constraint → inspect connected variables, reinforcing loops, and operating-system coherence → determine what becomes binding next → decide whether intervention is warranted when consequence is material → install the operating discipline → re-enter when evidence changes**
 
 That is the public architecture.
 
