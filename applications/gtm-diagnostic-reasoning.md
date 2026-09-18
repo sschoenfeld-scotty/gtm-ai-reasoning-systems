@@ -371,6 +371,26 @@ The intended outcome is not permanent dependence on the framework.
 
 It is stronger internal diagnostic capability.
 
+## Commercial System Coherence
+
+Installed discipline only works when the mechanisms around the seller reinforce one another.
+
+A company can have strong messaging, useful discovery guidance, a qualification method, CRM stages, a forecasting process, manager coaching, and substantial enablement while still producing inconsistent field execution.
+
+The failure can sit in the handoffs.
+
+If messaging teaches one definition of customer value, discovery collects different evidence, CRM stages reward activity, forecasting relies on another standard, and managers inspect something else again, the seller is forced to translate between disconnected operating models.
+
+v9 therefore adds a coherence test.
+
+The question is whether the same commercial logic survives across messaging, discovery, qualification, opportunity progression, CRM, forecasting, manager inspection, coaching, and enablement.
+
+The requirement is coherence, not uniformity. Each mechanism has a different job.
+
+The diagnostic looks for the governing break in the chain rather than assuming every connected component should be redesigned at once.
+
+Content is an input. Enabling is the process that turns useful inputs into repeatable field behavior through practice, inspection, coaching, and reinforcement.
+
 ## AI Is a Leverage Layer, Not the Diagnosis
 
 AI is material to modern GTM systems, but it is not the identity of this framework.
