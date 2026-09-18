@@ -31,6 +31,52 @@ Future calibration entries should therefore test v9 rather than silently extendi
 
 There are no dot releases. Material changes accumulate until they justify a new numbered version.
 
+## Canonical Refinement 001
+
+### Commercial System Coherence
+
+**Date captured**  
+September 2026
+
+**Source context**  
+A current GTM project exposed a practical gap in the canonical v9 Revenue Operating System.
+
+The framework already treated GTM as a connected system. It already included dependencies, reinforcing loops, evidence re-entry, manager inspection, coaching, and installed operating discipline.
+
+What remained under-specified was whether the commercial logic and buyer evidence used by one operating mechanism survive the handoff into the next.
+
+### Diagnostic distinction
+
+A GTM organization can have individually strong messaging, discovery guidance, qualification logic, CRM stages, forecasting, manager inspection, coaching, and enablement while still producing inconsistent execution.
+
+The system can fail because those components reinforce different definitions of buyer progress, evidence, or good judgment.
+
+### Canonical decision
+
+**Classification**  
+Operating-system refinement
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+Commercial System Coherence was added to canonical v9 because it makes an existing systems principle explicit without changing the six-lens architecture, the governing-constraint center, or the v9 reasoning spine.
+
+The requirement is coherence, not uniformity.
+
+The framework should diagnose the handoffs among GTM mechanisms and locate the governing break rather than assuming every connected component should be redesigned at once.
+
+### Field calibration question
+
+Whether explicit commercial-system coherence inspection identifies execution failures that component-by-component inspection misses or reaches later.
+
+This question should now be tested through live use. Results may strengthen, narrow, or revise the principle without treating one project as formal validation.
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
