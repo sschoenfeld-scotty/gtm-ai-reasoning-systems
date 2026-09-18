@@ -119,6 +119,7 @@ v9 therefore reasons more explicitly about
 - constraint migration when another dependency becomes binding
 - evidence re-entry when material facts change
 - a conditional Strategic Action Gate when a correct diagnosis does not automatically justify intervention
+- commercial system coherence across messaging, discovery, qualification, CRM, forecasting, inspection, coaching, and enablement
 
 The six-lens GTM architecture remains intact.
 
@@ -318,7 +319,7 @@ For Full Stack, the next major work is evidence rather than another version numb
 
 For GTM v9, the next work is field calibration.
 
-The highest-value questions include whether dynamic dependency reasoning improves diagnosis across unrelated cases, whether constraint migration can be observed reliably enough to improve decisions, whether the conditional Strategic Action Gate adds value without unnecessary ceremony, and whether the newer buyer-timing and commercial-structure distinctions remain useful across different GTM motions.
+The highest-value questions include whether dynamic dependency reasoning improves diagnosis across unrelated cases, whether constraint migration can be observed reliably enough to improve decisions, whether explicit commercial-system coherence inspection reveals execution failures that component-by-component inspection misses, whether the conditional Strategic Action Gate adds value without unnecessary ceremony, and whether the newer buyer-timing and commercial-structure distinctions remain useful across different GTM motions.
 
 Future material changes should accumulate until they justify another numbered version.
 
