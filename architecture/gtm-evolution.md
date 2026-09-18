@@ -140,6 +140,7 @@ v9 therefore does not replace the v8 architecture. It extends the reasoning syst
 | **Commercial evidence** | Adds Commercial Optionality analysis across price, duration, renewal economics, and buyer flexibility. | Helps distinguish price resistance from duration or uncertainty risk. |
 | **Manager inspection** | Adds dependency inspection. | Encourages managers to ask what else should change because a variable changed. |
 | **Leadership and field execution** | Adds stronger inspection of whether executive intent survives translation through managers, process, sellers, and customer experience. | Makes execution distortion more visible. |
+| **Revenue Operating System** | Adds Commercial System Coherence across messaging, discovery, qualification, CRM, forecasting, inspection, coaching, and enablement. | Makes fragmentation across otherwise strong artifacts diagnosable as an operating-system problem. |
 | **AI leverage** | Adds context readiness, the activity-versus-commercial-truth guardrail, and an Agent Workflow Control Card while retaining the v8 AI overlays and ownership model. | Connects AI authority to context quality, evidence, ownership, exceptions, and stop authority. |
 
 ## 1. Constraint Migration Became Explicit
@@ -288,6 +289,28 @@ The public principle is
 
 > **Capture can be automated. Commercial interpretation remains accountable judgment.**
 
+## 10. Commercial System Coherence Became Explicit
+
+A current field application exposed a gap in how v9 described the Revenue Operating System.
+
+The framework already treated GTM as a connected system and already included feedback loops, evidence re-entry, manager inspection, and installed operating discipline.
+
+What it did not make explicit enough was whether the commercial logic survives the handoffs among the mechanisms sellers are expected to use.
+
+That matters because individually strong artifacts can still produce weak execution when messaging, discovery, qualification, CRM stages, forecasting, manager inspection, coaching, and enablement reinforce different definitions of buyer progress or good judgment.
+
+v9 now makes Commercial System Coherence explicit.
+
+The requirement is coherence, not uniformity.
+
+The framework asks whether evidence and commercial logic survive the handoffs among operating mechanisms and where the governing break occurs when they do not.
+
+This refinement does not add a seventh lens, a new engagement phase, or a new reasoning spine.
+
+It strengthens an existing Revenue Operating System requirement and therefore remains inside v9 rather than creating a new major version.
+
+Its field-calibration question is whether explicit coherence inspection identifies execution failures that component-by-component inspection misses or reaches later.
+
 ## What v9 Deliberately Preserves
 
 v9 does not replace the core framework architecture.
@@ -325,6 +348,7 @@ Several ideas remain explicitly separated as field hypotheses, including
 - the degree to which AI-era market uncertainty is increasing buyer preference for contractual optionality
 - whether non-price urgency mechanisms consistently preserve more value than default discounting
 - whether constraint migration can be identified reliably enough in live work to improve diagnosis across unrelated cases
+- whether explicit commercial-system coherence inspection exposes execution failures that component-by-component inspection misses or reaches later
 
 The correct next step is continued field use and calibration, not a dot release.
 
