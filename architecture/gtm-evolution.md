@@ -311,6 +311,32 @@ It strengthens an existing Revenue Operating System requirement and therefore re
 
 Its field-calibration question is whether explicit coherence inspection identifies execution failures that component-by-component inspection misses or reaches later.
 
+## 11. Operating Continuity Became Explicit
+
+Field calibration during a current GTM engagement exposed a second installation problem adjacent to Commercial System Coherence.
+
+A commercial system can be internally coherent and still lose truth as work moves across records, operating guidance, teams, or changes in buying state.
+
+That distinction produced Operating Continuity.
+
+Commercial System Coherence tests whether operating mechanisms reinforce the same commercial logic.
+
+Operating Continuity tests whether the evidence, decision context, and guidance required to execute that logic survive the transitions between those mechanisms.
+
+The private v9 framework now distinguishes three forms when material.
+
+- record continuity
+- field usability continuity
+- buying-motion continuity
+
+The refinement does not prescribe specific record types, playbooks, CRM fields, documentation structures, or post-sale artifacts.
+
+It adds a functional requirement that commercial truth remain usable across the transitions that matter to execution.
+
+The change remains inside v9 because it strengthens the existing Revenue Operating System and Install logic without changing the six-lens architecture, governing-constraint center, reasoning spine, or engagement sequence.
+
+Its field-calibration question is whether explicit continuity inspection reveals execution failures that coherence or component-level inspection would otherwise miss or reach later.
+
 ## What v9 Deliberately Preserves
 
 v9 does not replace the core framework architecture.
@@ -349,6 +375,7 @@ Several ideas remain explicitly separated as field hypotheses, including
 - whether non-price urgency mechanisms consistently preserve more value than default discounting
 - whether constraint migration can be identified reliably enough in live work to improve diagnosis across unrelated cases
 - whether explicit commercial-system coherence inspection exposes execution failures that component-by-component inspection misses or reaches later
+- whether Operating Continuity inspection exposes failures in record handoff, field usability, or buying-state transition that coherence inspection alone does not surface
 
 The correct next step is continued field use and calibration, not a dot release.
 
