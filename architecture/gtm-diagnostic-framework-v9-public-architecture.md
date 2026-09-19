@@ -304,6 +304,30 @@ The requirement is coherence, not uniformity.
 
 The diagnostic does not assume every connected component should be redesigned at once. It identifies the governing break in coherence and prioritizes the highest-leverage repair.
 
+## Operating Continuity
+
+v9 adds a second operating-system test alongside Commercial System Coherence.
+
+Commercial System Coherence asks whether GTM mechanisms reinforce the same commercial logic.
+
+Operating Continuity asks whether commercial truth remains usable as work moves across records, operating guidance, teams, and changes in buying state.
+
+At the public level, the framework inspects three forms of continuity.
+
+- **Record continuity** asks whether commercial records have clear decision roles, authoritative scope, ownership, and evidence handoffs without creating conflicting versions of truth.
+- **Field usability continuity** asks whether the people executing the commercial motion can reach current authoritative guidance when the work requires it.
+- **Buying-motion continuity** asks whether closing an active opportunity preserves enough evidence to distinguish the end of the current buying motion from permanent account irrelevance and to recognize rational future re-entry when conditions change.
+
+The framework does not prescribe specific record types, playbooks, CRM fields, or documentation formats.
+
+The requirement is functional.
+
+Commercial evidence, decision context, and operating guidance should survive the transitions that matter to execution.
+
+As with Commercial System Coherence, the framework does not assume every connected mechanism should be redesigned at once.
+
+It identifies the continuity break that materially affects the governing outcome and prioritizes that repair.
+
 ## AI as a Leverage and Governance Layer
 
 AI remains part of the architecture, not the identity of the framework.
@@ -400,7 +424,7 @@ The framework should continue to be challenged through live application, evidenc
 
 ## Public Architecture in One Line
 
-**Establish what is true → identify the governing constraint → inspect connected variables, reinforcing loops, and operating-system coherence → determine what becomes binding next → decide whether intervention is warranted when consequence is material → install the operating discipline → re-enter when evidence changes**
+**Establish what is true → identify the governing constraint → inspect connected variables, reinforcing loops, operating-system coherence, and continuity → determine what becomes binding next → decide whether intervention is warranted when consequence is material → install the operating discipline → re-enter when evidence changes**
 
 That is the public architecture.
 
