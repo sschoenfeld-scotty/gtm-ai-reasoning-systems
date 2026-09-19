@@ -77,6 +77,54 @@ Whether explicit commercial-system coherence inspection identifies execution fai
 
 This question should now be tested through live use. Results may strengthen, narrow, or revise the principle without treating one project as formal validation.
 
+## Canonical Refinement 002
+
+### Operating Continuity
+
+**Date captured**  
+September 2026
+
+**Source context**  
+A current GTM engagement and external operating-architecture comparison exposed a practical installation gap in canonical v9.
+
+The framework already contained Commercial System Coherence, authoritative-source logic, handoff inspection, pipeline hygiene, evidence re-entry, and installed operating discipline.
+
+What remained under-specified was whether commercial truth remains usable as work moves across records, operating guidance, teams, and changes in buying state.
+
+### Diagnostic distinction
+
+Commercial System Coherence asks whether the parts of the GTM system reinforce the same commercial logic.
+
+Operating Continuity asks whether the evidence, decision context, and guidance required to execute that logic survive the transitions between those parts.
+
+The private framework now distinguishes record continuity, field usability continuity, and buying-motion continuity when material.
+
+### Canonical decision
+
+**Classification**  
+Operating-system refinement
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+Operating Continuity was added because it strengthens the Revenue Operating System and Install logic without changing the six-lens architecture, governing-constraint center, reasoning spine, or five-part engagement sequence.
+
+The framework does not prescribe specific record types, playbooks, CRM fields, documentation structures, or post-sale artifacts.
+
+The requirement is functional continuity of commercial truth.
+
+### Field calibration question
+
+Whether explicit Operating Continuity inspection identifies execution failures in record handoff, field usability, or buying-state transition that existing coherence and component-level inspection would otherwise miss or reach later.
+
+This should be tested through live use rather than treated as formal validation.
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
