@@ -391,6 +391,31 @@ The diagnostic looks for the governing break in the chain rather than assuming e
 
 Content is an input. Enabling is the process that turns useful inputs into repeatable field behavior through practice, inspection, coaching, and reinforcement.
 
+## Operating Continuity
+
+A coherent commercial system can still fail if truth is lost during transitions.
+
+v9 therefore adds a second operating test.
+
+Commercial System Coherence asks whether the mechanisms reinforce the same logic.
+
+Operating Continuity asks whether evidence, decision context, and operating guidance survive as work moves across records, teams, and changes in buying state.
+
+In practice, that means inspecting questions such as
+
+- which commercial record governs which decision
+- whether buyer evidence survives handoffs without unnecessary duplication or loss
+- whether sellers and managers can reach current authoritative guidance when the work requires it
+- whether ending an active buying motion preserves the evidence needed to recognize a rational future re-entry condition
+
+The framework does not require a specific account plan, deal plan, mutual plan, sales playbook, CRM schema, or post-sale artifact.
+
+The requirement is that commercial truth remains usable across the operating transitions that matter.
+
+Closure protects pipeline truth.
+
+Re-entry continuity protects prior learning.
+
 ## AI Is a Leverage Layer, Not the Diagnosis
 
 AI is material to modern GTM systems, but it is not the identity of this framework.
