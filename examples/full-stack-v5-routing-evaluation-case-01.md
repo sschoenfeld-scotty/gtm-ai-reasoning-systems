@@ -1,17 +1,18 @@
 # Full Stack v5 Routing Evaluation Case 01
 
-*Same LinkedIn comment, three consequence classifications*
+*Sequential LinkedIn comment observations under changing information*
 
-> Live practical comparison | September 2026  
+> Live sequential observations | September 2026
+>
 > Observational evidence, not formal validation
 
 ## Why This Case Exists
 
-This case tests whether Full Stack v5 Reasoning Depth Routing changes the reasoning obligation when the underlying task stays effectively constant and only the user-declared consequence changes.
+This case records sequential uses of Full Stack v5 Reasoning Depth Routing on the same underlying LinkedIn task. The user-declared consequence changed between runs, and later runs also received additional information.
 
 The source post, author, audience, and basic objective remained the same across all three runs.
 
-The variable was the consequence classification.
+The runs used the following consequence classifications.
 
 - Routine and easily reversible
 - Meaningful but recoverable
@@ -19,7 +20,7 @@ The variable was the consequence classification.
 
 The purpose was not to see whether deeper routes produced longer comments.
 
-The useful question was whether deeper routing changed the decision being examined or the conditions that had to be satisfied before the recommendation remained defensible.
+The comparison examines how the governing question and recommendation differed across the recorded runs. It does not isolate consequence classification as the cause of those differences.
 
 ## Source Situation
 
@@ -39,13 +40,13 @@ That response became additional evidence for the later runs.
 
 No identifying information about the author is needed for this evaluation.
 
-## Experimental Design
+## Observation Sequence
 
 The same practical situation was run through Full Stack v5 at each consequence level.
 
 The comparison focused on the governing question, reasoning emphasis, and resulting intellectual move rather than output length or polish.
 
-This was a live-use observation rather than a frozen benchmark. The runs were sequential, and the later runs had access to the author's subsequent response as new evidence. That means the case is useful but not perfectly controlled.
+The runs were sequential observations under changing information. The later runs had access to the author's subsequent response as new evidence. This comparison does not isolate routing as the causal variable.
 
 ## Condition 1 — Routine and Easily Reversible
 
@@ -81,11 +82,11 @@ The reasoning moved upstream from reacting to disappointing results toward defin
 >
 > A good strategy needs enough runway to learn. It also needs a clear reason to stop.
 
-### What Fast Path added
+### What the Fast Path run showed
 
 The initial idea asked what had already been disproven.
 
-Fast Path made the evidence standard prospective rather than retrospective.
+In the Fast Path run, the evidence standard became prospective rather than retrospective.
 
 The intervention remained primarily an evidence-discipline move.
 
@@ -135,7 +136,7 @@ Repeated intervention can then be mistaken for disciplined iteration.
 >
 > Otherwise you're not really iterating. You're repeatedly resetting the experiment.
 
-### What Standard Path added
+### What the Standard Path run showed
 
 The reasoning moved beyond the individual decision about whether to pivot.
 
@@ -161,7 +162,7 @@ The Standard Path diagnosis still held.
 
 Repeated change can destroy causal signal.
 
-Deep Path introduced a different decision boundary.
+The Deep Path run contained a different decision boundary.
 
 Holding the system constant long enough to preserve causal learning is useful only while the cost of being wrong remains acceptably bounded.
 
@@ -181,9 +182,9 @@ Patience is not automatically virtuous. A failing strategy can continue consumin
 >
 > Patience should be governed, not open-ended.
 
-### What Deep Path added
+### What the Deep Path run showed
 
-Deep Path did not invalidate the Standard Path diagnosis.
+The Deep Path run retained the Standard Path diagnosis.
 
 It tested whether the apparently correct response to that diagnosis remained strategically safe.
 
@@ -209,35 +210,31 @@ The progression can be summarized as
 
 ## What Materially Changed
 
-The outputs did not simply become longer as consequence increased.
+The recorded outputs differed in substance as well as reasoning depth.
 
 The governing question changed.
 
-Fast Path established a prospective evidence standard.
-
-Standard Path exposed a learning-system consequence.
-
-Deep Path tested whether the apparently correct response to that consequence remained strategically safe.
+The comparison above records the progression from a prospective evidence standard toward a broader learning-system concern. The Deep Path run tested whether the response to that concern remained strategically safe.
 
 The earlier conclusions survived, but only as nested conditions inside the deeper reasoning.
 
 The strongest observation from this case is therefore
 
-> **Increasing consequence expanded the set of reasoning conditions that had to be satisfied before the same underlying recommendation could be trusted.**
+> **Across the sequential runs, the reasoning addressed a broader set of conditions for trusting the same underlying recommendation.**
 
-That is a stronger routing signal than word count, complexity, or perceived sophistication.
+That observed difference is consistent with intended routing behavior. The changing information state prevents attributing it to consequence classification alone.
 
 ## Evaluation Finding
 
-**Working outcome: evidence consistent with intended routing behavior**
+**Working outcome**
 
-In this case, user-declared consequence changed more than the amount of analysis.
+Evidence consistent with intended routing behavior.
 
-It changed what the system had to establish before the recommendation remained defensible.
+The sequential runs differed in what the reasoning required before the recommendation remained defensible.
 
-The case is therefore useful evidence that Reasoning Depth Routing can produce differentiated reasoning on the same practical task.
+The comparison does not isolate routing as the causal variable. Additional evidence in the later runs may have contributed to the observed divergence.
 
-It is not evidence that every consequence classification will produce useful divergence, that Deep Path is always better, or that the routing architecture is validated.
+The observed pattern does not establish that deeper routing reliably improves the reasoning. It does not validate the routing architecture.
 
 ## Limitations and Strongest Counterargument
 
@@ -257,7 +254,7 @@ That is exactly why this case should be treated as practical evidence rather tha
 
 No Full Stack architecture change follows from this case.
 
-The current routing logic appears sufficient for the behavior observed here.
+The observed runs are consistent with the intended routing behavior under the information available to each run.
 
 The useful next step is additional evaluation across materially different cases, including cases where deeper reasoning should produce little or no change and cases where the diagnosis remains stable but the strategic decision is genuinely ambiguous.
 

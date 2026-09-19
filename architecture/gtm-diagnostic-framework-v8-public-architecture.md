@@ -2,6 +2,12 @@
 
 *Public architecture specification for a private GTM diagnostic system*
 
+> **Historical architecture**
+>
+> GTM Diagnostic Framework v8 is preserved as a historical version. [GTM Diagnostic Framework v9](gtm-diagnostic-framework-v9-public-architecture.md) is the current GTM framework version.
+>
+> The status and present-tense descriptions below reflect the historical v8 snapshot.
+
 > Field-test draft | September 2026
 
 ## Status and Scope

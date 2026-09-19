@@ -5,6 +5,12 @@
 > Work in progress | September 2026  
 > Research direction, not a validated or standalone canonical framework
 
+> **Historical source context**
+>
+> This work-in-progress research note records development context drawn from Full Stack v4 and GTM Diagnostic Framework v8. References to current sources below describe that earlier context. [Full Stack v5](../architecture/full-stack-v5-public-architecture.md) and [GTM Diagnostic Framework v9](../architecture/gtm-diagnostic-framework-v9-public-architecture.md) are the current framework versions.
+>
+> This note does not establish that the Behavioral Inference Engine has been reassessed against the later private frameworks.
+
 ## Status and Source Boundary
 
 The Behavioral Inference Engine is **not a finished system**.

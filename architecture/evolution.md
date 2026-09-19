@@ -25,7 +25,7 @@ The development pattern has been
 | **v4 refinement** | A governing constraint could explain what blocked an outcome without explaining why the same condition kept recurring | Add optional system-dynamics reasoning, stakeholder perspective triangulation, and an experienced-operator delta inside pressure testing | Extended diagnosis from a static blocker toward recurring system behavior while preserving evidence and attribution discipline |
 | **v4 refinement** | The written sequence did not make it explicit enough that material real-world responses and outcomes should be allowed to reopen the diagnosis | Make external evidence recursively re-enter at Source Truth, reinforce outcome-attribution discipline, and distinguish compliance from commitment | Turned an implicitly recursive system into an explicitly closed-loop reasoning process without adding another architectural layer |
 | **v5** | A diagnosis could be correct and the resulting intervention could still be strategically wrong | Add Communication Function when material and Strategic Adjudication between prognosis and intervention | Separated diagnostic correctness from whether action is survivable and worth scarce resources |
-| **v5 refinement** | The framework could still over-process simple work, miss cases where narrative changes operating reality, or treat organizational layers as static stakeholder states rather than translation channels | Add Reasoning Depth Routing, Reflexivity inside System Dynamics, and Cascade Integrity inside Operator Proof | Made existing v5 functions more deterministic without changing the governing reasoning spine |
+| **v5 refinement** | The framework could still over-process simple work, miss cases where narrative changes operating reality, or treat organizational layers as static stakeholder states rather than translation channels | Add Reasoning Depth Routing, Reflexivity inside System Dynamics, and Cascade Integrity inside Operator Proof | Made the instructions for existing v5 functions more explicit without changing the governing reasoning spine |
 | **v5 refinement** | A later explanation of a prior decision could be mistaken for evidence of the reasoning that actually produced the choice | Add Decision Trace Integrity across evidence discipline, Human Pattern 1, recursive evidence re-entry, and consequence-based trace preservation | Separated retrospective rationale from contemporaneous decision evidence without turning cognitive-bias labels into new peer lenses |
 | **v5 refinement** | Reasoning Depth Routing could still let the model infer how consequential a situation was, allowing unsupported model judgment to determine how deeply the user's problem was examined | Require explicit user consequence declaration before routing, treat it as the minimum reasoning depth, and allow observable reasoning risk to escalate the route | Separated human authority over importance from model judgment about reasoning difficulty and risk |
 | **v5 refinement** | On consequential work, a substantive user-supplied hypothesis or conclusion could anchor what evidence was noticed, gathered, weighted, or treated as sufficient before credible alternatives were fairly adjudicated | Add Anchoring Resistance across Deep Path routing, Evidence Discipline, and Competing Explanations | Preserved the value of a user hypothesis as something to test without allowing it to control the evidence search |
@@ -91,11 +91,11 @@ Experience is not treated as proof. The distinction matters only when the reason
 
 ### Recursive evidence re-entry made the system explicitly closed loop
 
-A later comparative review largely validated the existing Full Stack architecture but exposed an implementation ambiguity.
+A later comparative review supported the existing Full Stack architectural design but exposed an implementation ambiguity.
 
 The system already had evidence revision, competing explanations, operator proof, confidence calibration, and iterative learning. What the written sequence did not make explicit enough was what should happen after an output or intervention encountered reality.
 
-The refinement made the intended behavior deterministic.
+The refinement made the intended response to new evidence more explicit in the instruction design.
 
 When a material external response or outcome appears, it re-enters at Source Truth and Evidence Discipline. Only the downstream reasoning materially affected by the new evidence is reopened.
 
@@ -263,7 +263,7 @@ These refinements do not alter Full Stack's governing purpose or insert another 
 
 Reasoning Depth Routing sits inside Pre-diagnosis and now includes the Mandatory Consequence Declaration. Reflexivity sits inside System Dynamics. Cascade Integrity sits inside Operator Proof. Decision Trace Integrity operates across Evidence Discipline, Human Pattern 1, Recursive Evidence Re-entry, and consequence-based routing for prospective trace preservation. Anchoring Resistance operates across Deep Path routing, Evidence Discipline, and Competing Explanations when a substantive preferred position is present.
 
-That makes the existing architecture more deterministic without changing the reason v5 exists.
+That makes the instructions for the existing architecture more explicit without changing the reason v5 exists.
 
 The version decision is therefore deliberate.
 
@@ -410,7 +410,7 @@ Minor wording, voice, example, execution-routing, framework-development governan
 
 Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance are current v5 refinements. The Mandatory Consequence Declaration remains inside Reasoning Depth Routing. The post-execution two-lane carry-forward control governs framework development rather than adding a peer reasoning stage. None of these creates v5.1 or v6.
 
-A future **v5.1** should require an additive reasoning capability that materially expands what Full Stack must reason about across recurring cases while preserving v5's core purpose and governing reasoning spine. Making an existing function more deterministic, changing framework-development governance, or adding capture or evaluation discipline does not by itself justify v5.1.
+A future **v5.1** should require an additive reasoning capability that materially expands what Full Stack must reason about across recurring cases while preserving v5's core purpose and governing reasoning spine. Specifying an existing function more explicitly does not by itself justify v5.1. Neither does a change in framework-development governance or the addition of capture or evaluation discipline.
 
 A future **v6** should require a meaningful change in purpose, governing architecture, or reasoning spine.
 

@@ -177,19 +177,18 @@ A finished framework can hide the failures, contradictions, rejected ideas, and 
 
 ## If You Have Five Minutes
 
-Start with these documents.
+Start with two short stops.
 
-| Read | Why |
-| --- | --- |
-| [Full Stack v5 Public Architecture](architecture/full-stack-v5-public-architecture.md) | The current public architecture of the core reasoning harness and the v5 strategic-adjudication change |
-| [Building Friction Into AI](docs/building-friction-into-ai.md) | Why the work started and how the reasoning system evolved |
-| [GTM Diagnostic Framework v9 Public Architecture](architecture/gtm-diagnostic-framework-v9-public-architecture.md) | The current public architecture of the GTM system and the v9 shift toward dynamic dependency reasoning |
-| [GTM Framework Evolution](architecture/gtm-evolution.md) | Why the GTM architecture changed from v7 to v8 and from v8 to v9 |
-| [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) | How the current Full Stack changes will be tested without rewriting earlier evidence history |
+1. Read [The Core Reasoning System](#the-core-reasoning-system) for the governing idea and why a correct diagnosis does not automatically justify action.
+2. Open [Reconstructed Evaluation Case 01](examples/reconstructed-example-01.md#decision-question). Read the decision question, then [What Materially Changed](examples/reconstructed-example-01.md#what-materially-changed) to see how the reasoning changes a pipeline decision. This is an illustrative v4 comparison, not formal validation.
 
-If you want to see how an observation is preserved without automatically changing a framework, see the [GTM Calibration Log](architecture/gtm-calibration-log.md).
+For a related applied operating project, see [Related Applied Project](#related-applied-project).
 
-If you want to inspect the prior GTM architecture, the [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md) remains preserved as historical evidence.
+**Optional deeper inspection**
+
+The current public architectures are [Full Stack v5](architecture/full-stack-v5-public-architecture.md) and [GTM Diagnostic Framework v9](architecture/gtm-diagnostic-framework-v9-public-architecture.md). [Full Stack Evolution](architecture/evolution.md) and [GTM Framework Evolution](architecture/gtm-evolution.md) explain why they changed.
+
+The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) describes the current evaluation work. The [GTM Calibration Log](architecture/gtm-calibration-log.md) records working observations alongside approved refinements. The repository map below retains the historical architectures.
 
 ## How the Work Is Developed
 
@@ -264,6 +263,12 @@ Several commercial observations inside the private framework remain explicitly c
 
 The [Behavioral Inference Engine](research/behavioral-inference-engine.md) remains a separate work-in-progress research direction.
 
+## Related Applied Project
+
+[From Poor-Quality Images to a Governed Data System](https://github.com/sschoenfeld-scotty/poorquality-image-data-case-study) is a related applied AI operating project. It demonstrates the broader operating philosophy through human-directed orchestration and evidence discipline in a persistent workflow. It also shows how execution failures shaped control design and moved human judgment into the operating system around the workflow.
+
+The case remains in its own repository. It is not direct validation of Full Stack v5 or GTM Diagnostic Framework v9, and it does not establish that a particular framework version was used.
+
 ## Repository Map
 
 ### Core reasoning system
@@ -292,6 +297,13 @@ The [Behavioral Inference Engine](research/behavioral-inference-engine.md) remai
 - [Reconstructed Evaluation Case 03](examples/reconstructed-example-03.md)
 - [Reconstructed Evaluation Case 04](examples/reconstructed-example-04.md)
 - [Reconstructed Evaluation Case 05](examples/reconstructed-example-05.md)
+
+### Live observations
+
+These entries record live observations and do not establish formal validation.
+
+- [Full Stack v5 Routing Evaluation Case 01](examples/full-stack-v5-routing-evaluation-case-01.md) records sequential observations under changing information. The runs are consistent with intended routing behavior without isolating its causal effect.
+- [Open-ended Collaboration](evidence/2026-09-14-open-ended-collaboration.md) is a contemporaneous observation and working hypothesis captured before the outcome was known. It records no canonical framework change.
 
 ### Research
 

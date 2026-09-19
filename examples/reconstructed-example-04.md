@@ -339,3 +339,15 @@ It refuses to pretend that either one proves motive.
 Then it designs an intervention that can improve the operating condition and generate better evidence at the same time.
 
 That is the reasoning difference this case is intended to make inspectable.
+
+---
+
+## Adjudication Note | September 19, 2026
+
+The historical case above remains unchanged, including both response conditions and the original author adjudication. This note sits outside the frozen material.
+
+The packet establishes that manager takeover occurred alongside seller waiting behavior. It does not establish that manager rescue behavior caused the dependence.
+
+Manager intervention may reinforce an existing dependence pattern. An alternative explanation is that seller capability weakness or preexisting dependence partly caused the manager intervention.
+
+The case remains useful as an illustration of attribution discipline, with causal direction unresolved. This note does not change the original working outcome or modify the Full Stack framework.

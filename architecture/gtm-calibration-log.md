@@ -9,9 +9,9 @@
 
 GTM Diagnostic Framework v9 is the current canonical field-test architecture.
 
-This log preserves observations that appear potentially reusable but have not yet earned framework status.
+This log preserves working observations alongside approved canonical refinements.
 
-An entry here is not a canonical framework change. It is evidence to revisit after additional cases.
+Each entry records its own disposition and evidence status. A working observation remains evidence to revisit after additional cases. An approved refinement records the canonical decision without treating that decision as formal validation.
 
 The governing discipline is
 

@@ -2,6 +2,12 @@
 
 *A human-directed reasoning harness for AI-assisted judgment*
 
+> **Historical architecture**
+>
+> Full Stack v4 is preserved as a historical version. [Full Stack v5](full-stack-v5-public-architecture.md) is the current Full Stack version.
+>
+> The status and present-tense descriptions below reflect the historical v4 snapshot.
+
 **Status**  
 Functional and in active use. Current evidence includes repeated practical use, observed reasoning failures, iterative revision, later retesting, and structured reconstructed comparisons. This is meaningful evidence of system behavior and development, not formal validation.
 
