@@ -465,6 +465,28 @@ The existence of a new decision gate causes the framework to overvalue doing not
 
 The diagnosis is altered after the fact to rationalize the preferred strategic decision.
 
+
+## Reference Independence and Shared Error
+
+An evaluation can show high agreement while both conditions are wrong against a separate reference.
+
+A September 2026 external review of CognitiveLens reproduced this pattern. In one held-out run, AI and human labels agreed on 139 of 150 cases. Fifty of those agreements were shared errors against the supplied reference. The same review also found a mode where the selected human training target was reused downstream under the `y_true` label.
+
+See [Evidence Entry 003](../evidence/2026-09-20-cognitivelens-external-evidence-review.md).
+
+This does not establish that shared error is common in Full Stack work.
+
+It is enough to make the failure mode explicit in evaluation design.
+
+The evaluation should therefore preserve four checks when they are material.
+
+- Identify the exact reference used for every claimed correctness or confidence result.
+- Verify that the reference remains independent from the condition being evaluated when independence is part of the claim.
+- Inspect agreements as well as disagreements when shared error could hide inside convergence.
+- Report convergence separately from correctness when no independent reference can adjudicate the result.
+
+Agreement can increase confidence only when the evidentiary relationship between the agreeing sources is understood.
+
 ## Evidence Boundary
 
 The current evidence status should remain explicit.
@@ -486,6 +508,8 @@ The [Independent Review Protocol v1](./independent-review-protocol.md) remains t
 Those artifacts should remain unchanged as part of the historical evidence trail.
 
 The [Independent Execution Variance evidence record](../evidence/2026-09-19-full-stack-v5-independent-execution-variance.md) preserves an observational v5 experiment in which two independent executions produced different but defensible intellectual moves. It does not establish an environment advantage or a framework change. It preserves a working hypothesis that independent execution may sometimes expose material omissions and that communication cases may benefit from evaluating reasoning quality separately from output-selection quality.
+
+The [CognitiveLens external evidence review](../evidence/2026-09-20-cognitivelens-external-evidence-review.md) preserves a separate external case about reference integrity and shared error. It does not validate v5. It adds a concrete evaluation failure mode that is now reflected in this plan.
 
 This v5 plan is additive. It exists to evaluate the new decision capability and current refinements without rewriting the meaning of earlier evidence.
 
