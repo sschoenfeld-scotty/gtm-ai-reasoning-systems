@@ -499,7 +499,7 @@ The fixtures add bounded checks when their underlying failure mode is material.
 - When critique or review moves between actors, preserve who produced it and which response it was written about.
 - When evidence changes form, preserve source mode when that status matters to the downstream judgment.
 
-These checks strengthen evaluation coverage for existing evidence discipline, Operator Proof, and decision-trace controls.
+These checks strengthen evaluation coverage for existing evidence discipline and Operator Proof. They also test whether decision status survives handoffs.
 
 They do not establish that Full Stack caused the external findings.
 
