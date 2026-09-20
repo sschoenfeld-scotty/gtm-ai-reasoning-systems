@@ -110,7 +110,7 @@ The batch contains reproduced document arithmetic, isolated component execution,
 
 Those evidence levels remain separate.
 
-The strongest technical evidence is the aigtm reconciliation, the multi-agent critique-routing reproduction, and the credential-free gtm-intelligence-agent execution.
+The strongest technical evidence comes from the reproduced aigtm reconciliation. The multi-agent critique-routing path was also reproduced with a fake client. The gtm-intelligence-agent no-key path was executed with network access blocked.
 
 The Engram case remains partly source-traced because the Rust binary was not independently executed.
 
