@@ -21,7 +21,7 @@ Could an external repository comparing human and AI decisions provide evidence t
 
 The answer was narrower than the original question and more useful for evaluation design.
 
-The repository does not test Full Stack. It does not test GTM v9. It does not contain a controlled language-model reasoning experiment.
+The repository does not test Full Stack or GTM v9. It also does not contain a controlled language-model reasoning experiment.
 
 The review instead exposed a reference-integrity problem inside the application and a broader evaluation risk that is relevant to how reasoning systems should be tested.
 
@@ -82,7 +82,7 @@ A competent technical review could have found the same implementation issue.
 
 The value of this record is not a claim that Full Stack alone made the finding possible.
 
-The value is the preserved reasoning path, the evidence boundary, and the refusal to upgrade adjacent evidence into framework validation.
+The value is the preserved reasoning path and the explicit evidence boundary. It also shows the decision not to upgrade adjacent evidence into framework validation.
 
 ## Action taken
 
@@ -115,11 +115,10 @@ It is not a new Full Stack reasoning stage.
 
 The current Full Stack v5 architecture already contains the relevant reasoning capabilities at a public level.
 
-Source Truth can ask what the reference actually represents.
-
-Competing Explanations can keep open the possibility that apparent agreement is produced by shared error or a weak reference.
-
-Operator Proof can inspect whether the reported output follows from the implementation.
+- Source Truth can test what the reference actually represents.
+- Evidence Classification can keep a supplied reference separate from verified real-world truth.
+- Competing Explanations can keep shared error or a weak reference open as alternatives.
+- Operator Proof can inspect whether the reported output follows from the implementation.
 
 The existing architecture is therefore sufficient to explain the failure mode.
 
@@ -141,11 +140,9 @@ No v9 field hypothesis is upgraded and no canonical GTM change is proposed.
 
 This is a structured external evidence case with reproducible technical behavior.
 
-It is not a Full Stack benchmark.
+It is neither a Full Stack benchmark nor formal validation.
 
-It is not formal validation.
-
-It is not a controlled study of human cognition or language-model reasoning.
+It also is not a controlled study of human cognition or language-model reasoning.
 
 The external review is useful because it produced a verified finding while also narrowing what can responsibly be claimed from that finding.
 
