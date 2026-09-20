@@ -100,7 +100,7 @@ The important change is that Full Stack can preserve the diagnosis while changin
 
 ## Current v5 Refinements
 
-Five later observations exposed narrower gaps inside the accepted v5 architecture. They were added as refinements because they deepen existing functions rather than changing Full Stack's purpose or inserting another peer stage.
+Six later observations exposed narrower gaps inside the accepted v5 architecture. They were added as refinements because they deepen existing functions rather than changing Full Stack's purpose or inserting another peer stage.
 
 ### Reasoning Depth Routing
 
@@ -162,6 +162,26 @@ The extra reasoning is not forced into Fast or Standard work, and it is not expo
 
 > **On consequential work, a preferred hypothesis may guide investigation, but it must not control the searchlight.**
 
+### Behavioral Inference Discipline through Human Pattern 1
+
+Human behavior can be material to a diagnosis without making motive directly observable.
+
+Behavioral Inference Discipline is a conditional v5 refinement executed primarily through Human Pattern 1. It activates when the reasoning materially depends on explaining why a person or group behaved as observed.
+
+At the public level, the framework separates observed behavior, the actor's stated account, and the inferred behavioral driver. It tests the strongest credible alternative and explicitly asks whether structural or systemic conditions could produce the same behavior before attributing it primarily to personal motive.
+
+Structural pressure and personal agency are not treated as mutually exclusive. Incentives, role design, reporting mechanics, organizational politics, resource constraints, and other operating conditions can shape behavior while individual judgment still matters.
+
+Relevant operator experience may inform the prior plausibility of an explanation. It does not prove the current case. Current-case evidence determines how strongly the explanation should survive.
+
+The framework spends additional behavioral reasoning only when the ambiguity could materially change the diagnosis, confidence, prognosis, or candidate action. If the distinction does not change the reasoning, uncertainty is preserved rather than forced into a psychological story.
+
+> **Behavioral uncertainty does not automatically require decision uncertainty.**
+
+When material uncertainty remains, it is carried into Strategic Adjudication rather than converted into false motive certainty or automatic delay.
+
+The detailed gate and clarification mechanics remain private.
+
 ## Public Reasoning Functions
 
 ### Source Truth and Evidence Discipline
@@ -176,6 +196,8 @@ On Deep Path work, when the user arrives with a preferred position, the framewor
 
 Outcomes can strengthen or weaken a diagnosis, but they do not automatically prove why the outcome occurred.
 
+For behavioral reasoning, observed behavior, a person's stated account, and the inferred driver remain distinct. Repetition, incentives, familiarity, or operator experience can change confidence or prior plausibility without becoming proof of motive.
+
 ### Competing Explanations
 
 The first plausible explanation is not automatically accepted.
@@ -183,6 +205,8 @@ The first plausible explanation is not automatically accepted.
 Credible alternatives remain open long enough to reduce premature certainty, unsupported motive attribution, and narratives that fill gaps in the evidence.
 
 When multiple stakeholders matter, the system can compare their different evidence, incentives, constraints, and consequences without inventing fictional authority or assumed motives.
+
+When human behavior materially affects the diagnosis, the framework also tests whether structural or systemic conditions could produce the same observed behavior and preserves the strongest credible alternative only when it could change the reasoning.
 
 ### Causal Diagnosis
 
@@ -207,6 +231,8 @@ Strategic Adjudication separates diagnostic correctness from strategic action.
 It asks whether the proposed path exposes the system to credible irreversible downside and whether the problem is worth solving relative to competing uses of scarce resources.
 
 This is a decision gate inside Full Stack, not a claim that the framework can determine enterprise strategy without domain evidence and human judgment.
+
+Unresolved behavioral uncertainty can enter this stage as part of the decision state. Strategic Adjudication determines whether acting under that uncertainty is preferable to waiting; Human Pattern 1 does not make that action decision itself.
 
 ### Intervention, Operator Proof, and Pressure Testing
 
@@ -301,7 +327,7 @@ Full Stack v5 supersedes v4 for new work.
 
 Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact in this repository.
 
-Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance are refinements inside v5. They make existing functions more deterministic without changing the governing reasoning spine, so they do not create v5.1 or v6.
+Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline are refinements inside v5. They make existing functions more deterministic without changing the governing reasoning spine, so they do not create v5.1 or v6.
 
 The Mandatory Consequence Declaration is a refinement inside Reasoning Depth Routing. It does not add another peer stage or create a new numbered release.
 
@@ -312,6 +338,7 @@ A future major version should require another meaningful change in purpose, arch
 - [Building Friction Into AI](../docs/building-friction-into-ai.md)
 - [What I Mean by a Logic Lens](../docs/what-is-a-logic-lens.md)
 - [Evolution of the Reasoning System](./evolution.md)
+- [Human Pattern 1](./human-pattern-1.md)
 - [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md)
 - [Full Stack v4 Public Architecture](./full-stack-v4-public-architecture.md)
 
