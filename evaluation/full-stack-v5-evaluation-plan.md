@@ -305,6 +305,28 @@ A v5 result is not better merely because it is more cautious, more strategic-sou
 
 Reviewers should test whether the claimed irreversible downside is credible, whether the opportunity cost is explicit, whether a reflexive loop has actual evidence, whether translation variance is observed or inferred, whether a retrospective rationale is being discounted without evidence, whether trace preservation adds real future value, whether an escalation is grounded in observable reasoning properties rather than invented importance, whether the competing use of resources is real rather than invented, whether Anchoring Resistance actually changed the evidentiary picture, and whether independence was demonstrated without manufacturing disagreement.
 
+### 8A. Inspect critique validity and the reference standard
+
+When a human reviewer challenges either condition, record the challenge without automatically scoring it as evidence of superior reasoning.
+
+Ask whether the critique
+
+- identifies a real evidentiary, causal, or decision problem
+- is only partially supported
+- overstates what the frozen case establishes
+- misreads the recommendation
+- reflects a legitimate difference in risk posture or operating judgment
+
+For operator-derived systems, distinguish fidelity from correctness.
+
+The source operator's judgment may be relevant evidence about whether the system preserved the reasoning distinctions it was designed to externalize.
+
+It is not automatic proof that the judgment is correct.
+
+When correctness matters, adjudicate the operator judgment, model output, and other reviewer judgments against the frozen evidence and any genuinely independent reference that exists.
+
+See [Model-Tier Confidence Effect N-of-1 Pilot](../evidence/2026-09-20-model-tier-confidence-n1-pilot.md).
+
 ### 9. Record the strongest counterargument
 
 For every v5 recommendation, record the strongest credible reason that v4 may still be the better decision.
@@ -366,6 +388,8 @@ More strategic language alone does not count.
 More documentation alone does not count.
 
 Longer reasoning alone does not count.
+
+More challenge alone does not count.
 
 ## Failure Modes the Evaluation Must Look For
 
@@ -465,6 +489,16 @@ The existence of a new decision gate causes the framework to overvalue doing not
 
 The diagnosis is altered after the fact to rationalize the preferred strategic decision.
 
+### Challenge-frequency substitution
+
+The evaluation treats more objections as better reasoning without testing whether the objections are justified, material, or based on a correct reading of the answer.
+
+### Reference-standard confusion
+
+The evaluation silently treats the source operator, reviewer, baseline, or framework output as ground truth even though each may provide a different kind of reference.
+
+For an operator-derived framework, fidelity to the source operator and independent correctness must be evaluated separately.
+
 
 ## Reference Independence and Shared Error
 
@@ -536,6 +570,8 @@ This v5 plan is additive. It exists to evaluate the new decision capability and 
 ## Next Evidence Step
 
 The next useful step is to build a small frozen v5 case set that includes positive and negative tests of Strategic Adjudication, Reasoning Depth Routing with the Mandatory Consequence Declaration, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance.
+
+The evaluation design should also pre-register how reviewer challenges will be adjudicated, rather than using challenge frequency as a proxy for reasoning quality, and should identify the reference standard for any claim of correctness or fidelity.
 
 The case set should be designed so v5 has an opportunity to improve the decision, add no value, and make the decision worse.
 

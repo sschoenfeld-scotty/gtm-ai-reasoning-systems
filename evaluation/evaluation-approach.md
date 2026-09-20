@@ -12,6 +12,8 @@ It is a new portfolio-level evaluation layer. It is **not part of the canonical 
 
 The purpose is to make the evaluation of the system more inspectable without exposing the private implementation.
 
+This document remains anchored to the v4 comparison work. Later evaluation-method lessons may be incorporated here when they improve the evaluation discipline. Doing so does not retroactively change the v4 case outcomes or convert them into v5 evidence.
+
 ## Purpose
 
 The central claim behind this repository is not that a reasoning framework can produce cleaner prose.
@@ -116,7 +118,42 @@ More complexity alone does not count.
 
 Disagreement with the baseline does not count.
 
+More challenge alone does not count.
+
 The revised reasoning needs to be more defensible or more decision-useful.
+
+## Challenge Validity and Reference Standards
+
+A reviewer challenging an AI answer is behavioral evidence.
+
+It is not automatic evidence that the AI answer is wrong.
+
+A September 2026 N-of-1 pilot made this distinction visible. Some challenges correctly identified planted reasoning failures. Other challenges extended beyond the frozen evidence or criticized an action the answer had not actually recommended.
+
+Evaluation should therefore distinguish at least four things.
+
+- **Challenge occurrence** — did the reviewer object, request evidence, or raise an alternative?
+- **Challenge validity** — does the objection identify a real evidentiary, causal, or decision problem?
+- **Challenge strength** — is the objection fully supported, partially supported, or stronger than the evidence allows?
+- **Decision relevance** — would resolving the objection materially change confidence, diagnosis, or action?
+
+Challenge frequency should not be used as a proxy for reasoning quality.
+
+The same discipline applies to the reference standard.
+
+When a framework explicitly externalizes the judgment of a source operator, that operator's reasoning is relevant evidence about **fidelity**.
+
+> Did the framework preserve the distinctions, causal priorities, evidence standards, and operating judgments it was designed to externalize?
+
+That is separate from **independent defensibility**.
+
+> Does the resulting judgment survive the frozen evidence, credible alternatives, and operating reality?
+
+The source operator is therefore neither irrelevant nor automatic ground truth.
+
+A disagreement between the operator and the system should be adjudicated rather than scored mechanically.
+
+See [Model-Tier Confidence Effect N-of-1 Pilot](../evidence/2026-09-20-model-tier-confidence-n1-pilot.md).
 
 ## Working Outcome Categories
 
@@ -240,6 +277,14 @@ The response becomes more elaborate but does not materially clarify what should 
 
 The output sounds stronger after pressure testing even though important uncertainty remains unresolved.
 
+### Challenge-frequency substitution
+
+The evaluation treats the number of objections, requests for evidence, or disagreements as evidence of better reasoning without checking whether the challenges are justified.
+
+### Reference-standard confusion
+
+The evaluation silently treats the baseline, framework output, source operator, or reviewer as ground truth without establishing what kind of reference each one actually provides.
+
 ### Framework theater
 
 The system visibly performs reasoning steps without producing better judgment.
@@ -262,6 +307,8 @@ The reviewer should assess
 - which recommendation better follows from the diagnosis
 - what additional evidence would change the conclusion
 - whether the intervention is practical in the real business
+- whether a critique identifies a real reasoning failure or merely expresses disagreement
+- what reference standard is being used and whether it is independent, operator-derived, or otherwise bounded
 
 Where practical, the evaluation should also reduce self-grading bias by
 
@@ -334,6 +381,8 @@ A stronger protocol would need, at minimum
 - explicit recording of degraded and indeterminate cases
 - review that is not based solely on writing quality
 - enough independent judgment to reduce self-grading bias
+- explicit adjudication of critique validity rather than challenge frequency alone
+- an explicit reference standard for claims of correctness, fidelity, or improvement
 - testing across cases that were not used to create the framework
 
 The exact protocol is not yet defined.
@@ -353,6 +402,8 @@ Future case studies can use a compact record like this.
 | Full Stack diagnosis | Revised reasoning with Full Stack |
 | Material change | What changed in diagnosis, confidence, evidence requirement, prognosis, or recommendation |
 | Strongest counterargument | Best reason the revised conclusion could still be wrong |
+| Reference standard | What evidence or judgment is being used to adjudicate correctness or fidelity |
+| Challenge validity | Whether material reviewer objections are supported, partial, overstated, or based on a misread |
 | Outcome | Improved, No material change, Degraded, or Indeterminate |
 | Reviewer note | Why the classification was assigned |
 | Framework implication | No change, working hypothesis, or proposed framework modification |
