@@ -12,7 +12,9 @@ A strong result means the evaluation procedure detects the specified integrity c
 
 It does not mean the reasoning framework caused the original finding or that passing the fixture improves real-world outcomes.
 
-## Fixture 1 — Decision-category reconciliation
+## Fixture 1
+
+**Decision-category reconciliation**
 
 **Source case**
 
@@ -44,7 +46,9 @@ This fixture does not determine whether the category definitions themselves are 
 
 It tests arithmetic and membership integrity only.
 
-## Fixture 2 — Critique author and target integrity
+## Fixture 2
+
+**Critique author and target integrity**
 
 **Source case**
 
@@ -74,7 +78,9 @@ This fixture tests routing integrity.
 
 It does not establish that correctly routed critique improves answer quality.
 
-## Fixture 3 — Source-mode continuity
+## Fixture 3
+
+**Source-mode continuity**
 
 **Source case**
 
@@ -82,7 +88,7 @@ It does not establish that correctly routed critique improves answer quality.
 
 **Failure mode**
 
-With provider credentials absent and network access blocked, the application produced synthetic source content and generated a company-specific buying score, confidence value, and purchasing window.
+With provider credentials absent and network access blocked, the application produced synthetic source content and generated a company-specific buying score with a confidence value. It also produced a purchasing window.
 
 The downstream report named Bright Data sources without carrying an explicit demo or fallback provenance field.
 
@@ -106,7 +112,9 @@ This fixture does not establish that synthetic data is inappropriate for demos.
 
 It tests whether the demo status survives into the output.
 
-## Deferred case — Capability and privacy boundary
+## Deferred case
+
+**Capability and privacy boundary**
 
 **Source case**
 
