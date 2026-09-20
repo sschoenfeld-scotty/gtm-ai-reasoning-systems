@@ -402,6 +402,8 @@ Future case studies can use a compact record like this.
 | Full Stack diagnosis | Revised reasoning with Full Stack |
 | Material change | What changed in diagnosis, confidence, evidence requirement, prognosis, or recommendation |
 | Strongest counterargument | Best reason the revised conclusion could still be wrong |
+| Reference standard | What evidence or judgment is being used to adjudicate correctness or fidelity |
+| Challenge validity | Whether material reviewer objections are supported, partial, overstated, or based on a misread |
 | Outcome | Improved, No material change, Degraded, or Indeterminate |
 | Reviewer note | Why the classification was assigned |
 | Framework implication | No change, working hypothesis, or proposed framework modification |
