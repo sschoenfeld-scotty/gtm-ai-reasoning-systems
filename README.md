@@ -291,6 +291,7 @@ The case remains in its own repository. It is not direct validation of Full Stac
 ### Evaluation
 
 - [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md)
+- [External Evidence Fixtures 01](evaluation/external-evidence-fixtures-01.md)
 - [Evaluation Approach](evaluation/evaluation-approach.md)
 - [Independent Review Protocol v1](evaluation/independent-review-protocol.md)
 - [Reconstructed Evaluation Case 01](examples/reconstructed-example-01.md)
@@ -307,6 +308,7 @@ These entries preserve live observations and bounded external evidence. They do 
 - [Open-ended Collaboration](evidence/2026-09-14-open-ended-collaboration.md) is a contemporaneous observation and working hypothesis captured before the outcome was known. It records no canonical framework change.
 - [Independent Execution Variance](evidence/2026-09-19-full-stack-v5-independent-execution-variance.md) preserves an observational comparison between independent Full Stack v5 executions without claiming an environment advantage.
 - [CognitiveLens External Evidence Review](evidence/2026-09-20-cognitivelens-external-evidence-review.md) records a source-grounded external review that produced an upstream contribution while leaving the canonical frameworks unchanged.
+- [External Repository Review Batch 01](evidence/2026-09-20-external-repository-review-batch-01.md) records four separately adjudicated external reviews, their upstream actions, and the evaluation fixtures earned from the batch without changing the canonical frameworks.
 
 ### Research
 
