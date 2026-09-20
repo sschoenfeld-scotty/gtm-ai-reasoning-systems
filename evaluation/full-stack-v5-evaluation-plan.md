@@ -485,6 +485,8 @@ The [Independent Review Protocol v1](./independent-review-protocol.md) remains t
 
 Those artifacts should remain unchanged as part of the historical evidence trail.
 
+The [Independent Execution Variance evidence record](../evidence/2026-09-19-full-stack-v5-independent-execution-variance.md) preserves an observational v5 experiment in which two independent executions produced different but defensible intellectual moves. It does not establish an environment advantage or a framework change. It preserves a working hypothesis that independent execution may sometimes expose material omissions and that communication cases may benefit from evaluating reasoning quality separately from output-selection quality.
+
 This v5 plan is additive. It exists to evaluate the new decision capability and current refinements without rewriting the meaning of earlier evidence.
 
 ## Next Evidence Step
