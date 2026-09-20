@@ -10,7 +10,7 @@ This document defines the public evaluation plan for the new reasoning capabilit
 
 It is not evidence that v5 has already been validated.
 
-Existing Full Stack v4 evidence remains v4 evidence. The reconstructed cases, Evaluation Approach, and Independent Review Protocol were developed around v4 and should not be silently relabeled as proof that v5 Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, or Anchoring Resistance work.
+Existing Full Stack v4 evidence remains v4 evidence. The reconstructed cases, Evaluation Approach, and Independent Review Protocol were developed around v4 and should not be silently relabeled as proof that v5 Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, or Behavioral Inference Discipline work.
 
 The purpose of this plan is narrower.
 
@@ -27,13 +27,14 @@ That gate, **Strategic Adjudication**, asks two additional questions at a public
 
 A separate conditional **Communication Function** check is also available when misunderstanding the purpose or audience of a statement could materially change the diagnosis.
 
-Five later refinements now sit inside the same v5 architecture.
+Six later refinements now sit inside the same v5 architecture.
 
 - **Reasoning Depth Routing** requires explicit user-declared consequence before routing, treats that declaration as the minimum reasoning depth, and allows observable reasoning risk to escalate the route.
 - **Reflexivity** sits inside System Dynamics and tests whether signaling itself changes the resources or behavior that govern feasibility.
 - **Cascade Integrity** sits inside Operator Proof and tests whether strategic intent materially changes as it travels through organizational handoffs.
 - **Decision Trace Integrity** distinguishes retrospective rationale from contemporaneous decision evidence and preserves a compact decision state when consequence warrants later comparison.
 - **Anchoring Resistance** activates on Deep Path work when the user supplies a substantive preferred hypothesis, diagnosis, conclusion, recommendation, or argument. It tests what the evidence supports independently, compares that with the strongest defensible preferred position, and checks whether the initial frame materially affected evidence selection, weighting, confidence, diagnosis, or action.
+- **Behavioral Inference Discipline** operates primarily through Human Pattern 1 when a material part of the reasoning depends on explaining human behavior. It separates observed behavior, stated account, inferred driver, the strongest credible alternative, and structural or systemic explanations; treats experience as a prior rather than proof; and spends additional behavioral reasoning only when unresolved ambiguity could materially change the diagnosis or decision.
 
 The evaluation therefore has to test more than whether v5 produces a different answer.
 
@@ -47,7 +48,7 @@ The central evaluation question remains
 
 That isolates the major v5 reasoning capability rather than giving v5 credit for diagnostic improvements inherited from v4.
 
-The current refinements add five secondary questions.
+The current refinements add six secondary questions.
 
 > **Does v5 obtain explicit user consequence before routing, honor it as the minimum reasoning depth, and escalate only when observable reasoning risk warrants it?**
 
@@ -58,6 +59,8 @@ The current refinements add five secondary questions.
 > **When a prior decision is revisited, does v5 distinguish the current explanation from contemporaneous evidence of what was believed, expected, and chosen at the time?**
 
 > **When Deep Path work begins with a substantive preferred position, does v5 test the evidence independently enough to detect material framing effects without treating the user's view as presumptively wrong?**
+
+> **When diagnosis materially depends on explaining behavior, does v5 separate behavior from motive, test structural and systemic explanations and the strongest credible alternative, use experience without converting it into proof, and remain decision-useful when motive cannot be fully resolved?**
 
 ## Primary Comparison Design
 
@@ -86,6 +89,7 @@ A separate baseline-versus-v5 comparison can still be useful for broader system 
 | **Cascade integrity** | Does v5 identify material translation variance across organizational handoffs without assuming that local adaptation is necessarily distortion? |
 | **Decision trace integrity** | Does v5 distinguish retrospective rationale from contemporaneous evidence and preserve enough original decision state to support later evaluation when consequence warrants it? |
 | **Anchoring resistance** | On Deep Path work with a substantive preferred position, does v5 establish an independent evidentiary baseline, test the strongest defensible version of the preferred position, and identify material framing effects without manufacturing disagreement or discarding relevant evidence merely because it was collected after the preference formed? |
+| **Behavioral inference discipline** | When behavioral explanation is material, does v5 keep observed behavior, stated account, and inferred driver distinct; test structural and systemic explanations; preserve a credible alternative when it could change the decision; use experience as a prior rather than proof; request human context only when it can materially reduce decision-relevant uncertainty; and avoid delaying action merely because motive remains uncertain? |
 | **Decision boundary** | Does the new reasoning change action only when the evidence supports a materially different strategic choice? |
 | **Non-intervention quality** | When v5 recommends not fixing a diagnosed problem, is that conclusion based on explicit evidence and tradeoffs rather than avoidance or preference? |
 | **Confidence calibration** | Does uncertainty remain visible around risk, opportunity cost, communication intent, reflexivity, translation effects, retrospective rationale, anchoring risk, and strategic value? |
@@ -225,6 +229,42 @@ The user has a preference on Fast or Standard work, but the final route does not
 
 A strong v5 response should preserve ordinary evidence discipline without adding the full Anchoring Resistance procedure merely because the user expressed a view.
 
+### System-generated behavior mistaken for personal motive
+
+The visible behavior appears to support an individual motive story, but the frozen evidence shows that compensation design, reporting mechanics, role constraints, approval rules, political conditions, or another systemic force can plausibly produce the same behavior.
+
+A strong v5 response should test the structural explanation before attributing the behavior primarily to personal intent.
+
+### Structural pressure and personal agency both matter
+
+The frozen case supports both a systemic pressure and evidence that the actor exercised meaningful discretion.
+
+A strong v5 response should resist collapsing the explanation into either pure system determinism or pure personal motive.
+
+### Behavioral ambiguity does not change the decision
+
+Two behavioral explanations remain credible, but the diagnosis and candidate action are materially the same under both.
+
+A strong v5 response should preserve the uncertainty and continue rather than adding behavioral-analysis ceremony or repeated clarification.
+
+### Behavioral ambiguity changes the decision
+
+Two credible behavioral explanations would lead to materially different diagnoses, confidence judgments, prognoses, or candidate actions.
+
+A strong v5 response should use discriminating evidence and, when the user plausibly has relevant context the model lacks, seek one targeted clarification before carrying unresolved uncertainty forward.
+
+### Experience-based prior helps without becoming proof
+
+The case includes repeated analogous operating experience that makes one explanation more plausible, but current-case evidence remains incomplete.
+
+A strong v5 response may use that experience to inform prior plausibility while keeping the present-case inference revisable.
+
+### Motive remains unresolved but action can proceed
+
+The behavioral driver cannot be established with confidence, but Strategic Adjudication can still determine that acting, staging, containing, or waiting is preferable based on reversibility, downside, cost of delay, and opportunity cost.
+
+A strong v5 response should not convert motive uncertainty into automatic decision paralysis.
+
 ### False-positive ruin case
 
 The severe-downside story sounds plausible but is not sufficiently credible or material. A strong v5 response should avoid turning caution into paralysis.
@@ -257,7 +297,7 @@ Do not alter v4 to make it more competitive with v5.
 
 Use the same case and context with the current v5 architecture.
 
-Record whether user consequence was already explicit or had to be requested, the declared consequence, the resulting minimum route, any evidence-supported escalation, the diagnosis, Strategic Adjudication result when material, any Reflexivity or Cascade Integrity finding when material, any Decision Trace Integrity finding when material, any Anchoring Resistance effect when triggered, confidence, recommendation, and supporting rationale.
+Record whether user consequence was already explicit or had to be requested, the declared consequence, the resulting minimum route, any evidence-supported escalation, the diagnosis, Strategic Adjudication result when material, any Reflexivity or Cascade Integrity finding when material, any Decision Trace Integrity finding when material, any Anchoring Resistance effect when triggered, any Behavioral Inference Discipline effect when triggered, confidence, recommendation, and supporting rationale.
 
 ### 4. Separate diagnosis from decision
 
@@ -289,6 +329,20 @@ If the preferred position existed before some evidence was collected, inspect wh
 
 Finally, record whether the initial framing materially changed evidence selection, weighting, confidence, diagnosis, or action. If the independent and preferred-position reads materially converge, extra visible framing analysis should count as unnecessary ceremony rather than improvement.
 
+### 6A. Inspect Behavioral Inference Discipline when triggered
+
+When a material part of the diagnosis, confidence judgment, prognosis, or candidate action depends on explaining why a person or group behaved as observed, inspect whether v5 keeps the observed behavior, stated account, and inferred driver distinct.
+
+Ask whether it tested the strongest credible alternative and whether a structural or systemic explanation could produce materially similar behavior before attributing the behavior primarily to personal motive.
+
+Inspect whether relevant operator experience informed prior plausibility without becoming proof of the current case.
+
+Ask whether the unresolved behavioral distinction actually mattered to the diagnosis or decision. If it did not, additional behavioral analysis should count as unnecessary friction.
+
+When user context was requested, inspect whether the pre-user behavioral read was preserved and whether the new context was adjudicated rather than automatically adopted.
+
+If material uncertainty remained, inspect whether it was carried into Strategic Adjudication rather than converted into motive certainty or automatic delay.
+
 ### 7. Inspect Decision Trace Integrity
 
 When a prior decision is being explained retrospectively, record whether v5 keeps the later account separate from contemporaneous evidence.
@@ -303,7 +357,7 @@ When an outcome is known, check whether v5 preserves the original reasoning stat
 
 A v5 result is not better merely because it is more cautious, more strategic-sounding, more skeptical, more documented, more independent-looking, or more complex.
 
-Reviewers should test whether the claimed irreversible downside is credible, whether the opportunity cost is explicit, whether a reflexive loop has actual evidence, whether translation variance is observed or inferred, whether a retrospective rationale is being discounted without evidence, whether trace preservation adds real future value, whether an escalation is grounded in observable reasoning properties rather than invented importance, whether the competing use of resources is real rather than invented, whether Anchoring Resistance actually changed the evidentiary picture, and whether independence was demonstrated without manufacturing disagreement.
+Reviewers should test whether the claimed irreversible downside is credible, whether the opportunity cost is explicit, whether a reflexive loop has actual evidence, whether translation variance is observed or inferred, whether a retrospective rationale is being discounted without evidence, whether trace preservation adds real future value, whether an escalation is grounded in observable reasoning properties rather than invented importance, whether the competing use of resources is real rather than invented, whether Anchoring Resistance actually changed the evidentiary picture, whether behavioral inference distinguishes system effects from personal motive without erasing agency, whether user context was treated as evidence rather than authority, whether behavioral ambiguity actually mattered to the decision, and whether independence was demonstrated without manufacturing disagreement.
 
 ### 8A. Inspect critique validity and the reference standard
 
@@ -481,6 +535,34 @@ The framework correctly notices that a preferred hypothesis existed but still tr
 
 The framework runs the full Anchoring Resistance process on Fast or Standard work, or on Deep Path work where no substantive preferred position is actually present, adding complexity without improving the decision.
 
+### Psychologizing system effects
+
+The framework attributes behavior primarily to personal motive even though structural or systemic conditions could plausibly produce the same pattern.
+
+### Structural determinism
+
+The framework notices a systemic pressure and then treats individual agency, discretion, or responsibility as irrelevant without evidence.
+
+### Experience-prior overreach
+
+Repeated analogous experience is treated as proof of the current actor's motive rather than as a revisable prior.
+
+### Behavioral certainty inflation
+
+High confidence that a behavior repeats silently becomes high confidence about why it occurs.
+
+### Context-authority capture
+
+The model asks the user for behavioral context and then adopts the user's explanation as truth instead of comparing it with the preserved pre-user read and credible alternatives.
+
+### Clarification ceremony
+
+The framework interrupts for human context when the unresolved behavioral distinction would not materially change the diagnosis or decision, or repeatedly questions the user after one clarification fails to resolve the ambiguity.
+
+### Motive-certainty paralysis
+
+The framework delays or withholds an otherwise supportable action because motive remains uncertain, even though Strategic Adjudication could decide under that uncertainty.
+
 ### Non-intervention bias
 
 The existence of a new decision gate causes the framework to overvalue doing nothing.
@@ -569,7 +651,7 @@ This v5 plan is additive. It exists to evaluate the new decision capability and 
 
 ## Next Evidence Step
 
-The next useful step is to build a small frozen v5 case set that includes positive and negative tests of Strategic Adjudication, Reasoning Depth Routing with the Mandatory Consequence Declaration, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance.
+The next useful step is to build a small frozen v5 case set that includes positive and negative tests of Strategic Adjudication, Reasoning Depth Routing with the Mandatory Consequence Declaration, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
 
 The evaluation design should also pre-register how reviewer challenges will be adjudicated, rather than using challenge frequency as a proxy for reasoning quality, and should identify the reference standard for any claim of correctness or fidelity.
 
