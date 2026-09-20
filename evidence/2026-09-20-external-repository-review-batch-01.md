@@ -33,7 +33,7 @@ The four reviews were pinned to exact upstream commits.
 | [AdieLaine/multi-agent-reasoning](https://github.com/AdieLaine/multi-agent-reasoning) | [4fa5fae1e4ae0fc1d83d44e831e5d3cd5806bda0](https://github.com/AdieLaine/multi-agent-reasoning/commit/4fa5fae1e4ae0fc1d83d44e831e5d3cd5806bda0) | A reproduced Swarm routing mismatch misattributes a critique and delivers it to the wrong refinement relationship. |
 | [rajpriyanshu148/gtm-intelligence-agent](https://github.com/rajpriyanshu148/gtm-intelligence-agent) | [eb0d0161810bbfb44ac31c32bcf112e29cb628b6](https://github.com/rajpriyanshu148/gtm-intelligence-agent/commit/eb0d0161810bbfb44ac31c32bcf112e29cb628b6) | Credential-free demo data can reach decision-facing reports without preserving its synthetic status. |
 
-The detailed reproduction packages remain private. They include execution records, source manifests, frozen repository-only conclusions, and verification artifacts.
+The detailed reproduction packages remain private. They preserve the execution record and source state. They also retain each frozen repository-only conclusion with its verification artifacts.
 
 ## Upstream action taken
 
@@ -106,7 +106,7 @@ It does not validate Full Stack v5 or GTM Diagnostic Framework v9.
 
 ## Evidence maturity
 
-The batch contains reproduced document arithmetic, isolated component execution, direct source tracing, and unresolved interpretation boundaries.
+The batch includes reproduced document arithmetic and isolated component execution. It also includes direct source tracing. Some interpretation boundaries remain unresolved.
 
 Those evidence levels remain separate.
 
