@@ -78,7 +78,11 @@ flowchart LR
 
 **Pressure Test and Confidence** asks whether the reasoning survives missing evidence, competing explanations, operating reality, likely failure, and material uncertainty.
 
-Current v5 refinements stay nested inside these functions rather than appearing as additional peer stages. They include Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance.
+Current v5 refinements stay nested inside these functions rather than appearing as additional peer stages. They include Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
+
+Behavioral Inference Discipline operates primarily through Human Pattern 1. It makes one recurring problem more explicit: behavior can matter to a diagnosis even when motive cannot be directly observed. The framework now separates observed behavior, stated accounts, inferred drivers, and structural or systemic explanations, then spends additional behavioral reasoning only when the ambiguity could materially change the decision.
+
+> **Behavioral uncertainty does not automatically require decision uncertainty.**
 
 The detailed implementation remains private.
 
@@ -160,7 +164,7 @@ It makes experienced judgment easier to retrieve, connect, inspect, challenge, a
 | **GTM Diagnostic Framework v9** | Applied GTM system for diagnosing governing constraints, connected dependencies, and operating interventions | Current canonical GTM architecture; field-test, not formally validated |
 | **GTM Diagnostic Framework v8** | Prior GTM version that established the governing constraint as the intellectual center | Historical prior version preserved in the public evidence trail |
 | **Full Stack v5 Evaluation Plan** | Public plan for testing Strategic Adjudication and current v5 refinements | Work in progress |
-| **Behavioral Inference Engine** | Research direction for longitudinal behavioral inference without unsupported motive attribution | Work in progress |
+| **Behavioral Inference Engine** | Research direction for how behavioral hypotheses should persist and revise across time; several bounded disciplines now inform Full Stack v5 | Work in progress |
 
 These are related pieces of the same body of work, but they do not all have the same maturity, evidence base, or purpose.
 
@@ -187,7 +191,7 @@ For a related applied operating project, see [Related Applied Project](#related-
 
 **Optional deeper inspection**
 
-The current public architectures are [Full Stack v5](architecture/full-stack-v5-public-architecture.md) and [GTM Diagnostic Framework v9](architecture/gtm-diagnostic-framework-v9-public-architecture.md). [Full Stack Evolution](architecture/evolution.md) and [GTM Framework Evolution](architecture/gtm-evolution.md) explain why they changed.
+The current public architectures are [Full Stack v5](architecture/full-stack-v5-public-architecture.md) and [GTM Diagnostic Framework v9](architecture/gtm-diagnostic-framework-v9-public-architecture.md). [Human Pattern 1](architecture/human-pattern-1.md) shows how the current Full Stack architecture handles human behavior, structural pressure, and motive uncertainty. [Full Stack Evolution](architecture/evolution.md) and [GTM Framework Evolution](architecture/gtm-evolution.md) explain why the systems changed.
 
 The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) describes the current evaluation work. The [GTM Calibration Log](architecture/gtm-calibration-log.md) records working observations alongside approved refinements. The repository map below retains the historical architectures.
 
@@ -277,6 +281,7 @@ The case remains in its own repository. It is not direct validation of Full Stac
 - [Building Friction Into AI](docs/building-friction-into-ai.md) explains why the work started and how the reasoning system evolved.
 - [What I Mean by a Logic Lens](docs/what-is-a-logic-lens.md) gives a plain-English explanation of the core concept.
 - [Full Stack v5 Public Architecture](architecture/full-stack-v5-public-architecture.md) documents the high-level architecture behind the current reasoning harness.
+- [Human Pattern 1](architecture/human-pattern-1.md) documents the public behavioral-reasoning architecture inside Full Stack v5 without exposing the complete operating implementation.
 - [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) preserves the prior major version.
 - [Evolution of the Reasoning System](architecture/evolution.md) records the design decisions that materially changed Full Stack.
 
@@ -313,7 +318,7 @@ These entries preserve live observations and bounded external evidence. They do 
 
 ### Research
 
-- [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a work-in-progress research direction for longitudinal behavioral inference without turning observation into unsupported motive.
+- [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a work-in-progress research direction for longitudinal behavioral inference. Several bounded behavioral disciplines now inform Full Stack v5, while persistence, accumulation, contradiction, context change, and model revision remain research problems.
 
 ## Public Architecture and Private Implementation
 
