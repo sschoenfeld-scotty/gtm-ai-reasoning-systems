@@ -487,6 +487,26 @@ The evaluation should therefore preserve four checks when they are material.
 
 Agreement can increase confidence only when the evidentiary relationship between the agreeing sources is understood.
 
+## External Evidence Fixtures
+
+A September 2026 batch review of four external repositories produced three concrete evaluation fixtures without producing a canonical framework change.
+
+See [External Evidence Fixtures 01](./external-evidence-fixtures-01.md) and [Evidence Entry 004](../evidence/2026-09-20-external-repository-review-batch-01.md).
+
+The fixtures add bounded checks when their underlying failure mode is material.
+
+- When a decision depends on categories or partitions, reconcile the decision-relevant membership rather than relying only on the grand total.
+- When critique or review moves between actors, preserve who produced it and which response it was written about.
+- When evidence changes form, preserve source mode when that status matters to the downstream judgment.
+
+These checks strengthen evaluation coverage for existing evidence discipline and Operator Proof. They also test whether decision status survives handoffs.
+
+They do not establish that Full Stack caused the external findings.
+
+They also do not create new Full Stack stages.
+
+One reviewed case, Engram, remains deferred as a fixture because the relevant privacy boundary is still partly interpretive and independent Rust execution has not been completed.
+
 ## Evidence Boundary
 
 The current evidence status should remain explicit.
