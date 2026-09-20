@@ -19,8 +19,8 @@ There is no standalone canonical Behavioral Inference Engine specification in th
 
 This public design note is a Bucket Two research artifact derived from principles already documented in
 
-- Full Stack v4
-- GTM Diagnostic Framework v8
+- Full Stack v5
+- GTM Diagnostic Framework v9
 - Building Friction Into AI
 
 It does not create or silently modify a canonical Behavioral Inference Engine.
@@ -75,9 +75,9 @@ The current source frameworks already establish the core constraint.
 
 > **Observable behavior creates a hypothesis about motive. It does not prove motive.**
 
-Full Stack v4 treats an observation as high-confidence evidence that something occurred, but not necessarily evidence of why it occurred.
+Full Stack v5 keeps observation, stated account, and inferred driver distinct when human behavior matters. Behavioral Inference Discipline now makes that reasoning more explicit inside Human Pattern 1 without claiming motive certainty.
 
-GTM Diagnostic Framework v8 applies the same discipline inside commercial diagnosis.
+GTM Diagnostic Framework v9 applies the same attribution discipline inside commercial diagnosis. It states that behavior does not prove motive and that incentives are relevant evidence rather than proof of intent.
 
 The current public reasoning pattern is
 
@@ -160,6 +160,18 @@ The point is not to generate endless possibilities.
 
 The point is to prevent one unproven story from becoming the model.
 
+### 2A. Test structural and systemic explanations
+
+Behavior that looks personal may be materially shaped by the operating environment.
+
+Compensation design, role constraints, reporting mechanics, approval systems, resource constraints, organizational politics, manager behavior, governance, and other structural conditions can produce recurring behavior without establishing a specific personal motive.
+
+The system should therefore ask whether the behavior would predictably emerge from the operating system even if the actor's personal motive were different.
+
+This should not become structural determinism.
+
+Structural pressure and individual agency can operate together.
+
 ### 3. Ask what evidence would distinguish the explanations
 
 A useful behavioral hypothesis should create a test.
@@ -184,15 +196,17 @@ The current frameworks use qualitative confidence rather than invented numerical
 
 The same discipline should carry into behavioral inference.
 
-### 5. Connect inference to a low-regret intervention
+### 5. Connect inference to decision-relevant action without requiring motive certainty
 
 Behavioral reasoning is useful when it improves a decision.
 
-The intervention should not require certainty about motive when a lower-risk action can test or improve the condition.
+The decision should not require certainty about motive when the unresolved behavioral explanation does not materially change what should be done.
 
-For example, leadership may not need to know whether weak pipeline subtraction reflects fear, incentives, habit, or poor judgment before changing the inspection standard and observing what happens.
+For example, leadership may not need to know whether weak pipeline subtraction reflects fear, incentives, habit, structural pressure, or poor judgment before changing an inspection standard and observing what happens.
 
-This preserves human judgment while reducing the temptation to psychoanalyze.
+Inside Full Stack v5, Behavioral Inference Discipline calibrates the behavioral explanation while Strategic Adjudication retains responsibility for reversibility, downside, cost of delay, opportunity cost, and whether action is warranted.
+
+This preserves human judgment while reducing both the temptation to psychoanalyze and the temptation to wait for motive certainty that the decision does not require.
 
 ## Framing Can Contaminate Behavioral Evidence
 
@@ -411,31 +425,41 @@ flowchart LR
 
 That loop is a design direction, not yet a validated engine architecture.
 
-## Relationship to Full Stack v4
+## Relationship to Full Stack v5
 
-Full Stack v4 already contains the foundational behavioral guardrail.
+Several BIE disciplines are now sufficiently defined to inform Full Stack v5 through **Behavioral Inference Discipline**, executed primarily through Human Pattern 1.
 
-It separates observation from inference, keeps alternative explanations open, asks what evidence would weaken the diagnosis, and calibrates confidence.
+Those exported disciplines include
 
-BIE should not duplicate Full Stack.
+- separating observed behavior from inferred motive
+- treating a stated explanation as evidence rather than privileged truth
+- preserving a strongest credible behavioral alternative when it can change the reasoning
+- testing structural and systemic explanations before over-attributing personal motive
+- allowing structural pressure and individual agency to coexist
+- recognizing evidence-environment effects
+- separating confidence in a behavioral pattern from confidence in its driver
+- using relevant operator experience as a prior rather than proof
+- testing whether unresolved behavioral uncertainty actually matters to the current decision
 
-Its research question is narrower.
+Full Stack uses these disciplines inside the current reasoning execution.
 
-**Can those disciplines be maintained across repeated observations over time without allowing the accumulated model to become falsely certain?**
+It does not maintain a persistent behavioral profile, accumulate motive scores, or claim that repeated observations eventually make motive directly observable.
 
-If the answer eventually requires a material change to Full Stack, that should be proposed separately and approved through normal version discipline.
+The boundary is
 
-The framing problem described above may eventually justify a behavioral-evidence guardrail inside Full Stack. That possibility is being tracked separately as a proposed framework change.
+> **Full Stack decides how much behavioral inference the current decision requires. BIE develops how behavioral understanding should accumulate and revise across time.**
 
-It is not an active Full Stack v4 rule.
+This export is an architecture decision inside Full Stack v5. It is not validation of BIE as a standalone system.
 
-This design note does not make that change.
+## Relationship to GTM Diagnostic Framework v9
 
-## Relationship to GTM Diagnostic Framework v8
+GTM v9 treats leadership, manager, seller, buyer, and cross-functional behavior as part of the commercial operating system.
 
-GTM v8 already treats leadership and field behavior as part of the operating system.
+Its canonical behavioral guardrail remains
 
-It also provides the current six-step behavioral inference guardrail
+> **Behavior does not prove motive.**
+
+The current six-step reasoning pattern is
 
 1. observable behavior
 2. possible explanation
@@ -444,11 +468,15 @@ It also provides the current six-step behavioral inference guardrail
 5. confidence
 6. intervention
 
+GTM v9 also states
+
+> **Incentives are relevant evidence. They are not proof of intent.**
+
 BIE extends the research question beyond a single diagnostic moment.
 
-It asks how those behavioral hypotheses should persist, weaken, strengthen, or change across time.
+It asks how behavioral hypotheses should persist, weaken, strengthen, decay, or change across time while preserving context and attribution discipline.
 
-The complete GTM v8 implementation remains private.
+The complete GTM v9 implementation remains private.
 
 ## What BIE Is Not
 
@@ -531,9 +559,9 @@ A system that produces more elaborate stories about people would fail the intend
 
 The evidence for BIE today is limited.
 
-The underlying attribution guardrail exists in Full Stack v4 and GTM v8.
+The underlying attribution discipline exists in current Full Stack v5 and GTM v9. Full Stack v5 now includes Behavioral Inference Discipline as a refinement, but that architecture decision is not validation of BIE as a standalone system.
 
-The need for longitudinal behavioral inference and disciplined model revision has been identified as a next-stage design problem.
+The need for longitudinal behavioral inference and disciplined model revision remains a next-stage design problem.
 
 A documented design observation also suggests that response framing may contaminate behavioral evidence when different answers carry different status, identity, face-saving, relationship, or role implications.
 
@@ -584,8 +612,12 @@ The public claim should remain proportional to the evidence.
 
 The Behavioral Inference Engine is best described as a **work-in-progress research direction for longitudinal behavioral inference under evidence discipline**.
 
-Its core principle is already clear.
+Several of its bounded reasoning disciplines now inform Full Stack v5 through Behavioral Inference Discipline and Human Pattern 1.
+
+That does not make BIE implemented or validated as a standalone engine.
+
+Its core principle remains clear.
 
 **Behavior can inform a hypothesis about motive. It cannot prove motive by itself.**
 
-The unresolved work is learning how to preserve that discipline when behavioral evidence accumulates over time and the model itself needs to change.
+The unresolved work is longitudinal: how behavioral hypotheses persist, accumulate, weaken, survive context change, respond to contradictory evidence, and eventually decay or revise without turning pattern confidence into motive certainty.
