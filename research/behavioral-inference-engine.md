@@ -9,7 +9,7 @@
 >
 > This work-in-progress research note records development context drawn from Full Stack v4 and GTM Diagnostic Framework v8. References to current sources below describe that earlier context. [Full Stack v5](../architecture/full-stack-v5-public-architecture.md) and [GTM Diagnostic Framework v9](../architecture/gtm-diagnostic-framework-v9-public-architecture.md) are the current framework versions.
 >
-> This note does not establish that the Behavioral Inference Engine has been reassessed against the later private frameworks.
+> This note does not claim a complete reassessment of the Behavioral Inference Engine against the later private frameworks. A September 2026 N-of-1 pilot has been added below as bounded research evidence about the evidence environment. It does not make BIE canonical or validated.
 
 ## Status and Source Boundary
 
@@ -246,6 +246,69 @@ Instead of asking the respondent to validate or reject a status-loaded claim, th
 
 Whether that produces meaningfully different evidence remains a research question.
 
+## System-Status Cues Can Become Part of the Evidence Environment
+
+The environment surrounding an AI answer can include visible signals about the system that produced it.
+
+Examples include
+
+- a higher-capability or premium model designation
+- a higher reasoning-effort label
+- an extended-reasoning indicator
+- a named reasoning harness or framework
+- another cue that plausibly changes the user's expectation of answer quality
+
+These cues may matter even when they are not evidence for the correctness of the specific answer.
+
+The BIE research question is behavioral rather than psychological.
+
+> **When a system-status cue changes, does the person's observable scrutiny, confidence, deference, or decision behavior change with it?**
+
+The direction of the effect should not be assumed.
+
+A higher-status cue may increase deference.
+
+It may increase scrutiny because the user expects more from the supposedly stronger system.
+
+It may have no observable effect.
+
+It may interact with prior experience, task difficulty, domain expertise, hypothesis awareness, or the person's existing confidence.
+
+That means the cue can be worth preserving as part of the evidence environment without treating it as a motive.
+
+For example
+
+**Observation**  
+A user challenges more assumptions when an answer is presented with a high-capability cue.
+
+**Possible hypothesis**  
+The cue may be changing the user's scrutiny threshold.
+
+**Alternative explanations**  
+The user may hold higher-status systems to a higher standard, may be compensating for awareness of the cue, may have learned from prior model errors, or may simply be reacting to differences in the cases.
+
+The observation does not establish authority bias, distrust, ego, deference, or another motive.
+
+### Current bounded evidence
+
+A September 2026 N-of-1 randomized-label pilot tested neutral and high-capability presentation cues across twelve frozen business decision cases.
+
+The participant knew the hypothesis before participation.
+
+The pilot did not produce coherent evidence that the high-capability cue reduced scrutiny.
+
+All six deliberately planted reasoning weaknesses were detected, with three detections under each label.
+
+The participant later reported treating advanced capability labels as a reason for sharper stress testing.
+
+Because the participant was informed, the cases became recognizable, and the paired design produced limited independent variation, the result remains indeterminate.
+
+The durable BIE implication is narrower.
+
+> **System-status cues are plausible contextual variables in the behavioral evidence environment. Preserve them when material, but do not assume either the direction of the effect or the motive behind the behavior.**
+
+See [Model-Tier Confidence Effect N-of-1 Pilot](../evidence/2026-09-20-model-tier-confidence-n1-pilot.md).
+
 ## The Model-Revision Problem
 
 The most explicit unresolved BIE problem in the current source material is **model revision**.
@@ -434,6 +497,10 @@ The system preferentially notices evidence that supports the current model.
 
 A response is treated as clean evidence of underlying judgment even though the framing may have created a status, identity, face-saving, relationship, or role incentive that made one answer easier to give.
 
+### System-status direction assumption
+
+A visible capability, reasoning-effort, or framework cue is treated as though it must increase deference or trust. The cue may increase scrutiny, have no effect, or interact with other contextual variables.
+
 ### Intervention overreach
 
 Leadership acts as though motive is known when a lower-regret action could test the condition first.
@@ -470,9 +537,11 @@ The need for longitudinal behavioral inference and disciplined model revision ha
 
 A documented design observation also suggests that response framing may contaminate behavioral evidence when different answers carry different status, identity, face-saving, relationship, or role implications.
 
-That is a working hypothesis, not validation.
+A September 2026 N-of-1 pilot adds a second bounded observation. Visible system-status cues registered to the participant, but the pilot did not show reduced scrutiny under the higher-capability label. The participant's retrospective account described the cue as a reason for sharper stress testing. Because the participant knew the hypothesis and the design had recognized limitations, the direction and mechanism remain unresolved.
 
-Together, these observations support a **research direction**.
+These are working observations, not validation.
+
+Together, they support a **research direction**.
 
 It does not support a claim that the Behavioral Inference Engine is implemented, validated, or ready for operational use as a standalone system.
 
@@ -491,6 +560,8 @@ The most important unresolved questions currently include
 - How should human review override, revise, or reject the model?
 - How should the system detect potentially status-loaded framing without itself inferring motive?
 - When is neutral reframing a useful test of whether the original response was contaminated by the choice architecture?
+- Do visible model-tier, reasoning-effort, or named-framework cues produce repeatable changes in scrutiny, confidence, deference, or decision behavior?
+- When such a cue matters, is the direction of the effect stable across domains and over time or context dependent?
 - What evaluation design can distinguish better inference from merely more sophisticated narrative?
 
 These questions are part of the work.
