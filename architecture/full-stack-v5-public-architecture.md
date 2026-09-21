@@ -29,7 +29,7 @@ The system could correctly identify what was governing an outcome and still move
 
 Full Stack v5 adds an explicit strategic decision gate between prognosis and intervention so a correct diagnosis does not automatically become a mandate to act.
 
-The current v5 refinement work makes existing functions more deterministic without adding another peer layer to the governing reasoning spine. It requires user-declared consequence before reasoning-depth routing, then uses observable reasoning risk to determine whether deeper scrutiny is warranted. It also makes reflexive narrative effects explicit inside System Dynamics, makes organizational translation explicit inside Operator Proof, distinguishes retrospective explanations from contemporaneous evidence of the reasoning that produced an earlier decision, and adds a conditional Deep Path check when a user enters the analysis with a preferred hypothesis or conclusion.
+The current v5 refinement work makes existing functions more deterministic without adding another peer layer to the governing reasoning spine. It requires the user to select a minimum reasoning depth before routing, then uses observable reasoning risk to determine whether deeper scrutiny is warranted. It also makes reflexive narrative effects explicit inside System Dynamics, makes organizational translation explicit inside Operator Proof, distinguishes retrospective explanations from contemporaneous evidence of the reasoning that produced an earlier decision, adds a conditional Deep Path check when a user enters the analysis with a preferred hypothesis or conclusion, and adds explicit Context Intake Discipline for supplied conversation, artifacts, operating experience, and user-supplied interpretations.
 
 This document describes the public architecture only. Detailed operating instructions, execution logic, internal tests, decision rules, and implementation prompts remain private.
 
@@ -37,7 +37,7 @@ This document describes the public architecture only. Detailed operating instruc
 
 ```mermaid
 flowchart LR
-    U{User Consequence} --> R{Reasoning Depth}
+    U{User-Selected Minimum Rigor} --> R{Reasoning Depth}
     R --> A[Source Truth]
     R -. when material .-> CF[Communication Function]
     CF --> A
@@ -58,7 +58,7 @@ flowchart LR
 
 The architecture is connected rather than mechanically linear. Conditional elements are invoked when they materially change the reasoning rather than being forced into every case.
 
-User Consequence is an entry condition rather than another diagnostic stage. If consequence has not already been explicitly established, Full Stack asks the user before routing. The user's declaration sets the minimum reasoning depth. Observable reasoning properties such as reversibility, evidence quality, causal uncertainty, stakeholder complexity, scarce-resource tradeoffs, and credible irreversible downside can justify escalation, but they do not downgrade the user's declared minimum.
+User-selected minimum rigor is an entry condition rather than another diagnostic stage. If the minimum reasoning depth has not already been established, Full Stack asks the user before routing. The user's selection sets the minimum reasoning depth. Observable reasoning properties such as reversibility, evidence quality, causal uncertainty, stakeholder complexity, scarce-resource tradeoffs, and credible irreversible downside can justify escalation, but they do not downgrade the user's selected minimum.
 
 A short output can require deep reasoning. A long output can still be low risk. The router should not infer subjective importance from artifact length, topic, tone, seniority, or model intuition about what ought to matter.
 
@@ -104,15 +104,15 @@ Six later observations exposed narrower gaps inside the accepted v5 architecture
 
 ### Reasoning Depth Routing
 
-The framework now requires consequence to be explicitly established by the user before it selects Fast, Standard, or Deep reasoning.
+The framework now requires the user to explicitly select the minimum reasoning depth before it selects Fast, Standard, or Deep reasoning.
 
-If consequence is already explicit in the current context, the router uses it without asking again. If consequence has not been established, Full Stack obtains that human judgment before producing the framework output.
+If the minimum reasoning depth is already explicit in the current context, the router uses it without asking again. Otherwise Full Stack obtains that user selection before producing the framework output.
 
 The user's declaration sets the minimum reasoning depth. The model then inspects observable reasoning properties such as reversibility, evidence quality, causal uncertainty, stakeholder complexity, material tradeoffs, and credible irreversible downside. Those indicators may justify escalation, but they do not downgrade the user's declared minimum.
 
 The governing principle is
 
-> **Reasoning depth should reflect user-declared consequence and observable reasoning risk, not output length or unsupported model judgment about what ought to matter.**
+> **Reasoning depth should reflect the user-selected minimum rigor and observable reasoning risk, not output length or unsupported model judgment about what ought to matter.**
 
 This makes the division of responsibility explicit. The user establishes how much the situation matters. The model evaluates evidence-supported reasons that deeper reasoning may be required.
 
@@ -147,6 +147,18 @@ When consequence warrants it, Full Stack preserves enough of the original decisi
 The purpose is not to distrust self-report by default. Retrospective explanation remains evidence, but its strength depends on provenance, timing, consistency, incentives, and corroboration.
 
 > **Reality should be able to change the model without rewriting what the model believed before reality arrived.**
+
+### Context Intake Discipline across source truth and framing
+
+Full Stack distinguishes the primary source from additional context supplied with it before substantive reasoning begins.
+
+Surrounding conversation and related artifacts can reveal what has already been said, which claims are circulating, and where a more additive intellectual move may exist. Those materials remain subject to normal evidence classification. A third-party comment is context, not automatic fact.
+
+User-supplied data, operating experience, interpretation, and preferred angles are also separated. Factual claims remain subject to evidence standards. Relevant experience can inform prior plausibility without establishing the current case. A preferred interpretation is something to test rather than an answer the framework is required to preserve.
+
+Agreement with the user's original angle does not create an obligation to use it in the final output. Full Stack still searches the complete source and context for the strongest supported intellectual move. A valid user angle may be sharpened, combined with another insight, or omitted entirely when another supported move is stronger for the objective.
+
+When independent human-versus-model judgment has evidentiary value, the cleaner sequence is source first, preserved model read second, user interpretation third.
 
 ### Anchoring Resistance across routing and evidence discipline
 
@@ -329,7 +341,7 @@ Full Stack v4 remains preserved as historical canonical source material and as a
 
 Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline are refinements inside v5. They make existing functions more deterministic without changing the governing reasoning spine, so they do not create v5.1 or v6.
 
-The Mandatory Consequence Declaration is a refinement inside Reasoning Depth Routing. It does not add another peer stage or create a new numbered release.
+The Mandatory Reasoning Depth Selection is a refinement inside Reasoning Depth Routing. The Routing Framing Guardrail and Context Intake Discipline make that execution more deterministic without adding another peer stage or creating a new numbered release.
 
 A future major version should require another meaningful change in purpose, architecture, or reasoning capability rather than wording, examples, routing logic, or nested reasoning refinements.
 
