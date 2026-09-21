@@ -155,6 +155,35 @@ A disagreement between the operator and the system should be adjudicated rather 
 
 See [Model-Tier Confidence Effect N-of-1 Pilot](../evidence/2026-09-20-model-tier-confidence-n1-pilot.md).
 
+## Review Independence and Correlated Self-Audit
+
+A same-context self-audit and a fresh-context review should not be treated as equivalent review conditions.
+
+The same process that created an artifact retains useful requirement context during self-audit.
+
+It can also inherit assumptions, local reasoning momentum, and accepted tradeoffs from the path that produced the artifact.
+
+A fresh-context review starts from the finished artifact with less of that local reasoning history.
+
+That can expose a different class of miss.
+
+It can also introduce new errors.
+
+The evaluation value comes from adjudicating whether the new challenge is valid and material, not from assuming that a separate reviewer is better.
+
+When review independence has evidentiary value, a stronger process can preserve
+
+- the original artifact
+- the same-context self-audit
+- a fresh-context review with unnecessary creator rationale withheld
+- the later adjudication of any material differences
+
+This should remain conditional.
+
+Routine work should not inherit duplicate-review ceremony when the added independence is unlikely to change the decision or release state.
+
+See [Fresh-context review after same-context self-audit](../evidence/2026-09-20-fresh-context-review-after-self-audit.md).
+
 ## Working Outcome Categories
 
 The current approach uses qualitative outcomes rather than manufactured precision.
