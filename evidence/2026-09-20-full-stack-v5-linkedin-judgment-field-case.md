@@ -1,6 +1,6 @@
-# Full Stack v5 Field Case 02
+# LinkedIn Judgment Field Case
 
-Naturalistic LinkedIn execution after substantial same-day framework revision
+Full Stack v5 naturalistic field case after substantial same-day framework revision
 
 ## Status
 
