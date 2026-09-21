@@ -366,7 +366,7 @@ If material uncertainty remained, inspect whether it was carried into Strategic 
 
 ### 7. Inspect Decision Trace Integrity
 
-### 7A. Inspect reconsideration boundaries and transition effects
+### 7A. Inspect reconsideration boundaries, transition effects, and measurement burden
 
 When Strategic Adjudication selects tolerance, deferral, containment, or another persistent non-intervention, inspect whether an explicit reconsideration boundary is created when material.
 
@@ -528,6 +528,8 @@ The framework evaluates the intended steady state while ignoring material disrup
 ### Measurement-burden blindness
 
 The proof system required to monitor an intervention materially changes frontline capacity or intervention economics without being reflected in the decision.
+
+The evaluation should test whether measurement burden is proportionate to the decision value and evidence need rather than rewarding more instrumentation by default.
 
 
 Supplied comments, artifacts, user facts, experience, and preferred interpretation are treated as one undifferentiated source. The framework either launders context into evidence or treats the user's angle as something the final output must preserve.
