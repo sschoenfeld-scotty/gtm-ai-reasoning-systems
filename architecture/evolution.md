@@ -264,8 +264,6 @@ The check remains conditional. It is not added to Fast or Standard work merely b
 
 > **On consequential work, a preferred hypothesis may guide investigation, but it must not control the searchlight.**
 
-### Context Intake Discipline made mixed-source prompts more deterministic
-
 ### Evidence validity, non-intervention boundaries, and transition effects sharpened existing v5 functions
 
 Later review exposed another cluster of narrower execution gaps. The framework could verify a fact without explicitly testing whether it remained decision-relevant, select deliberate non-intervention without specifying when the choice should be reopened, and judge an intervention by its intended steady state without sufficiently inspecting measurement burden or transition disruption.
@@ -274,6 +272,8 @@ The resulting changes remained nested inside existing functions. Evidence Discip
 
 These refinements did not meet the v5.1 threshold because the existing architecture could already represent the underlying reasoning. The changes made that reasoning more explicit and deterministic.
 
+
+### Context Intake Discipline made mixed-source prompts more deterministic
 
 Live use exposed a separate execution ambiguity. LinkedIn posts were sometimes supplied with third-party comments, screenshots, user data, operating experience, or a preferred angle in the same prompt. Full Stack generally used that context, but the default execution path did not classify it explicitly enough.
 
