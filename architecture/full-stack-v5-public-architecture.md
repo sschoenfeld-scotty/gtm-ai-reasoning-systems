@@ -126,6 +126,8 @@ A strategic signal may alter capital availability, talent flows, customer confid
 
 This does not mean narrative creates reality by assertion. The same evidence and outcome-attribution discipline still applies. The public architectural point is that belief can sometimes become part of the causal system and should be inspected as such when the evidence supports it.
 
+The same discipline distinguishes internally generated response from independent validation. When a claim materially depends on an external actor or environment, Full Stack asks what evidence would show that the claim survived contact with that environment.
+
 ### Cascade Integrity inside Operator Proof
 
 A strategy can be coherent at the executive level and still arrive at the frontline in materially different form.
@@ -210,6 +212,8 @@ Outcomes can strengthen or weaken a diagnosis, but they do not automatically pro
 
 For behavioral reasoning, observed behavior, a person's stated account, and the inferred driver remain distinct. Repetition, incentives, familiarity, or operator experience can change confidence or prior plausibility without becoming proof of motive.
 
+Evidence can remain historically accurate while becoming stale for the current decision. When a material fact depends on time or changing conditions, Full Stack inspects whether it remains decision-relevant and what change would require reassessment. Self-report and repeated internal reporting are evaluated by provenance and independence rather than being silently treated as corroboration.
+
 ### Competing Explanations
 
 The first plausible explanation is not automatically accepted.
@@ -236,6 +240,8 @@ Prognosis asks what that condition is likely to produce if it persists, what ris
 
 Prognosis remains probabilistic rather than certain.
 
+When an intervention requires a material transition before stable execution, Prognosis also plays the transition forward rather than evaluating only the intended steady state. When an intervention materially changes the external strategic environment, credible external responses can be included when the evidence supports them. Full Stack does not manufacture adversaries or speculative counter-moves.
+
 ### Strategic Adjudication
 
 Strategic Adjudication separates diagnostic correctness from strategic action.
@@ -246,6 +252,8 @@ This is a decision gate inside Full Stack, not a claim that the framework can de
 
 Unresolved behavioral uncertainty can enter this stage as part of the decision state. Strategic Adjudication determines whether acting under that uncertainty is preferable to waiting; Human Pattern 1 does not make that action decision itself.
 
+When deliberate tolerance, deferral, containment, or another persistent form of non-intervention is chosen, Full Stack can establish a reconsideration boundary. Crossing that boundary reopens the decision rather than automatically triggering intervention.
+
 ### Intervention, Operator Proof, and Pressure Testing
 
 If action is warranted, the system identifies the practical change most likely to alter the trajectory. If non-intervention is strategically stronger, that becomes an explicit decision rather than a failure to recommend something.
@@ -253,6 +261,8 @@ If action is warranted, the system identifies the practical change most likely t
 The reasoning is then tested against operating reality, including ownership, evidence, measurability, handoffs, incentives, implementation constraints, and likely rebuttal.
 
 When a decision must travel through organizational layers before action, Operator Proof also tests whether the strategic intent is likely to survive translation into actual frontline behavior and customer experience.
+
+Operator Proof also tests whether the burden of proving or monitoring an intervention is proportionate to the decision value and whether the organization can absorb material transition effects without undermining the intervention before stable execution is reached.
 
 The first coherent answer remains something to challenge rather than protect.
 
