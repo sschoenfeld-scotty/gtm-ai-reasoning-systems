@@ -125,6 +125,58 @@ Whether explicit Operating Continuity inspection identifies execution failures i
 
 This should be tested through live use rather than treated as formal validation.
 
+## Canonical Refinement 003
+
+### Reasoning Integrity Refinements
+
+**Date captured**  
+September 2026
+
+**Source context**  
+A review of recent Full Stack v5 and Human Pattern refinements against canonical GTM v9 identified four places where the GTM framework could make existing reasoning more deterministic without changing its six-lens architecture or governing-constraint center.
+
+The review deliberately excluded presentation and manager-interface simplification. The decision criterion was whether a change improves what GTM v9 notices, distinguishes, tests, updates, or decides behind the scenes after the framework is applied.
+
+### Canonical decision
+
+**Classification**  
+Diagnostic and evidence-discipline refinement
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The approved refinements are
+
+- **Anchoring resistance** when a strong preferred explanation exists before evidence review
+- **Evidence dependency** when apparent agreement across the Three Truths may trace back to the same underlying source
+- **Expanded behavioral inference** that separates observed behavior from stated accounts and tests structural or systemic explanations before motive materially influences causal diagnosis
+- **Reconsideration boundaries** that make explicit when a prior diagnosis or action decision must be reopened without treating the trigger itself as automatic falsification
+
+These refinements do not create new peer lenses or a new engagement phase.
+
+They preserve the six-lens architecture, the Three Truths structure, the Causal Constraint Engine, the Strategic Action Gate, and the Discover → Test → Diagnose → Design → Install sequence.
+
+### Evidence status
+
+The changes are accepted canonical reasoning refinements because the audit identified specific reasoning vulnerabilities and existing architecture that could absorb them cleanly.
+
+They are not formally validated improvements.
+
+### Field calibration questions
+
+Future use should test
+
+- whether Anchoring resistance materially changes evidence selection, confidence, or diagnosis when leadership begins with a strong preferred explanation
+- whether Evidence dependency inspection identifies false corroboration without creating unnecessary skepticism when evidence is genuinely distinct
+- whether the expanded behavioral inference guardrail improves causal diagnosis without creating unnecessary motive analysis when the ambiguity would not change the decision
+- whether Reconsideration boundaries improve recursive diagnosis without turning a missed threshold into automatic falsification
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
