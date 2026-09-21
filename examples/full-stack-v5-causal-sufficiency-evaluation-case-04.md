@@ -90,6 +90,12 @@ A POC, reference call, technical proof, trial, security review, or another proof
 
 The mechanism should follow what the buyer still needs proven.
 
+That also requires a buyer-relevant success condition tied to the customer use case, pain, or desired outcome.
+
+The condition does not have to be a single quantitative metric in every case.
+
+It does need to make the value hypothesis specific enough that the buyer can determine whether the relevant uncertainty was actually resolved.
+
 This produced a stronger sequence.
 
 ~~~mermaid
@@ -155,6 +161,8 @@ It invokes a legitimate enterprise-sales concept in champion development.
 Its final sentence is directionally desirable.
 
 That rhetorical quality matters because it initially influenced the evaluator.
+
+The answer also extended a legitimate point already present in the source post about champion enablement, which made the shortcut easier to accept.
 
 The first comparison gave the answer substantial credit and treated the second-audience idea as a potentially sharper intellectual move.
 
@@ -244,6 +252,22 @@ Solution Education translates Discovery into a customer-specific solution hypoth
 Validation tests whether the business and technical hypothesis can be proven.
 
 This case gives that distinction a concrete failure pattern.
+
+## Open Retrieval Question
+
+A later review found that the canonical GTM v9 buyer-progression logic already contained the relevant distinction between Discovery, Solution Education, and Validation.
+
+The original source was entirely about demos, yet the initial Full Stack reasoning did not immediately surface the broader failure pattern in which generic Solution Education can push unfinished education work into Validation.
+
+That miss should remain visible.
+
+It may reflect an execution or retrieval gap rather than an architecture gap.
+
+The GTM framework was not explicitly invoked in the original request, and the relevant domain connection may simply not have been retrieved strongly enough during the first pass.
+
+One case is not enough to determine which explanation is stronger.
+
+No framework modification follows from this observation.
 
 ## Why the How Matters
 
