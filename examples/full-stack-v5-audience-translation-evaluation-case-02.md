@@ -157,9 +157,9 @@ The case is consistent with a useful Full Stack v5 behavior.
 
 > **A statement can remain factually true while becoming practically misleading when it crosses a stakeholder boundary.**
 
-The reasoning improved the fit between source truth, audience, and operating meaning.
+The reasoning appears to have improved the fit between source truth, audience, and operating meaning.
 
-That is stronger evidence of reasoning utility than a simple rewrite would provide.
+That is consistent with reasoning utility beyond a simple rewrite, but the retrospective design prevents stronger attribution.
 
 It does not establish customer impact.
 
@@ -185,7 +185,7 @@ No Full Stack architecture change follows from this case.
 
 The current public architecture already contains the relevant mechanisms through Source Truth, Communication Function, Cascade Integrity, and Operator Proof.
 
-The case is therefore better treated as evaluation evidence of the current architecture working as intended than as evidence that a new rule is required.
+The case is therefore better treated as a bounded evaluation case consistent with the current architecture than as evidence that a new rule is required.
 
 ## Cross-Case Note
 
