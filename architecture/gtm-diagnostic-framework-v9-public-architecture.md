@@ -225,6 +225,8 @@ A client may combine or rename stages.
 
 The framework cares about whether the underlying buyer dependencies exist and whether they are supported by evidence.
 
+One failure pattern is breadth substituting for relevance during Solution Education. A buyer can become interested in the product without a sufficiently specific customer hypothesis being established. When that happens, Validation can inherit unfinished education work and become another product-learning event rather than a test of what remains uncertain.
+
 A stalled validation event may therefore originate upstream rather than being a technical-validation problem.
 
 ## Time, Compelling Events, and Forecast Integrity
