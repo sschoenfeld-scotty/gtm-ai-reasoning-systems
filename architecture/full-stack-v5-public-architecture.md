@@ -210,6 +210,8 @@ On Deep Path work, when the user arrives with a preferred position, the framewor
 
 Outcomes can strengthen or weaken a diagnosis, but they do not automatically prove why the outcome occurred.
 
+When a material conclusion depends heavily on self-report, internal reporting, or dependent sources, the framework distinguishes repeated reporting from independent corroboration rather than counting repetition as stronger evidence.
+
 For behavioral reasoning, observed behavior, a person's stated account, and the inferred driver remain distinct. Repetition, incentives, familiarity, or operator experience can change confidence or prior plausibility without becoming proof of motive.
 
 Evidence can remain historically accurate while becoming stale for the current decision. When a material fact depends on time or changing conditions, Full Stack inspects whether it remains decision-relevant and what change would require reassessment. Self-report and repeated internal reporting are evaluated by provenance and independence rather than being silently treated as corroboration.
@@ -259,6 +261,8 @@ When deliberate tolerance, deferral, containment, or another persistent form of 
 If action is warranted, the system identifies the practical change most likely to alter the trajectory. If non-intervention is strategically stronger, that becomes an explicit decision rather than a failure to recommend something.
 
 The reasoning is then tested against operating reality, including ownership, evidence, measurability, handoffs, incentives, implementation constraints, and likely rebuttal.
+
+When measurement requires material reporting or inspection overhead, Operator Proof tests whether that burden is proportionate to the decision value and evidence need.
 
 When a decision must travel through organizational layers before action, Operator Proof also tests whether the strategic intent is likely to survive translation into actual frontline behavior and customer experience.
 
