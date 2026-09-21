@@ -87,7 +87,9 @@ I compare three views.
 | **Business data** | Pipeline, conversion, forecast, bookings, velocity, retention, expansion, pricing, capacity, and other measurable operating signals |
 | **Field and customer evidence** | What buyers actually do, what sellers and managers actually do, what conversations reveal, how procurement behaves, and where handoffs or decisions break |
 
-Agreement across the three increases confidence.
+Agreement across the three increases confidence when the underlying support is meaningfully distinct.
+
+If leadership belief, the dashboard, and field inspection all inherit the same seller-entered assumption, the apparent agreement is weaker than three independent confirmations.
 
 Disagreement is often more useful.
 
@@ -128,6 +130,10 @@ Manager inspection can shape seller behavior.
 Seller behavior can then appear to confirm the original explanation.
 
 The purpose of evidence discipline is to interrupt that loop when the evidence does not support it.
+
+The same discipline applies at the beginning of the diagnostic. A strong leadership explanation is useful context, but it should remain a hypothesis rather than an instruction about which evidence deserves attention.
+
+Human behavior requires the same restraint. Observable behavior can support a hypothesis about what is driving it. It does not prove motive. When the behavioral explanation matters to the diagnosis, I also test whether incentives, role design, authority, information, or other structural conditions could produce the same behavior.
 
 ## Causality Over Chronology
 
@@ -187,6 +193,8 @@ The operating questions become
 This is not an argument for endless analysis.
 
 It is a way to avoid treating a dynamic system as though one diagnosis remains correct forever.
+
+For material decisions, v9 can also establish a reconsideration boundary. That is an observable condition that requires the prior diagnosis or action decision to be reopened. Crossing it is not automatic proof that the prior call was wrong. It is a reason to re-enter the evidence and determine whether the causal hypothesis weakened, execution failed, or another constraint became binding.
 
 ## Buyer Movement Over Seller Activity
 
