@@ -78,7 +78,9 @@ flowchart LR
 
 **Pressure Test and Confidence** asks whether the reasoning survives missing evidence, competing explanations, operating reality, likely failure, and material uncertainty.
 
-Current v5 refinements stay nested inside these functions rather than appearing as additional peer stages. They include Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
+Current v5 refinements stay nested inside these functions rather than appearing as additional peer stages. They include Reasoning Depth Routing, Context Intake Discipline, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
+
+Context Intake Discipline separates the primary source from supplied comments, related artifacts, operating experience, and user-preferred interpretations before reasoning begins. Agreement with a user angle does not make that angle mandatory in the final output.
 
 Behavioral Inference Discipline operates primarily through Human Pattern 1. It makes one recurring problem more explicit: behavior can matter to a diagnosis even when motive cannot be directly observed. The framework now separates observed behavior, stated accounts, inferred drivers, and structural or systemic explanations, then spends additional behavioral reasoning only when the ambiguity could materially change the decision.
 
@@ -310,6 +312,7 @@ The case remains in its own repository. It is not direct validation of Full Stac
 These entries preserve live observations and bounded external evidence. They do not establish formal validation.
 
 - [Full Stack v5 Routing Evaluation Case 01](examples/full-stack-v5-routing-evaluation-case-01.md) records sequential observations under changing information. The runs are consistent with intended routing behavior without isolating its causal effect.
+- [Full Stack v5 Field Case 02](evidence/2026-09-20-full-stack-v5-brock-linkedin-field-case.md) preserves a naturalistic LinkedIn execution that produced a strong subjective quality signal after substantial same-day framework revision. It does not attribute the result to any specific refinement.
 - [Model-Tier Confidence Effect N-of-1 Pilot](evidence/2026-09-20-model-tier-confidence-n1-pilot.md) records an indeterminate randomized-label pilot, the critique-validity lesson it exposed, and a bounded BIE evidence-environment research implication.
 - [Open-ended Collaboration](evidence/2026-09-14-open-ended-collaboration.md) is a contemporaneous observation and working hypothesis captured before the outcome was known. It records no canonical framework change.
 - [Independent Execution Variance](evidence/2026-09-19-full-stack-v5-independent-execution-variance.md) preserves an observational comparison between independent Full Stack v5 executions without claiming an environment advantage.
