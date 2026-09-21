@@ -7,7 +7,7 @@
 
 > **Historical source context**
 >
-> This work-in-progress research note records development context drawn from Full Stack v4 and GTM Diagnostic Framework v8. References to current sources below describe that earlier context. [Full Stack v5](../architecture/full-stack-v5-public-architecture.md) and [GTM Diagnostic Framework v9](../architecture/gtm-diagnostic-framework-v9-public-architecture.md) are the current framework versions.
+> This work-in-progress research note records development context drawn from Full Stack v4 and GTM Diagnostic Framework v8. References to current sources below describe that earlier context. The current canonical Full Stack and GTM Diagnostic Framework sources are authoritative. At the time of this note's most recent verification, those are [Full Stack v5](../architecture/full-stack-v5-public-architecture.md) and [GTM Diagnostic Framework v9](../architecture/gtm-diagnostic-framework-v9-public-architecture.md).
 >
 > This note does not claim a complete reassessment of the Behavioral Inference Engine against the later private frameworks. A September 2026 N-of-1 pilot has been added below as bounded research evidence about the evidence environment. It does not make BIE canonical or validated.
 
@@ -75,7 +75,7 @@ The current source frameworks already establish the core constraint.
 
 > **Observable behavior creates a hypothesis about motive. It does not prove motive.**
 
-Full Stack v5 keeps observation, stated account, and inferred driver distinct when human behavior matters. Behavioral Inference Discipline now makes that reasoning more explicit inside Human Pattern 1 without claiming motive certainty.
+The current canonical Full Stack framework keeps observation, stated account, and inferred driver distinct when human behavior matters. Behavioral Inference Discipline makes that reasoning more explicit inside Human Pattern 1 without claiming motive certainty.
 
 GTM Diagnostic Framework v9 applies the same attribution discipline inside commercial diagnosis. It states that behavior does not prove motive and that incentives are relevant evidence rather than proof of intent.
 
@@ -204,7 +204,7 @@ The decision should not require certainty about motive when the unresolved behav
 
 For example, leadership may not need to know whether weak pipeline subtraction reflects fear, incentives, habit, structural pressure, or poor judgment before changing an inspection standard and observing what happens.
 
-Inside Full Stack v5, Behavioral Inference Discipline calibrates the behavioral explanation while Strategic Adjudication retains responsibility for reversibility, downside, cost of delay, opportunity cost, and whether action is warranted.
+Inside the current canonical Full Stack framework, Behavioral Inference Discipline calibrates the behavioral explanation while Strategic Adjudication retains responsibility for reversibility, downside, cost of delay, opportunity cost, and whether action is warranted.
 
 This preserves human judgment while reducing both the temptation to psychoanalyze and the temptation to wait for motive certainty that the decision does not require.
 
@@ -425,9 +425,9 @@ flowchart LR
 
 That loop is a design direction, not yet a validated engine architecture.
 
-## Relationship to Full Stack v5
+## Relationship to the Current Canonical Full Stack Framework
 
-Several BIE disciplines are now sufficiently defined to inform Full Stack v5 through **Behavioral Inference Discipline**, executed primarily through Human Pattern 1.
+Several BIE disciplines are now sufficiently defined to inform the current canonical Full Stack framework through **Behavioral Inference Discipline**, executed primarily through Human Pattern 1.
 
 Those exported disciplines include
 
@@ -449,7 +449,7 @@ The boundary is
 
 > **Full Stack decides how much behavioral inference the current decision requires. BIE develops how behavioral understanding should accumulate and revise across time.**
 
-This export is an architecture decision inside Full Stack v5. It is not validation of BIE as a standalone system.
+This export is an architecture decision inside the current canonical Full Stack framework. It was incorporated in Full Stack v5 and is not validation of BIE as a standalone system.
 
 ## Relationship to GTM Diagnostic Framework v9
 
@@ -559,7 +559,7 @@ A system that produces more elaborate stories about people would fail the intend
 
 The evidence for BIE today is limited.
 
-The underlying attribution discipline exists in current Full Stack v5 and GTM v9. Full Stack v5 now includes Behavioral Inference Discipline as a refinement, but that architecture decision is not validation of BIE as a standalone system.
+The underlying attribution discipline exists in the current canonical Full Stack and GTM Diagnostic Framework sources. Full Stack includes Behavioral Inference Discipline as a refinement, but that architecture decision is not validation of BIE as a standalone system.
 
 The need for longitudinal behavioral inference and disciplined model revision remains a next-stage design problem.
 
@@ -612,7 +612,7 @@ The public claim should remain proportional to the evidence.
 
 The Behavioral Inference Engine is best described as a **work-in-progress research direction for longitudinal behavioral inference under evidence discipline**.
 
-Several of its bounded reasoning disciplines now inform Full Stack v5 through Behavioral Inference Discipline and Human Pattern 1.
+Several of its bounded reasoning disciplines now inform the current canonical Full Stack framework through Behavioral Inference Discipline and Human Pattern 1.
 
 That does not make BIE implemented or validated as a standalone engine.
 

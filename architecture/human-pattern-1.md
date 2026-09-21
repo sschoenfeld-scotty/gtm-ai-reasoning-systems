@@ -1,14 +1,16 @@
 # Human Pattern 1
 
-> Public architecture note | Full Stack v5 capability | September 2026
+> Public architecture note | Current Full Stack capability | September 2026
 
 ## Status
 
-Human Pattern 1 is an established capability inside Full Stack v5.
+Human Pattern 1 is an established capability inside the current canonical Full Stack framework.
 
 It is not a standalone framework, a personality model, or a motive-detection system.
 
 The private Full Stack Operating Manual and Execution Prompt remain the canonical implementation. This document publishes enough of the architecture to make the reasoning inspectable without exposing the complete operating procedure.
+
+At the time of this note's most recent verification, Full Stack v5 is the current canonical Full Stack framework. If the canonical framework changes, this public derivative should be rechecked for fidelity before the newer version is assumed to preserve Human Pattern 1 unchanged.
 
 ## Why It Exists
 
@@ -137,7 +139,7 @@ The decision layer weighs that uncertainty alongside reversibility, irreversible
 
 ## Behavioral Inference Discipline
 
-Behavioral Inference Discipline is the sixth named Full Stack v5 refinement.
+Behavioral Inference Discipline is a Full Stack refinement executed primarily through Human Pattern 1.
 
 Its primary execution home is Human Pattern 1, but it also interacts with Evidence Discipline, Competing Explanations, Perspective Triangulation, Operator Proof, Anchoring Resistance, and Strategic Adjudication.
 
@@ -160,7 +162,7 @@ Behavioral Inference Discipline makes those responsibilities more explicit witho
 
 The [Behavioral Inference Engine](../research/behavioral-inference-engine.md) remains a work-in-progress research direction.
 
-Several bounded BIE disciplines are now sufficiently defined to inform Full Stack v5 through Behavioral Inference Discipline.
+Several bounded BIE disciplines are now sufficiently defined to inform the current canonical Full Stack framework through Behavioral Inference Discipline.
 
 The unresolved BIE problem is longitudinal.
 
@@ -195,7 +197,7 @@ The goal is better diagnosis, not more sophisticated speculation about people.
 
 ## Evidence and Limits
 
-Human Pattern 1 and Behavioral Inference Discipline are part of the current Full Stack v5 architecture.
+Human Pattern 1 and Behavioral Inference Discipline are part of the current canonical Full Stack architecture.
 
 That status means the reasoning design has been accepted into the framework.
 
