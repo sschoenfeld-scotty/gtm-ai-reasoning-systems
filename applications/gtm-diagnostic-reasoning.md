@@ -254,6 +254,8 @@ A company can combine or rename CRM stages.
 
 The diagnostic question is whether the underlying buyer progression is observable and evidence based.
 
+A broad product demonstration can create interest without establishing the specific customer hypothesis that Validation should test. When a proof event is still teaching the buyer why to care, I inspect whether the failure occurred in Solution Education before diagnosing Validation itself.
+
 That produces an important implication.
 
 > **A weak POC may not be a POC problem.**
