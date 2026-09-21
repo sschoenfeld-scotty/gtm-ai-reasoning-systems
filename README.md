@@ -129,6 +129,12 @@ v9 therefore reasons more explicitly about
 - a conditional Strategic Action Gate when a correct diagnosis does not automatically justify intervention
 - commercial system coherence across messaging, discovery, qualification, CRM, forecasting, inspection, coaching, and enablement
 - operating continuity across commercial records, field guidance, handoffs, and changes in buying state
+- anchoring resistance when a strong preferred explanation exists before evidence review
+- evidence dependency when apparent agreement may trace back to the same underlying source
+- more disciplined behavioral attribution when human explanations materially affect causal diagnosis
+- reconsideration boundaries that make explicit when a prior diagnosis or action decision should be reopened
+
+These are bounded v9 reasoning refinements rather than new peer lenses.
 
 The six-lens GTM architecture remains intact.
 
@@ -348,7 +354,9 @@ For Full Stack, the next major work is evidence rather than another version numb
 
 For GTM v9, the next work is field calibration.
 
-The highest-value questions include whether dynamic dependency reasoning improves diagnosis across unrelated cases, whether constraint migration can be observed reliably enough to improve decisions, whether explicit commercial-system coherence inspection reveals execution failures that component-by-component inspection misses, whether Operating Continuity exposes failures in record handoff, field usability, or buying-state transition that coherence inspection alone does not surface, whether the conditional Strategic Action Gate adds value without unnecessary ceremony, and whether the newer buyer-timing and commercial-structure distinctions remain useful across different GTM motions.
+The highest-value questions include whether dynamic dependency reasoning improves diagnosis across unrelated cases, whether constraint migration can be observed reliably enough to improve decisions, whether explicit commercial-system coherence inspection reveals execution failures that component-by-component inspection misses, whether Operating Continuity exposes failures that coherence inspection alone does not surface, and whether the current reasoning refinements improve diagnosis without adding false skepticism or unnecessary analytical friction.
+
+That calibration now includes Anchoring resistance, Evidence dependency, the expanded Behavioral inference guardrail, and Reconsideration boundaries.
 
 Future material changes should accumulate until they justify another numbered version.
 
