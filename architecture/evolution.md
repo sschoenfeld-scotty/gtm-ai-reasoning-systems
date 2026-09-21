@@ -426,7 +426,7 @@ Full Stack continues to operate through two private components.
 | Component | Role |
 | --- | --- |
 | **Operating Manual** | Deeper reasoning for complex or consequential work |
-| **Execution Prompt** | Faster application of the same underlying discipline, with an entry consequence gate and routing that can remain fast, use the standard path, or escalate to deeper reasoning |
+| **Execution Prompt** | Faster application of the same underlying discipline, with an entry reasoning-depth gate and routing that can remain fast, use the standard path, or escalate to deeper reasoning |
 
 The two components implement the same v5 architecture at different levels of depth.
 
@@ -436,7 +436,7 @@ Full Stack v5 is the active canonical version for new work.
 
 Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact.
 
-The v5 Operating Manual and Execution Prompt are complete and aligned with the current v5 architecture, including Reasoning Depth Routing with the Mandatory Consequence Declaration, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
+The v5 Operating Manual and Execution Prompt are complete and aligned with the current v5 architecture, including Reasoning Depth Routing with the Mandatory Reasoning Depth Selection and Routing Framing Guardrail, Context Intake Discipline, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
 
 The next Full Stack work is evaluation of the v5 decision capability and current refinements rather than version expansion.
 
@@ -448,7 +448,7 @@ v4 and v3 remain historical source material.
 
 Minor wording, voice, example, execution-routing, framework-development governance, evaluation, or nested reasoning refinements should update v5 rather than create a numbered release.
 
-Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline are current v5 refinements. The Mandatory Consequence Declaration remains inside Reasoning Depth Routing. The post-execution two-lane carry-forward control governs framework development rather than adding a peer reasoning stage. None of these creates v5.1 or v6.
+Reasoning Depth Routing, Context Intake Discipline, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline are current v5 refinements. The Mandatory Reasoning Depth Selection and Routing Framing Guardrail remain inside Reasoning Depth Routing. The post-execution two-lane carry-forward control governs framework development rather than adding a peer reasoning stage. None of these creates v5.1 or v6.
 
 A future **v5.1** should require an additive reasoning capability that materially expands what Full Stack must reason about across recurring cases while preserving v5's core purpose and governing reasoning spine. Specifying an existing function more explicitly does not by itself justify v5.1. Neither does a change in framework-development governance or the addition of capture or evaluation discipline.
 
