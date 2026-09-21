@@ -70,7 +70,7 @@ This was an architectural improvement to the instruction set rather than evidenc
 
 The incident is consistent with a narrower hypothesis.
 
-> **A same-context self-audit can preserve blind spots from the reasoning path that produced the artifact. A fresh-context review may expose a different failure because it does not inherit the same local reasoning momentum.**
+> **A same-context self-audit can preserve blind spots from the reasoning path that produced the artifact. A fresh-context review may expose a different failure because it starts from a different local context and need not inherit the same reasoning momentum.**
 
 The important word is **may**.
 
@@ -176,9 +176,11 @@ The observation concerns reasoning-process path dependence rather than longitudi
 
 ## Evidence maturity
 
-This entry is **repeated observational evidence**.
+This entry is **repeated observational evidence for the review-independence hypothesis**.
 
 It is stronger than a single anecdote because a related fresh-execution hypothesis had already appeared in a separate task.
+
+It does not establish that the same causal mechanism produced both observations.
 
 It remains weaker than structured testing because review conditions were not prospectively controlled, randomized, or blinded.
 
