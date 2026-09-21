@@ -201,13 +201,13 @@ Did Full Stack make evidence boundaries, behavioral dynamics, alternatives, or i
 
 After that reasoning, did the AI-assisted response improve on the experienced human's compressed public expression?
 
-The current case supports a stronger claim on the first question than the second.
+The current case provides stronger support for the first question than the second.
 
 ## Working Evaluation Finding
 
 The case is consistent with useful Full Stack v5 and Human Pattern 1 behavior.
 
-Richer context improved the reasoning without converting context into motive certainty.
+Richer context appears to have improved the reasoning without converting context into motive certainty.
 
 The reasoning also became more disciplined about what should be expressed publicly.
 
