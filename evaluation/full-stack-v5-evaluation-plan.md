@@ -323,6 +323,14 @@ The test is whether the routing behavior preserved user authority over the minim
 
 When supplied comments, screenshots, related artifacts, operating experience, or a user-preferred angle are present, inspect whether Full Stack classified them before using them.
 
+### 5B. Inspect temporal relevance and source independence
+
+When material evidence is time-sensitive or condition-dependent, test whether Full Stack distinguishes historical truth from current decision relevance and identifies what change would require reassessment.
+
+When a material conclusion depends heavily on self-report, internal reporting, or dependent sources, test whether the framework distinguishes repeated reporting from independent corroboration.
+
+A failure includes treating prior verification as indefinite validity or counting dependent repetition as independent confirmation.
+
 Third-party comments should help establish surrounding conversation and occupied intellectual territory without being silently promoted into verified facts.
 
 User-provided factual claims should remain subject to evidence standards. Relevant operating experience may inform prior plausibility. A user-preferred angle should remain a candidate rather than an output obligation.
@@ -358,6 +366,16 @@ If material uncertainty remained, inspect whether it was carried into Strategic 
 ### 7. Inspect Decision Trace Integrity
 
 When a prior decision is being explained retrospectively, record whether v5 keeps the later account separate from contemporaneous evidence.
+
+### 7A. Inspect reconsideration boundaries, transition effects, and measurement burden
+
+When Strategic Adjudication selects tolerance, deferral, containment, or another persistent non-intervention, inspect whether an explicit reconsideration boundary is created when material.
+
+Crossing that boundary should reopen reasoning rather than automatically force intervention.
+
+When an intervention requires a material transition, inspect whether Prognosis plays the transition forward and whether Operator Proof tests whether the organization can absorb it without undermining the intervention.
+
+When measurement is required to prove the intervention, inspect whether the burden is proportionate to the decision value and whether measurement itself changes the operating condition.
 
 Ask whether the retrospective account is corroborated, contradicted, incomplete, or indeterminate based on the frozen case rather than on intuition about memory or motive.
 
@@ -489,7 +507,29 @@ The entry question or choices unnecessarily prime failure, threat, responsibilit
 
 ### Context intake collapse
 
-Supplied comments, artifacts, user facts, experience, and preferred interpretation are treated as one undifferentiated source. The framework either launders context into evidence or treats the user's angle as something the final output must preserve.
+Supplied comments, artifacts, user facts, experience, and preferred interpretation are treated as one undifferentiated source.
+
+### Temporal-validity failure
+
+Verified evidence is treated as indefinitely decision-valid even though its relevance depends on time or changing conditions.
+
+### Dependent-source inflation
+
+Repeated self-report or internal reporting is treated as independent corroboration.
+
+### Passive tolerance
+
+A deliberate decision not to intervene persists without a material reconsideration boundary even when later review value is foreseeable.
+
+### Transition blindness
+
+The framework evaluates the intended steady state while ignoring material disruption required to reach it.
+
+### Measurement-burden blindness
+
+The proof system required to monitor an intervention materially changes frontline capacity or intervention economics without being reflected in the decision.
+
+The evaluation should test whether measurement burden is proportionate to the decision value and evidence need rather than rewarding more instrumentation by default. The framework either launders context into evidence or treats the user's angle as something the final output must preserve.
 
 ### Routing underreach
 
