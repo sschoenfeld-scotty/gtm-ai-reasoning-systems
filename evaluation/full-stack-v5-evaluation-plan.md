@@ -14,7 +14,7 @@ Existing Full Stack v4 evidence remains v4 evidence. The reconstructed cases, Ev
 
 The purpose of this plan is narrower.
 
-It asks whether v5 improves decision quality in cases where the diagnosis may already be correct but the decision to intervene is still uncertain, whether it obtains explicit user consequence before routing and honors that declaration as the minimum reasoning depth, whether it escalates when observable reasoning risk warrants it, whether it detects causal feedback created by signaling without inventing causality, whether it catches material translation failure without assuming organizational handoffs are inherently destructive, whether it preserves enough decision history to evaluate later reasoning without confusing retrospective explanation with contemporaneous evidence, and whether Deep Path reasoning can resist a substantive user-supplied anchor without manufacturing disagreement or unnecessary process.
+It asks whether v5 improves decision quality in cases where the diagnosis may already be correct but the decision to intervene is still uncertain, whether it obtains explicit user-selected minimum rigor before routing and honors that declaration as the minimum reasoning depth, whether it escalates when observable reasoning risk warrants it, whether it detects causal feedback created by signaling without inventing causality, whether it catches material translation failure without assuming organizational handoffs are inherently destructive, whether it preserves enough decision history to evaluate later reasoning without confusing retrospective explanation with contemporaneous evidence, and whether Deep Path reasoning can resist a substantive user-supplied anchor without manufacturing disagreement or unnecessary process.
 
 ## What Changed in v5
 
@@ -29,7 +29,7 @@ A separate conditional **Communication Function** check is also available when m
 
 Six later refinements now sit inside the same v5 architecture.
 
-- **Reasoning Depth Routing** requires explicit user-declared consequence before routing, treats that declaration as the minimum reasoning depth, and allows observable reasoning risk to escalate the route.
+- **Reasoning Depth Routing** requires explicit user-selected minimum rigor before routing, treats that declaration as the minimum reasoning depth, and allows observable reasoning risk to escalate the route.
 - **Reflexivity** sits inside System Dynamics and tests whether signaling itself changes the resources or behavior that govern feasibility.
 - **Cascade Integrity** sits inside Operator Proof and tests whether strategic intent materially changes as it travels through organizational handoffs.
 - **Decision Trace Integrity** distinguishes retrospective rationale from contemporaneous decision evidence and preserves a compact decision state when consequence warrants later comparison.
@@ -50,7 +50,7 @@ That isolates the major v5 reasoning capability rather than giving v5 credit for
 
 The current refinements add six secondary questions.
 
-> **Does v5 obtain explicit user consequence before routing, honor it as the minimum reasoning depth, and escalate only when observable reasoning risk warrants it?**
+> **Does v5 obtain explicit user-selected minimum rigor before routing, honor it as the minimum reasoning depth, and escalate only when observable reasoning risk warrants it?**
 
 > **When signaling changes the system, does v5 detect the reflexive loop without confusing influence with proof of causality?**
 
@@ -84,7 +84,7 @@ A separate baseline-versus-v5 comparison can still be useful for broader system 
 | **Communication function discipline** | When communication purpose matters, does v5 distinguish plausible functions without converting incentive or context into unsupported motive? |
 | **Ruin and irreversibility** | Does v5 identify credible material irreversible downside without treating theoretical catastrophe as an automatic veto? |
 | **Strategic worth** | Does v5 make scarce-resource tradeoffs explicit rather than assuming every diagnosed constraint deserves intervention? |
-| **Reasoning depth routing** | Does v5 obtain explicit user consequence before routing, treat that declaration as the minimum reasoning depth, and escalate only when observable reasoning properties such as reversibility, evidence quality, causal uncertainty, stakeholder complexity, material tradeoffs, or credible irreversible downside warrant deeper scrutiny? |
+| **Reasoning depth routing** | Does v5 obtain explicit user-selected minimum rigor before routing, treat that declaration as the minimum reasoning depth, and escalate only when observable reasoning properties such as reversibility, evidence quality, causal uncertainty, stakeholder complexity, material tradeoffs, or credible irreversible downside warrant deeper scrutiny? |
 | **Reflexivity discipline** | When signaling changes resources or behavior, does v5 identify the feedback loop without treating narrative influence as automatic proof of the later outcome? |
 | **Cascade integrity** | Does v5 identify material translation variance across organizational handoffs without assuming that local adaptation is necessarily distortion? |
 | **Decision trace integrity** | Does v5 distinguish retrospective rationale from contemporaneous evidence and preserve enough original decision state to support later evaluation when consequence warrants it? |
@@ -281,7 +281,7 @@ Create a fixed evidence packet and decision question.
 
 Do not give one version evidence that the other does not receive.
 
-For routing cases, freeze whether user consequence is explicitly stated, unstated, lower than observable reasoning risk, or uncertain. Do not let reviewers infer a different consequence state after seeing the output.
+For routing cases, freeze whether user-selected minimum rigor is explicitly stated, unstated, lower than observable reasoning risk, or uncertain. Do not let reviewers infer a different reasoning-depth state after seeing the output.
 
 For Decision Trace Integrity cases, freeze the contemporaneous decision evidence separately from any later retrospective account so reviewers can determine whether the framework keeps those evidence states distinct.
 
@@ -297,7 +297,7 @@ Do not alter v4 to make it more competitive with v5.
 
 Use the same case and context with the current v5 architecture.
 
-Record whether user consequence was already explicit or had to be requested, the declared consequence, the resulting minimum route, any evidence-supported escalation, the diagnosis, Strategic Adjudication result when material, any Reflexivity or Cascade Integrity finding when material, any Decision Trace Integrity finding when material, any Anchoring Resistance effect when triggered, any Behavioral Inference Discipline effect when triggered, confidence, recommendation, and supporting rationale.
+Record whether user-selected minimum rigor was already explicit or had to be requested, the selected minimum rigor, the resulting minimum route, any evidence-supported escalation, the diagnosis, Strategic Adjudication result when material, any Reflexivity or Cascade Integrity finding when material, any Decision Trace Integrity finding when material, any Anchoring Resistance effect when triggered, any Behavioral Inference Discipline effect when triggered, confidence, recommendation, and supporting rationale.
 
 ### 4. Separate diagnosis from decision
 
@@ -309,7 +309,7 @@ That remains the core v5 test.
 
 ### 5. Inspect the routing decision
 
-Ask first whether Full Stack obtained explicit user consequence before routing when the context did not already establish it.
+Ask first whether Full Stack obtained explicit user-selected minimum rigor before routing when the context did not already establish it.
 
 Then ask whether the selected reasoning depth respected the user's declaration as the minimum route.
 
@@ -317,7 +317,19 @@ If the route escalated above that minimum, identify the observable reasoning pro
 
 A fast path should not win merely because it is shorter. A deep path should not win merely because it is more complete.
 
-The test is whether the routing behavior preserved human authority over consequence while using observable reasoning risk to determine whether additional scrutiny was warranted.
+The test is whether the routing behavior preserved user authority over the minimum reasoning depth while using observable reasoning risk to determine whether additional scrutiny was warranted.
+
+### 5A. Inspect Context Intake Discipline
+
+When supplied comments, screenshots, related artifacts, operating experience, or a user-preferred angle are present, inspect whether Full Stack classified them before using them.
+
+Third-party comments should help establish surrounding conversation and occupied intellectual territory without being silently promoted into verified facts.
+
+User-provided factual claims should remain subject to evidence standards. Relevant operating experience may inform prior plausibility. A user-preferred angle should remain a candidate rather than an output obligation.
+
+A positive case may show Full Stack agreeing with the user's angle while selecting a different supported intellectual move because it is sharper, less obvious, more useful, or better suited to the objective.
+
+For evaluation that depends on independent human-versus-model judgment, freeze the source and model read before revealing the user's interpretation. Do not describe a retrospective reconstruction as blind if the winning answer is already known.
 
 ### 6. Inspect Anchoring Resistance when triggered
 
@@ -401,7 +413,7 @@ The existing qualitative categories remain useful.
 | --- | --- |
 | **Improved** | v5 materially improves the strategic decision, routing choice, causal model, execution assessment, interpretation of prior reasoning, or handling of a substantive user anchor while preserving or strengthening evidence discipline |
 | **No material change** | v5 adds little because the v4 recommendation was already strategically sound or the new refinement was not material to the case |
-| **Degraded** | v5 introduces unsupported risk aversion, invented opportunity cost, analytical bloat, causal overreach, translation bias, retrospective skepticism, trace bureaucracy, routing-gate failure, consequence-inference overreach, user-anchor capture, manufactured disagreement, unnecessary Deep Path ceremony, or a worse decision |
+| **Degraded** | v5 introduces unsupported risk aversion, invented opportunity cost, analytical bloat, causal overreach, translation bias, retrospective skepticism, trace bureaucracy, routing-gate failure, routing-framing or minimum-rigor inference overreach, user-anchor capture, manufactured disagreement, unnecessary Deep Path ceremony, or a worse decision |
 | **Indeterminate** | The frozen evidence is insufficient to determine which reasoning path is stronger |
 
 These are not benchmark scores or statistical validation.
@@ -419,7 +431,7 @@ Examples include
 - recognizing that strategic signaling changed a real operating constraint while preserving causal uncertainty
 - identifying a meaningful organizational translation failure that changes what the field or customer will actually experience
 - recognizing that local translation improved a weak executive decision rather than treating deviation as failure
-- obtaining user consequence before routing when it was not already explicit
+- obtaining user-selected minimum rigor before routing when it was not already explicit
 - honoring an explicit routine-and-reversible declaration and using Fast Path only when observable reasoning properties support it
 - preserving Standard or Deep as the minimum when the user declares greater consequence even if the artifact is simple
 - escalating above the user's minimum only when observable reasoning risk supports deeper scrutiny
@@ -471,9 +483,17 @@ Audience, incentives, or timing are converted into asserted motive.
 
 Routine or reversible work is routed through unnecessary layers that do not materially improve the judgment.
 
+### Routing framing contamination
+
+The entry question or choices unnecessarily prime failure, threat, responsibility, or another directional interpretation that can distort the reasoning-depth selection.
+
+### Context intake collapse
+
+Supplied comments, artifacts, user facts, experience, and preferred interpretation are treated as one undifferentiated source. The framework either launders context into evidence or treats the user's angle as something the final output must preserve.
+
 ### Routing underreach
 
-A short or familiar-looking task stays on the fast path even though the user's declared consequence or observable reasoning risk requires deeper scrutiny.
+A short or familiar-looking task stays on the fast path even though the user's selected minimum rigor or observable reasoning risk requires deeper scrutiny.
 
 ### Consequence inference overreach
 
@@ -481,11 +501,11 @@ The model assigns personal, political, financial, reputational, or strategic imp
 
 ### Gate bypass
 
-The framework produces a Full Stack output before obtaining explicit user consequence when the context did not already establish it.
+The framework produces a Full Stack output before obtaining explicit user-selected minimum rigor when the context did not already establish it.
 
 ### User-floor violation
 
-The model routes shallower than the user's declared consequence permits.
+The model routes shallower than the user's selected minimum rigor permits.
 
 ### Unsupported escalation
 
@@ -651,7 +671,7 @@ This v5 plan is additive. It exists to evaluate the new decision capability and 
 
 ## Next Evidence Step
 
-The next useful step is to build a small frozen v5 case set that includes positive and negative tests of Strategic Adjudication, Reasoning Depth Routing with the Mandatory Consequence Declaration, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
+The next useful step is to build a small frozen v5 case set that includes positive and negative tests of Strategic Adjudication, Reasoning Depth Routing with the Mandatory Reasoning Depth Selection and Routing Framing Guardrail, Context Intake Discipline, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
 
 The evaluation design should also pre-register how reviewer challenges will be adjudicated, rather than using challenge frequency as a proxy for reasoning quality, and should identify the reference standard for any claim of correctness or fidelity.
 
