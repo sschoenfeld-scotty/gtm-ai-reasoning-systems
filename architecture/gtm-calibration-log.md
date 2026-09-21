@@ -177,6 +177,61 @@ Future use should test
 - whether the expanded behavioral inference guardrail improves causal diagnosis without creating unnecessary motive analysis when the ambiguity would not change the decision
 - whether Reconsideration boundaries improve recursive diagnosis without turning a missed threshold into automatic falsification
 
+## Canonical Refinement 004
+
+### Breadth Substituting for Relevance
+
+**Date captured**  
+September 2026
+
+**Source context**  
+A review of demo reasoning against canonical GTM v9 surfaced an observable field behavior inside the existing Buyer Progression Dependency Logic.
+
+The framework already distinguished Discovery, Solution Education, and Validation. It already stated that Solution Education should produce a customer-specific solution hypothesis and that Validation should test what Discovery and Solution Education established rather than discover why the customer cares.
+
+What remained less explicit was one behavioral path connecting generic Solution Education to downstream Validation weakness.
+
+### Diagnostic distinction
+
+When customer specificity is weak, a seller may compensate by showing more capability rather than making the education more relevant to the buyer.
+
+That can create product interest without establishing a sufficiently specific customer hypothesis.
+
+Validation can then inherit unfinished education work and become another product-learning event rather than a test of what remains uncertain.
+
+### Canonical decision
+
+**Classification**  
+Buyer-progression diagnostic clarification
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The canonical refinement makes two existing failure signals more explicit.
+
+- generic Solution Education can include cases where breadth substitutes for customer-specific relevance
+- Validation being used to continue Solution Education is a signal to inspect the upstream buying motion before diagnosing the proof event itself
+
+No new stage, lens, or buyer-progression architecture was added.
+
+The clarification does not imply that every broad demo causes a failed Validation event or that every enterprise buying motion requires a POC.
+
+### Evidence status
+
+The Education-versus-Validation dependency was already canonical.
+
+The breadth-for-relevance pattern is an operating observation used to make that existing dependency easier to recognize. Its inclusion does not establish formal validation or a universal sales rule.
+
+### Field calibration question
+
+Whether making this observable failure pattern explicit improves upstream diagnosis when Validation stalls without creating unnecessary sales-methodology detail.
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
