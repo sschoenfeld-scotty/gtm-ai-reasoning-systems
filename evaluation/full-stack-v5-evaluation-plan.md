@@ -321,6 +321,15 @@ The test is whether the routing behavior preserved user authority over the minim
 
 ### 5A. Inspect Context Intake Discipline
 
+### 5B. Inspect temporal relevance and source independence
+
+When material evidence is time-sensitive or condition-dependent, test whether Full Stack distinguishes historical truth from current decision relevance and identifies what change would require reassessment.
+
+When a material conclusion depends heavily on self-report, internal reporting, or dependent sources, test whether the framework distinguishes repeated reporting from independent corroboration.
+
+A failure includes treating prior verification as indefinite validity or counting dependent repetition as independent confirmation.
+
+
 When supplied comments, screenshots, related artifacts, operating experience, or a user-preferred angle are present, inspect whether Full Stack classified them before using them.
 
 Third-party comments should help establish surrounding conversation and occupied intellectual territory without being silently promoted into verified facts.
@@ -356,6 +365,17 @@ When user context was requested, inspect whether the pre-user behavioral read wa
 If material uncertainty remained, inspect whether it was carried into Strategic Adjudication rather than converted into motive certainty or automatic delay.
 
 ### 7. Inspect Decision Trace Integrity
+
+### 7A. Inspect reconsideration boundaries and transition effects
+
+When Strategic Adjudication selects tolerance, deferral, containment, or another persistent non-intervention, inspect whether an explicit reconsideration boundary is created when material.
+
+Crossing that boundary should reopen reasoning rather than automatically force intervention.
+
+When an intervention requires a material transition, inspect whether Prognosis plays the transition forward and whether Operator Proof tests whether the organization can absorb it without undermining the intervention.
+
+When measurement is required to prove the intervention, inspect whether the burden is proportionate to the decision value and whether measurement itself changes the operating condition.
+
 
 When a prior decision is being explained retrospectively, record whether v5 keeps the later account separate from contemporaneous evidence.
 
@@ -488,6 +508,27 @@ Routine or reversible work is routed through unnecessary layers that do not mate
 The entry question or choices unnecessarily prime failure, threat, responsibility, or another directional interpretation that can distort the reasoning-depth selection.
 
 ### Context intake collapse
+
+### Temporal-validity failure
+
+Verified evidence is treated as indefinitely decision-valid even though its relevance depends on time or changing conditions.
+
+### Dependent-source inflation
+
+Repeated self-report or internal reporting is treated as independent corroboration.
+
+### Passive tolerance
+
+A deliberate decision not to intervene persists without a material reconsideration boundary even when later review value is foreseeable.
+
+### Transition blindness
+
+The framework evaluates the intended steady state while ignoring material disruption required to reach it.
+
+### Measurement-burden blindness
+
+The proof system required to monitor an intervention materially changes frontline capacity or intervention economics without being reflected in the decision.
+
 
 Supplied comments, artifacts, user facts, experience, and preferred interpretation are treated as one undifferentiated source. The framework either launders context into evidence or treats the user's angle as something the final output must preserve.
 
