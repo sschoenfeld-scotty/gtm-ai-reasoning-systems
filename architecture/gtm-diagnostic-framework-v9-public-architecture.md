@@ -54,6 +54,10 @@ v9 makes five connected reasoning disciplines more explicit.
 - recompute the diagnosis when material evidence changes
 - test whether commercial logic and buyer evidence survive handoffs across the operating system
 
+The current v9 field-test architecture also adds bounded reasoning refinements inside that same structure. They strengthen resistance to an initial preferred diagnosis, distinguish independent corroboration from repeated reporting, make behavioral attribution more disciplined, and make the conditions for reopening a prior diagnosis or action decision more explicit.
+
+This is still v9. The six-lens architecture, governing-constraint center, and reasoning spine remain intact.
+
 This is the primary architectural evolution from v8 to v9.
 
 ## Public Architecture Overview
@@ -90,9 +94,11 @@ The public architecture compares three evidence views.
 | **Business data** | Pipeline, conversion, forecast, bookings, velocity, retention, expansion, pricing, capacity, and other measurable signals |
 | **Field and customer evidence** | Buyer behavior, seller execution, manager inspection, customer language, decision movement, procurement behavior, and operating friction |
 
-Agreement increases confidence.
+Agreement increases confidence when the supporting evidence is meaningfully distinct.
 
 Disagreement creates diagnostic signal.
+
+The framework also checks whether apparent agreement is actually independent. A leadership explanation repeated through a dashboard, manager inspection, and seller-entered fields can still trace back to one underlying source. Repetition across surfaces should not be mistaken for separate corroboration.
 
 The framework does not assume leadership belief is wrong, that data explains itself, or that one field observation proves a general pattern.
 
@@ -112,6 +118,8 @@ Examples include
 A contradiction is not automatically the cause.
 
 It identifies where deeper inspection is warranted.
+
+The starting explanation also does not control the evidence search. When leadership enters the diagnostic with a strong preferred explanation, v9 treats that explanation as a hypothesis to test rather than an instruction about what the evidence should prove.
 
 ## 3. Diagnose the Governing Constraint
 
@@ -259,6 +267,8 @@ One public diagnostic question captures the issue well.
 
 > **Who benefits from waiting?**
 
+The framework also separates observed behavior from explanations of motive. When a behavioral explanation materially affects the diagnosis, it tests credible alternatives and asks whether role design, incentives, authority, information, or other structural conditions could produce the same behavior. Unresolved motive uncertainty does not automatically prevent a commercial decision.
+
 v9 also separates commercial variables that are often collapsed together.
 
 Price, duration, total contract value, renewal economics, and buyer optionality can interact without being the same problem.
@@ -354,11 +364,15 @@ The framework is not designed to produce one diagnosis and then defend it.
 
 When material new evidence arrives, the diagnosis should be reopened.
 
+v9 now makes that re-entry condition more explicit when consequence warrants it. A prior diagnosis or action decision can carry a **reconsideration boundary** such as a material event, dependency change, evidence threshold, or time-based condition supported by the causal hypothesis.
+
+Crossing the boundary requires reconsideration. It does not automatically prove that the prior diagnosis was wrong or that intervention is now required.
+
 A positive outcome can strengthen confidence without proving causality.
 
 A negative outcome can weaken confidence without automatically disproving the original diagnosis.
 
-The key v9 question is whether the evidence shows that the current governing constraint has changed.
+The key v9 question is whether the evidence weakens the original causal hypothesis, exposes an execution failure, or shows that another constraint has become binding.
 
 > **Reality retains the right to change the diagnosis.**
 
@@ -412,6 +426,8 @@ It is not formal validation.
 
 Several commercial observations remain explicitly classified as field hypotheses rather than universal truths, including the behavior effects of unenforced discount deadlines and the degree to which rapid AI-market change is increasing buyer preference for contractual optionality.
 
+The current v9 reasoning refinements also remain field-test architecture. Their canonical inclusion reflects identified reasoning gaps and framework review, not formal validation that each refinement improves GTM diagnosis across cases.
+
 The framework should continue to be challenged through live application, evidence capture, calibration, and future version discipline.
 
 ## Related Public Documents
@@ -424,7 +440,7 @@ The framework should continue to be challenged through live application, evidenc
 
 ## Public Architecture in One Line
 
-**Establish what is true → identify the governing constraint → inspect connected variables, reinforcing loops, operating-system coherence, and continuity → determine what becomes binding next → decide whether intervention is warranted when consequence is material → install the operating discipline → re-enter when evidence changes**
+**Establish what is true → test whether the evidence is independently grounded → identify the governing constraint → inspect connected variables, reinforcing loops, operating-system coherence, and continuity → determine what becomes binding next → decide whether intervention is warranted when consequence is material → install the operating discipline → re-enter when evidence or a reconsideration boundary changes the decision state**
 
 That is the public architecture.
 
