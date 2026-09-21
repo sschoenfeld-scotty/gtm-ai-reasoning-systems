@@ -133,6 +133,10 @@ v9 therefore does not replace the v8 architecture. It extends the reasoning syst
 | **Diagnose → Design → Install** | Preserves the five-part engagement method and adds a conditional Strategic Action Gate when consequence warrants it. | Prevents a correct diagnosis from automatically becoming an intervention when downside or opportunity cost is material. |
 | **Reinforcing behavior** | Adds explicit reinforcing-loop analysis. | Distinguishes what blocks the outcome from what keeps recreating the blocking condition. |
 | **Evidence discipline** | Adds a compact decision trace when consequential decisions are likely to be revisited. | Helps distinguish what was known at the time from later retrospective explanation. |
+| **Leadership hypothesis testing** | Adds Anchoring resistance when a strong preferred explanation exists before evidence review. | Keeps the starting diagnosis from controlling evidence selection or weighting. |
+| **Three Truths Diagnostic** | Adds Evidence dependency inspection when apparent agreement may trace back to the same underlying source. | Distinguishes repeated reporting from meaningfully independent corroboration. |
+| **Behavioral inference guardrail** | Adds stated-account separation, structural or systemic explanation testing, and a decision-dependency check. | Makes human attribution more disciplined without requiring motive certainty when it would not change the decision. |
+| **Evidence re-entry and Strategic Action Decision** | Adds Reconsideration boundaries when a prior diagnosis or action decision should be explicitly reopened. | Prevents a prior decision from becoming permanent while avoiding automatic falsification when a threshold is crossed. |
 | **Buyer movement over seller activity** | Adds Buyer Progression Dependency Logic. | Makes qualification, discovery, solution education, and validation easier to diagnose without prescribing CRM stages. |
 | **Pipeline and forecast integrity** | Adds buyer-confirmed compelling-event timing logic and more precise Pipeline, Best Case, and Commit definitions. | Makes forecast movement an evidence change rather than a confidence label. |
 | **Buyer and power** | Adds stakeholder-specific urgency and procurement incentive inspection. | Recognizes that different members of the buying system can benefit from different timing and outcomes. |
@@ -142,6 +146,22 @@ v9 therefore does not replace the v8 architecture. It extends the reasoning syst
 | **Leadership and field execution** | Adds stronger inspection of whether executive intent survives translation through managers, process, sellers, and customer experience. | Makes execution distortion more visible. |
 | **Revenue Operating System** | Adds Commercial System Coherence across messaging, discovery, qualification, CRM, forecasting, inspection, coaching, and enablement. | Makes fragmentation across otherwise strong artifacts diagnosable as an operating-system problem. |
 | **AI leverage** | Adds context readiness, the activity-versus-commercial-truth guardrail, and an Agent Workflow Control Card while retaining the v8 AI overlays and ownership model. | Connects AI authority to context quality, evidence, ownership, exceptions, and stop authority. |
+
+## Current v9 Reasoning Refinements
+
+Subsequent framework review produced four bounded refinements that improve how v9 reasons without changing its master architecture.
+
+**Anchoring resistance** treats a strong starting explanation as a hypothesis to test rather than an instruction about what the evidence should prove.
+
+**Evidence dependency** asks whether apparent agreement across leadership belief, business data, and field evidence is genuinely independent or whether several surfaces are repeating the same underlying claim.
+
+**Behavioral inference** now separates observed behavior from stated accounts and inferred drivers, then tests whether structural or systemic conditions could produce the same behavior before motive materially affects the diagnosis.
+
+**Reconsideration boundaries** make explicit when a prior diagnosis or action decision should be reopened because material evidence, a dependency change, or another supported threshold has changed the decision state.
+
+These changes remain v9 because they make existing reasoning functions more deterministic without changing the six-lens architecture, the governing-constraint center, or the reasoning spine.
+
+Their canonical status does not establish formal validation. Each remains subject to field calibration.
 
 ## 1. Constraint Migration Became Explicit
 
