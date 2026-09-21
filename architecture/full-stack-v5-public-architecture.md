@@ -262,8 +262,6 @@ If action is warranted, the system identifies the practical change most likely t
 
 The reasoning is then tested against operating reality, including ownership, evidence, measurability, handoffs, incentives, implementation constraints, and likely rebuttal.
 
-When measurement requires material reporting or inspection overhead, Operator Proof tests whether that burden is proportionate to the decision value and evidence need.
-
 When a decision must travel through organizational layers before action, Operator Proof also tests whether the strategic intent is likely to survive translation into actual frontline behavior and customer experience.
 
 Operator Proof also tests whether the burden of proving or monitoring an intervention is proportionate to the decision value and whether the organization can absorb material transition effects without undermining the intervention before stable execution is reached.
