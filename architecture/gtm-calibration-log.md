@@ -232,6 +232,54 @@ The breadth-for-relevance pattern is an operating observation used to make that 
 
 Whether making this observable failure pattern explicit improves upstream diagnosis when Validation stalls without creating unnecessary sales-methodology detail.
 
+## Canonical Refinement 005
+
+### Responsibilities over role titles and evidence consequence
+
+**Date captured**  
+September 2026
+
+**Source context**  
+A prior internal Revenue Operating System assessment was reviewed against current GTM v9 after substantial framework evolution.
+
+Most of the source ideas were already canonical, superseded by broader v9 logic, or better kept outside the framework. Two bounded clarifications survived an insertion-level audit against Sections 3, 10, and 11.
+
+### Canonical decision
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The first clarification makes a maturity invariant explicit.
+
+A company can compress or combine roles as its operating model changes. The underlying responsibility still has to be owned and performed. The diagnostic should therefore distinguish a missing role title from an unowned or weakly performed responsibility.
+
+The second clarification makes an existing Revenue Operating System rule explicit.
+
+Evidence standards are operational only when they affect decisions. When required evidence is missing or insufficient, the associated decision should change or remain unresolved. If the same decision proceeds regardless, the evidence standard is advisory rather than governing.
+
+No new lens, role model, management stage, or engagement phase was added.
+
+Section 10 required no change because Manager inspection maturity and Execution cascade integrity already contained the relevant execution logic.
+
+### Evidence status
+
+Responsibilities over role titles is a diagnostic clarification added to the maturity logic.
+
+Evidence consequence is an explicit generalization of behavior already present across the Management Operating Rhythm, forecast logic, opportunity inspection, and Commercial System Coherence.
+
+Neither change is formal validation.
+
+### Field calibration questions
+
+- whether separating responsibilities from role titles improves diagnosis across founder-led, scaling, and specialized organizations
+- whether making evidence consequence explicit improves operating discipline without creating unnecessary rigidity
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
