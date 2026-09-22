@@ -273,6 +273,10 @@ One public diagnostic question captures the issue well.
 
 > **Who benefits from waiting?**
 
+Visible agreement in a group setting does not automatically establish independent stakeholder commitment. When alignment materially affects the buying motion, the diagnostic looks for actions, decisions, or subsequent behavior from the stakeholders who can advance or block the decision rather than treating shared meeting behavior as sufficient confirmation.
+
+Discovery should also test how the buyer is categorizing the solution when that interpretation could materially change the comparison set, buying path, decision criteria, or perceived alternatives.
+
 The framework also separates observed behavior from explanations of motive. When a behavioral explanation materially affects the diagnosis, it tests credible alternatives and asks whether role design, incentives, authority, information, or other structural conditions could produce the same behavior. Unresolved motive uncertainty does not automatically prevent a commercial decision.
 
 v9 also separates commercial variables that are often collapsed together.
