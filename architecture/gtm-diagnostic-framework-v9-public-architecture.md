@@ -207,6 +207,10 @@ It is the earliest defensible change likely to alter the trajectory when action 
 
 > **Installed discipline over recommendations.**
 
+Maturity can change where a critical GTM responsibility sits without eliminating the responsibility itself. The diagnostic asks whether the work is deliberately owned and performed, rather than treating the absence of a specialized role title as the problem.
+
+Evidence standards become operational when they affect decisions. If required evidence is missing or insufficient, the associated decision should change or remain unresolved rather than proceed as though the evidence existed.
+
 ## Buyer Progression Without Becoming a Sales Methodology
 
 v9 makes several buyer dependencies more explicit without prescribing CRM stages.

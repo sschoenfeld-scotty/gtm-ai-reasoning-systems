@@ -381,6 +381,10 @@ The intended outcome is not permanent dependence on the framework.
 
 It is stronger internal diagnostic capability.
 
+Maturity can change who performs a critical GTM responsibility. It does not make the responsibility disappear. I diagnose whether the work is owned and performed well enough for the motion rather than treating a missing specialized role title as the problem.
+
+Evidence standards also have to change decisions. If missing evidence never changes whether an opportunity advances, a forecast is accepted, or another operating decision is made, the standard is informational rather than governing.
+
 ## Commercial System Coherence
 
 Installed discipline only works when the mechanisms around the seller reinforce one another.
