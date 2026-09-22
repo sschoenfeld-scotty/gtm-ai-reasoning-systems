@@ -280,6 +280,52 @@ Neither change is formal validation.
 - whether separating responsibilities from role titles improves diagnosis across founder-led, scaling, and specialized organizations
 - whether making evidence consequence explicit improves operating discipline without creating unnecessary rigidity
 
+## Canonical Refinement 006
+
+### Stakeholder alignment evidence and buyer category interpretation
+
+**Date captured**  
+September 2026
+
+**Source context**  
+A review of proposed buyer-psychology concepts against current GTM v9 found that most of the underlying commercial conditions were already expressible through Behavioral inference, stakeholder incentives, buyer evidence, adoption friction, and competing explanations.
+
+Two bounded distinctions survived the non-duplication test.
+
+### Canonical decision
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The first clarification distinguishes visible group agreement from independently supported stakeholder commitment.
+
+When alignment materially affects the buying motion, shared meeting behavior should not be treated as sufficient evidence that the stakeholders who can advance or block the decision are independently committed. Look for their own actions, decisions, or subsequent behavior.
+
+The second clarification adds buyer category interpretation to the diagnostic question library.
+
+When material, inspect how the buyer is categorizing the solution and whether that classification changes the comparison set, buying path, decision criteria, or perceived alternatives.
+
+No psychology taxonomy, new Truth layer, buyer stage, or motive model was added.
+
+### Evidence status
+
+Stakeholder alignment evidence is a canonical diagnostic clarification.
+
+Buyer category interpretation is a diagnostic-library enhancement rather than a new architectural capability.
+
+Neither change establishes that hidden psychological mechanisms are causing a specific buying behavior. Existing Behavioral inference discipline still governs motive claims.
+
+### Field calibration questions
+
+- whether independent stakeholder evidence improves diagnosis when group meetings appear aligned but buying motion later stalls
+- whether explicit category-interpretation inspection reveals material buying-path mismatches that existing Discovery would otherwise miss or reach later
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
