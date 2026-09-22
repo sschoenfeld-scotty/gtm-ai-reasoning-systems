@@ -308,6 +308,10 @@ A useful question is
 
 That question often exposes whether the claimed compelling event is strong enough to survive the incentives of the people who can delay the transaction.
 
+Shared agreement in a group meeting is not the same as independent stakeholder commitment. When alignment matters, I look for what the material stakeholders do, decide, or confirm after the shared conversation rather than assuming visible consensus is enough.
+
+I also inspect whether the buyer and seller are categorizing the solution the same way when that difference could change the comparison set, decision criteria, or buying path.
+
 ## Price Is Not the Same as Duration or Optionality
 
 Commercial friction is often flattened into a price problem.
