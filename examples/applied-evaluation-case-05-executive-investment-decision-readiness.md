@@ -44,7 +44,7 @@ The framework process should not receive credit for inventing them.
 
 The case has been anonymized.
 
-Organization names and participant identities are not published here. Private links, actual financial amounts, and identifying chronology are also withheld.
+Organization names and participant identities are not published here. Other identifying details and private financial information are also withheld.
 
 The underlying proposal and private framework implementation remain private.
 
@@ -197,7 +197,7 @@ It also preserves the failure and correction while stating the limits of the con
 
 It does not publish the underlying executive proposal.
 
-It does not publish private financial amounts or participant identities. Source links, internal operating materials, and implementation details required to reproduce the private frameworks also remain private.
+It does not publish private financial information or participant identities. Source material and implementation-level framework details also remain private.
 
 That boundary is deliberate.
 
@@ -225,8 +225,8 @@ The framework process changed the architecture of the decision around it.
 
 That distinction matters.
 
-A reasoning system can create value without inventing the idea being evaluated.
+In this case, the value did not depend on inventing the idea being evaluated.
 
-Sometimes the value is making a strong idea easier to inspect while keeping overclaiming harder.
+It came from making a strong idea easier to inspect without hiding what remained unproven.
 
-It can also make the decision easier to reject when the evidence does not hold.
+That also made the proposal easier to reject if the evidence stopped supporting it.
