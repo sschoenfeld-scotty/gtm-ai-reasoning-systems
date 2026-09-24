@@ -182,13 +182,13 @@ These are related pieces of the same body of work, but they do not all have the 
 
 GitHub is not the work.
 
-The reasoning systems are the work.
+The work is the reasoning systems and the discipline around how they are applied, tested, and revised.
 
 I use GitHub because the development history matters.
 
 A finished framework can hide the failures, contradictions, rejected ideas, and evidence that produced it. GitHub makes it possible to inspect how the work changes over time, what failure modes caused revisions, what evidence supports a change, what remains unresolved, and when an observation is deliberately held as a hypothesis rather than promoted into the framework.
 
-> **The frameworks are the work. GitHub is the evidence trail.**
+> **The work is the reasoning systems and the discipline around them. GitHub is the evidence trail.**
 
 ## If You Have Five Minutes
 
@@ -209,30 +209,48 @@ The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md)
 
 This body of work did not begin as an attempt to design a complete AI reasoning architecture.
 
-It developed through repeated use of AI on real GTM, leadership, communication, and executive problems.
+It developed through repeated use of AI on real GTM, leadership, communication, executive, and operating problems.
 
-Most of that work still happens inside separate conversations and projects because the original evidence and context matter. When a case exposes a reasoning failure or produces a lesson that appears useful beyond the immediate situation, that learning may be carried forward, compared against prior work, and tested again before it changes a durable framework.
+Most of that work starts with a practical objective. I may use AI, one of the reasoning systems, or both. The purpose is to solve the problem in front of me, not to create another framework experiment.
+
+The work usually stays inside its original context because that context matters. Sometimes, though, the work produces an observation worth preserving. It may expose a reasoning failure, a distinction that appears reusable, an assumption that does not survive evidence, or a case where an existing system materially changes the result.
+
+When that happens, I preserve the observation and move it into a separate development environment.
+
+That separation matters.
+
+The original work remains accountable to its original purpose. The observation can then be challenged independently without turning every live problem into framework development.
 
 ```mermaid
-flowchart LR
-    A[Live Case] --> B[Initial Diagnosis]
-    B --> C[Challenge It]
-    C --> D[Use in Real Work]
-    D --> E[Material New Evidence]
-    E --> F[Re-enter and Reassess]
-    F --> G[Calibration or Framework Learning]
-    G --> A
+flowchart TD
+    A[Real Work] --> B[Human-Directed AI Use]
+    B --> C[Observation or New Evidence]
+    C --> D[Preserve Context]
+    D --> E[Separate Challenge and Classification]
+    E --> F[No Carry-Forward]
+    E --> G[Preserve or Test Further]
+    E --> H[Proposed Framework Change]
+    F --> I[Future Work]
+    G --> I
+    H --> I
+    I --> A
 ```
 
-A lesson is more useful when it survives a different case rather than merely improving the answer that revealed the weakness.
+I remain responsible for what crosses that boundary.
+
+AI can challenge an observation. A framework can expose a weakness in the reasoning. Neither decides on its own what becomes durable knowledge.
+
+Most observations should not change a framework.
+
+They may remain local, become useful evidence, or disappear under pressure testing. Framework evolution is an occasional downstream consequence of the process, not its purpose.
 
 One operating principle has become increasingly important.
 
 > **Context stays local. Learning moves upstream. Canonical knowledge is earned.**
 
-Some lessons become framework changes.
+The repository is not intended as a collection of AI use cases.
 
-Others remain hypotheses, reveal boundary conditions, or are discarded.
+The cases and evidence trail show how human-directed reasoning systems encounter real work, how observations are challenged, and why the systems sometimes change and sometimes deliberately remain unchanged.
 
 ## What Makes the Work Inspectable
 
