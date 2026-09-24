@@ -342,11 +342,9 @@ What remained under-specified was whether the amount of legitimate opportunity a
 
 ### Diagnostic distinction
 
-Opportunity scarcity can increase the relative cost of rejecting, disqualifying, or deprioritizing an opportunity.
+Opportunity scarcity can increase the relative cost of rejecting or deprioritizing an opportunity.
 
-Sufficient opportunity can create selective freedom because the organization can walk away from weaker uses of scarce commercial capacity without immediately creating scarcity.
-
-Excess legitimate opportunity can still damage execution when active pursuit exceeds absorption capacity.
+When legitimate opportunity is ample, selective freedom can increase until active pursuit exceeds absorption capacity. At that point the problem shifts from scarcity to workload governance.
 
 The resulting distinction is that available legitimate opportunity and active opportunity workload are not the same variable.
 
