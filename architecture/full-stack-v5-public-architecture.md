@@ -190,6 +190,8 @@ Relevant operator experience may inform the prior plausibility of an explanation
 
 The framework spends additional behavioral reasoning only when the ambiguity could materially change the diagnosis, confidence, prognosis, or candidate action. If the distinction does not change the reasoning, uncertainty is preserved rather than forced into a psychological story.
 
+When competing behavioral explanations may reflect different interpretations of the same evidence, the framework can test whether the actors are assigning materially different causal meaning to what they observe. Any inferred interpretive model remains a hypothesis, and the check stays dormant when another existing reasoning mechanism already explains the outcome.
+
 > **Behavioral uncertainty does not automatically require decision uncertainty.**
 
 When material uncertainty remains, it is carried into Strategic Adjudication rather than converted into false motive certainty or automatic delay.
