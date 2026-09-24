@@ -179,7 +179,7 @@ When legitimate opportunity is abundant, selective freedom can increase. That ad
 
 The framework therefore inspects whether opportunity conditions are changing decision thresholds rather than assuming pipeline volume is only an output measure.
 
-This is not a claim that more pipeline fixes downstream execution. It is a diagnostic requirement to test whether scarcity, sufficiency, or overload is changing how the organization allocates scarce commercial attention.
+This is not a claim that more pipeline fixes downstream execution. It is a diagnostic requirement to test whether the surrounding opportunity condition is changing how the organization allocates scarce commercial attention.
 
 ## 5. Use a Strategic Action Gate When Consequence Warrants It
 
