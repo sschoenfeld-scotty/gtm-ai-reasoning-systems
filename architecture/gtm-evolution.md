@@ -357,6 +357,26 @@ The change remains inside v9 because it strengthens the existing Revenue Operati
 
 Its field-calibration question is whether explicit continuity inspection reveals execution failures that coherence or component-level inspection would otherwise miss or reach later.
 
+## 12. Opportunity Availability Became an Explicit Connected Variable
+
+A later calibration cycle surfaced a recurring operating pattern around opportunity scarcity, abundance, and finite commercial capacity.
+
+v9 already treated pipeline health as more than nominal coverage and already reasoned across seller behavior, management incentives, scarce resources, and constraint migration.
+
+What remained less explicit was that legitimate opportunity availability can change the decision thresholds applied elsewhere in the sales system.
+
+Scarcity can increase the relative cost of saying no. When legitimate opportunity is ample, selective freedom can increase until active pursuit outruns commercial capacity and workload governance becomes the problem.
+
+The refinement therefore distinguishes available legitimate opportunity from active opportunity workload and asks whether the surrounding opportunity set is changing qualification, prioritization, resource allocation, or another downstream decision.
+
+This does not make top of funnel universally governing and does not imply that opportunity abundance fixes downstream capability.
+
+It makes one connected variable easier to retrieve inside the existing v9 architecture.
+
+The change remains inside v9 because it strengthens dynamic dependency and pipeline-health reasoning without changing the six-lens architecture, governing-constraint center, or reasoning spine.
+
+Its field-calibration question is whether explicit inspection of opportunity availability relative to capacity materially improves diagnosis across unrelated sales environments.
+
 ## What v9 Deliberately Preserves
 
 v9 does not replace the core framework architecture.

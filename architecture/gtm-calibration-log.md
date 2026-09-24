@@ -326,6 +326,67 @@ Neither change establishes that hidden psychological mechanisms are causing a sp
 - whether independent stakeholder evidence improves diagnosis when group meetings appear aligned but buying motion later stalls
 - whether explicit category-interpretation inspection reveals material buying-path mismatches that existing Discovery would otherwise miss or reach later
 
+## Canonical Refinement 007
+
+### Opportunity Availability and Commercial Capacity
+
+**Date captured**  
+September 2026
+
+**Source context**  
+Longitudinal operator observation across multiple enterprise sales environments, sharpened by a current advisory engagement and structured adversarial pressure testing, exposed a connected-variable gap in canonical v9.
+
+The framework already treated pipeline health, seller judgment, manager behavior, scarce resources, reinforcing loops, and constraint migration as connected parts of the GTM system.
+
+What remained under-specified was whether the amount of legitimate opportunity available relative to commercial capacity can itself change decision thresholds elsewhere in the system.
+
+### Diagnostic distinction
+
+Opportunity scarcity can increase the relative cost of rejecting or deprioritizing an opportunity.
+
+When legitimate opportunity is ample, selective freedom can increase until active pursuit exceeds absorption capacity. At that point the problem shifts from scarcity to workload governance.
+
+The resulting distinction is that available legitimate opportunity and active opportunity workload are not the same variable.
+
+### Canonical decision
+
+**Classification**  
+Connected-variable and pipeline-health refinement
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The refinement adds explicit inspection of opportunity availability relative to commercial capacity inside existing dynamic dependency and pipeline-health logic.
+
+It does not make pipeline the governing constraint in every sales system.
+
+It does not claim that more pipeline repairs seller capability, product gaps, implementation capacity, or another downstream weakness.
+
+It asks whether opportunity conditions are changing the decision environment in which those weaknesses are diagnosed and addressed.
+
+No new lens, Truth layer, forecast category, or mandatory workload limit was added.
+
+### Evidence status
+
+The refinement is grounded in repeated operator observation and a current field example, then pressure-tested through hypothetical counterexamples designed to challenge the causal logic.
+
+The pressure tests strengthened causal coherence and exposed a boundary around overload. They are not empirical validation.
+
+The canonical change therefore adds an inspection requirement rather than a universal causal rule.
+
+### Field calibration questions
+
+- whether opportunity scarcity materially changes qualification, disqualification, prioritization, or preservation behavior across unrelated sales environments
+- whether explicit comparison of legitimate opportunity to commercial capacity improves diagnosis beyond existing capability and incentive analysis
+- whether separating available opportunity from active workload improves execution when demand exceeds absorption capacity
+- which competing conditions most often explain the same observable behavior when opportunity availability is not governing
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
