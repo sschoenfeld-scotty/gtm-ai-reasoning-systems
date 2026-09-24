@@ -365,7 +365,7 @@ v9 already treated pipeline health as more than nominal coverage and already rea
 
 What remained less explicit was that legitimate opportunity availability can change the decision thresholds applied elsewhere in the sales system.
 
-Scarcity can increase the relative cost of saying no. Sufficient opportunity can create selective freedom. Excess demand can create overload when active pursuit outruns commercial capacity.
+Scarcity can increase the relative cost of saying no. When legitimate opportunity is ample, selective freedom can increase until active pursuit outruns commercial capacity and workload governance becomes the problem.
 
 The refinement therefore distinguishes available legitimate opportunity from active opportunity workload and asks whether the surrounding opportunity set is changing qualification, prioritization, resource allocation, or another downstream decision.
 
