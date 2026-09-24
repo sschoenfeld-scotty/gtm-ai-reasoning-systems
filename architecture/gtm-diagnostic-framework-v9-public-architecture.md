@@ -167,6 +167,20 @@ A stronger buyer deadline may remove timing uncertainty but expose procurement, 
 
 The architecture therefore treats diagnosis as recursive rather than static.
 
+## Opportunity Availability and Commercial Capacity
+
+v9 also makes one connected operating variable more explicit.
+
+Legitimate opportunity availability can change the decision environment around the rest of the sales system.
+
+When legitimate opportunity is scarce relative to available commercial capacity, the relative cost of saying no can rise. That can change qualification, disqualification, prioritization, or continued investment even when buyer evidence has not improved.
+
+When legitimate opportunity is abundant, selective freedom can increase. That advantage depends on capacity governance. Available legitimate opportunity is not the same as active opportunity workload, and excess active pursuit can dilute execution.
+
+The framework therefore inspects whether opportunity conditions are changing decision thresholds rather than assuming pipeline volume is only an output measure.
+
+This is not a claim that more pipeline fixes downstream execution. It is a diagnostic requirement to test whether scarcity, sufficiency, or overload is changing how the organization allocates scarce commercial attention.
+
 ## 5. Use a Strategic Action Gate When Consequence Warrants It
 
 A correct diagnosis does not automatically make every diagnosed problem worth fixing.
