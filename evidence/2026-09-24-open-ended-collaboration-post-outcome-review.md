@@ -33,7 +33,7 @@ This entry compares that outcome with the frozen prior state without changing Ev
 
 PR #29 is independently authored by Spark Tsai.
 
-At the time of this review it remains open and unmerged.
+PR #29 was later closed without merge on September 24, 2026 after the architectural review and contributor clarification were complete.
 
 The PR adds one proposed research file and does not modify existing Full Stack architecture, evaluation, evidence, or canonical files.
 
@@ -115,6 +115,24 @@ It does not reproduce Spark's proposed architecture or present that work as Scot
 
 The current repository decision is to preserve the review and link to the external contribution rather than absorb the contribution into the canonical reasoning architecture.
 
+## Final repository disposition
+
+After the review, Spark clarified that he had primarily used the PR as a vehicle for independent review rather than assuming the Evidence Center should be merged into the repository.
+
+He was also comfortable with future inclusion as independently authored adjacent research if the architectural boundary and authorship remained explicit.
+
+The repository decision was therefore made separately from the architectural judgment.
+
+For now, PR #29 is closed without merge.
+
+The reason is portfolio coherence and timing.
+
+The repository is still early enough that adding a large independently authored adjacent architecture could blur the center of gravity before the existing body of work has enough context around it.
+
+This is not a rejection of the Evidence Center architecture.
+
+The decision can be revisited if the repository reaches a point where independently authored adjacent research can be included without diluting the story of the reasoning systems themselves.
+
 ## Current decision
 
 **Full Stack framework modification**  
@@ -127,7 +145,7 @@ None
 None
 
 **PR #29 status**  
-Leave open and unmerged while the contributor response is prepared
+Closed without merge on September 24, 2026
 
 **Evidence Center classification**  
 Independent adjacent provenance reference architecture
