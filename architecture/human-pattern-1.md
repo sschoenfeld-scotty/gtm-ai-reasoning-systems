@@ -158,6 +158,8 @@ It does not by itself tell the system
 
 Behavioral Inference Discipline makes those responsibilities more explicit without creating another peer stage in Full Stack's reasoning spine.
 
+When competing behavioral explanations depend on different interpretations of the same evidence, the framework can also test whether the actors are assigning materially different causal meaning to what they observe. Any inferred interpretive model remains a hypothesis and should be tested against discriminating evidence. This check stays dormant when source quality, evidence integrity, or another existing reasoning mechanism already explains the outcome.
+
 ## Relationship to the Behavioral Inference Engine
 
 The [Behavioral Inference Engine](../research/behavioral-inference-engine.md) remains a work-in-progress research direction.
