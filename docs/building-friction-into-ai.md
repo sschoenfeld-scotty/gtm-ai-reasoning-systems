@@ -16,19 +16,25 @@ The risk is not just bad writing. It is bad intervention. The visible issue can 
 
 I call the core approach a **logic lens**. A prompt mostly defines the output. A logic lens defines how the problem should be examined before the output is trusted.
 
-The current implementation is **Full Stack v5**. It preserves the evidence discipline, competing explanations, causal diagnosis, prognosis, recursive evidence re-entry, and pressure testing developed through v4, then adds an explicit strategic decision discipline before intervention.
+The current implementation is **Full Stack v5.1**. It preserves the evidence discipline, competing explanations, causal diagnosis, prognosis, recursive evidence re-entry, and pressure testing developed through v4. It carries forward the strategic decision discipline added in v5 and adds Compressed Diagnosis as a conditional capability before full diagnostic expansion.
 
 The change came from a new failure mode.
 
 > **A diagnosis can be correct and the intervention can still be strategically wrong.**
 
-Full Stack v5 therefore separates diagnostic correctness from the decision to act.
+Full Stack v5 separated diagnostic correctness from the decision to act.
 
 When the distinction is material, it asks whether a communication has been interpreted in the right functional context, whether a proposed action creates credible material downside that is difficult or impossible to reverse, and whether removing the governing constraint is worth the scarce resources and opportunity cost required.
 
 The governing distinction is simple.
 
 > **A correct diagnosis is necessary for a good decision. It does not make every diagnosed problem worth solving.**
+
+v5.1 adds another distinction.
+
+> **Experience can compress diagnosis without bypassing it.**
+
+The system can now ask whether more diagnostic evidence is likely to improve the decision enough to justify the time, delay, or opportunity cost required to obtain it. A strong prior remains challengeable and contradictory evidence can defeat it.
 
 Today, that discipline is encoded in an Operating Manual and an Execution Prompt. The asset is not a single prompt. It is a repeatable reasoning system that can be applied across different problems and revised when evidence exposes a real reasoning failure.
 
@@ -80,25 +86,26 @@ That loop is the point. AI is both the tool and part of the experiment. A revisi
 | **3 · v4** | The architecture became explicit around evidence discipline, competing explanations, causal diagnosis, prognosis, structured self-challenge, and confidence calibration. Later v4 refinements added system dynamics, perspective triangulation, experienced-operator proof, and explicit recursive evidence re-entry. |
 | **4 · Two-part system** | The work split into an Operating Manual for deep reasoning and an Execution Prompt for daily application. A separate plain-English guide made the logic-lens concept easier to explain without AI jargon. |
 | **5 · v5** | A new failure mode became visible. Correct diagnosis did not necessarily imply that the diagnosed constraint should be fixed. v5 added Communication Function when material and Strategic Adjudication between prognosis and intervention. |
-| **6 · Now** | Full Stack v5 is the current canonical implementation. Full Stack v4 remains preserved as historical canonical source material rather than being rewritten retroactively. |
+| **6 · v5.1** | A new recurring reasoning gap became explicit. The system could judge evidence quality and action risk without deciding whether additional diagnosis was worth the delay. v5.1 added Compressed Diagnosis while preserving the v5 reasoning spine. |
+| **7 · Now** | Full Stack v5.1 is the current canonical implementation. Full Stack v5 and v4 remain preserved as historical canonical source material rather than being rewritten retroactively. |
 
 ## Current state
 
-Full Stack v5 is functional as a reasoning architecture and matched Operating Manual and Execution Prompt.
+Full Stack v5.1 is functional as a reasoning architecture with matched Operating Manual and Execution Prompt.
 
 The evidence supporting the broader Full Stack development includes repeated practical use, observed reasoning failures, framework revision, later retesting, and structured reconstructed comparisons developed under v4.
 
-That evidence should not be silently relabeled as formal validation of the new v5 strategic-adjudication capability.
+That evidence should not be silently relabeled as formal validation of later capabilities.
 
-The v5 additions therefore have a different evidence status. They are accepted architecture changes grounded in an identified reasoning gap and pressure testing, but they still require v5-specific evaluation.
+The v5 additions remain accepted architecture changes with their own historical evidence status. Compressed Diagnosis is now accepted v5.1 architecture because it crossed the capability threshold, but it still requires v5.1-specific evaluation.
 
 The Behavioral Inference Engine remains a work in progress.
 
 ## Work left
 
-The next Full Stack work is to evaluate whether Strategic Adjudication improves decision quality without creating new failure modes such as generalized risk aversion, unnecessary paralysis, or opportunity-cost reasoning used as an excuse to avoid difficult but necessary work.
+The next Full Stack work is to evaluate whether Compressed Diagnosis reduces unnecessary diagnostic expansion without turning experience into proof, suppressing contradictory evidence, or using speed as a substitute for judgment.
 
-Existing v4 evaluation evidence remains v4 evidence. The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) specifically tests cases where the diagnosis may be correct but intervention can still be strategically wrong.
+Existing v4 evidence remains v4 evidence and existing v5 evidence remains v5 evidence. The [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5-1-evaluation-plan.md) tests Compressed Diagnosis without relabeling the earlier evidence. The historical [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) remains attached to the v5 architecture.
 
 The Behavioral Inference Engine still needs a disciplined model-update rule for deciding when an outlier should change the pattern rather than be treated as noise.
 
@@ -110,4 +117,4 @@ AI helps me expose assumptions, pressure-test causal logic, inspect strategic tr
 
 Whether the visible output is public writing or executive GTM work, the asset being built is the reasoning discipline underneath it.
 
-**The advantage isn’t getting to the first answer faster. It’s knowing when the first answer shouldn’t be trusted and when even a correct answer should not automatically become an intervention.**
+**The advantage isn’t getting to the first answer faster. It’s knowing when the first answer shouldn’t be trusted, when a correct answer should not automatically become an intervention, and when more diagnosis would add less value than the delay it creates.**
