@@ -410,7 +410,7 @@ The following principles remain intact.
 - A preferred user hypothesis remains something to test rather than evidence of its own correctness.
 - Human judgment retains responsibility for the conclusion.
 
-The GTM Diagnostic Framework v9 is not modified by this refinement.
+The GTM Diagnostic Framework v9 is not modified by this Full Stack change.
 
 The Behavioral Inference Engine remains a separate work-in-progress research direction. Several behavioral disciplines introduced through v5 continue to inform the current Full Stack v5.1 architecture, while longitudinal persistence, accumulation, contradiction, context change, and model revision remain BIE research.
 
