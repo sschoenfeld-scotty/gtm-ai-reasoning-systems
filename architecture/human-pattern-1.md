@@ -10,7 +10,7 @@ It is not a standalone framework, a personality model, or a motive-detection sys
 
 The private Full Stack Operating Manual and Execution Prompt remain the canonical implementation. This document publishes enough of the architecture to make the reasoning inspectable without exposing the complete operating procedure.
 
-At the time of this note's most recent verification, Full Stack v5.1 is the current canonical Full Stack framework. The v5.1 sources preserve Human Pattern 1 as part of the retained behavioral reasoning discipline. Future canonical changes should still trigger a fresh fidelity check.
+At the time of this note's most recent verification, Full Stack v5.1 is the current canonical Full Stack framework. The v5.1 sources preserve Human Pattern 1 while adding Compressed Diagnosis. That addition can reduce unnecessary behavioral investigation when the decision boundary supports it, but it does not lower the evidence standard for motive or causality. Future canonical changes should still trigger a fresh fidelity check.
 
 ## Why It Exists
 
@@ -48,9 +48,9 @@ That does not mean the system always explains the person.
 
 Structural pressure and individual agency can operate together.
 
-> **Experience can inform the prior. It does not prove the current case.**
+> **Experience can compress diagnosis without proving motive.**
 
-Repeated analogous operating experience can legitimately change which explanation appears more plausible. Current-case evidence still has to update that prior.
+Repeated analogous operating experience can legitimately change which explanation appears more plausible. Under Full Stack v5.1, a strong prior may reduce additional behavioral investigation when more certainty would not improve the decision enough to justify delay. Current-case evidence, when available, can strengthen, weaken, or overturn that prior. Experience does not establish motive or causality as fact.
 
 > **Behavioral uncertainty does not automatically require decision uncertainty.**
 
@@ -102,6 +102,8 @@ That can be useful.
 It can also create premature closure.
 
 Human Pattern 1 therefore allows materially similar experience to inform prior plausibility while keeping the present case challengeable.
+
+Compressed Diagnosis can reduce how much additional behavioral investigation is required for a decision. It does not convert the prior into verified motive or causality.
 
 Seniority alone is not evidence.
 
@@ -205,7 +207,7 @@ That status means the reasoning design has been accepted into the framework.
 
 It does **not** mean the refinement has been formally validated.
 
-The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) now includes positive and negative tests for the behavioral reasoning layer, including cases where structural conditions are mistaken for personal motive, experience produces premature closure, human context changes the inference, or motive remains uncertain while the decision can still proceed.
+The historical [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) includes positive and negative tests for the behavioral reasoning layer, including cases where structural conditions are mistaken for personal motive, experience produces premature closure, human context changes the inference, or motive remains uncertain while the decision can still proceed. The current [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md) adds regression checks so Compressed Diagnosis does not weaken those boundaries.
 
 The evaluation standard is not whether the framework produces a richer behavioral narrative.
 
