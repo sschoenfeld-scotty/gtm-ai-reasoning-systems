@@ -195,9 +195,9 @@ Later review exposed an authority problem inside the router.
 
 The original rule reduced analytical bloat, but it still left the model with too much discretion to decide how consequential the situation was. That created a risk that unsupported model judgment about importance could determine how deeply the user's problem was examined.
 
-The refinement now requires the user to select the minimum reasoning depth before routing. The user's selection sets the minimum reasoning depth.
+The v5 refinement required the user to select the minimum reasoning depth before routing. The user's selection set the minimum reasoning depth.
 
-The model may then inspect observable reasoning properties such as reversibility, evidence quality, causal uncertainty, stakeholder complexity, material tradeoffs, and credible irreversible downside. Those properties can justify escalation, but they cannot downgrade the user's declared minimum.
+The model could then inspect observable reasoning properties such as reversibility, evidence quality, causal uncertainty, stakeholder complexity, material tradeoffs, and credible irreversible downside. Those properties could justify escalation, but they could not downgrade the user's declared minimum.
 
 The governing separation is
 
