@@ -29,7 +29,7 @@ The system could correctly identify what was governing an outcome and still move
 
 Full Stack v5.1 retains the strategic decision gate introduced in v5 and adds Compressed Diagnosis before full diagnostic expansion when eligible.
 
-The current v5 refinement work makes existing functions more deterministic without adding another peer layer to the governing reasoning spine. It requires the user to select a minimum reasoning depth before routing, then uses observable reasoning risk to determine whether deeper scrutiny is warranted. It also makes reflexive narrative effects explicit inside System Dynamics, makes organizational translation explicit inside Operator Proof, distinguishes retrospective explanations from contemporaneous evidence of the reasoning that produced an earlier decision, adds a conditional Deep Path check when a user enters the analysis with a preferred hypothesis or conclusion, and adds explicit Context Intake Discipline for supplied conversation, artifacts, operating experience, and user-supplied interpretations.
+The v5 refinement work carried into v5.1 makes existing functions more deterministic without adding another peer layer to the governing reasoning spine. It requires the user to select a minimum reasoning depth before routing, then uses observable reasoning risk to determine whether deeper scrutiny is warranted. It also makes reflexive narrative effects explicit inside System Dynamics, makes organizational translation explicit inside Operator Proof, distinguishes retrospective explanations from contemporaneous evidence of the reasoning that produced an earlier decision, adds a conditional Deep Path check when a user enters the analysis with a preferred hypothesis or conclusion, and adds explicit Context Intake Discipline for supplied conversation, artifacts, operating experience, and user-supplied interpretations.
 
 This document describes the public architecture only. Detailed operating instructions, execution logic, internal tests, decision rules, and implementation prompts remain private.
 
@@ -317,7 +317,7 @@ Reusable lessons may improve later versions, but one-off insights are not automa
 
 ## Recursive Evidence Re-entry
 
-v5 retains the closed-loop discipline introduced explicitly in v4.
+v5.1 retains the closed-loop discipline introduced explicitly in v4.
 
 When an output, recommendation, hypothesis, intervention, or deliberate non-intervention encounters reality, a material response or outcome becomes new evidence.
 
@@ -340,7 +340,7 @@ Full Stack v5.1 operates through two private components.
 | Component | Public description |
 | --- | --- |
 | **Operating Manual** | The deeper playbook for complex or high-stakes reasoning and decision support |
-| **Execution Prompt** | The faster application layer for recurring day-to-day work, with entry routing that can remain fast, use the standard v5 path, or escalate to deeper reasoning |
+| **Execution Prompt** | The faster application layer for recurring day-to-day work, with entry routing that can remain fast, use the standard path, or escalate to deeper reasoning |
 
 Both implement the same underlying architecture at different levels of depth.
 
@@ -376,7 +376,7 @@ It is not formally validated as a benchmarked reasoning system.
 
 The broader Full Stack development has meaningful evidence from repeated practical use, observed reasoning failures, iterative revision, later retesting, and structured reconstructed comparisons developed under v4.
 
-That evidence remains evidence about v4 and about the development process. It should not be silently relabeled as validation of the new v5 Strategic Adjudication capability or the current v5 refinements.
+That evidence remains evidence about v4 and about the development process. It should not be silently relabeled as validation of the Strategic Adjudication capability introduced in v5, the v5 refinements, or Compressed Diagnosis in v5.1.
 
 The v5 changes are accepted architecture changes grounded in identified reasoning gaps and pressure testing. They still require v5-specific evaluation.
 
