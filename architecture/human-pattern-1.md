@@ -10,7 +10,7 @@ It is not a standalone framework, a personality model, or a motive-detection sys
 
 The private Full Stack Operating Manual and Execution Prompt remain the canonical implementation. This document publishes enough of the architecture to make the reasoning inspectable without exposing the complete operating procedure.
 
-At the time of this note's most recent verification, Full Stack v5 is the current canonical Full Stack framework. If the canonical framework changes, this public derivative should be rechecked for fidelity before the newer version is assumed to preserve Human Pattern 1 unchanged.
+At the time of this note's most recent verification, Full Stack v5.1 is the current canonical Full Stack framework. The v5.1 sources preserve Human Pattern 1 as part of the retained behavioral reasoning discipline. Future canonical changes should still trigger a fresh fidelity check.
 
 ## Why It Exists
 

@@ -36,6 +36,8 @@ The development pattern has been
 | **v5 refinement** | Intervention quality could be overstated by ignoring measurement burden or the disruption required to reach stable execution | Add measurement-burden and transition-execution checks inside Operator Proof and transition effects inside Prognosis | Made operating viability more explicit while keeping the reasoning inside existing functions |
 | **v5 refinement** | Some enterprise signals were being treated as stronger state transitions than the evidence justified | Add false-equivalence examples for consumption versus value realization and pilot expansion versus durable systemic behavior change | Added domain examples without changing the governing detector |
 | **v5 refinement** | Human Pattern could avoid claiming motive as fact and still remain under-specified about how to use behavioral inference when motive was uncertain. It could also over-attribute system-produced behavior to personal intent or delay action while waiting for behavioral certainty | Add Behavioral Inference Discipline primarily through Human Pattern 1. Separate behavior, stated account, inferred driver, structural or systemic explanations, and decision-relevant ambiguity; treat experience as a prior rather than proof; carry unresolved material uncertainty into Strategic Adjudication | Made behavioral reasoning more inspectable and decision-useful without pretending motive is directly observable or adding a new peer stage |
+| **v5.1** | Strong accumulated priors could make further diagnostic expansion lower-value than bounded action, but the framework lacked an explicit way to shorten diagnosis without bypassing it | Add Compressed Diagnosis as a conditional reasoning capability | Added a new cross-cutting decision about how much diagnosis is enough while preserving the v5 reasoning spine |
+| **v5.1 execution-fidelity lesson** | Explicit source-control instructions could still be misapplied at execution time and allow stale framework behavior to appear current | Treat version-qualified invocation as an additional observable verification surface alongside live canonical retrieval | Makes stale-protocol execution easier to detect without treating a version label as hard enforcement |
 | **v5 development governance** | Repeated use could either over-trigger framework changes if the process actively searched for improvements, or lose useful insights if only architecture-level lessons were retained | Add a passive two-lane carry-forward control that separates Framework Evolution from Insight Capture | Preserved learning while making no framework change the default and keeping content-worthy ideas separate from architecture evidence |
 | **Current evaluation direction** | Existing v4 evidence does not validate the new v5 strategic-decision capability or later v5 refinements | Expand the v5-specific evaluation plan while preserving v4 evidence as v4 evidence | Keeps version claims and evidence claims aligned |
 | **Separate research direction** | Single-execution behavioral inference can be disciplined while longitudinal accumulation, contradiction, context change, and model revision remain unresolved | Continue Behavioral Inference Engine research on how behavioral understanding should persist and revise across time | Keeps the now-operational Full Stack discipline separate from the still-unresolved longitudinal research problem |
@@ -321,6 +323,48 @@ The version decision is therefore deliberate.
 
 These are **Full Stack v5 refinements**, not v5.1 and not v6.
 
+## Why v5.1 Crossed the Minor Version Threshold
+
+The earlier v5 refinements made existing reasoning functions more explicit. They did not add a new recurring reasoning decision.
+
+Compressed Diagnosis did.
+
+Repeated operating use exposed a different failure mode. A framework designed to resist premature prescription can overcorrect if it keeps expanding the diagnosis after additional information has lower expected decision value than a bounded action.
+
+v5.1 adds a conditional question about diagnostic sufficiency.
+
+When accumulated prior evidence is strong and materially analogous, does more diagnostic expansion improve the decision enough to justify its delay, cost, or opportunity loss?
+
+The capability does not permit prescription without diagnosis. It changes how much additional diagnosis may be required after evidence classification.
+
+The governing distinction is
+
+> **Experience can compress diagnosis without bypassing it.**
+
+This met the minor-version threshold because it materially expands what Full Stack must reason about across recurring cases while preserving the v5 purpose and governing reasoning spine.
+
+## Execution Fidelity Lesson From the v5.1 Transition
+
+The v5.1 transition exposed a separate operating lesson that did not justify the version change.
+
+Custom instructions can require live canonical retrieval and still fail at execution time. A model may use stale framework behavior, misapply a gate, or claim current execution without actually following the current protocol.
+
+The legitimate move to v5.1 created an additional verification surface.
+
+When the operator explicitly invokes **Full Stack v5.1**, an execution that behaves like v5 or uses an older protocol is visibly inconsistent with the requested framework version.
+
+This does not make model compliance deterministic.
+
+A version label does not prove that the correct source was retrieved. It does not replace live-source verification. It does not justify artificial version bumps whose only purpose is retrieval control.
+
+Its value is narrower.
+
+> **Version-qualified invocation can make stale framework execution easier to detect.**
+
+The lesson therefore belongs to execution control and evaluation rather than the Full Stack reasoning spine.
+
+The reason for v5.1 remains Compressed Diagnosis. The execution-fidelity benefit was a separate consequence of having a legitimately versioned canonical state.
+
 ### Framework development gained a two-lane carry-forward control
 
 Repeated practical use creates opportunities for Full Stack to expose its own weaknesses. It also creates a different risk.
@@ -405,6 +449,8 @@ The broader development history still matters. Repeated practical use, observed 
 
 But the new v5 Strategic Adjudication capability and the current v5 refinements require their own evaluation.
 
+Compressed Diagnosis is newer. Existing v5 evidence does not validate the v5.1 capability merely because v5.1 preserves the v5 reasoning spine.
+
 The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) is designed to test cases where
 
 - the diagnosis is correct but intervention is strategically inferior to non-intervention
@@ -442,34 +488,35 @@ Full Stack continues to operate through two private components.
 | **Operating Manual** | Deeper reasoning for complex or consequential work |
 | **Execution Prompt** | Faster application of the same underlying discipline, with an entry reasoning-depth gate and routing that can remain fast, use the standard path, or escalate to deeper reasoning |
 
-The two components implement the same v5 architecture at different levels of depth.
+The two components implement the same v5.1 architecture at different levels of depth.
 
 ## Current State
 
-Full Stack v5 is the active canonical version for new work.
+Full Stack v5.1 is the active canonical version for new work.
 
-Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact.
+Full Stack v5 and v4 remain preserved as historical architecture and evidence states.
 
-The v5 Operating Manual and Execution Prompt are complete and aligned with the current v5 architecture, including Reasoning Depth Routing with the Mandatory Reasoning Depth Selection and Routing Framing Guardrail, Context Intake Discipline, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
+The v5.1 Operating Manual and Execution Prompt are aligned around the v5 reasoning spine and Compressed Diagnosis. The v5 refinements remain part of v5.1 unless explicitly changed.
 
-The next Full Stack work is evaluation of the v5 decision capability and current refinements rather than version expansion.
+The next Full Stack work is evidence. Compressed Diagnosis needs v5.1-specific evaluation, while existing v5 evidence remains scoped to the version and capability actually tested.
 
 ## Version Discipline
 
-Full Stack v5 supersedes v4 for new work.
+Full Stack v5.1 supersedes v5 for new work.
 
-v4 and v3 remain historical source material.
+v5, v4, and v3 remain historical source material.
 
-Minor wording, voice, example, execution-routing, framework-development governance, evaluation, or nested reasoning refinements should update v5 rather than create a numbered release.
+The move to v5.1 was justified by Compressed Diagnosis. It added a reasoning capability that materially expands what Full Stack must decide across recurring cases while preserving the v5 purpose and governing reasoning spine.
 
-Reasoning Depth Routing, Context Intake Discipline, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline are current v5 refinements. The Mandatory Reasoning Depth Selection and Routing Framing Guardrail remain inside Reasoning Depth Routing. The post-execution two-lane carry-forward control governs framework development rather than adding a peer reasoning stage. None of these creates v5.1 or v6.
+The earlier v5 refinements remain v5 refinements retained in v5.1. They did not create the minor version.
 
-A future **v5.1** should require an additive reasoning capability that materially expands what Full Stack must reason about across recurring cases while preserving v5's core purpose and governing reasoning spine. Specifying an existing function more explicitly does not by itself justify v5.1. Neither does a change in framework-development governance or the addition of capture or evaluation discipline.
+Versioning should not be used merely to improve retrieval behavior or documentation. The execution-control value of version-qualified invocation is a useful secondary effect, not a sufficient reason to create a new release.
 
 A future **v6** should require a meaningful change in purpose, governing architecture, or reasoning spine.
 
 ## Related Public Documents
 
+- [Full Stack v5.1 Public Architecture](./full-stack-v5.1-public-architecture.md)
 - [Full Stack v5 Public Architecture](./full-stack-v5-public-architecture.md)
 - [Human Pattern 1](./human-pattern-1.md)
 - [Full Stack v4 Public Architecture](./full-stack-v4-public-architecture.md)
