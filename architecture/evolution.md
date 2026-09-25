@@ -37,6 +37,7 @@ The development pattern has been
 | **v5 refinement** | Some enterprise signals were being treated as stronger state transitions than the evidence justified | Add false-equivalence examples for consumption versus value realization and pilot expansion versus durable systemic behavior change | Added domain examples without changing the governing detector |
 | **v5 refinement** | Human Pattern could avoid claiming motive as fact and still remain under-specified about how to use behavioral inference when motive was uncertain. It could also over-attribute system-produced behavior to personal intent or delay action while waiting for behavioral certainty | Add Behavioral Inference Discipline primarily through Human Pattern 1. Separate behavior, stated account, inferred driver, structural or systemic explanations, and decision-relevant ambiguity; treat experience as a prior rather than proof; carry unresolved material uncertainty into Strategic Adjudication | Made behavioral reasoning more inspectable and decision-useful without pretending motive is directly observable or adding a new peer stage |
 | **v5.1** | Strong accumulated priors could make further diagnostic expansion lower-value than bounded action, but the framework lacked an explicit way to shorten diagnosis without bypassing it | Add Compressed Diagnosis as a conditional reasoning capability | Added a new cross-cutting decision about how much diagnosis is enough while preserving the v5 reasoning spine |
+| **v5.1 execution refinement** | Once invoking Full Stack itself became the user's escalation, a mandatory choice among lower and higher reasoning routes became redundant, while fixed question and challenge-pass limits could stop useful reasoning too early | Make Deep Path and maximum Full Stack execution the current default, preserve Fast and Standard as dormant modes, and replace hard limits with a marginal reasoning-value stopping rule | Keeps maximum reasoning without turning maximum execution into endless evidence collection |
 | **v5.1 execution-fidelity lesson** | Explicit source-control instructions could still be misapplied at execution time and allow stale framework behavior to appear current | Treat version-qualified invocation as an additional observable verification surface alongside live canonical retrieval | Makes stale-protocol execution easier to detect without treating a version label as hard enforcement |
 | **v5 development governance** | Repeated use could either over-trigger framework changes if the process actively searched for improvements, or lose useful insights if only architecture-level lessons were retained | Add a passive two-lane carry-forward control that separates Framework Evolution from Insight Capture | Preserved learning while making no framework change the default and keeping content-worthy ideas separate from architecture evidence |
 | **Current evaluation direction** | Existing v4 evidence does not validate the new v5 strategic-decision capability or later v5 refinements | Expand the v5-specific evaluation plan while preserving v4 evidence as v4 evidence | Keeps version claims and evidence claims aligned |
@@ -204,6 +205,26 @@ The governing separation is
 
 This prevents the model from inventing subjective importance while preserving its ability to identify evidence-supported reasons for deeper scrutiny.
 
+That was the active v5 routing state. Current v5.1 later changed how the preserved routes are activated.
+
+### Current v5.1 execution makes Deep Path the default
+
+Later v5.1 review started from a different usage pattern.
+
+When a user deliberately invokes Full Stack, that invocation already signals a request for the framework's strongest reasoning. Asking immediately afterward whether to use a lower reasoning route adds friction without improving the judgment.
+
+Current v5.1 therefore activates Deep Path directly and uses maximum Full Stack execution. Fast Path and Standard Path remain defined in the architecture but are dormant unless future canonical guidance explicitly reactivates them.
+
+Maximum execution means the complete architecture is considered at the deepest available reasoning level. It does not mean unlimited evidence collection or mechanical activation of every function.
+
+The framework continues while another increment of reasoning or evidence has a reasonable prospect of materially improving or weakening the strongest defensible conclusion, changing confidence, favoring a credible alternative, changing the decision boundary, or changing what should be done. It stops when that marginal reasoning value is no longer material.
+
+This also removed fixed numerical question and challenge-pass limits that could terminate useful reasoning before the stopping condition was reached.
+
+Compressed Diagnosis operates inside this maximum-execution state and can determine that additional evidence has lower expected decision value than acting, observing, and updating.
+
+This is an execution-routing refinement inside v5.1 rather than a new reasoning capability or another numbered release.
+
 ### Reflexivity became explicit inside System Dynamics
 
 Communication Function already distinguished what a statement may be doing. System Dynamics already looked for reinforcing feedback loops.
@@ -297,7 +318,7 @@ The refinement therefore begins with behavior before motive. It separates the ob
 
 The design does not force a choice between system and person. Structural pressure and individual agency can operate together.
 
-Relevant operator experience can inform the prior plausibility of an explanation, but it does not become evidence that the current actor has a particular motive. Current-case evidence governs how that prior should be updated.
+Relevant operator experience can inform the prior plausibility of an explanation, but it does not become evidence that the current actor has a particular motive. Current-case evidence, when available, governs how that prior should be updated.
 
 The final design also adds a decision-dependency test. If resolving the behavioral ambiguity would not materially change the diagnosis, confidence, prognosis, or candidate action, Full Stack preserves the uncertainty and continues rather than manufacturing psychological detail.
 
@@ -315,7 +336,7 @@ Behavioral Inference Discipline therefore calibrates the behavioral explanation.
 
 These refinements do not alter Full Stack's governing purpose or insert another peer layer into the reasoning spine.
 
-Reasoning Depth Routing sits inside Pre-diagnosis and now includes the Mandatory Reasoning Depth Selection and Routing Framing Guardrail. Reflexivity sits inside System Dynamics. Cascade Integrity sits inside Operator Proof. Decision Trace Integrity operates across Evidence Discipline, Human Pattern 1, Recursive Evidence Re-entry, and consequence-based routing for prospective trace preservation. Anchoring Resistance operates across Deep Path routing, Evidence Discipline, and Competing Explanations when a substantive preferred position is present. Behavioral Inference Discipline operates primarily through Human Pattern 1 and coordinates existing Evidence Discipline, Competing Explanations, Perspective Triangulation, Operator Proof, Anchoring Resistance, and Strategic Adjudication when behavioral ambiguity is material.
+In v5, Reasoning Depth Routing sat inside Pre-diagnosis and included the Mandatory Reasoning Depth Selection and Routing Framing Guardrail. Those remain preserved v5 refinements inside v5.1 even though current v5.1 invocation now activates Deep Path directly. Reflexivity sits inside System Dynamics. Cascade Integrity sits inside Operator Proof. Decision Trace Integrity operates across Evidence Discipline, Human Pattern 1, Recursive Evidence Re-entry, and consequence-based trace preservation. Anchoring Resistance operates across Deep Path, Evidence Discipline, and Competing Explanations when a substantive preferred position is present. Behavioral Inference Discipline operates primarily through Human Pattern 1 and coordinates existing Evidence Discipline, Competing Explanations, Perspective Triangulation, Operator Proof, Anchoring Resistance, and Strategic Adjudication when behavioral ambiguity is material.
 
 That makes the instructions for the existing architecture more explicit without changing the reason v5 exists.
 
@@ -342,6 +363,18 @@ The governing distinction is
 > **Experience can compress diagnosis without bypassing it.**
 
 This met the minor-version threshold because it materially expands what Full Stack must reason about across recurring cases while preserving the v5 purpose and governing reasoning spine.
+
+## Current v5.1 Execution Refinement
+
+The later execution change does not alter why v5.1 exists.
+
+Compressed Diagnosis remains the additive capability that justified the minor version.
+
+The current execution refinement changes how the existing architecture is activated. Full Stack invocation now enters Deep Path and maximum execution directly. Fast Path and Standard Path remain preserved but dormant. A marginal reasoning-value stopping rule governs when additional reasoning or evidence no longer materially improves the judgment.
+
+The change also removes fixed numerical question and challenge-pass ceilings from current execution. The stopping condition is material improvement rather than an arbitrary count.
+
+This does not create v5.2. It makes existing v5.1 execution more deterministic without adding another reasoning capability.
 
 ## Execution Fidelity Lesson From the v5.1 Transition
 
@@ -433,7 +466,7 @@ The later refinement review also rejected adding Reflexivity, Cascade Integrity,
 
 The Decision Trace review rejected adding a dedicated **Choice Blindness** lens or a catalog of cognitive biases. The psychological observation exposed the failure mode, but the reusable architecture problem is broader. Retrospective rationale should be treated according to its evidence status, and consequential decisions should preserve enough contemporaneous state to make later comparison possible.
 
-The routing review rejected failure-oriented consequence framing and rejected letting the model treat the user's selected rigor as a ceiling that prevents escalation when observable reasoning properties indicate greater risk. The adopted rule gives the user control over the minimum reasoning depth while preserving evidence-based model escalation.
+The routing review rejected failure-oriented consequence framing and rejected letting the model treat the user's selected rigor as a ceiling that prevents escalation when observable reasoning properties indicate greater risk. The adopted v5 rule gave the user control over the minimum reasoning depth while preserving evidence-based model escalation. Current v5.1 later changed route activation by making Deep Path the default while preserving the earlier modes as dormant architecture.
 
 The Anchoring Resistance review rejected applying a framing check to every task. That would convert a protection against consequential anchoring into routine ceremony. It also rejected treating a user-supplied hypothesis as presumptively wrong. The adopted rule is narrower. Deep Path work receives the check when a substantive preferred position is present, and the comparison matters only if it changes the evidentiary or decision picture.
 
@@ -483,6 +516,10 @@ No v5 performance result is claimed until those tests are actually run and revie
 
 The [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md) separately tests Compressed Diagnosis and regression risk without relabeling the earlier evidence.
 
+Because current v5.1 differs from historical v5 in both Compressed Diagnosis and execution activation, the evaluation plan now uses a controlled v5.1 ablation when it needs to isolate the effect of Compressed Diagnosis. Historical v5 comparisons remain useful for architectural evolution but are not treated as clean causal isolation of the v5.1 capability.
+
+The current plan also includes regression checks for direct Deep Path activation, dormant-route leakage, marginal stopping, and cases where useful reasoning must continue beyond the former numerical limits.
+
 No v5.1 performance result is claimed until that work is actually run and reviewed.
 
 ## Two-Part Implementation
@@ -491,10 +528,10 @@ Full Stack continues to operate through two private components.
 
 | Component | Role |
 | --- | --- |
-| **Operating Manual** | Deeper reasoning for complex or consequential work |
-| **Execution Prompt** | Faster application of the same underlying discipline, with an entry reasoning-depth gate and routing that can remain fast, use the standard path, or escalate to deeper reasoning |
+| **Operating Manual** | Governing reasoning architecture for the current maximum-execution path |
+| **Execution Prompt** | Execution control surface that applies the matched architecture to the task |
 
-The two components implement the same v5.1 architecture at different levels of depth.
+Ordinary Full Stack v5.1 uses the pair together at the same reasoning tier. The Operating Manual can be used as the primary execution surface without creating a deeper tier than ordinary Full Stack.
 
 ## Current State
 
@@ -502,9 +539,9 @@ Full Stack v5.1 is the active canonical version for new work.
 
 Full Stack v5 and v4 remain preserved as historical architecture and evidence states.
 
-The v5.1 Operating Manual and Execution Prompt are aligned around the v5 reasoning spine and Compressed Diagnosis. The v5 refinements remain part of v5.1 unless explicitly changed.
+The v5.1 Operating Manual and Execution Prompt are aligned around the v5 reasoning spine, Compressed Diagnosis, Deep Path maximum execution, and the marginal reasoning-value stopping rule. Fast Path and Standard Path remain preserved but dormant in ordinary current invocation.
 
-The next Full Stack work is evidence. Compressed Diagnosis needs v5.1-specific evaluation, while existing v5 evidence remains scoped to the version and capability actually tested.
+The next Full Stack work is evidence. Compressed Diagnosis needs v5.1-specific evaluation, and the current execution refinement needs regression testing. Existing v5 evidence remains scoped to the version and capability actually tested.
 
 ## Version Discipline
 
@@ -515,6 +552,8 @@ v5, v4, and v3 remain historical source material.
 The move to v5.1 was justified by Compressed Diagnosis. It added a reasoning capability that materially expands what Full Stack must decide across recurring cases while preserving the v5 purpose and governing reasoning spine.
 
 The earlier v5 refinements remain v5 refinements retained in v5.1. They did not create the minor version.
+
+The later Deep Path default, dormant Fast and Standard activation state, marginal reasoning-value stopping rule, and removal of fixed numerical execution caps are v5.1 execution refinements. They do not add another reasoning capability and therefore do not create another numbered release.
 
 Versioning should not be used merely to improve retrieval behavior or documentation. The execution-control value of version-qualified invocation is a useful secondary effect, not a sufficient reason to create a new release.
 
