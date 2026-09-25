@@ -178,7 +178,7 @@ It makes experienced judgment easier to retrieve, connect, inspect, challenge, a
 | --- | --- | --- |
 | **Logic Lens** | General concept for designing problem-specific reasoning discipline | Concept used across the current body of work |
 | **Full Stack v5.1** | Core reasoning harness for diagnosis, strategic adjudication, and decision support | Current canonical architecture; Compressed Diagnosis evaluation is still in progress |
-| **Full Stack v5** | Prior point-release baseline that added Strategic Adjudication and the current v5 refinements | Historical canonical version preserved for evidence and version history |
+| **Full Stack v5** | Prior canonical version that added Strategic Adjudication and the v5 refinements | Historical canonical version preserved for evidence and version history |
 | **Full Stack v4** | Prior major version that made the diagnostic architecture and recursive evidence loop explicit | Historical canonical version preserved for evidence and version history |
 | **GTM Diagnostic Framework v9** | Applied GTM system for diagnosing governing constraints, connected dependencies, and operating interventions | Current canonical GTM architecture; field-test, not formally validated |
 | **GTM Diagnostic Framework v8** | Prior GTM version that established the governing constraint as the intellectual center | Historical prior version preserved in the public evidence trail |
