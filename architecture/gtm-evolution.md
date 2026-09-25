@@ -377,6 +377,28 @@ The change remains inside v9 because it strengthens dynamic dependency and pipel
 
 Its field-calibration question is whether explicit inspection of opportunity availability relative to capacity materially improves diagnosis across unrelated sales environments.
 
+## 13. Diagnostic Evidence Sufficiency Became Explicit
+
+A later framework-development review exposed a gap between evidence quality and the decision value of collecting more evidence.
+
+v9 already said that depth follows evidence. It also treated time as evidence, used anticipatory judgment, allowed reversible testing when appropriate, and reopened prior decisions when material new evidence arrived.
+
+What remained less explicit was the stopping decision during diagnosis.
+
+Another increment of evidence can increase certainty without improving the decision enough to justify the delay required to obtain it. In commercial systems that delay may also change buyer behavior, leverage, opportunity value, execution conditions, or available options.
+
+v9 therefore adds a decision-relative evidence-sufficiency rule. Diagnostic work should continue while more evidence has a reasonable prospect of materially changing the diagnosis, confidence, or action decision enough to justify the commercial cost of waiting.
+
+Experienced operating judgment can inform that decision when the present situation is materially analogous to prior patterns that survived later outcome review. It does not become present-case fact and does not override material contradictory evidence.
+
+The refinement also preserves a hard boundary around commercial truth. A provisional diagnosis may support a bounded action without lowering the evidence standards that establish buyer intent, stakeholder commitment, compelling-event credibility, or forecast status.
+
+A bounded and reversible action can sometimes function as a diagnostic probe. Its observed response returns as new evidence rather than proof that the original explanation was correct.
+
+The change remains inside v9 because it makes the existing Test and Diagnose logic more deterministic without changing the six-lens architecture, the governing-constraint center, the Strategic Action Gate, or the five-part engagement method.
+
+Its field-calibration question is whether explicit evidence-sufficiency reasoning reduces unnecessary diagnostic delay without weakening the framework's evidence discipline.
+
 ## What v9 Deliberately Preserves
 
 v9 does not replace the core framework architecture.
