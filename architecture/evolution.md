@@ -1,6 +1,6 @@
 # Evolution of the Reasoning System
 
-*The design decisions that moved Full Stack from prompt-level improvement toward an explicit reasoning architecture and strategic decision gate*
+*The design decisions that moved Full Stack from prompt-level improvement toward an explicit reasoning architecture, strategic decision gate, and governed diagnostic compression*
 
 **Status**  
 Work in progress. This history includes only changes supported by the currently available source documents. It does not reconstruct undocumented intermediate versions.
@@ -25,6 +25,7 @@ The development pattern has been
 | **v4 refinement** | A governing constraint could explain what blocked an outcome without explaining why the same condition kept recurring | Add optional system-dynamics reasoning, stakeholder perspective triangulation, and an experienced-operator delta inside pressure testing | Extended diagnosis from a static blocker toward recurring system behavior while preserving evidence and attribution discipline |
 | **v4 refinement** | The written sequence did not make it explicit enough that material real-world responses and outcomes should be allowed to reopen the diagnosis | Make external evidence recursively re-enter at Source Truth, reinforce outcome-attribution discipline, and distinguish compliance from commitment | Turned an implicitly recursive system into an explicitly closed-loop reasoning process without adding another architectural layer |
 | **v5** | A diagnosis could be correct and the resulting intervention could still be strategically wrong | Add Communication Function when material and Strategic Adjudication between prognosis and intervention | Separated diagnostic correctness from whether action is survivable and worth scarce resources |
+| **v5.1** | The framework could evaluate evidence quality and decision consequence without explicitly deciding when more diagnosis had lower expected value than acting, observing, and updating | Add Compressed Diagnosis after initial evidence classification and before full diagnostic expansion | Made evidence sufficiency decision-relative while preserving diagnose-before-prescribe and the v5 reasoning spine |
 | **v5 refinement** | The framework could still over-process simple work, miss cases where narrative changes operating reality, or treat organizational layers as static stakeholder states rather than translation channels | Add Reasoning Depth Routing, Reflexivity inside System Dynamics, and Cascade Integrity inside Operator Proof | Made the instructions for existing v5 functions more explicit without changing the governing reasoning spine |
 | **v5 refinement** | A later explanation of a prior decision could be mistaken for evidence of the reasoning that actually produced the choice | Add Decision Trace Integrity across evidence discipline, Human Pattern 1, recursive evidence re-entry, and consequence-based trace preservation | Separated retrospective rationale from contemporaneous decision evidence without turning cognitive-bias labels into new peer lenses |
 | **v5 refinement** | Reasoning Depth Routing used failure-oriented consequence language that could prime the user and make one answer feel more responsible than another | Replace the consequence gate with a user-selected minimum rigor gate, add a Routing Framing Guardrail, and retain observable reasoning risk as an escalation mechanism | Preserved collaborative routing while reducing avoidable framing pressure and keeping deeper scrutiny available when the reasoning itself warrants it |
@@ -347,7 +348,49 @@ Either lane, both lanes, or neither lane may trigger.
 
 This control also preserves the evidence boundary. Every real use gives the framework another opportunity to fail or expose a limitation. Repeated use can generate observations and reveal recurring failure modes. It is not, by itself, formal validation.
 
-## What v5 Did Not Change
+## Why v5.1 Crossed the Version Threshold
+
+The v5 refinements made existing functions more deterministic.
+
+Compressed Diagnosis changes something different.
+
+The prior architecture could use experience as a prior, route reasoning depth, ask for missing information, consider cost of delay in Strategic Adjudication, and recursively update after action.
+
+It did not explicitly govern whether additional diagnostic work was worth doing before the system proceeded.
+
+That missing decision became material.
+
+An experienced operator may recognize a repeated operating pattern quickly. The reasoning can be compressed because prior cases have already built part of the causal model. Requiring the same amount of current-state investigation in every case can add delay without adding enough decision value to justify it.
+
+The v5.1 distinction is
+
+> **Experience can compress diagnosis without bypassing it.**
+
+The related transfer principle is
+
+> **Learning may transfer across contexts. Diagnosis does not.**
+
+v5.1 therefore adds a recurring reasoning capability rather than another refinement to an existing function.
+
+## The v5.1 Architecture Change
+
+Full Stack v5.1 preserves the v5 reasoning spine and inserts Compressed Diagnosis after initial evidence classification and before full diagnostic expansion.
+
+Compressed Diagnosis evaluates whether accumulated evidence creates a strong enough prior for the decision being made and whether additional information is likely to improve the decision enough to justify its time, delay, opportunity cost, or other consequence.
+
+The capability remains bounded.
+
+Material contradictory evidence can defeat the prior.
+
+Novelty, irreversibility, asymmetric downside, path dependency, and other material uncertainty increase the need for diagnostic expansion.
+
+Reasoning depth and diagnostic expansion remain separate. Deep reasoning can conclude that more evidence collection has low expected decision value.
+
+When a bounded and reversible action can generate discriminating evidence more efficiently than waiting, the action can function as a diagnostic probe. The resulting response re-enters the reasoning cycle as new evidence.
+
+This is why v5.1 crossed the point-release threshold while preserving the governing architecture.
+
+## What v5.1 Did Not Change
 
 The new version does not replace the Logic Lens concept or the core Full Stack thesis.
 
@@ -369,7 +412,7 @@ The following principles remain intact.
 
 The GTM Diagnostic Framework v9 is not modified by this refinement.
 
-The Behavioral Inference Engine remains a separate work-in-progress research direction. Several behavioral disciplines now inform Full Stack v5, while longitudinal persistence, accumulation, contradiction, context change, and model revision remain BIE research.
+The Behavioral Inference Engine remains a separate work-in-progress research direction. Several behavioral disciplines introduced through v5 continue to inform the current Full Stack v5.1 architecture, while longitudinal persistence, accumulation, contradiction, context change, and model revision remain BIE research.
 
 ## Rejected Alternatives
 
@@ -442,37 +485,41 @@ Full Stack continues to operate through two private components.
 | **Operating Manual** | Deeper reasoning for complex or consequential work |
 | **Execution Prompt** | Faster application of the same underlying discipline, with an entry reasoning-depth gate and routing that can remain fast, use the standard path, or escalate to deeper reasoning |
 
-The two components implement the same v5 architecture at different levels of depth.
+The two components implement the same v5.1 architecture at different levels of depth.
 
 ## Current State
 
-Full Stack v5 is the active canonical version for new work.
+Full Stack v5.1 is the active canonical version for new work.
 
-Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact.
+Full Stack v5 remains preserved as historical canonical source material and as a public architecture artifact. v4 remains an earlier historical version.
 
-The v5 Operating Manual and Execution Prompt are complete and aligned with the current v5 architecture, including Reasoning Depth Routing with the Mandatory Reasoning Depth Selection and Routing Framing Guardrail, Context Intake Discipline, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
+The v5.1 Operating Manual and Execution Prompt are aligned around Compressed Diagnosis while carrying forward the accepted v5 reasoning spine and refinements.
 
-The next Full Stack work is evaluation of the v5 decision capability and current refinements rather than version expansion.
+The next Full Stack work is evaluation of Compressed Diagnosis and regression testing of the inherited v5 capabilities rather than immediate version expansion.
 
 ## Version Discipline
 
-Full Stack v5 supersedes v4 for new work.
+Full Stack v5.1 supersedes v5 for new work.
 
-v4 and v3 remain historical source material.
+v5, v4, and v3 remain historical source material.
 
-Minor wording, voice, example, execution-routing, framework-development governance, evaluation, or nested reasoning refinements should update v5 rather than create a numbered release.
+Compressed Diagnosis crossed the point-release threshold because it adds a recurring reasoning capability that the v5 architecture did not explicitly govern. It determines whether additional diagnostic expansion has enough expected decision value to justify its cost or delay.
 
-Reasoning Depth Routing, Context Intake Discipline, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline are current v5 refinements. The Mandatory Reasoning Depth Selection and Routing Framing Guardrail remain inside Reasoning Depth Routing. The post-execution two-lane carry-forward control governs framework development rather than adding a peer reasoning stage. None of these creates v5.1 or v6.
+Reasoning Depth Routing, Context Intake Discipline, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline remain v5 refinements carried forward into v5.1. The Mandatory Reasoning Depth Selection and Routing Framing Guardrail remain inside Reasoning Depth Routing. The post-execution two-lane carry-forward control governs framework development rather than adding a peer reasoning stage.
 
-A future **v5.1** should require an additive reasoning capability that materially expands what Full Stack must reason about across recurring cases while preserving v5's core purpose and governing reasoning spine. Specifying an existing function more explicitly does not by itself justify v5.1. Neither does a change in framework-development governance or the addition of capture or evaluation discipline.
+Minor wording, examples, evaluation changes, execution clarifications, framework-development governance, and nested refinements should update v5.1 without creating another numbered release.
 
-A future **v6** should require a meaningful change in purpose, governing architecture, or reasoning spine.
+A future point release should require another additive reasoning capability that materially expands what Full Stack must reason about while preserving the governing reasoning spine.
+
+A future major version should require a meaningful change in purpose, governing architecture, or reasoning spine.
 
 ## Related Public Documents
 
-- [Full Stack v5 Public Architecture](./full-stack-v5-public-architecture.md)
+- [Full Stack v5.1 Public Architecture](./full-stack-v5-1-public-architecture.md)
 - [Human Pattern 1](./human-pattern-1.md)
+- [Full Stack v5 Public Architecture](./full-stack-v5-public-architecture.md)
 - [Full Stack v4 Public Architecture](./full-stack-v4-public-architecture.md)
 - [Building Friction Into AI](../docs/building-friction-into-ai.md)
 - [What I Mean by a Logic Lens](../docs/what-is-a-logic-lens.md)
+- [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5-1-evaluation-plan.md)
 - [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md)
