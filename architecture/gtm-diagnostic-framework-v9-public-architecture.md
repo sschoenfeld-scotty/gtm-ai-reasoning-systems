@@ -400,11 +400,11 @@ The key v9 question is whether the evidence weakens the original causal hypothes
 
 > **Reality retains the right to change the diagnosis.**
 
-## How GTM v9 Relates to Full Stack v5
+## How GTM v9 Relates to Full Stack v5.1
 
-GTM Diagnostic Framework v9 and [Full Stack v5](full-stack-v5-public-architecture.md) are related but distinct systems.
+GTM Diagnostic Framework v9 and [Full Stack v5.1](full-stack-v5-1-public-architecture.md) are related but distinct systems.
 
-**Full Stack v5** is a general reasoning architecture for evidence, challenge, diagnosis, prognosis, strategic adjudication, pressure testing, and confidence.
+**Full Stack v5.1** is the current general reasoning architecture for evidence, challenge, diagnosis, prognosis, strategic adjudication, pressure testing, confidence, and Compressed Diagnosis.
 
 **GTM Diagnostic Framework v9** is a domain-specific commercial diagnostic system.
 
@@ -460,6 +460,7 @@ The framework should continue to be challenged through live application, evidenc
 - [GTM Framework Evolution](gtm-evolution.md)
 - [GTM Calibration Log](gtm-calibration-log.md)
 - [GTM Diagnostic Framework v8 Public Architecture](gtm-diagnostic-framework-v8-public-architecture.md)
+- [Full Stack v5.1 Public Architecture](full-stack-v5-1-public-architecture.md)
 - [Full Stack v5 Public Architecture](full-stack-v5-public-architecture.md)
 
 ## Public Architecture in One Line
