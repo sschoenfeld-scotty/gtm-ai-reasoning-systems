@@ -255,6 +255,7 @@ A future major version should require a meaningful change in purpose, governing 
 - [Full Stack v5 Public Architecture](./full-stack-v5-public-architecture.md)
 - [Evolution of the Reasoning System](./evolution.md)
 - [Human Pattern 1](./human-pattern-1.md)
+- [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md)
 - [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md)
 - [Building Friction Into AI](../docs/building-friction-into-ai.md)
 - [What I Mean by a Logic Lens](../docs/what-is-a-logic-lens.md)
