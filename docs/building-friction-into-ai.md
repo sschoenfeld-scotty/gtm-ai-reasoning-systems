@@ -36,6 +36,10 @@ v5.1 adds another distinction.
 
 The framework can now ask whether more diagnostic evidence is likely to improve the decision enough to justify the time, delay, or opportunity cost required to obtain it. A strong prior remains challengeable, and material contradictory evidence can defeat it.
 
+Current v5.1 execution also treats Full Stack invocation itself as the escalation. Ordinary invocation uses Deep Path and maximum Full Stack execution. Fast Path and Standard Path remain defined but dormant.
+
+Maximum execution does not mean endless analysis. The complete architecture is considered at the deepest available reasoning level, and the system continues only while another increment of reasoning or evidence has a reasonable prospect of materially improving the judgment. Compressed Diagnosis can determine that the evidence-sufficiency threshold has already been reached.
+
 Today, that discipline is encoded in an Operating Manual and an Execution Prompt. The asset is not a single prompt. It is a repeatable reasoning system that can be applied across different problems and revised when evidence exposes a real reasoning failure.
 
 ## Where the idea is going
@@ -74,8 +78,8 @@ That loop is the point. AI is both the tool and part of the experiment. A revisi
 
 | Component | Plain English | Role |
 | --- | --- | --- |
-| **Operating Manual** | The playbook | Defines the deep reasoning architecture, evidence discipline, strategic decision gates, guardrails, and conditions that should force the system to challenge its own diagnosis or intervention |
-| **Execution Prompt** | The game-day call sheet | Applies the same reasoning quickly to daily LinkedIn work, executive reactions, and GTM analysis |
+| **Operating Manual** | The playbook | Defines the governing reasoning architecture for the current maximum-execution path |
+| **Execution Prompt** | The game-day call sheet | Acts as the execution control surface that applies the matched architecture to the task |
 
 ## Build journey and current state
 
@@ -87,11 +91,12 @@ That loop is the point. AI is both the tool and part of the experiment. A revisi
 | **4 · Two-part system** | The work split into an Operating Manual for deep reasoning and an Execution Prompt for daily application. A separate plain-English guide made the logic-lens concept easier to explain without AI jargon. |
 | **5 · v5** | A new failure mode became visible. Correct diagnosis did not necessarily imply that the diagnosed constraint should be fixed. v5 added Communication Function when material and Strategic Adjudication between prognosis and intervention. |
 | **6 · v5.1** | A recurring reasoning gap became explicit. The framework could judge evidence quality and action risk without deciding whether additional diagnosis was worth the delay. v5.1 added Compressed Diagnosis while preserving the v5 reasoning spine. |
-| **7 · Now** | Full Stack v5.1 is the current canonical implementation. Full Stack v5 and v4 remain preserved as historical canonical source material rather than being rewritten retroactively. |
+| **7 · v5.1 execution refinement** | Ordinary Full Stack invocation moved to Deep Path and maximum execution by default. Fast and Standard remained preserved but dormant, and marginal reasoning value replaced the user-facing gate and fixed numerical stopping limits. |
+| **8 · Now** | Full Stack v5.1 is the current canonical implementation. Full Stack v5 and v4 remain preserved as historical canonical source material rather than being rewritten retroactively. |
 
 ## Current state
 
-Full Stack v5.1 is functional as a reasoning architecture with matched Operating Manual and Execution Prompt.
+Full Stack v5.1 is functional as a reasoning architecture with a matched Operating Manual and Execution Prompt. Ordinary invocation uses the pair together on the current Deep Path maximum-execution state.
 
 The evidence supporting the broader Full Stack development includes repeated practical use, observed reasoning failures, framework revision, later retesting, and structured reconstructed comparisons developed under v4.
 
@@ -105,7 +110,9 @@ The Behavioral Inference Engine remains a work in progress.
 
 The next Full Stack work is to evaluate whether Compressed Diagnosis reduces unnecessary diagnostic expansion without turning experience into proof, suppressing contradictory evidence, or using speed as a substitute for judgment.
 
-Existing v4 evidence remains v4 evidence and existing v5 evidence remains v5 evidence. The [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md) tests Compressed Diagnosis without relabeling earlier evidence. The historical [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) remains attached to the v5 architecture.
+The current execution refinement also needs regression testing. The system should enter Deep Path directly, keep Fast and Standard dormant, continue while another reasoning increment can materially improve the judgment, and stop when that marginal value is gone.
+
+Existing v4 evidence remains v4 evidence and existing v5 evidence remains v5 evidence. The [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md) tests Compressed Diagnosis and the current execution behavior without relabeling earlier evidence. The historical [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) remains attached to the v5 architecture.
 
 The Behavioral Inference Engine still needs a disciplined model-update rule for deciding when an outlier should change the pattern rather than be treated as noise.
 

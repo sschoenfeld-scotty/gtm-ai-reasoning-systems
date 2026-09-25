@@ -1,6 +1,6 @@
 # Full Stack v5.1 Evaluation Plan
 
-*How I plan to test Compressed Diagnosis without relabeling earlier evidence*
+*How I plan to test Compressed Diagnosis and current v5.1 execution behavior without relabeling earlier evidence*
 
 > Work in progress | September 2026
 
@@ -12,7 +12,11 @@ That capability is **Compressed Diagnosis**.
 
 Full Stack v5.1 preserves the governing v5 reasoning spine. It adds an explicit decision about whether additional diagnostic expansion is likely to improve the decision enough to justify the time, delay, opportunity cost, or other consequence required to obtain more evidence.
 
-This plan is not evidence that Compressed Diagnosis has been validated.
+Current v5.1 also includes an execution-routing refinement. Ordinary Full Stack invocation now uses Deep Path and maximum Full Stack execution by default. Fast Path and Standard Path remain defined but dormant. A marginal reasoning-value stopping rule determines when additional reasoning or evidence is no longer likely to materially improve the judgment.
+
+That execution refinement is not a new reasoning capability and does not create another numbered release.
+
+This plan is not evidence that Compressed Diagnosis or the current execution refinement has been validated.
 
 Existing v4 evidence remains v4 evidence.
 
@@ -38,9 +42,11 @@ The public principles are
 
 > **Learning may transfer across contexts. Diagnosis does not.**
 
-Reasoning depth and diagnostic expansion remain separate.
+Current v5.1 uses Deep Path and maximum Full Stack execution by default.
 
-Deep reasoning can conclude that more evidence collection is not worth the delay.
+Maximum execution does not require unlimited evidence collection. Compressed Diagnosis operates inside that execution state and can determine that additional diagnostic evidence is not worth the delay.
+
+The framework should continue while another increment of reasoning or evidence has a reasonable prospect of materially changing the strongest defensible conclusion, confidence, a credible alternative, the decision boundary, or what should be done. It should stop when that marginal value is no longer material.
 
 Compressed Diagnosis cannot override material contradictory evidence or turn familiarity, confidence, seniority, or repeated exposure into proof.
 
@@ -51,6 +57,10 @@ Compressed Diagnosis cannot override material contradictory evidence or turn fam
 The companion question is
 
 > **Does v5.1 expand the diagnosis when novelty, contradiction, irreversibility, asymmetric downside, or path dependency makes compression unsafe?**
+
+A second execution question is
+
+> **Does maximum Full Stack execution continue long enough to materially challenge the judgment without continuing after additional reasoning has little expected decision value?**
 
 ## What the Evaluation Should Test
 
@@ -78,11 +88,17 @@ Does material contradictory evidence defeat or materially weaken the prior?
 
 Does the system expand the diagnosis rather than protect a familiar pattern?
 
-### Reasoning depth independence
+### Maximum execution and stopping discipline
 
-Can Deep Path reasoning still produce a compressed diagnosis when additional evidence has low expected decision value?
+Does ordinary Full Stack invocation enter Deep Path without asking the user to choose a lower reasoning route?
 
-Can Compressed Diagnosis remain unavailable when the case contains material risk that requires diagnostic expansion?
+Does the system consider the complete architecture at maximum reasoning rigor while allowing functions that are not material to resolve without unnecessary work?
+
+Does it continue reasoning when another increment could materially change the conclusion, confidence, strongest credible alternative, decision boundary, or action?
+
+Does it stop when another increment is unlikely to create a material improvement?
+
+Can Compressed Diagnosis determine that additional evidence has low expected decision value without being mistaken for a lower reasoning route?
 
 ### Prognosis and Strategic Adjudication
 
@@ -126,11 +142,23 @@ Surface features match a familiar pattern while the causal structure differs.
 
 The expected behavior is to detect the mismatch before the prior controls the diagnosis.
 
-### Deep reasoning with low information value
+### Maximum execution with low information value
 
-The user selects the deepest reasoning level, but additional evidence is unlikely to change a bounded decision enough to justify delay.
+Full Stack enters maximum execution, but additional evidence is unlikely to change a bounded decision enough to justify delay.
 
-The expected behavior is rigorous justification for compression rather than maximum evidence collection.
+The expected behavior is rigorous challenge followed by a justified stop rather than unlimited evidence collection.
+
+### Dormant-route leakage
+
+Ordinary Full Stack invocation is presented without any request for a reasoning-depth choice.
+
+The expected behavior is direct Deep Path execution. Fast Path and Standard Path should not activate unless future canonical guidance explicitly reactivates them.
+
+### Reasoning beyond former caps
+
+A case is constructed or selected where an additional diagnostic question or challenge pass beyond the former numerical limits materially changes the reasoning.
+
+The expected behavior is to continue because the next increment still has material reasoning value.
 
 ### Diagnostic probe
 
@@ -164,43 +192,55 @@ Use the frozen v5 architecture.
 
 Preserve the diagnosis, evidence requests, reasoning depth, prognosis, action decision, and confidence.
 
-### 3. Run the v5.1 condition
+This is a historical comparison, not a clean isolation of Compressed Diagnosis, because current v5.1 also changed routing activation and stopping behavior.
 
-Use the same frozen case.
+### 3. Run a controlled v5.1 ablation
+
+Use the current v5.1 execution state but disable Compressed Diagnosis for this evaluation condition only.
+
+Keep Deep Path, maximum execution, the marginal reasoning-value stopping rule, and the rest of the current v5.1 architecture unchanged.
+
+This ablation is an evaluation control, not a framework version.
+
+### 4. Run the current v5.1 condition
+
+Use the same frozen case with Compressed Diagnosis available.
 
 Record whether Compressed Diagnosis activated and why.
 
 Record what additional evidence was not pursued and why.
 
-### 4. Compare diagnostic expansion
+### 5. Isolate the Compressed Diagnosis effect
 
-Determine whether v5.1 reduced, preserved, or increased diagnostic work.
+Compare the controlled v5.1 ablation with the current v5.1 condition.
+
+Determine whether Compressed Diagnosis reduced, preserved, or increased diagnostic work and whether it changed the decision.
 
 Do not treat less analysis as improvement by itself.
 
-### 5. Compare the decision
+### 6. Compare historical evolution
 
-Inspect whether the recommendation or action changed.
+Compare the historical v5 condition with current v5.1.
 
-When it did, identify which v5.1 reasoning distinction caused the change.
+Use this comparison to inspect overall architectural evolution. Do not attribute every difference to Compressed Diagnosis when current execution-routing behavior could also explain the change.
 
-### 6. Inspect residual uncertainty
+### 7. Inspect residual uncertainty
 
 Confirm that compression did not convert uncertainty into false fact, motive, or causality.
 
-### 7. Inspect evidence acquisition value
+### 8. Inspect evidence acquisition value
 
 Determine whether skipped evidence was actually unlikely to change the decision enough to justify delay.
 
 If later evidence shows that the skipped information would have materially changed the decision, record that as a failure or boundary condition.
 
-### 8. Inspect diagnostic probes
+### 9. Inspect diagnostic probes
 
 When an intervention functioned as a probe, preserve the predicted strengthening and weakening signals before the result is known.
 
 Then evaluate the response through Recursive Evidence Re-entry.
 
-### 9. Preserve outcome attribution discipline
+### 10. Preserve outcome attribution discipline
 
 A successful outcome can strengthen confidence.
 
@@ -208,7 +248,7 @@ It does not automatically prove that the compressed diagnosis was correct.
 
 A failed outcome can weaken confidence without proving that compression itself was the cause.
 
-### 10. Preserve the original outputs
+### 11. Preserve the original outputs
 
 Do not improve either condition after the comparison.
 
@@ -243,9 +283,17 @@ The system stops diagnostic expansion before material contradiction, novelty, or
 
 The system continues gathering evidence when the information is unlikely to change the decision enough to justify delay.
 
-### Route collapse
+### Maximum-execution inflation
 
-Deep reasoning is mistaken for maximum evidence collection, or Compressed Diagnosis is mistaken for Fast Path.
+Maximum reasoning is mistaken for endless evidence collection or mechanical activation of every function even after additional work has little expected decision value.
+
+### Dormant-route leakage
+
+Ordinary Full Stack invocation asks the user to choose a reasoning depth or activates Fast Path or Standard Path despite the current Deep Path default.
+
+### Fixed-cap regression
+
+A hard question count or challenge-pass limit stops the reasoning even though another increment has a reasonable prospect of materially changing the judgment.
 
 ### Evidence-value confusion
 
@@ -291,6 +339,8 @@ v5.1 should inherit useful evaluation controls without relabeling earlier result
 
 The next evidence work should use naturally occurring cases where diagnostic delay, experienced priors, reversibility, or information value are already part of the real decision.
 
-The objective is not to manufacture cases that make Compressed Diagnosis look useful.
+It should also include bounded regression cases for the current execution state, including direct Deep Path activation, dormant-route leakage, marginal stopping, and situations where reasoning must continue beyond the former numerical limits.
 
-The objective is to find where compression improves judgment, where it adds no value, and where it fails.
+The objective is not to manufacture cases that make Compressed Diagnosis or maximum execution look useful.
+
+The objective is to find where compression improves judgment, where maximum execution adds value, where either adds no material value, and where either fails.

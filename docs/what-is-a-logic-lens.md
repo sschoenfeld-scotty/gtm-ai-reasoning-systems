@@ -32,6 +32,8 @@ Before producing the final output, it asks the model to work through questions l
 
 One important change introduced in v5 is the distinction between diagnosis and action. v5.1 adds Compressed Diagnosis, which governs when a strong prior can reduce additional diagnostic expansion without bypassing diagnosis.
 
+Current v5.1 invocation uses Deep Path and maximum Full Stack execution by default. Fast Path and Standard Path remain defined but dormant. Maximum execution means the complete architecture is considered at the deepest available reasoning level and continues only while another increment of reasoning or evidence can materially improve the judgment.
+
 > **A correct diagnosis is necessary for a good decision. It does not make every diagnosed problem worth solving.**
 
 ## The Two Parts of Full Stack v5.1
@@ -39,8 +41,8 @@ One important change introduced in v5 is the distinction between diagnosis and a
 | | Operating Manual | Execution Prompt |
 | --- | --- | --- |
 | **Plain English** | The playbook | The game-day call sheet |
-| **Role** | Defines the deep reasoning architecture, guardrails, decision gates, and tests | Applies the same reasoning quickly to a specific task |
-| **Best Use** | Complex or high-stakes work where the reasoning itself matters | Daily comments, posts, replies, executive reactions, and other decisions where the complete internal reasoning does not need to be shown |
+| **Role** | Defines the governing reasoning architecture for the current maximum-execution path | Acts as the execution control surface that applies the matched architecture to a specific task |
+| **Best Use** | Governing architecture for Full Stack reasoning | Day-to-day execution without changing the reasoning tier |
 
 ## What the Lens Is Supposed to Change
 
@@ -49,5 +51,7 @@ The goal isn’t to make AI sound smarter. It’s to make the reasoning more dis
 A useful logic lens should reduce reflexive agreement, make uncertainty visible, pressure-test the first explanation, and produce an answer that is more grounded in the actual problem.
 
 Full Stack v5.1 extends that discipline by asking whether the diagnosis is right, whether acting on it is strategically warranted, and whether more diagnostic work has enough expected decision value to justify its cost or delay.
+
+The stopping rule is not a fixed number of questions or challenge passes. The lens keeps going while another increment can materially improve or weaken the conclusion, change confidence, favor a credible alternative, change the decision boundary, or change what should be done.
 
 > **The writing is the output. The logic lens is the thinking discipline behind it.**

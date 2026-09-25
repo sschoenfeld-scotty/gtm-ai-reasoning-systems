@@ -20,7 +20,7 @@ The governing idea remains simple.
 
 > **Better decisions come from better diagnosis.**
 
-The current body of work includes **Full Stack v5.1**, the **GTM Diagnostic Framework v9**, structured evaluation work, reconstructed test cases, and research and calibration threads that remain deliberately unfinished. The Full Stack v5.1 Evaluation Plan now defines the specific evaluation path for Compressed Diagnosis, while the existing v5 plan remains scoped to v5 capabilities.
+The current body of work includes **Full Stack v5.1**, the **GTM Diagnostic Framework v9**, structured evaluation work, reconstructed test cases, and research and calibration threads that remain deliberately unfinished. The Full Stack v5.1 Evaluation Plan now defines the specific evaluation path for Compressed Diagnosis and current execution-regression checks, while the existing v5 plan remains scoped to v5 capabilities.
 
 This is not a software codebase or a prompt library.
 
@@ -53,6 +53,10 @@ Full Stack v5.1 preserves that reasoning spine and adds Compressed Diagnosis.
 > **Experience can compress diagnosis without bypassing it.**
 
 v5 exists because diagnosis and strategic action needed to be separated. v5.1 exists because repeated prior evidence can sometimes justify reducing additional diagnostic expansion without skipping diagnosis.
+
+Current v5.1 also treats Full Stack invocation itself as the escalation. Ordinary invocation uses Deep Path and maximum Full Stack execution. Fast Path and Standard Path remain defined but dormant unless future canonical guidance reactivates them.
+
+Maximum execution means the complete architecture is considered at the deepest available reasoning level. It does not mean endless evidence collection. The system continues while another increment of reasoning or evidence can materially improve the judgment and stops when that marginal value is no longer material.
 
 ## What the Harness Does
 
@@ -179,7 +183,7 @@ It makes experienced judgment easier to retrieve, connect, inspect, challenge, a
 | **Full Stack v4** | Prior major version that made the diagnostic architecture and recursive evidence loop explicit | Historical canonical version preserved for evidence and version history |
 | **GTM Diagnostic Framework v9** | Applied GTM system for diagnosing governing constraints, connected dependencies, and operating interventions | Current canonical GTM architecture; field-test, not formally validated |
 | **GTM Diagnostic Framework v8** | Prior GTM version that established the governing constraint as the intellectual center | Historical prior version preserved in the public evidence trail |
-| **Full Stack v5.1 Evaluation Plan** | Public plan for testing Compressed Diagnosis without relabeling earlier evidence | Work in progress |
+| **Full Stack v5.1 Evaluation Plan** | Public plan for testing Compressed Diagnosis and current v5.1 execution behavior without relabeling earlier evidence | Work in progress |
 | **Full Stack v5 Evaluation Plan** | Public plan for testing Strategic Adjudication and v5 refinements | Preserved v5-specific evaluation work. Not validation of Compressed Diagnosis |
 | **Behavioral Inference Engine** | Research direction for how behavioral hypotheses should persist and revise across time. Several bounded disciplines now inform Full Stack v5.1 | Work in progress |
 
