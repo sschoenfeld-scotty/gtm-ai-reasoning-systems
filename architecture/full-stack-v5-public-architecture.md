@@ -361,6 +361,7 @@ A future major version should require another meaningful change in purpose, arch
 
 ## Related Public Documents
 
+- [Full Stack v5.1 Public Architecture](./full-stack-v5.1-public-architecture.md)
 - [Building Friction Into AI](../docs/building-friction-into-ai.md)
 - [What I Mean by a Logic Lens](../docs/what-is-a-logic-lens.md)
 - [Evolution of the Reasoning System](./evolution.md)

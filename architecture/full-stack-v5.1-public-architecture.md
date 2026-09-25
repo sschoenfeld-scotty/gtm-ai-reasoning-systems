@@ -1,14 +1,14 @@
 # Full Stack v5.1
 
-*A human-directed reasoning harness for diagnosis, strategic adjudication, and consequential judgment*
+*A human-directed reasoning harness for consequential diagnosis and judgment*
 
 **Status**
 
-Current canonical Full Stack public architecture. Full Stack v5.1 is functional as a reasoning system and aligned with the private Operating Manual and Execution Prompt. The v5.1 addition is current architecture, not formal validation.
+Public derivative of the current canonical Full Stack v5.1 architecture. It reflects the current reasoning spine and Compressed Diagnosis without publishing the private execution procedure. The v5.1 addition is current architecture, not formal validation.
 
 ## Purpose
 
-Full Stack v5.1 is a reasoning system designed to improve the path from evidence to judgment before a recommendation, explanation, or action is trusted.
+Full Stack v5.1 is a reasoning system designed to improve the path from evidence to judgment before a recommendation or action is trusted.
 
 When used with AI, it functions as a **human-directed reasoning harness around the model**.
 
@@ -24,7 +24,7 @@ v5.1 preserves that reasoning spine and adds one conditional capability.
 
 > **Experience can compress diagnosis without bypassing it.**
 
-Compressed Diagnosis governs when accumulated prior evidence and experienced pattern recognition are strong enough that more diagnostic expansion has lower expected decision value than acting, observing, and updating.
+Compressed Diagnosis governs when accumulated prior evidence and experienced pattern recognition are strong enough that more diagnostic expansion has lower expected decision value than acting and then updating from observed results.
 
 The change does not permit prescription without diagnosis. It changes how much additional diagnosis may be required after the evidence has been classified.
 
@@ -61,7 +61,7 @@ Reasoning depth and diagnostic expansion are separate.
 
 The user-selected minimum rigor establishes the floor for how deeply the task should be reasoned through. Observable reasoning risk can justify escalation.
 
-Compressed Diagnosis answers a different question. It asks whether additional diagnostic expansion inside the selected route is likely to improve the decision enough to justify the delay, cost, or opportunity loss.
+Compressed Diagnosis answers a different question. It asks whether additional diagnostic expansion inside the selected route is likely to improve the decision enough to justify delay and opportunity cost.
 
 Deep reasoning can conclude that more evidence collection is unnecessary. A shallow route can still be inappropriate when the case contains material uncertainty, contradictory evidence, difficult-to-reverse downside, or another reason for deeper scrutiny.
 
@@ -77,7 +77,7 @@ Without an explicit answer, a framework built to prevent premature prescription 
 
 v5.1 adds Compressed Diagnosis to address that problem.
 
-The capability is conditional. It does not convert experience into current fact. It does not treat a familiar pattern as proof of motive or causality. It does not override Strategic Adjudication when downside, reversibility, or scarce-resource tradeoffs remain material.
+The capability is conditional. It does not convert experience into current fact. It does not treat a familiar pattern as proof of motive or causality. Strategic Adjudication still governs whether the decision is worth taking under material downside or scarce-resource constraints.
 
 The governing distinction is
 
@@ -89,7 +89,7 @@ Prior learning can reduce how much new work is required. The current case still 
 
 Compressed Diagnosis asks whether accumulated prior evidence can legitimately reduce additional diagnostic expansion without bypassing the reasoning that matters.
 
-A strong prior may come from repeated analogous operating experience, earlier cases tested against later outcomes, or other evidence that has already survived meaningful challenge.
+A strong prior may come from repeated analogous operating experience or earlier cases tested against later outcomes. Other evidence can also qualify when it has survived meaningful challenge.
 
 The prior is not enough by itself.
 

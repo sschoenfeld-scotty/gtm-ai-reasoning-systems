@@ -174,13 +174,13 @@ It makes experienced judgment easier to retrieve, connect, inspect, challenge, a
 | System or layer | Role | Current status |
 | --- | --- | --- |
 | **Logic Lens** | General concept for designing problem-specific reasoning discipline | Concept used across the current body of work |
-| **Full Stack v5.1** | Core reasoning harness for diagnosis, strategic adjudication, and decision support | Current canonical architecture; Compressed Diagnosis requires v5.1-specific evaluation |
+| **Full Stack v5.1** | Core reasoning harness for diagnosis and strategic decision support | Current canonical framework. Compressed Diagnosis requires v5.1-specific evaluation |
 | **Full Stack v5** | Prior Full Stack version that introduced Strategic Adjudication and accumulated the current v5 refinements | Historical architecture preserved with its own evidence boundary |
 | **Full Stack v4** | Prior major version that made the diagnostic architecture and recursive evidence loop explicit | Historical canonical version preserved for evidence and version history |
 | **GTM Diagnostic Framework v9** | Applied GTM system for diagnosing governing constraints, connected dependencies, and operating interventions | Current canonical GTM architecture; field-test, not formally validated |
 | **GTM Diagnostic Framework v8** | Prior GTM version that established the governing constraint as the intellectual center | Historical prior version preserved in the public evidence trail |
-| **Full Stack v5 Evaluation Plan** | Public plan for testing Strategic Adjudication and v5 refinements | Preserved v5-specific evaluation work; not validation of Compressed Diagnosis |
-| **Behavioral Inference Engine** | Research direction for how behavioral hypotheses should persist and revise across time; several bounded disciplines now inform Full Stack v5.1 | Work in progress |
+| **Full Stack v5 Evaluation Plan** | Public plan for testing Strategic Adjudication and v5 refinements | Preserved v5-specific evaluation work. Not validation of Compressed Diagnosis |
+| **Behavioral Inference Engine** | Research direction for how behavioral hypotheses should persist and revise across time. Several bounded disciplines now inform Full Stack v5.1 | Work in progress |
 
 These are related pieces of the same body of work, but they do not all have the same maturity, evidence base, or purpose.
 

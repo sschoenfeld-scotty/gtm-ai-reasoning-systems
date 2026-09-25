@@ -333,7 +333,7 @@ Repeated operating use exposed a different failure mode. A framework designed to
 
 v5.1 adds a conditional question about diagnostic sufficiency.
 
-When accumulated prior evidence is strong and materially analogous, does more diagnostic expansion improve the decision enough to justify its delay, cost, or opportunity loss?
+When accumulated prior evidence is strong and materially analogous, does more diagnostic expansion improve the decision enough to justify delay and opportunity cost?
 
 The capability does not permit prescription without diagnosis. It changes how much additional diagnosis may be required after evidence classification.
 
@@ -347,7 +347,7 @@ This met the minor-version threshold because it materially expands what Full Sta
 
 The v5.1 transition exposed a separate operating lesson that did not justify the version change.
 
-Custom instructions can require live canonical retrieval and still fail at execution time. A model may use stale framework behavior, misapply a gate, or claim current execution without actually following the current protocol.
+Custom instructions can require live canonical retrieval and still fail at execution time. A model may execute stale framework behavior or misapply the current protocol while still claiming current execution.
 
 The legitimate move to v5.1 created an additional verification surface.
 
@@ -355,7 +355,7 @@ When the operator explicitly invokes **Full Stack v5.1**, an execution that beha
 
 This does not make model compliance deterministic.
 
-A version label does not prove that the correct source was retrieved. It does not replace live-source verification. It does not justify artificial version bumps whose only purpose is retrieval control.
+A version label does not prove correct retrieval and cannot replace live-source verification. Artificial version bumps created only for retrieval control would also weaken version discipline.
 
 Its value is narrower.
 
