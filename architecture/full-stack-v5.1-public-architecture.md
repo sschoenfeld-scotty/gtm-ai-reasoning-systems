@@ -149,7 +149,7 @@ Supplied conversation, related artifacts, operating experience, and preferred in
 
 A preferred user position is something to test rather than something the framework is required to preserve.
 
-On deeper work, the framework can independently establish what the evidence supports before comparing that result with the preferred position.
+When a substantive preferred position is present, the framework can independently establish what the evidence supports before comparing that result with the preferred position.
 
 ### Behavioral Inference Discipline
 
