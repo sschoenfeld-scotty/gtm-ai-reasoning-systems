@@ -3,7 +3,7 @@
 *A human-directed reasoning harness for diagnosis, strategic adjudication, and consequential judgment*
 
 **Status**  
-Current canonical Full Stack architecture. Functional as a reasoning system and matched private Operating Manual and Execution Prompt. The strategic-adjudication capability introduced in v5 and the current v5 refinements still require v5-specific evaluation and should not be described as formally validated.
+Historical Full Stack v5 public architecture. This file preserves the v5 state and its evidence boundary. Full Stack v5.1 now supersedes v5 for new work. The v5 strategic-adjudication capability and v5 refinements remain subject to the evaluation status recorded here and should not be described as formally validated.
 
 ## Purpose
 
@@ -349,7 +349,7 @@ The existing [Evaluation Approach](../evaluation/evaluation-approach.md) and [In
 
 ## Version Discipline
 
-Full Stack v5 supersedes v4 for new work.
+At publication, Full Stack v5 superseded v4 for new work. Full Stack v5.1 now supersedes v5 for new work.
 
 Full Stack v4 remains preserved as historical canonical source material and as a public architecture artifact in this repository.
 
