@@ -7,7 +7,7 @@
 
 > **Historical source context**
 >
-> This work-in-progress research note records development context drawn from Full Stack v4 and GTM Diagnostic Framework v8. References to current sources below describe that earlier context. The current canonical Full Stack and GTM Diagnostic Framework sources are authoritative. At the time of this note's most recent verification, those are [Full Stack v5](../architecture/full-stack-v5-public-architecture.md) and [GTM Diagnostic Framework v9](../architecture/gtm-diagnostic-framework-v9-public-architecture.md).
+> This work-in-progress research note records development context drawn from Full Stack v4 and GTM Diagnostic Framework v8. References to current sources below describe that earlier context. The current canonical Full Stack and GTM Diagnostic Framework sources are authoritative. At the time of this note's most recent verification, those are [Full Stack v5.1](../architecture/full-stack-v5-1-public-architecture.md) and [GTM Diagnostic Framework v9](../architecture/gtm-diagnostic-framework-v9-public-architecture.md).
 >
 > This note does not claim a complete reassessment of the Behavioral Inference Engine against the later private frameworks. A September 2026 N-of-1 pilot has been added below as bounded research evidence about the evidence environment. It does not make BIE canonical or validated.
 
@@ -19,7 +19,7 @@ There is no standalone canonical Behavioral Inference Engine specification in th
 
 This public design note is a Bucket Two research artifact derived from principles already documented in
 
-- Full Stack v5
+- Full Stack v5.1
 - GTM Diagnostic Framework v9
 - Building Friction Into AI
 
@@ -204,7 +204,7 @@ The decision should not require certainty about motive when the unresolved behav
 
 For example, leadership may not need to know whether weak pipeline subtraction reflects fear, incentives, habit, structural pressure, or poor judgment before changing an inspection standard and observing what happens.
 
-Inside the current canonical Full Stack framework, Behavioral Inference Discipline calibrates the behavioral explanation while Strategic Adjudication retains responsibility for reversibility, downside, cost of delay, opportunity cost, and whether action is warranted.
+Inside the current canonical Full Stack framework, Behavioral Inference Discipline calibrates the behavioral explanation while Compressed Diagnosis can reduce additional investigation when the evidence and decision boundary support it. Strategic Adjudication retains responsibility for reversibility, downside, cost of delay, opportunity cost, and whether action is warranted. Compressed Diagnosis does not make motive more observable or change BIE's longitudinal research boundary.
 
 This preserves human judgment while reducing both the temptation to psychoanalyze and the temptation to wait for motive certainty that the decision does not require.
 
