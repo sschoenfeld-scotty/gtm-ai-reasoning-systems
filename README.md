@@ -20,7 +20,7 @@ The governing idea remains simple.
 
 > **Better decisions come from better diagnosis.**
 
-The current body of work includes **Full Stack v5.1**, the **GTM Diagnostic Framework v9**, structured evaluation work, reconstructed test cases, and research and calibration threads that remain deliberately unfinished. The existing Full Stack v5 Evaluation Plan remains scoped to v5 capabilities rather than being treated as validation of the v5.1 addition.
+The current body of work includes **Full Stack v5.1**, the **GTM Diagnostic Framework v9**, structured evaluation work, reconstructed test cases, and research and calibration threads that remain deliberately unfinished. The Full Stack v5.1 Evaluation Plan now defines the specific evaluation path for Compressed Diagnosis, while the existing v5 plan remains scoped to v5 capabilities.
 
 This is not a software codebase or a prompt library.
 
@@ -179,6 +179,7 @@ It makes experienced judgment easier to retrieve, connect, inspect, challenge, a
 | **Full Stack v4** | Prior major version that made the diagnostic architecture and recursive evidence loop explicit | Historical canonical version preserved for evidence and version history |
 | **GTM Diagnostic Framework v9** | Applied GTM system for diagnosing governing constraints, connected dependencies, and operating interventions | Current canonical GTM architecture; field-test, not formally validated |
 | **GTM Diagnostic Framework v8** | Prior GTM version that established the governing constraint as the intellectual center | Historical prior version preserved in the public evidence trail |
+| **Full Stack v5.1 Evaluation Plan** | Public plan for testing Compressed Diagnosis without relabeling earlier evidence | Work in progress |
 | **Full Stack v5 Evaluation Plan** | Public plan for testing Strategic Adjudication and v5 refinements | Preserved v5-specific evaluation work. Not validation of Compressed Diagnosis |
 | **Behavioral Inference Engine** | Research direction for how behavioral hypotheses should persist and revise across time. Several bounded disciplines now inform Full Stack v5.1 | Work in progress |
 
@@ -209,7 +210,7 @@ For a related applied operating project, see [Related Applied Project](#related-
 
 The current public architectures are [Full Stack v5.1](architecture/full-stack-v5.1-public-architecture.md) and [GTM Diagnostic Framework v9](architecture/gtm-diagnostic-framework-v9-public-architecture.md). [Human Pattern 1](architecture/human-pattern-1.md) shows how the current Full Stack architecture handles human behavior, structural pressure, and motive uncertainty. [Full Stack Evolution](architecture/evolution.md) and [GTM Framework Evolution](architecture/gtm-evolution.md) explain why the systems changed.
 
-The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) preserves the v5-specific evaluation work. Compressed Diagnosis requires separate v5.1 evaluation. The [GTM Calibration Log](architecture/gtm-calibration-log.md) records working observations alongside approved refinements. The repository map below retains the historical architectures.
+The [Full Stack v5.1 Evaluation Plan](evaluation/full-stack-v5.1-evaluation-plan.md) defines the current evaluation work for Compressed Diagnosis. The historical [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) remains scoped to v5 capabilities. The [GTM Calibration Log](architecture/gtm-calibration-log.md) records working observations alongside approved refinements. The repository map below retains the historical architectures.
 
 ## How the Work Is Developed
 
@@ -292,7 +293,7 @@ It is not yet a formal benchmark demonstrating that the architectures consistent
 
 The [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the external review process for the frozen v4 reconstructed cases.
 
-The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines separate tests for Strategic Adjudication and v5 refinements. Those tests remain v5 evidence and do not silently validate Compressed Diagnosis.
+The [Full Stack v5.1 Evaluation Plan](evaluation/full-stack-v5.1-evaluation-plan.md) defines the current tests for Compressed Diagnosis. The historical [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) remains v5 evidence and does not silently validate Compressed Diagnosis.
 
 The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md), [GTM Diagnostic Framework v9 Public Architecture](architecture/gtm-diagnostic-framework-v9-public-architecture.md), and [GTM Framework Evolution](architecture/gtm-evolution.md) are derived from the private GTM Diagnostic Framework v9.
 
@@ -330,6 +331,7 @@ The case remains in its own repository. It is not direct validation of Full Stac
 
 ### Evaluation
 
+- [Full Stack v5.1 Evaluation Plan](evaluation/full-stack-v5.1-evaluation-plan.md)
 - [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md)
 - [External Evidence Fixtures 01](evaluation/external-evidence-fixtures-01.md)
 - [Evaluation Approach](evaluation/evaluation-approach.md)

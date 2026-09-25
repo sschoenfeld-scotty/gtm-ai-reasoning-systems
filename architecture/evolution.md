@@ -411,9 +411,9 @@ The following principles remain intact.
 - A preferred user hypothesis remains something to test rather than evidence of its own correctness.
 - Human judgment retains responsibility for the conclusion.
 
-The GTM Diagnostic Framework v9 is not modified by this refinement.
+The GTM Diagnostic Framework v9 is not modified by this Full Stack change.
 
-The Behavioral Inference Engine remains a separate work-in-progress research direction. Several behavioral disciplines now inform Full Stack v5, while longitudinal persistence, accumulation, contradiction, context change, and model revision remain BIE research.
+The Behavioral Inference Engine remains a separate work-in-progress research direction. Several behavioral disciplines introduced through v5 continue to inform Full Stack v5.1, while longitudinal persistence, accumulation, contradiction, context change, and model revision remain BIE research.
 
 ## Rejected Alternatives
 
@@ -443,13 +443,15 @@ The Behavioral Inference review rejected treating human behavior as primarily a 
 
 Existing Full Stack v4 evidence remains evidence about v4.
 
-It must not be silently relabeled as v5 validation.
+Existing Full Stack v5 evidence remains evidence about v5.
+
+Neither should be silently relabeled as v5.1 validation.
 
 The broader development history still matters. Repeated practical use, observed reasoning failures, framework revision, later retesting, and reconstructed comparisons show that the system has been exercised and changed in response to evidence.
 
-But the new v5 Strategic Adjudication capability and the current v5 refinements require their own evaluation.
+The v5 Strategic Adjudication capability and v5 refinements retain their own historical evaluation boundary.
 
-Compressed Diagnosis is newer. Existing v5 evidence does not validate the v5.1 capability merely because v5.1 preserves the v5 reasoning spine.
+Compressed Diagnosis is newer and requires separate v5.1 evaluation.
 
 The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) is designed to test cases where
 
@@ -478,6 +480,10 @@ The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.
 - opportunity-cost reasoning becomes an excuse to avoid necessary work
 
 No v5 performance result is claimed until those tests are actually run and reviewed.
+
+The [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md) separately tests Compressed Diagnosis and regression risk without relabeling the earlier evidence.
+
+No v5.1 performance result is claimed until that work is actually run and reviewed.
 
 ## Two-Part Implementation
 
@@ -522,4 +528,5 @@ A future **v6** should require a meaningful change in purpose, governing archite
 - [Full Stack v4 Public Architecture](./full-stack-v4-public-architecture.md)
 - [Building Friction Into AI](../docs/building-friction-into-ai.md)
 - [What I Mean by a Logic Lens](../docs/what-is-a-logic-lens.md)
+- [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md)
 - [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md)

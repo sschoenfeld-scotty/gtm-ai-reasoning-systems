@@ -204,7 +204,7 @@ The decision should not require certainty about motive when the unresolved behav
 
 For example, leadership may not need to know whether weak pipeline subtraction reflects fear, incentives, habit, structural pressure, or poor judgment before changing an inspection standard and observing what happens.
 
-Inside the current canonical Full Stack framework, Behavioral Inference Discipline calibrates the behavioral explanation while Strategic Adjudication retains responsibility for reversibility, downside, cost of delay, opportunity cost, and whether action is warranted.
+Inside the current canonical Full Stack framework, Behavioral Inference Discipline calibrates the behavioral explanation while Compressed Diagnosis can reduce additional investigation when the evidence and decision boundary support it. Strategic Adjudication retains responsibility for reversibility, downside, cost of delay, opportunity cost, and whether action is warranted. Compressed Diagnosis does not make motive more observable or change BIE's longitudinal research boundary.
 
 This preserves human judgment while reducing both the temptation to psychoanalyze and the temptation to wait for motive certainty that the decision does not require.
 
