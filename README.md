@@ -138,6 +138,7 @@ v9 therefore reasons more explicitly about
 - commercial system coherence across messaging, discovery, qualification, CRM, forecasting, inspection, coaching, and enablement
 - operating continuity across commercial records, field guidance, handoffs, and changes in buying state
 - opportunity availability relative to commercial capacity when scarcity or overload changes decision thresholds
+- diagnostic evidence sufficiency when the expected value of more evidence no longer justifies commercial delay
 - anchoring resistance when a strong preferred explanation exists before evidence review
 - evidence dependency when apparent agreement may trace back to the same underlying source
 - more disciplined behavioral attribution when human explanations materially affect causal diagnosis

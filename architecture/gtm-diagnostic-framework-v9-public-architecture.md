@@ -181,6 +181,20 @@ The framework therefore inspects whether opportunity conditions are changing dec
 
 This is not a claim that more pipeline fixes downstream execution. It is a diagnostic requirement to test whether the surrounding opportunity condition is changing how the organization allocates scarce commercial attention.
 
+## Diagnostic Evidence Sufficiency and Commercial Cost of Delay
+
+v9 distinguishes evidence quality from the decision value of gathering more evidence.
+
+The diagnostic should continue when another increment of evidence could materially change the diagnosis, confidence, or what should be done. It should not keep collecting evidence simply because more certainty is available.
+
+Prior operating evidence can reduce the incremental evidence needed for a bounded decision when the present situation is materially analogous and the prior pattern has survived later outcome review. That prior does not become present-case fact and cannot override material contradictory evidence.
+
+Commercial delay also matters. When waiting can change buyer behavior, leverage, opportunity value, execution conditions, or available options, the cost of waiting belongs in the evidence-sufficiency judgment.
+
+This does not lower the evidence standards that establish buyer intent, stakeholder commitment, compelling-event credibility, or forecast status. Those states still require the evidence v9 defines for them.
+
+When a bounded and reversible action can produce useful discriminating evidence, the observed response can re-enter the diagnostic loop as new evidence. The outcome does not automatically prove the original diagnosis.
+
 ## 5. Use a Strategic Action Gate When Consequence Warrants It
 
 A correct diagnosis does not automatically make every diagnosed problem worth fixing.

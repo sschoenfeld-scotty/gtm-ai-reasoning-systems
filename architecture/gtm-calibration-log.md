@@ -387,6 +387,62 @@ The canonical change therefore adds an inspection requirement rather than a univ
 - whether separating available opportunity from active workload improves execution when demand exceeds absorption capacity
 - which competing conditions most often explain the same observable behavior when opportunity availability is not governing
 
+## Canonical Refinement 008
+
+### Diagnostic Evidence Sufficiency and Commercial Cost of Delay
+
+**Date captured**  
+September 2026
+
+**Source context**  
+A framework-development review examined whether GTM v9 had a governed stopping rule for evidence acquisition when delay itself could change a commercial outcome.
+
+The framework already treated time as evidence, used anticipatory judgment, allowed reversible tests when appropriate, and re-entered material new evidence after action.
+
+What remained under-specified was whether another increment of diagnostic evidence was worth the time and commercial consequence required to obtain it.
+
+### Diagnostic distinction
+
+Evidence quality and evidence acquisition value are related but different questions.
+
+A diagnosis can retain residual uncertainty while the expected decision value of additional evidence has fallen below the commercial cost of obtaining it.
+
+Materially analogous operating experience can contribute to a strong prior when the prior pattern has survived later outcome review. It does not convert prior experience into present-case fact and does not lower the evidence standards that establish buyer or forecast truth.
+
+A bounded and reversible action may also function as a diagnostic probe when the observed response can help distinguish among plausible explanations. The response re-enters as evidence rather than automatic proof of the original diagnosis.
+
+### Canonical decision
+
+**Classification**  
+Diagnostic reasoning refinement
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The refinement adds explicit diagnostic evidence-sufficiency logic before unnecessary evidence collection extends the Test phase.
+
+It does not create a new lens, Truth layer, engagement phase, forecast category, or operator-experience exception to current evidence standards.
+
+The Strategic Action Gate remains downstream of diagnosis and continues to govern whether intervention is strategically warranted when consequence requires it.
+
+### Evidence status
+
+The refinement is grounded in commercial operating logic, a naturalistic GTM workflow observation, and architectural pressure testing against the existing v9 mechanisms.
+
+That evidence supports a bounded canonical refinement. It does not establish formal validation or a universal rule that acting sooner is better.
+
+### Field calibration questions
+
+- whether explicit evidence-sufficiency logic reduces unnecessary diagnostic delay without weakening current evidence standards
+- whether prior operating experience remains appropriately subordinate to material contradictory current evidence
+- whether bounded diagnostic probes improve causal learning without encouraging premature intervention
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
