@@ -449,6 +449,7 @@ Version history should increase credibility without increasing replication risk 
 - [GTM Diagnostic Framework v8 Public Architecture](./gtm-diagnostic-framework-v8-public-architecture.md)
 - [GTM Diagnostic Reasoning](../applications/gtm-diagnostic-reasoning.md)
 - [GTM Calibration Log](./gtm-calibration-log.md)
+- [Full Stack v5.1 Public Architecture](./full-stack-v5-1-public-architecture.md)
 - [Full Stack v5 Public Architecture](./full-stack-v5-public-architecture.md)
 - [Evolution of the Reasoning System](./evolution.md)
 
