@@ -460,9 +460,9 @@ The first question is not whether a GTM process can be automated.
 
 It is whether the process is worth accelerating and whether the operating context is trustworthy enough to support it.
 
-## How This Connects to Full Stack v5
+## How This Connects to Full Stack v5.1
 
-[Full Stack v5](../architecture/full-stack-v5-public-architecture.md) is a general reasoning architecture.
+[Full Stack v5.1](../architecture/full-stack-v5.1-public-architecture.md) is the current general reasoning architecture.
 
 GTM Diagnostic Framework v9 is a domain-specific commercial framework.
 
