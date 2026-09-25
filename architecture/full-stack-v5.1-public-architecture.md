@@ -34,7 +34,7 @@ This document describes the public architecture only. Detailed operating instruc
 
 ```mermaid
 flowchart LR
-    U{User-Selected Minimum Rigor} --> R{Reasoning Depth}
+    U[Full Stack Invocation] --> R[Deep Path / Maximum Execution]
     R --> A[Source Truth]
     R -. when material .-> CF[Communication Function]
     CF --> A
@@ -57,13 +57,13 @@ flowchart LR
 
 The architecture is connected rather than mechanically linear. Conditional capabilities activate only when they can materially improve the reasoning.
 
-Reasoning depth and diagnostic expansion are separate.
+Current v5.1 invocation uses Deep Path and maximum Full Stack execution by default. Fast Path and Standard Path remain defined as dormant routing modes for potential future use.
 
-The user-selected minimum rigor establishes the floor for how deeply the task should be reasoned through. Observable reasoning risk can justify escalation.
+Maximum execution means the complete architecture is considered at the deepest available reasoning level. A function can resolve as not material, but material reasoning is not omitted merely to reduce analytical effort.
 
-Compressed Diagnosis answers a different question. It asks whether additional diagnostic expansion inside the selected route is likely to improve the decision enough to justify delay and opportunity cost.
+The stopping rule is marginal reasoning value. Reasoning continues while another increment could materially improve or weaken the strongest defensible conclusion, materially change confidence, favor a credible alternative, change the decision boundary, or change what should be done.
 
-Deep reasoning can conclude that more evidence collection is unnecessary. A shallow route can still be inappropriate when the case contains material uncertainty, contradictory evidence, difficult-to-reverse downside, or another reason for deeper scrutiny.
+This does not require unlimited evidence collection. Compressed Diagnosis operates inside maximum execution and can determine that the evidence-sufficiency threshold has already been reached when additional investigation has lower expected decision value than acting, observing, and updating.
 
 ## What Changed From v5 to v5.1
 
@@ -84,6 +84,18 @@ The governing distinction is
 > **Learning may transfer across contexts. Diagnosis does not.**
 
 Prior learning can reduce how much new work is required. The current case still has to earn the conclusion.
+
+## Current v5.1 Execution Refinement
+
+Later v5.1 review changed how the existing depth-routing architecture is activated.
+
+Full Stack invocation is now treated as the escalation itself. Ordinary Full Stack v5.1 execution enters Deep Path directly and uses maximum Full Stack execution without asking the user to choose a lower reasoning route.
+
+Fast Path and Standard Path remain preserved in the architecture but are dormant unless future canonical guidance explicitly reactivates them.
+
+Maximum execution does not mean endless analysis. The framework continues while another increment of reasoning or evidence has a reasonable prospect of materially improving the judgment and stops when that marginal value is no longer material.
+
+This is an execution-routing refinement inside v5.1. It does not add a new reasoning capability and does not justify another numbered release.
 
 ## Compressed Diagnosis
 
@@ -107,11 +119,15 @@ Full Stack v5.1 preserves the capabilities developed through v5.
 
 ### Reasoning Depth Routing
 
-The user explicitly selects the minimum reasoning depth when it has not already been established.
+v5 introduced Fast, Standard, and Deep routing and later added a user-selected minimum-rigor gate to keep the model from silently deciding how important the user's problem was.
 
-The user's selection is a floor. Observable reasoning properties can justify deeper scrutiny but do not reduce the selected minimum.
+Those modes remain part of the preserved architecture.
 
-Output length is not a proxy for reasoning risk.
+In current v5.1 ordinary Full Stack invocation bypasses user-facing depth selection and activates Deep Path directly. Fast Path and Standard Path are dormant unless future canonical guidance explicitly reactivates them.
+
+Deep Path is now the maximum-execution state. Marginal reasoning value, rather than a lower route, determines when further analysis no longer improves the judgment enough to continue.
+
+Output length is not a proxy for reasoning rigor.
 
 ### Communication Function
 
@@ -219,10 +235,10 @@ Full Stack v5.1 operates through two private components.
 
 | Component | Public role |
 | --- | --- |
-| **Operating Manual** | Deeper reasoning for complex or consequential work |
-| **Execution Prompt** | Daily execution layer that applies the same architecture and can escalate when deeper reasoning is required |
+| **Operating Manual** | Governing reasoning architecture for the current maximum-execution path |
+| **Execution Prompt** | Execution control surface that applies the matched architecture to the task |
 
-Both implement the same underlying v5.1 architecture at different levels of depth.
+Ordinary Full Stack v5.1 uses the pair together at the same reasoning tier. The Operating Manual can be used as the primary execution surface, but that does not create a deeper tier than ordinary Full Stack v5.1.
 
 ## What Full Stack v5.1 Is Not
 
@@ -245,6 +261,8 @@ Full Stack v5.1 supersedes Full Stack v5 for new work.
 Full Stack v5 remains preserved as a historical public architecture and as part of the evidence trail.
 
 The move from v5 to v5.1 was justified by Compressed Diagnosis. The change added a reasoning capability that materially expands what Full Stack must decide across recurring cases while preserving the v5 purpose and governing reasoning spine.
+
+The later Deep Path default, dormant Fast and Standard activation state, and marginal reasoning-value stopping rule are execution-routing refinements inside v5.1. They do not add another reasoning capability and therefore do not create another numbered release.
 
 Version labels should not be changed merely to improve retrieval behavior, wording, evaluation discipline, or documentation.
 
