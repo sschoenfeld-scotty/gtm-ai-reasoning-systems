@@ -20,7 +20,7 @@ The governing idea remains simple.
 
 > **Better decisions come from better diagnosis.**
 
-The current body of work includes **Full Stack v5**, the **GTM Diagnostic Framework v9**, a structured evaluation approach, a v5-specific evaluation plan, reconstructed test cases, an independent review protocol, and research and calibration threads that remain deliberately unfinished.
+The current body of work includes **Full Stack v5.1**, the **GTM Diagnostic Framework v9**, a structured evaluation approach, a v5.1-specific evaluation plan, reconstructed test cases, an independent review protocol, and research and calibration threads that remain deliberately unfinished.
 
 This is not a software codebase or a prompt library.
 
@@ -28,7 +28,7 @@ It is a public record of how reasoning systems are built, challenged, revised, t
 
 ## The Core Reasoning System
 
-**Full Stack v5 is a reasoning system designed to make the path from evidence to judgment more disciplined.**
+**Full Stack v5.1 is a reasoning system designed to make the path from evidence to judgment more disciplined.**
 
 It is one implementation of a broader concept I call a **logic lens**.
 
@@ -46,6 +46,12 @@ The human retains responsibility for the judgment.
 
 Full Stack v5 crossed the version threshold by adding one explicit executive discipline to the architecture developed through v4.
 
+Full Stack v5.1 preserves that reasoning spine and adds **Compressed Diagnosis** as an additive capability. It asks whether additional diagnostic work is likely to improve the decision enough to justify the time, delay, or opportunity cost required to obtain more evidence.
+
+> **Experience can compress diagnosis without bypassing it.**
+
+The point is not to reward intuition. A strong prior remains revisable, contradictory evidence can defeat it, and learning can transfer across contexts without importing the earlier diagnosis.
+
 > **A correct diagnosis is necessary for a good decision. It does not make every diagnosed problem worth solving.**
 
 That distinction is the reason v5 exists.
@@ -56,7 +62,8 @@ At the public level, the reasoning architecture can be understood as connected f
 
 ```mermaid
 flowchart LR
-    A[Evidence] --> B[Challenge]
+    A[Evidence] --> CD{Compressed Diagnosis\nwhen eligible}
+    CD --> B[Challenge]
     B --> C[Diagnosis]
     C --> D[Prognosis]
     D --> E[Strategic Adjudication]
@@ -78,11 +85,11 @@ flowchart LR
 
 **Pressure Test and Confidence** asks whether the reasoning survives missing evidence, competing explanations, operating reality, likely failure, and material uncertainty.
 
-Current v5 refinements stay nested inside these functions rather than appearing as additional peer stages. They include Reasoning Depth Routing, Context Intake Discipline, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
+The v5 refinements remain nested inside these functions and carry forward into v5.1. They include Reasoning Depth Routing, Context Intake Discipline, Reflexivity, Cascade Integrity, Decision Trace Integrity, Anchoring Resistance, and Behavioral Inference Discipline.
 
 Context Intake Discipline separates the primary source from supplied comments, related artifacts, operating experience, and user-preferred interpretations before reasoning begins. Agreement with a user angle does not make that angle mandatory in the final output.
 
-Current v5 evidence and operating refinements also make temporal relevance, source independence, reconsideration boundaries, measurement burden, and transition effects more explicit inside the existing reasoning functions. These remain nested refinements rather than new peer capabilities.
+Those inherited evidence and operating refinements also make temporal relevance, source independence, reconsideration boundaries, measurement burden, and transition effects more explicit inside the existing reasoning functions. Compressed Diagnosis is different because it adds a recurring decision the v5 architecture did not explicitly govern.
 
 Behavioral Inference Discipline operates primarily through Human Pattern 1. It makes one recurring problem more explicit: behavior can matter to a diagnosis even when motive cannot be directly observed. The framework now separates observed behavior, stated accounts, inferred drivers, and structural or systemic explanations, then spends additional behavioral reasoning only when the ambiguity could materially change the decision.
 
@@ -170,12 +177,14 @@ It makes experienced judgment easier to retrieve, connect, inspect, challenge, a
 | System or layer | Role | Current status |
 | --- | --- | --- |
 | **Logic Lens** | General concept for designing problem-specific reasoning discipline | Concept used across the current body of work |
-| **Full Stack v5** | Core reasoning harness for diagnosis, strategic adjudication, and decision support | Current canonical architecture; v5-specific evaluation is still in progress |
+| **Full Stack v5.1** | Core reasoning harness for diagnosis, strategic adjudication, and decision support | Current canonical architecture; Compressed Diagnosis evaluation is still in progress |
+| **Full Stack v5** | Prior point-release baseline that added Strategic Adjudication and the current v5 refinements | Historical canonical version preserved for evidence and version history |
 | **Full Stack v4** | Prior major version that made the diagnostic architecture and recursive evidence loop explicit | Historical canonical version preserved for evidence and version history |
 | **GTM Diagnostic Framework v9** | Applied GTM system for diagnosing governing constraints, connected dependencies, and operating interventions | Current canonical GTM architecture; field-test, not formally validated |
 | **GTM Diagnostic Framework v8** | Prior GTM version that established the governing constraint as the intellectual center | Historical prior version preserved in the public evidence trail |
-| **Full Stack v5 Evaluation Plan** | Public plan for testing Strategic Adjudication and current v5 refinements | Work in progress |
-| **Behavioral Inference Engine** | Research direction for how behavioral hypotheses should persist and revise across time; several bounded disciplines now inform Full Stack v5 | Work in progress |
+| **Full Stack v5.1 Evaluation Plan** | Public plan for testing Compressed Diagnosis without relabeling earlier evidence | Work in progress |
+| **Full Stack v5 Evaluation Plan** | Historical public plan for Strategic Adjudication and the v5 refinements | Preserved with the v5 evidence trail |
+| **Behavioral Inference Engine** | Research direction for how behavioral hypotheses should persist and revise across time; several bounded disciplines now inform the current Full Stack architecture | Work in progress |
 
 These are related pieces of the same body of work, but they do not all have the same maturity, evidence base, or purpose.
 
@@ -202,9 +211,9 @@ For a related applied operating project, see [Related Applied Project](#related-
 
 **Optional deeper inspection**
 
-The current public architectures are [Full Stack v5](architecture/full-stack-v5-public-architecture.md) and [GTM Diagnostic Framework v9](architecture/gtm-diagnostic-framework-v9-public-architecture.md). [Human Pattern 1](architecture/human-pattern-1.md) shows how the current Full Stack architecture handles human behavior, structural pressure, and motive uncertainty. [Full Stack Evolution](architecture/evolution.md) and [GTM Framework Evolution](architecture/gtm-evolution.md) explain why the systems changed.
+The current public architectures are [Full Stack v5.1](architecture/full-stack-v5-1-public-architecture.md) and [GTM Diagnostic Framework v9](architecture/gtm-diagnostic-framework-v9-public-architecture.md). [Human Pattern 1](architecture/human-pattern-1.md) shows how the current Full Stack architecture handles human behavior, structural pressure, and motive uncertainty. [Full Stack Evolution](architecture/evolution.md) and [GTM Framework Evolution](architecture/gtm-evolution.md) explain why the systems changed.
 
-The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) describes the current evaluation work. The [GTM Calibration Log](architecture/gtm-calibration-log.md) records working observations alongside approved refinements. The repository map below retains the historical architectures.
+The [Full Stack v5.1 Evaluation Plan](evaluation/full-stack-v5-1-evaluation-plan.md) describes the current evaluation work. The historical [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) remains preserved with the v5 evidence trail. The [GTM Calibration Log](architecture/gtm-calibration-log.md) records working observations alongside approved refinements. The repository map below retains the historical architectures.
 
 ## How the Work Is Developed
 
@@ -287,7 +296,7 @@ It is not yet a formal benchmark demonstrating that the architectures consistent
 
 The [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the external review process for the frozen v4 reconstructed cases.
 
-The [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines separate tests for Strategic Adjudication and current v5 refinements.
+The [Full Stack v5.1 Evaluation Plan](evaluation/full-stack-v5-1-evaluation-plan.md) defines the current tests for Compressed Diagnosis while the historical [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) remains attached to the v5 architecture and evidence.
 
 The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md), [GTM Diagnostic Framework v9 Public Architecture](architecture/gtm-diagnostic-framework-v9-public-architecture.md), and [GTM Framework Evolution](architecture/gtm-evolution.md) are derived from the private GTM Diagnostic Framework v9.
 
@@ -301,7 +310,7 @@ The [Behavioral Inference Engine](research/behavioral-inference-engine.md) remai
 
 [From Poor-Quality Images to a Governed Data System](https://github.com/sschoenfeld-scotty/poorquality-image-data-case-study) is a related applied AI operating project. It demonstrates the broader operating philosophy through human-directed orchestration and evidence discipline in a persistent workflow. It also shows how execution failures shaped control design and moved human judgment into the operating system around the workflow.
 
-The case remains in its own repository. It is not direct validation of Full Stack v5 or GTM Diagnostic Framework v9, and it does not establish that a particular framework version was used.
+The case remains in its own repository. It is not direct validation of Full Stack v5.1 or GTM Diagnostic Framework v9, and it does not establish that a particular framework version was used.
 
 ## Repository Map
 
@@ -309,9 +318,10 @@ The case remains in its own repository. It is not direct validation of Full Stac
 
 - [Building Friction Into AI](docs/building-friction-into-ai.md) explains why the work started and how the reasoning system evolved.
 - [What I Mean by a Logic Lens](docs/what-is-a-logic-lens.md) gives a plain-English explanation of the core concept.
-- [Full Stack v5 Public Architecture](architecture/full-stack-v5-public-architecture.md) documents the high-level architecture behind the current reasoning harness.
-- [Human Pattern 1](architecture/human-pattern-1.md) documents the public behavioral-reasoning architecture inside Full Stack v5 without exposing the complete operating implementation.
-- [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) preserves the prior major version.
+- [Full Stack v5.1 Public Architecture](architecture/full-stack-v5-1-public-architecture.md) documents the high-level architecture behind the current reasoning harness.
+- [Human Pattern 1](architecture/human-pattern-1.md) documents the public behavioral-reasoning architecture inside the current Full Stack framework without exposing the complete operating implementation.
+- [Full Stack v5 Public Architecture](architecture/full-stack-v5-public-architecture.md) preserves the historical v5 state before Compressed Diagnosis was introduced.
+- [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) preserves the earlier major version.
 - [Evolution of the Reasoning System](architecture/evolution.md) records the design decisions that materially changed Full Stack.
 
 ### GTM application
@@ -324,6 +334,7 @@ The case remains in its own repository. It is not direct validation of Full Stac
 
 ### Evaluation
 
+- [Full Stack v5.1 Evaluation Plan](evaluation/full-stack-v5-1-evaluation-plan.md)
 - [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md)
 - [External Evidence Fixtures 01](evaluation/external-evidence-fixtures-01.md)
 - [Evaluation Approach](evaluation/evaluation-approach.md)
@@ -354,7 +365,7 @@ These entries preserve live observations and bounded external evidence. They do 
 
 ### Research
 
-- [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a work-in-progress research direction for longitudinal behavioral inference. Several bounded behavioral disciplines now inform Full Stack v5, while persistence, accumulation, contradiction, context change, and model revision remain research problems.
+- [Behavioral Inference Engine](research/behavioral-inference-engine.md) is a work-in-progress research direction for longitudinal behavioral inference. Several bounded behavioral disciplines introduced through v5 continue to inform Full Stack v5.1, while persistence, accumulation, contradiction, context change, and model revision remain research problems.
 
 ## Public Architecture and Private Implementation
 
@@ -374,7 +385,7 @@ See [Rights and Reuse](RIGHTS.md) for the repository's reuse terms.
 
 ## What Is Next
 
-For Full Stack, the next major work is evidence rather than another version number.
+For Full Stack v5.1, the next major work is evidence around Compressed Diagnosis rather than another version number.
 
 For GTM v9, the next work is field calibration.
 
