@@ -7,7 +7,7 @@
 
 ## Why This Case Exists
 
-This case extends the public [Evaluation Approach](../evaluation/evaluation-approach.md) into a human-behavior problem.
+This case extends the public [Evaluation Approach](./evaluation/evaluation-approach.md) into a human-behavior problem.
 
 It is **not a historical account of a specific company or individual**.
 
@@ -17,7 +17,7 @@ No confidential employer, client, prospect, or individual information is include
 
 The purpose is to test whether the reasoning architecture improves diagnosis when the visible behavior makes a psychological explanation feel obvious.
 
-It is not an evaluation of the [Behavioral Inference Engine](../research/behavioral-inference-engine.md), which remains a work-in-progress research direction rather than a finished standalone system.
+It is not an evaluation of the [Behavioral Inference Engine](./research/behavioral-inference-engine.md), which remains a work-in-progress research direction rather than a finished standalone system.
 
 ## Decision Question
 
@@ -132,22 +132,22 @@ They remain inferences.
 
 Several explanations could produce the same observable pattern.
 
-**Trust or control explanation**  
+**Trust or control explanation** 
 The manager may genuinely lack confidence in the sellers and respond by taking over.
 
-**Capability explanation**  
+**Capability explanation** 
 Weak late-stage seller skill may be causing the manager to rescue deals that otherwise deteriorate.
 
-**Role-design explanation**  
+**Role-design explanation** 
 The organization may never have defined when managers should enter strategic opportunities, creating inconsistent boundaries.
 
-**Incentive explanation**  
+**Incentive explanation** 
 Strong forecast pressure may reward immediate deal rescue more strongly than long-term seller development.
 
-**Deal-quality explanation**  
+**Deal-quality explanation** 
 Poor qualification or weak executive alignment may create late-stage situations that require senior intervention regardless of trust.
 
-**Habit explanation**  
+**Habit explanation** 
 The manager may be repeating a historically successful operating pattern without recognizing the dependence it creates.
 
 The current packet does not distinguish these explanations confidently.
@@ -286,7 +286,7 @@ That distinction changes the evidence requirement and reduces the risk of acting
 
 ## Evidence Maturity
 
-**Repository-specific maturity level — 1. Anecdotal example**
+**Repository-specific maturity level, 1. Anecdotal example**
 
 This is a reconstructed demonstration.
 
