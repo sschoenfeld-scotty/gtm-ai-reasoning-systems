@@ -47,7 +47,7 @@ Supporting materials, raw responses, coding, and the full pilot report are retai
 The pilot did **not** produce coherent evidence that the high-capability cue reduced scrutiny.
 
 | Pre-registered outcome | Neutral label | High-capability label |
-| --- | ---: | ---: |
+| --- | ---. | ---. |
 | Spontaneous substantive challenge | 5/6 | 6/6 |
 | Evidence or missing-evidence challenge | 3/6 | 4/6 |
 | Alternative-explanation challenge | 3/6 | 3/6 |
@@ -66,8 +66,8 @@ The pre-registered pilot assessment was therefore
 
 Average answer-specific confidence was slightly higher under the high-capability cue.
 
-- Neutral label mean: **2.17**
-- High-capability label mean: **2.50**
+- Neutral label mean. **2.17**
+- High-capability label mean. **2.50**
 
 That small aggregate difference was not accompanied by reduced weakness detection.
 
