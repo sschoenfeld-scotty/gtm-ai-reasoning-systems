@@ -17,7 +17,7 @@ The baseline diagnosis is already substantially correct.
 
 The question is whether Full Stack produces a **materially better decision** or simply a more explicit version of the same one.
 
-This case applies the public [Evaluation Approach](../evaluation/evaluation-approach.md).
+This case applies the public [Evaluation Approach](./evaluation/evaluation-approach.md).
 
 It is **not a historical account of a specific company**.
 
@@ -121,16 +121,16 @@ It does not establish that technical capability is the governing constraint.
 
 Several explanations remain credible.
 
-**Discovery and qualification constraint**  
+**Discovery and qualification constraint** 
 The POC may be starting before the buyer's problem, priority, and decision requirements are adequately established.
 
-**Decision-process constraint**  
+**Decision-process constraint** 
 The technical team may be validating successfully while the economic buyer, champion, or broader decision process remains unresolved.
 
-**Technical constraint**  
+**Technical constraint** 
 Some POCs may genuinely fail because the product does not meet a technical requirement.
 
-**Competitive or commercial constraint**  
+**Competitive or commercial constraint** 
 A technically successful POC may still fail because of price, risk, procurement, competitive preference, or internal buyer politics.
 
 The case packet does not fully distinguish these explanations.
@@ -236,7 +236,7 @@ The baseline was already good enough to identify the likely misdiagnosis and sel
 
 ## Evidence Maturity
 
-**Repository-specific maturity level — 1. Anecdotal example**
+**Repository-specific maturity level, 1. Anecdotal example**
 
 This is a reconstructed demonstration.
 
