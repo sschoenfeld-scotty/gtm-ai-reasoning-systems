@@ -148,16 +148,16 @@ flowchart TD
 
 For example
 
-**Symptom**  
+**Symptom** 
 Pipeline is below plan.
 
-**Possible friction**  
+**Possible friction** 
 Created demand does not convert into legitimate opportunities.
 
-**Possible supporting conditions**  
+**Possible supporting conditions** 
 Targeting, messaging, follow-up, qualification, or buyer relevance may be inconsistent.
 
-**Governing question**  
+**Governing question** 
 What unresolved dependency is preventing qualified buyer movement?
 
 The architecture does not treat the example answer as universal.
@@ -356,12 +356,12 @@ A framework version should change only when evidence supports a meaningful impro
 
 ## Related Public Documents
 
-- [GTM Diagnostic Reasoning](../applications/gtm-diagnostic-reasoning.md)
+- [GTM Diagnostic Reasoning](./applications/gtm-diagnostic-reasoning.md)
 - [Full Stack v4 Public Architecture](full-stack-v4-public-architecture.md)
-- [Evaluation Approach](../evaluation/evaluation-approach.md)
-- [Reconstructed Evaluation Case 01](../examples/reconstructed-example-01.md)
-- [Reconstructed Evaluation Case 02](../examples/reconstructed-example-02.md)
-- [Reconstructed Evaluation Case 03](../examples/reconstructed-example-03.md)
+- [Evaluation Approach](./evaluation/evaluation-approach.md)
+- [Reconstructed Evaluation Case 01](./examples/reconstructed-example-01.md)
+- [Reconstructed Evaluation Case 02](./examples/reconstructed-example-02.md)
+- [Reconstructed Evaluation Case 03](./examples/reconstructed-example-03.md)
 
 ## Public Architecture in One Line
 
