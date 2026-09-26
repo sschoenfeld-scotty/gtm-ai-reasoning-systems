@@ -7,7 +7,7 @@
 
 ## Why This Case Exists
 
-This case demonstrates how the public [Evaluation Approach](../evaluation/evaluation-approach.md) can be applied to a GTM decision.
+This case demonstrates how the public [Evaluation Approach](./evaluation/evaluation-approach.md) can be applied to a GTM decision.
 
 It is **not a historical account of a specific company**.
 
@@ -107,16 +107,16 @@ Leadership's activity diagnosis should therefore remain a hypothesis rather than
 
 Several explanations remain credible.
 
-**Activity constraint**  
+**Activity constraint** 
 The company may genuinely need more qualified prospecting activity.
 
-**Qualification constraint**  
+**Qualification constraint** 
 Sellers may be creating opportunities before the business problem, buyer commitment, or next step is sufficiently established.
 
-**Targeting or relevance constraint**  
+**Targeting or relevance constraint** 
 The company may be reaching enough accounts but failing to create sufficient relevance with the right buyers.
 
-**Management-system constraint**  
+**Management-system constraint** 
 A management cadence centered on activity and pipeline creation may be rewarding opportunity creation more strongly than buyer progression.
 
 The case packet does not yet distinguish these explanations conclusively.
@@ -221,7 +221,7 @@ The improvement is specifically in diagnosis, confidence calibration, and decisi
 
 ## Evidence Maturity
 
-**Repository-specific maturity level — 1. Anecdotal example**
+**Repository-specific maturity level, 1. Anecdotal example**
 
 This is a reconstructed demonstration.
 
