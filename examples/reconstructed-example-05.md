@@ -281,7 +281,7 @@ The correct public outcome under this packet is
 
 ## Evidence Maturity
 
-**Repository-specific maturity level — 1. Anecdotal example**
+**Repository-specific maturity level. 1. Anecdotal example**
 
 This is a reconstructed demonstration.
 
