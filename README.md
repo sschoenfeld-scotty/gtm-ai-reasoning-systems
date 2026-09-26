@@ -36,11 +36,9 @@ A prompt mostly defines the output.
 
 A logic lens defines the reasoning path that should produce the output.
 
-When I use Full Stack with AI, it functions as a **human-directed reasoning harness around the model**.
+When I use Full Stack with AI, it functions as a **human-directed reasoning harness applied at inference time**. It guides how an existing model's available capability is used on the task without retraining the model or changing its weights.
 
-The model provides the underlying capability.
-
-The harness changes what must be inspected, challenged, distinguished, and pressure-tested before I trust the conclusion or act on it.
+The objective is more defensible judgment, not lower inference cost. The harness changes what must be inspected, challenged, distinguished, and pressure-tested before I trust the conclusion or act on it.
 
 The human retains responsibility for the judgment.
 
