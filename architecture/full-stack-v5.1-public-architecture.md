@@ -225,7 +225,6 @@ Self-audit is also distinct from the Confidence Self Audit. One can revise the a
 
 See [Self-Audit as a Reasoning Control](./self-audit-as-a-reasoning-control.md) for the control-level architecture and current limits.
 
-
 ## Evidence and Limits
 
 The broader Full Stack development has evidence from repeated practical use, observed reasoning failures, iterative revision, later retesting, reconstructed comparisons, and bounded naturalistic cases.
