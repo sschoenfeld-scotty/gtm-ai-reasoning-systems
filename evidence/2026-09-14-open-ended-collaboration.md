@@ -89,16 +89,16 @@ The entry therefore functions as a small public application of Decision Trace In
 
 ## Current decision
 
-**Framework modification**  
+**Framework modification** 
 None
 
-**Full Stack version implication**  
+**Full Stack version implication** 
 None
 
-**Validation claim**  
+**Validation claim** 
 None
 
-**Current classification**  
+**Current classification** 
 Contemporaneous observation with a working hypothesis
 
 The purpose of this entry is not to prove a principle.
