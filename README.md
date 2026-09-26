@@ -86,6 +86,22 @@ flowchart LR
 
 **Pressure Test and Confidence** asks whether the reasoning survives missing evidence, competing explanations, operating reality, likely failure, and material uncertainty.
 
+### Self-Audit as a Reasoning Control
+
+A model can be asked to reconsider an answer. That capability is useful, but it is not the same thing as a governed review process.
+
+Inside this work, self-audit has a defined role. In Full Stack, it operates as a pre-release control after the substantive reasoning and draft pressure testing are settled. When invoked on its own, it reviews the artifact that already exists and revises it when a material weakness is found.
+
+> **Same audit kernel, different upstream state.**
+
+Here, *audit kernel* is conceptual shorthand for the shared core audit discipline. It is not a claim about hidden model internals.
+
+The distinction matters. Embedded self-audit inherits the reasoning state produced by Full Stack. Standalone self-audit inherits whatever reasoning produced the current artifact. It can improve an ordinary answer without retroactively making that answer a Full Stack execution.
+
+Self-audit is also separate from the Confidence Self Audit. Self-audit challenges the artifact and can change it. Confidence Self Audit exposes how much trust the reasoning deserves and where material uncertainty remains.
+
+[Self-Audit as a Reasoning Control](architecture/self-audit-as-a-reasoning-control.md) explains the control model and its known execution and review-independence limits.
+
 v5.1 retains the current v5 refinements inside these functions rather than turning them into additional peer stages. Compressed Diagnosis is the additive v5.1 capability.
 
 Context Intake Discipline separates the primary source from supplied comments, related artifacts, operating experience, and user-preferred interpretations before reasoning begins. Agreement with a user angle does not make that angle mandatory in the final output.
@@ -321,6 +337,7 @@ The case remains in its own repository. It is not direct validation of Full Stac
 - [Building Friction Into AI](docs/building-friction-into-ai.md) explains why the work started and how the reasoning system evolved.
 - [What I Mean by a Logic Lens](docs/what-is-a-logic-lens.md) gives a plain-English explanation of the core concept.
 - [Full Stack v5.1 Public Architecture](architecture/full-stack-v5.1-public-architecture.md) documents the high-level architecture behind the current reasoning harness.
+- [Self-Audit as a Reasoning Control](architecture/self-audit-as-a-reasoning-control.md) explains how model self-critique becomes a defined control, why embedded and standalone self-audit are not equivalent executions, and where execution fidelity and review independence create limits.
 - [Full Stack v5 Public Architecture](architecture/full-stack-v5-public-architecture.md) preserves the prior Full Stack version and its evidence boundary.
 - [Human Pattern 1](architecture/human-pattern-1.md) documents the public behavioral-reasoning architecture inside Full Stack v5.1 without exposing the complete operating implementation.
 - [Full Stack v4 Public Architecture](architecture/full-stack-v4-public-architecture.md) preserves the prior major version.

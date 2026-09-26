@@ -215,6 +215,16 @@ The framework inspects ownership, evidence, measurability, handoffs, incentives,
 
 The first coherent answer remains something to challenge rather than protect.
 
+### Self-Audit Control
+
+Full Stack includes an output-specific self-audit after the broader reasoning and draft pressure testing have settled.
+
+The same self-audit discipline can also be invoked independently against an existing artifact. Those uses should not be treated as equivalent executions because the artifact entering the audit may have a different upstream reasoning state.
+
+Self-audit is also distinct from the Confidence Self Audit. One can revise the artifact. The other makes the confidence boundary around the reasoning more inspectable.
+
+See [Self-Audit as a Reasoning Control](./self-audit-as-a-reasoning-control.md) for the control-level architecture and current limits.
+
 ## Evidence and Limits
 
 The broader Full Stack development has evidence from repeated practical use, observed reasoning failures, iterative revision, later retesting, reconstructed comparisons, and bounded naturalistic cases.
@@ -273,6 +283,7 @@ A future major version should require a meaningful change in purpose, governing 
 - [Full Stack v5 Public Architecture](./full-stack-v5-public-architecture.md)
 - [Evolution of the Reasoning System](./evolution.md)
 - [Human Pattern 1](./human-pattern-1.md)
+- [Self-Audit as a Reasoning Control](./self-audit-as-a-reasoning-control.md)
 - [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md)
 - [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md)
 - [Building Friction Into AI](../docs/building-friction-into-ai.md)
