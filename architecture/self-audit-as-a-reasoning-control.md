@@ -165,7 +165,7 @@ A fresh reviewer can introduce a different error or overcorrect a sound decision
 
 Review independence should therefore remain an evaluation variable rather than a universal requirement.
 
-See [Fresh-context review after same-context self-audit](../evidence/2026-09-20-fresh-context-review-after-self-audit.md) for the current observational evidence and its limits.
+See [Fresh-context review after same-context self-audit](./evidence/2026-09-20-fresh-context-review-after-self-audit.md) for the current observational evidence and its limits.
 
 ## Evidence and limits
 
@@ -212,5 +212,5 @@ The controls are related, but they should not be collapsed into one function.
 ## Related public material
 
 - [Full Stack v5.1](./full-stack-v5.1-public-architecture.md)
-- [Fresh-context review after same-context self-audit](../evidence/2026-09-20-fresh-context-review-after-self-audit.md)
-- [Building Friction Into AI](../docs/building-friction-into-ai.md)
+- [Fresh-context review after same-context self-audit](./evidence/2026-09-20-fresh-context-review-after-self-audit.md)
+- [Building Friction Into AI](./docs/building-friction-into-ai.md)
