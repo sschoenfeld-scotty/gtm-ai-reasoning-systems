@@ -135,25 +135,25 @@ The decision can be revisited if the repository reaches a point where independen
 
 ## Current decision
 
-**Full Stack framework modification**  
+**Full Stack framework modification** 
 None
 
-**Full Stack version implication**  
+**Full Stack version implication** 
 None
 
-**Behavioral Inference Engine modification**  
+**Behavioral Inference Engine modification** 
 None
 
-**PR #29 status**  
+**PR #29 status** 
 Closed without merge on September 24, 2026
 
-**Evidence Center classification**  
+**Evidence Center classification** 
 Independent adjacent provenance reference architecture
 
-**Validation claim**  
+**Validation claim** 
 None
 
-**Current evidence classification**  
+**Current evidence classification** 
 Post-outcome evidence consistent with and modestly strengthening the frozen working hypothesis
 
 ## What would change this conclusion
