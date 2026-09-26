@@ -620,4 +620,4 @@ Its core principle remains clear.
 
 **Behavior can inform a hypothesis about motive. It cannot prove motive by itself.**
 
-The unresolved work is longitudinal: how behavioral hypotheses persist, accumulate, weaken, survive context change, respond to contradictory evidence, and eventually decay or revise without turning pattern confidence into motive certainty.
+The unresolved work is longitudinal. It concerns how behavioral hypotheses persist, accumulate, weaken, survive context change, respond to contradictory evidence, and eventually decay or revise without turning pattern confidence into motive certainty.

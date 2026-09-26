@@ -132,10 +132,10 @@ A September 2026 N-of-1 pilot made this distinction visible. Some challenges cor
 
 Evaluation should therefore distinguish at least four things.
 
-- **Challenge occurrence** — did the reviewer object, request evidence, or raise an alternative?
-- **Challenge validity** — does the objection identify a real evidentiary, causal, or decision problem?
-- **Challenge strength** — is the objection fully supported, partially supported, or stronger than the evidence allows?
-- **Decision relevance** — would resolving the objection materially change confidence, diagnosis, or action?
+- **Challenge occurrence**. Did the reviewer object, request evidence, or raise an alternative?
+- **Challenge validity**. Does the objection identify a real evidentiary, causal, or decision problem?
+- **Challenge strength**. Is the objection fully supported, partially supported, or stronger than the evidence allows?
+- **Decision relevance**. Would resolving the objection materially change confidence, diagnosis, or action?
 
 Challenge frequency should not be used as a proxy for reasoning quality.
 

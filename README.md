@@ -108,7 +108,7 @@ Context Intake Discipline separates the primary source from supplied comments, r
 
 Current v5 evidence and operating refinements also make temporal relevance, source independence, reconsideration boundaries, measurement burden, and transition effects more explicit inside the existing reasoning functions. These remain nested refinements rather than new peer capabilities.
 
-Behavioral Inference Discipline operates primarily through Human Pattern 1. It makes one recurring problem more explicit: behavior can matter to a diagnosis even when motive cannot be directly observed. The framework now separates observed behavior, stated accounts, inferred drivers, and structural or systemic explanations, then spends additional behavioral reasoning only when the ambiguity could materially change the decision.
+Behavioral Inference Discipline operates primarily through Human Pattern 1. It makes one recurring problem more explicit. Behavior can matter to a diagnosis even when motive cannot be directly observed. The framework now separates observed behavior, stated accounts, inferred drivers, and structural or systemic explanations, then spends additional behavioral reasoning only when the ambiguity could materially change the decision.
 
 > **Behavioral uncertainty does not automatically require decision uncertainty.**
 

@@ -286,7 +286,7 @@ That distinction changes the evidence requirement and reduces the risk of acting
 
 ## Evidence Maturity
 
-**Repository-specific maturity level — 1. Anecdotal example**
+**Repository-specific maturity level. 1. Anecdotal example**
 
 This is a reconstructed demonstration.
 

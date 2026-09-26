@@ -3,8 +3,8 @@
 ## Full Stack v5 independent execution variance
 
 > Observational experiment | September 19, 2026  
-> Status: evidence record and working evaluation hypothesis, not validation  
-> Canonical Full Stack change: none
+> Status - evidence record and working evaluation hypothesis, not validation  
+> Canonical Full Stack change - none
 
 ## Why this entry exists
 
