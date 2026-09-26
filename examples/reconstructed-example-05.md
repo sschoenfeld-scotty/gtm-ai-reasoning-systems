@@ -7,7 +7,7 @@
 
 ## Why This Case Exists
 
-This case tests the **Indeterminate** outcome in the public [Evaluation Approach](../evaluation/evaluation-approach.md).
+This case tests the **Indeterminate** outcome in the public [Evaluation Approach](./evaluation/evaluation-approach.md).
 
 It is **not a historical account of a specific company**.
 
@@ -143,10 +143,10 @@ Both claims should remain open.
 
 Two interpretations of the current manual process remain credible.
 
-**Administrative-friction explanation**  
+**Administrative-friction explanation** 
 Manual entry is mostly duplicate documentation that consumes time without materially improving judgment.
 
-**Productive-friction explanation**  
+**Productive-friction explanation** 
 The act of translating a call into risks, implications, and next actions may force sellers to think and may expose their reasoning to managers.
 
 A third possibility is that the process contains both.
@@ -281,7 +281,7 @@ The correct public outcome under this packet is
 
 ## Evidence Maturity
 
-**Repository-specific maturity level — 1. Anecdotal example**
+**Repository-specific maturity level, 1. Anecdotal example**
 
 This is a reconstructed demonstration.
 
