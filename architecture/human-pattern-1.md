@@ -64,13 +64,13 @@ Human Pattern 1 uses a small set of distinctions rather than a psychological sto
 
 The framework keeps three things distinct.
 
-**Observed behavior**  
+**Observed behavior** 
 What the person or group actually did, said, changed, avoided, repeated, or stopped doing.
 
-**Stated account**  
+**Stated account** 
 What the actor says explains the behavior.
 
-**Inferred driver**  
+**Inferred driver** 
 The explanation that currently appears to fit the evidence best.
 
 Keeping those states separate prevents a confident narrative from silently upgrading itself into fact.
@@ -164,7 +164,7 @@ When competing behavioral explanations depend on different interpretations of th
 
 ## Relationship to the Behavioral Inference Engine
 
-The [Behavioral Inference Engine](../research/behavioral-inference-engine.md) remains a work-in-progress research direction.
+The [Behavioral Inference Engine](./research/behavioral-inference-engine.md) remains a work-in-progress research direction.
 
 Several bounded BIE disciplines are now sufficiently defined to inform the current canonical Full Stack framework through Behavioral Inference Discipline.
 
@@ -207,7 +207,7 @@ That status means the reasoning design has been accepted into the framework.
 
 It does **not** mean the refinement has been formally validated.
 
-The historical [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) includes positive and negative tests for the behavioral reasoning layer, including cases where structural conditions are mistaken for personal motive, experience produces premature closure, human context changes the inference, or motive remains uncertain while the decision can still proceed. The current [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md) adds regression checks so Compressed Diagnosis does not weaken those boundaries.
+The historical [Full Stack v5 Evaluation Plan](./evaluation/full-stack-v5-evaluation-plan.md) includes positive and negative tests for the behavioral reasoning layer, including cases where structural conditions are mistaken for personal motive, experience produces premature closure, human context changes the inference, or motive remains uncertain while the decision can still proceed. The current [Full Stack v5.1 Evaluation Plan](./evaluation/full-stack-v5.1-evaluation-plan.md) adds regression checks so Compressed Diagnosis does not weaken those boundaries.
 
 The evaluation standard is not whether the framework produces a richer behavioral narrative.
 
