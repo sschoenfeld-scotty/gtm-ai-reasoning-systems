@@ -112,7 +112,7 @@ The next Full Stack work is to evaluate whether Compressed Diagnosis reduces unn
 
 The current execution refinement also needs regression testing. The system should enter Deep Path directly, keep Fast and Standard dormant, continue while another reasoning increment can materially improve the judgment, and stop when that marginal value is gone.
 
-Existing v4 evidence remains v4 evidence and existing v5 evidence remains v5 evidence. The [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md) tests Compressed Diagnosis and the current execution behavior without relabeling earlier evidence. The historical [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) remains attached to the v5 architecture.
+Existing v4 evidence remains v4 evidence and existing v5 evidence remains v5 evidence. The [Full Stack v5.1 Evaluation Plan](./evaluation/full-stack-v5.1-evaluation-plan.md) tests Compressed Diagnosis and the current execution behavior without relabeling earlier evidence. The historical [Full Stack v5 Evaluation Plan](./evaluation/full-stack-v5-evaluation-plan.md) remains attached to the v5 architecture.
 
 The Behavioral Inference Engine still needs a disciplined model-update rule for deciding when an outlier should change the pattern rather than be treated as noise.
 
