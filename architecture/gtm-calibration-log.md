@@ -35,10 +35,10 @@ There are no dot releases. Material changes accumulate until they justify a new 
 
 ### Commercial System Coherence
 
-**Date captured**  
+**Date captured** 
 September 2026
 
-**Source context**  
+**Source context** 
 A current GTM project exposed a practical gap in the canonical v9 Revenue Operating System.
 
 The framework already treated GTM as a connected system. It already included dependencies, reinforcing loops, evidence re-entry, manager inspection, coaching, and installed operating discipline.
@@ -53,16 +53,16 @@ The system can fail because those components reinforce different definitions of 
 
 ### Canonical decision
 
-**Classification**  
+**Classification** 
 Operating-system refinement
 
-**Canonical GTM v9 change**  
+**Canonical GTM v9 change** 
 Yes
 
-**Public architecture change**  
+**Public architecture change** 
 Yes
 
-**Version decision**  
+**Version decision** 
 Remain v9
 
 Commercial System Coherence was added to canonical v9 because it makes an existing systems principle explicit without changing the six-lens architecture, the governing-constraint center, or the v9 reasoning spine.
@@ -81,10 +81,10 @@ This question should now be tested through live use. Results may strengthen, nar
 
 ### Operating Continuity
 
-**Date captured**  
+**Date captured** 
 September 2026
 
-**Source context**  
+**Source context** 
 A current GTM engagement and external operating-architecture comparison exposed a practical installation gap in canonical v9.
 
 The framework already contained Commercial System Coherence, authoritative-source logic, handoff inspection, pipeline hygiene, evidence re-entry, and installed operating discipline.
@@ -101,16 +101,16 @@ The private framework now distinguishes record continuity, field usability conti
 
 ### Canonical decision
 
-**Classification**  
+**Classification** 
 Operating-system refinement
 
-**Canonical GTM v9 change**  
+**Canonical GTM v9 change** 
 Yes
 
-**Public architecture change**  
+**Public architecture change** 
 Yes
 
-**Version decision**  
+**Version decision** 
 Remain v9
 
 Operating Continuity was added because it strengthens the Revenue Operating System and Install logic without changing the six-lens architecture, governing-constraint center, reasoning spine, or five-part engagement sequence.
@@ -129,26 +129,26 @@ This should be tested through live use rather than treated as formal validation.
 
 ### Reasoning Integrity Refinements
 
-**Date captured**  
+**Date captured** 
 September 2026
 
-**Source context**  
+**Source context** 
 A review of recent Full Stack v5 and Human Pattern refinements against canonical GTM v9 identified four places where the GTM framework could make existing reasoning more deterministic without changing its six-lens architecture or governing-constraint center.
 
 The review deliberately excluded presentation and manager-interface simplification. The decision criterion was whether a change improves what GTM v9 notices, distinguishes, tests, updates, or decides behind the scenes after the framework is applied.
 
 ### Canonical decision
 
-**Classification**  
+**Classification** 
 Diagnostic and evidence-discipline refinement
 
-**Canonical GTM v9 change**  
+**Canonical GTM v9 change** 
 Yes
 
-**Public architecture change**  
+**Public architecture change** 
 Yes
 
-**Version decision**  
+**Version decision** 
 Remain v9
 
 The approved refinements are
@@ -181,10 +181,10 @@ Future use should test
 
 ### Breadth Substituting for Relevance
 
-**Date captured**  
+**Date captured** 
 September 2026
 
-**Source context**  
+**Source context** 
 A review of demo reasoning against canonical GTM v9 surfaced an observable field behavior inside the existing Buyer Progression Dependency Logic.
 
 The framework already distinguished Discovery, Solution Education, and Validation. It already stated that Solution Education should produce a customer-specific solution hypothesis and that Validation should test what Discovery and Solution Education established rather than discover why the customer cares.
@@ -201,16 +201,16 @@ Validation can then inherit unfinished education work and become another product
 
 ### Canonical decision
 
-**Classification**  
+**Classification** 
 Buyer-progression diagnostic clarification
 
-**Canonical GTM v9 change**  
+**Canonical GTM v9 change** 
 Yes
 
-**Public architecture change**  
+**Public architecture change** 
 Yes
 
-**Version decision**  
+**Version decision** 
 Remain v9
 
 The canonical refinement makes two existing failure signals more explicit.
@@ -236,23 +236,23 @@ Whether making this observable failure pattern explicit improves upstream diagno
 
 ### Responsibilities over role titles and evidence consequence
 
-**Date captured**  
+**Date captured** 
 September 2026
 
-**Source context**  
+**Source context** 
 A prior internal Revenue Operating System assessment was reviewed against current GTM v9 after substantial framework evolution.
 
 Most of the source ideas were already canonical, superseded by broader v9 logic, or better kept outside the framework. Two bounded clarifications survived an insertion-level audit against Sections 3, 10, and 11.
 
 ### Canonical decision
 
-**Canonical GTM v9 change**  
+**Canonical GTM v9 change** 
 Yes
 
-**Public architecture change**  
+**Public architecture change** 
 Yes
 
-**Version decision**  
+**Version decision** 
 Remain v9
 
 The first clarification makes a maturity invariant explicit.
@@ -284,23 +284,23 @@ Neither change is formal validation.
 
 ### Stakeholder alignment evidence and buyer category interpretation
 
-**Date captured**  
+**Date captured** 
 September 2026
 
-**Source context**  
+**Source context** 
 A review of proposed buyer-psychology concepts against current GTM v9 found that most of the underlying commercial conditions were already expressible through Behavioral inference, stakeholder incentives, buyer evidence, adoption friction, and competing explanations.
 
 Two bounded distinctions survived the non-duplication test.
 
 ### Canonical decision
 
-**Canonical GTM v9 change**  
+**Canonical GTM v9 change** 
 Yes
 
-**Public architecture change**  
+**Public architecture change** 
 Yes
 
-**Version decision**  
+**Version decision** 
 Remain v9
 
 The first clarification distinguishes visible group agreement from independently supported stakeholder commitment.
@@ -330,10 +330,10 @@ Neither change establishes that hidden psychological mechanisms are causing a sp
 
 ### Opportunity Availability and Commercial Capacity
 
-**Date captured**  
+**Date captured** 
 September 2026
 
-**Source context**  
+**Source context** 
 Longitudinal operator observation across multiple enterprise sales environments, sharpened by a current advisory engagement and structured adversarial pressure testing, exposed a connected-variable gap in canonical v9.
 
 The framework already treated pipeline health, seller judgment, manager behavior, scarce resources, reinforcing loops, and constraint migration as connected parts of the GTM system.
@@ -350,16 +350,16 @@ The resulting distinction is that available legitimate opportunity and active op
 
 ### Canonical decision
 
-**Classification**  
+**Classification** 
 Connected-variable and pipeline-health refinement
 
-**Canonical GTM v9 change**  
+**Canonical GTM v9 change** 
 Yes
 
-**Public architecture change**  
+**Public architecture change** 
 Yes
 
-**Version decision**  
+**Version decision** 
 Remain v9
 
 The refinement adds explicit inspection of opportunity availability relative to commercial capacity inside existing dynamic dependency and pipeline-health logic.
@@ -391,10 +391,10 @@ The canonical change therefore adds an inspection requirement rather than a univ
 
 ### Diagnostic Evidence Sufficiency and Commercial Cost of Delay
 
-**Date captured**  
+**Date captured** 
 September 2026
 
-**Source context**  
+**Source context** 
 A framework-development review examined whether GTM v9 had a governed stopping rule for evidence acquisition when delay itself could change a commercial outcome.
 
 The framework already treated time as evidence, used anticipatory judgment, allowed reversible tests when appropriate, and re-entered material new evidence after action.
@@ -413,16 +413,16 @@ A bounded and reversible action may also function as a diagnostic probe when the
 
 ### Canonical decision
 
-**Classification**  
+**Classification** 
 Diagnostic reasoning refinement
 
-**Canonical GTM v9 change**  
+**Canonical GTM v9 change** 
 Yes
 
-**Public architecture change**  
+**Public architecture change** 
 Yes
 
-**Version decision**  
+**Version decision** 
 Remain v9
 
 The refinement adds explicit diagnostic evidence-sufficiency logic before unnecessary evidence collection extends the Test phase.
@@ -447,10 +447,10 @@ That evidence supports a bounded canonical refinement. It does not establish for
 
 ### Diagnostic uncertainty can appear in different forms
 
-**Date captured**  
+**Date captured** 
 September 2026
 
-**Source context**  
+**Source context** 
 An executive diagnostic conversation surfaced two different kinds of known friction.
 
 In one group, leadership could identify the friction and already had an explanation for why it was happening, although the explanation had not necessarily been causally validated.
@@ -501,16 +501,16 @@ The distinction should remain local if repeated use shows that the existing evid
 
 ### Current decision
 
-**Classification**  
+**Classification** 
 Working hypothesis
 
-**Canonical GTM v9 change**  
+**Canonical GTM v9 change** 
 None
 
-**Public architecture change**  
+**Public architecture change** 
 None
 
-**Version decision**  
+**Version decision** 
 Hold and test
 
 The observation remains preserved for calibration. It should not change the operating thesis, six-lens architecture, Three Truths, Causal Constraint Engine, or public v9 architecture unless repeated evidence demonstrates that explicit treatment materially improves the framework.
