@@ -146,6 +146,6 @@ A future fixture should be added only when it creates a distinct falsifiable che
 
 The [Full Stack v5 Evaluation Plan](./full-stack-v5-evaluation-plan.md) incorporates these fixtures as bounded evaluation assertions.
 
-The source cases are summarized in [Evidence Entry 004](../evidence/2026-09-20-external-repository-review-batch-01.md).
+The source cases are summarized in [Evidence Entry 004](./evidence/2026-09-20-external-repository-review-batch-01.md).
 
 No canonical framework modification follows from this packet.
