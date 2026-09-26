@@ -470,7 +470,7 @@ The framework should continue to be challenged through live application, evidenc
 
 ## Related Public Documents
 
-- [GTM Diagnostic Reasoning](../applications/gtm-diagnostic-reasoning.md)
+- [GTM Diagnostic Reasoning](./applications/gtm-diagnostic-reasoning.md)
 - [GTM Framework Evolution](gtm-evolution.md)
 - [GTM Calibration Log](gtm-calibration-log.md)
 - [GTM Diagnostic Framework v8 Public Architecture](gtm-diagnostic-framework-v8-public-architecture.md)
