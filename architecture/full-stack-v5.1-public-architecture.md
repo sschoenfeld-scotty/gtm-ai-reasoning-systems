@@ -284,10 +284,10 @@ A future major version should require a meaningful change in purpose, governing 
 - [Evolution of the Reasoning System](./evolution.md)
 - [Human Pattern 1](./human-pattern-1.md)
 - [Self-Audit as a Reasoning Control](./self-audit-as-a-reasoning-control.md)
-- [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md)
-- [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md)
-- [Building Friction Into AI](../docs/building-friction-into-ai.md)
-- [What I Mean by a Logic Lens](../docs/what-is-a-logic-lens.md)
+- [Full Stack v5.1 Evaluation Plan](./evaluation/full-stack-v5.1-evaluation-plan.md)
+- [Full Stack v5 Evaluation Plan](./evaluation/full-stack-v5-evaluation-plan.md)
+- [Building Friction Into AI](./docs/building-friction-into-ai.md)
+- [What I Mean by a Logic Lens](./docs/what-is-a-logic-lens.md)
 
 ## Public and Private Boundary
 
