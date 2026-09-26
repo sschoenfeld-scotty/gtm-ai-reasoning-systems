@@ -4,7 +4,8 @@
 
 > Structured framework-development evaluation | September 26, 2026  
 > Status | Working hypothesis strengthened and narrowed  
-> Canonical Full Stack change | None
+> Canonical Full Stack change | None  
+> Public record | Reconstructed from the controlled outputs and blind adjudication. Raw chat transcripts are not published.
 
 ## Why This Evidence Entry Exists
 
@@ -58,7 +59,7 @@ The failed run remains part of the development record because it exposed an eval
 
 > **A framework-sufficiency test cannot establish that the baseline independently surfaces a distinction if the baseline evaluator has already been shown the distinction.**
 
-## Clean Test Design
+## Cleaner Test Design
 
 The rerun used three fresh Chat contexts.
 
