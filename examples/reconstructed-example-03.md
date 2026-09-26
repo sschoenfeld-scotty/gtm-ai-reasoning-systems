@@ -251,7 +251,7 @@ When the evidence is already strong and the corrective action is cheap, reversib
 
 ## Evidence Maturity
 
-**Repository-specific maturity level — 1. Anecdotal example**
+**Repository-specific maturity level. 1. Anecdotal example**
 
 This is a reconstructed demonstration.
 
