@@ -462,7 +462,7 @@ It is whether the process is worth accelerating and whether the operating contex
 
 ## How This Connects to Full Stack v5.1
 
-[Full Stack v5.1](../architecture/full-stack-v5.1-public-architecture.md) is the current general reasoning architecture.
+[Full Stack v5.1](./architecture/full-stack-v5.1-public-architecture.md) is the current general reasoning architecture.
 
 GTM Diagnostic Framework v9 is a domain-specific commercial framework.
 
@@ -492,15 +492,15 @@ A concept exposed while Full Stack reviews the GTM framework does not automatica
 
 The repository's evaluation cases provide small public examples of this diagnostic style.
 
-[Reconstructed Evaluation Case 01](../examples/reconstructed-example-01.md) examines a pipeline problem where the first intervention is to increase seller activity.
+[Reconstructed Evaluation Case 01](./examples/reconstructed-example-01.md) examines a pipeline problem where the first intervention is to increase seller activity.
 
 The reasoning changes when the case distinguishes demand creation from conversion of created demand into buyer movement.
 
-[Reconstructed Evaluation Case 02](../examples/reconstructed-example-02.md) examines POC conversion.
+[Reconstructed Evaluation Case 02](./examples/reconstructed-example-02.md) examines POC conversion.
 
 The baseline is already strong, so additional reasoning does not receive credit merely for being more elaborate.
 
-[Reconstructed Evaluation Case 03](../examples/reconstructed-example-03.md) examines forecast discipline.
+[Reconstructed Evaluation Case 03](./examples/reconstructed-example-03.md) examines forecast discipline.
 
 In that case, additional causal exploration makes the decision worse because the simple operating explanation is already strongly supported and cheaply testable.
 
