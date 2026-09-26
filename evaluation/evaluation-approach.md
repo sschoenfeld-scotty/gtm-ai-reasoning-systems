@@ -132,10 +132,10 @@ A September 2026 N-of-1 pilot made this distinction visible. Some challenges cor
 
 Evaluation should therefore distinguish at least four things.
 
-- **Challenge occurrence** — did the reviewer object, request evidence, or raise an alternative?
-- **Challenge validity** — does the objection identify a real evidentiary, causal, or decision problem?
-- **Challenge strength** — is the objection fully supported, partially supported, or stronger than the evidence allows?
-- **Decision relevance** — would resolving the objection materially change confidence, diagnosis, or action?
+- **Challenge occurrence**, did the reviewer object, request evidence, or raise an alternative?
+- **Challenge validity**, does the objection identify a real evidentiary, causal, or decision problem?
+- **Challenge strength**, is the objection fully supported, partially supported, or stronger than the evidence allows?
+- **Decision relevance**, would resolving the objection materially change confidence, diagnosis, or action?
 
 Challenge frequency should not be used as a proxy for reasoning quality.
 
@@ -153,7 +153,7 @@ The source operator is therefore neither irrelevant nor automatic ground truth.
 
 A disagreement between the operator and the system should be adjudicated rather than scored mechanically.
 
-See [Model-Tier Confidence Effect N-of-1 Pilot](../evidence/2026-09-20-model-tier-confidence-n1-pilot.md).
+See [Model-Tier Confidence Effect N-of-1 Pilot](./evidence/2026-09-20-model-tier-confidence-n1-pilot.md).
 
 ## Review Independence and Correlated Self-Audit
 
@@ -182,7 +182,7 @@ This should remain conditional.
 
 Routine work should not inherit duplicate-review ceremony when the added independence is unlikely to change the decision or release state.
 
-See [Fresh-context review after same-context self-audit](../evidence/2026-09-20-fresh-context-review-after-self-audit.md).
+See [Fresh-context review after same-context self-audit](./evidence/2026-09-20-fresh-context-review-after-self-audit.md).
 
 ## Working Outcome Categories
 
