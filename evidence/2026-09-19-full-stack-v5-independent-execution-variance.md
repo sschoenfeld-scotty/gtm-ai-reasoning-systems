@@ -152,16 +152,16 @@ It provides a useful test of whether the existing capability is exercised reliab
 
 ## Framework decision
 
-**Framework modification**  
+**Framework modification** 
 None
 
-**Full Stack version implication**  
+**Full Stack version implication** 
 None
 
-**Global operating principle**  
+**Global operating principle** 
 None
 
-**Current classification**  
+**Current classification** 
 Observational evidence with a working evaluation hypothesis
 
 The existing framework appears sufficient to explain the result.
