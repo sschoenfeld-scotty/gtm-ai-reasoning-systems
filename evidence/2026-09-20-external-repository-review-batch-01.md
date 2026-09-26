@@ -60,7 +60,7 @@ The multi-agent-reasoning case shows why the presence of critique is not enough.
 
 The gtm-intelligence-agent case shows why source status has to survive transformation. Synthetic or fallback evidence should not become indistinguishable from live evidence merely because it has been converted into a score or recommendation.
 
-Those fixtures are published separately in [External Evidence Fixtures 01](../evaluation/external-evidence-fixtures-01.md).
+Those fixtures are published separately in [External Evidence Fixtures 01](./evaluation/external-evidence-fixtures-01.md).
 
 Engram is not converted into an executable fixture yet. The correct test depends on the maintainer's intended privacy boundary and would benefit from independent Rust execution.
 
