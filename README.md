@@ -102,7 +102,6 @@ Self-audit is also separate from the Confidence Self Audit. Self-audit challenge
 
 [Self-Audit as a Reasoning Control](architecture/self-audit-as-a-reasoning-control.md) explains the control model and its known execution and review-independence limits.
 
-
 v5.1 retains the current v5 refinements inside these functions rather than turning them into additional peer stages. Compressed Diagnosis is the additive v5.1 capability.
 
 Context Intake Discipline separates the primary source from supplied comments, related artifacts, operating experience, and user-preferred interpretations before reasoning begins. Agreement with a user angle does not make that angle mandatory in the final output.
