@@ -30,6 +30,20 @@ The change does not permit prescription without diagnosis. It changes how much a
 
 This document describes the public architecture only. Detailed operating instructions, execution logic, internal tests, decision rules, and implementation prompts remain private.
 
+## Where Full Stack Operates With AI
+
+When used with AI, Full Stack is applied at inference time through the instructions and context given to an existing model. It does not modify model weights or claim to create new underlying model capability.
+
+Its role is to govern the reasoning process the model is asked to follow and the conditions the resulting judgment must survive before the human operator accepts it.
+
+This distinction separates reasoning quality from inference efficiency. Full Stack is designed to improve the defensibility of judgment, not to minimize token use, latency, or compute. Some executions may require more inference work because preserving uncertainty, testing alternatives, or auditing a conclusion adds work. Other executions may stop earlier when additional reasoning has little expected decision value.
+
+The current evidence does not establish that Full Stack reduces inference cost or improves computational efficiency. Whether comparable decision quality can be reached with lower-cost models or less inference expenditure is an evaluation question, not a current capability claim.
+
+Because the framework does not depend on modifying model weights, cross-model use is possible in principle. That does not establish equivalent execution fidelity or decision quality across models.
+
+The word inference is also used elsewhere in this repository in Behavioral Inference Discipline and the Behavioral Inference Engine. There it refers to drawing explanations from behavioral evidence rather than computational model inference.
+
 ## Architecture Overview
 
 ```mermaid
