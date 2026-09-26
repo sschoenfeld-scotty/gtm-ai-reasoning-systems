@@ -292,13 +292,13 @@ That means the cue can be worth preserving as part of the evidence environment w
 
 For example
 
-**Observation**  
+**Observation** 
 A user challenges more assumptions when an answer is presented with a high-capability cue.
 
-**Possible hypothesis**  
+**Possible hypothesis** 
 The cue may be changing the user's scrutiny threshold.
 
-**Alternative explanations**  
+**Alternative explanations** 
 The user may hold higher-status systems to a higher standard, may be compensating for awareness of the cue, may have learned from prior model errors, or may simply be reacting to differences in the cases.
 
 The observation does not establish authority bias, distrust, ego, deference, or another motive.
@@ -321,7 +321,7 @@ The durable BIE implication is narrower.
 
 > **System-status cues are plausible contextual variables in the behavioral evidence environment. Preserve them when material, but do not assume either the direction of the effect or the motive behind the behavior.**
 
-See [Model-Tier Confidence Effect N-of-1 Pilot](../evidence/2026-09-20-model-tier-confidence-n1-pilot.md).
+See [Model-Tier Confidence Effect N-of-1 Pilot](./evidence/2026-09-20-model-tier-confidence-n1-pilot.md).
 
 ## The Model-Revision Problem
 
@@ -337,10 +337,10 @@ Maybe.
 
 But a vivid outlier can represent two very different things.
 
-**Signal**  
+**Signal** 
 The existing model is incomplete or wrong.
 
-**Noise**  
+**Noise** 
 The event is unusual and should not overturn a stronger accumulated pattern.
 
 The current sources do **not** define a mature rule for resolving that distinction.
@@ -381,16 +381,16 @@ It may still have only moderate or low confidence about why.
 
 For example
 
-**High confidence observation**  
+**High confidence observation** 
 A manager repeatedly avoids removing unsupported opportunities before forecast calls.
 
-**Possible inference**  
+**Possible inference** 
 The manager may be protecting forecast optics.
 
-**Alternative inference**  
+**Alternative inference** 
 The manager may not trust the qualification standard.
 
-**Another alternative**  
+**Another alternative** 
 The manager may lack authority to make the removal decision.
 
 More repeated instances strengthen confidence in the behavior pattern.
@@ -620,4 +620,4 @@ Its core principle remains clear.
 
 **Behavior can inform a hypothesis about motive. It cannot prove motive by itself.**
 
-The unresolved work is longitudinal: how behavioral hypotheses persist, accumulate, weaken, survive context change, respond to contradictory evidence, and eventually decay or revise without turning pattern confidence into motive certainty.
+The unresolved work is longitudinal. how behavioral hypotheses persist, accumulate, weaken, survive context change, respond to contradictory evidence, and eventually decay or revise without turning pattern confidence into motive certainty.
