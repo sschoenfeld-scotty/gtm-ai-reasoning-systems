@@ -8,7 +8,7 @@
 >
 > The status and present-tense descriptions below reflect the historical v4 snapshot.
 
-**Status**  
+**Status** 
 Functional and in active use. Current evidence includes repeated practical use, observed reasoning failures, iterative revision, later retesting, and structured reconstructed comparisons. This is meaningful evidence of system behavior and development, not formal validation.
 
 ## Purpose
@@ -182,15 +182,15 @@ Those are real test instances of the system encountering reasoning problems and 
 
 They do not establish a generalized performance claim, and they are not the same as formal validation.
 
-The public [Evaluation Approach](../evaluation/evaluation-approach.md) defines a separate portfolio-level methodology for testing whether the architecture improves diagnostic quality rather than merely improving writing quality.
+The public [Evaluation Approach](./evaluation/evaluation-approach.md) defines a separate portfolio-level methodology for testing whether the architecture improves diagnostic quality rather than merely improving writing quality.
 
 Recursive Evidence Re-entry strengthens the ongoing evidence loop by allowing material real-world responses and outcomes to return as new source truth. Those outcomes can strengthen, weaken, or change an earlier diagnosis without being converted automatically into a causal claim.
 
 ## Related Public Documents
 
-- [Building Friction Into AI](../docs/building-friction-into-ai.md)
-- [What I Mean by a Logic Lens](../docs/what-is-a-logic-lens.md)
-- [Evaluation Approach](../evaluation/evaluation-approach.md)
+- [Building Friction Into AI](./docs/building-friction-into-ai.md)
+- [What I Mean by a Logic Lens](./docs/what-is-a-logic-lens.md)
+- [Evaluation Approach](./evaluation/evaluation-approach.md)
 - [Evolution of the Reasoning System](./evolution.md)
 
 ## Public and Private Boundary
