@@ -2,7 +2,7 @@
 
 *A human-directed reasoning harness for diagnosis, strategic adjudication, and consequential judgment*
 
-**Status**  
+**Status** 
 Historical Full Stack v5 public architecture. This file preserves the v5 state and its evidence boundary. Full Stack v5.1 now supersedes v5 for new work. The v5 strategic-adjudication capability and v5 refinements remain subject to the evaluation status recorded here and should not be described as formally validated.
 
 ## Purpose
@@ -343,9 +343,9 @@ That evidence remains evidence about v4 and about the development process. It sh
 
 The v5 changes are accepted architecture changes grounded in identified reasoning gaps and pressure testing. They still require v5-specific evaluation.
 
-The public [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) defines the next evidence step for testing whether Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance improve decision quality without creating new failure modes such as generalized risk aversion, analytical bloat, causal overreach, translation bias, hindsight reconstruction, unnecessary trace bureaucracy, consequence-inference overreach, routing-gate bypass, user-anchor capture, or unnecessary Deep Path ceremony.
+The public [Full Stack v5 Evaluation Plan](./evaluation/full-stack-v5-evaluation-plan.md) defines the next evidence step for testing whether Strategic Adjudication, Reasoning Depth Routing, Reflexivity, Cascade Integrity, Decision Trace Integrity, and Anchoring Resistance improve decision quality without creating new failure modes such as generalized risk aversion, analytical bloat, causal overreach, translation bias, hindsight reconstruction, unnecessary trace bureaucracy, consequence-inference overreach, routing-gate bypass, user-anchor capture, or unnecessary Deep Path ceremony.
 
-The existing [Evaluation Approach](../evaluation/evaluation-approach.md) and [Independent Review Protocol v1](../evaluation/independent-review-protocol.md) remain part of the v4 evidence trail.
+The existing [Evaluation Approach](./evaluation/evaluation-approach.md) and [Independent Review Protocol v1](./evaluation/independent-review-protocol.md) remain part of the v4 evidence trail.
 
 ## Version Discipline
 
@@ -362,11 +362,11 @@ A future major version should require another meaningful change in purpose, arch
 ## Related Public Documents
 
 - [Full Stack v5.1 Public Architecture](./full-stack-v5.1-public-architecture.md)
-- [Building Friction Into AI](../docs/building-friction-into-ai.md)
-- [What I Mean by a Logic Lens](../docs/what-is-a-logic-lens.md)
+- [Building Friction Into AI](./docs/building-friction-into-ai.md)
+- [What I Mean by a Logic Lens](./docs/what-is-a-logic-lens.md)
 - [Evolution of the Reasoning System](./evolution.md)
 - [Human Pattern 1](./human-pattern-1.md)
-- [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md)
+- [Full Stack v5 Evaluation Plan](./evaluation/full-stack-v5-evaluation-plan.md)
 - [Full Stack v4 Public Architecture](./full-stack-v4-public-architecture.md)
 
 ## Public and Private Boundary
