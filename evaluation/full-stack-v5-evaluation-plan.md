@@ -409,7 +409,7 @@ It is not automatic proof that the judgment is correct.
 
 When correctness matters, adjudicate the operator judgment, model output, and other reviewer judgments against the frozen evidence and any genuinely independent reference that exists.
 
-See [Model-Tier Confidence Effect N-of-1 Pilot](../evidence/2026-09-20-model-tier-confidence-n1-pilot.md).
+See [Model-Tier Confidence Effect N-of-1 Pilot](./evidence/2026-09-20-model-tier-confidence-n1-pilot.md).
 
 ### 9. Record the strongest counterargument
 
@@ -648,7 +648,7 @@ An evaluation can show high agreement while both conditions are wrong against a 
 
 A September 2026 external review of CognitiveLens reproduced this pattern. In one held-out run, AI and human labels agreed on 139 of 150 cases. Fifty of those agreements were shared errors against the supplied reference. The same review also found a mode where the selected human training target was reused downstream under the `y_true` label.
 
-See [Evidence Entry 003](../evidence/2026-09-20-cognitivelens-external-evidence-review.md).
+See [Evidence Entry 003](./evidence/2026-09-20-cognitivelens-external-evidence-review.md).
 
 This does not establish that shared error is common in Full Stack work.
 
@@ -667,7 +667,7 @@ Agreement can increase confidence only when the evidentiary relationship between
 
 A September 2026 batch review of four external repositories produced three concrete evaluation fixtures without producing a canonical framework change.
 
-See [External Evidence Fixtures 01](./external-evidence-fixtures-01.md) and [Evidence Entry 004](../evidence/2026-09-20-external-repository-review-batch-01.md).
+See [External Evidence Fixtures 01](./external-evidence-fixtures-01.md) and [Evidence Entry 004](./evidence/2026-09-20-external-repository-review-batch-01.md).
 
 The fixtures add bounded checks when their underlying failure mode is material.
 
@@ -703,9 +703,9 @@ The [Independent Review Protocol v1](./independent-review-protocol.md) remains t
 
 Those artifacts should remain unchanged as part of the historical evidence trail.
 
-The [Independent Execution Variance evidence record](../evidence/2026-09-19-full-stack-v5-independent-execution-variance.md) preserves an observational v5 experiment in which two independent executions produced different but defensible intellectual moves. It does not establish an environment advantage or a framework change. It preserves a working hypothesis that independent execution may sometimes expose material omissions and that communication cases may benefit from evaluating reasoning quality separately from output-selection quality.
+The [Independent Execution Variance evidence record](./evidence/2026-09-19-full-stack-v5-independent-execution-variance.md) preserves an observational v5 experiment in which two independent executions produced different but defensible intellectual moves. It does not establish an environment advantage or a framework change. It preserves a working hypothesis that independent execution may sometimes expose material omissions and that communication cases may benefit from evaluating reasoning quality separately from output-selection quality.
 
-The [CognitiveLens external evidence review](../evidence/2026-09-20-cognitivelens-external-evidence-review.md) preserves a separate external case about reference integrity and shared error. It does not validate v5. It adds a concrete evaluation failure mode that is now reflected in this plan.
+The [CognitiveLens external evidence review](./evidence/2026-09-20-cognitivelens-external-evidence-review.md) preserves a separate external case about reference integrity and shared error. It does not validate v5. It adds a concrete evaluation failure mode that is now reflected in this plan.
 
 This v5 plan is additive. It exists to evaluate the new decision capability and current refinements without rewriting the meaning of earlier evidence.
 
