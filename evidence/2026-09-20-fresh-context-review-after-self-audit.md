@@ -200,7 +200,7 @@ Do not require duplicate review for routine work where independence adds no mate
 
 ## Related architecture
 
-[Self-Audit as a Reasoning Control](../architecture/self-audit-as-a-reasoning-control.md) explains the control model associated with this evidence entry.
+[Self-Audit as a Reasoning Control](./architecture/self-audit-as-a-reasoning-control.md) explains the control model associated with this evidence entry.
 
 This case remains observational evidence about one review failure surface. Linking it to the architecture does not establish the effectiveness of self-audit or the superiority of fresh-context review.
 
