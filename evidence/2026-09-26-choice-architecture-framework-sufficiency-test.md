@@ -11,7 +11,7 @@
 
 This test began with a plausible framework-development question.
 
-[Human Pattern 1](../architecture/human-pattern-1.md) already separates observed behavior from stated account and inferred driver. It also tests structural and systemic explanations before personal motive is treated as the leading explanation.
+[Human Pattern 1](./architecture/human-pattern-1.md) already separates observed behavior from stated account and inferred driver. It also tests structural and systemic explanations before personal motive is treated as the leading explanation.
 
 The candidate proposed making one additional area more explicit.
 
@@ -246,6 +246,6 @@ Reopen the question only if later real cases independently expose the same execu
 
 ## Related Public Architecture
 
-- [Human Pattern 1](../architecture/human-pattern-1.md)
-- [Full Stack v5.1](../architecture/full-stack-v5.1-public-architecture.md)
-- [Evolution of the Reasoning System](../architecture/evolution.md)
+- [Human Pattern 1](./architecture/human-pattern-1.md)
+- [Full Stack v5.1](./architecture/full-stack-v5.1-public-architecture.md)
+- [Evolution of the Reasoning System](./architecture/evolution.md)
