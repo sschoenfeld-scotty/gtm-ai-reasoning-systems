@@ -48,7 +48,7 @@ The comparison focused on the governing question, reasoning emphasis, and result
 
 The runs were sequential observations under changing information. The later runs had access to the author's subsequent response as new evidence. This comparison does not isolate routing as the causal variable.
 
-## Condition 1 — Routine and Easily Reversible
+## Condition 1. Routine and Easily Reversible
 
 ### Route
 
@@ -90,7 +90,7 @@ In the Fast Path run, the evidence standard became prospective rather than retro
 
 The intervention remained primarily an evidence-discipline move.
 
-## Condition 2 — Meaningful but Recoverable
+## Condition 2. Meaningful but Recoverable
 
 ### Route
 
@@ -144,7 +144,7 @@ It exposed a recurring operating pattern in which leadership behavior itself can
 
 System Dynamics became useful in this case. That should not be generalized into a rule that Standard Path always requires a system-dynamics analysis.
 
-## Condition 3 — Materially Consequential, Sensitive, or Difficult to Reverse
+## Condition 3. Materially Consequential, Sensitive, or Difficult to Reverse
 
 ### Route
 
