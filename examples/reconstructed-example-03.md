@@ -17,7 +17,7 @@ The Full Stack condition introduces additional causal possibilities that are int
 
 The result is a weaker recommendation.
 
-This case applies the public [Evaluation Approach](../evaluation/evaluation-approach.md).
+This case applies the public [Evaluation Approach](./evaluation/evaluation-approach.md).
 
 It is **not a historical account of a specific company**.
 
@@ -113,22 +113,22 @@ However, forecast misses can also emerge from deeper operating conditions.
 
 Possible explanations include
 
-**Manager discipline failure**  
+**Manager discipline failure** 
 Managers may simply have stopped enforcing an established operating requirement.
 
-**Incentive misalignment**  
+**Incentive misalignment** 
 Managers may avoid strict inspection because they are rewarded more for forecast optimism than forecast accuracy.
 
-**Leadership signaling**  
+**Leadership signaling** 
 Executives may be creating an environment where clean numbers are valued more than uncomfortable deal truth.
 
-**Seller behavior**  
+**Seller behavior** 
 Sellers may be delaying updates because they fear scrutiny or want to preserve optionality.
 
-**Process design problem**  
+**Process design problem** 
 The CRM process itself may be too burdensome, causing teams to work around it.
 
-**Forecast model weakness**  
+**Forecast model weakness** 
 The organization may be relying too heavily on seller-entered fields rather than independent evidence of buyer movement.
 
 ### Causal Diagnosis
@@ -251,7 +251,7 @@ When the evidence is already strong and the corrective action is cheap, reversib
 
 ## Evidence Maturity
 
-**Repository-specific maturity level — 1. Anecdotal example**
+**Repository-specific maturity level, 1. Anecdotal example**
 
 This is a reconstructed demonstration.
 
