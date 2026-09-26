@@ -2,7 +2,7 @@
 
 *The design decisions that moved Full Stack from prompt-level improvement toward an explicit reasoning architecture and strategic decision gate*
 
-**Status**  
+**Status** 
 Work in progress. This history includes only changes supported by the currently available source documents. It does not reconstruct undocumented intermediate versions.
 
 ## Why This History Matters
@@ -486,7 +486,7 @@ The v5 Strategic Adjudication capability and v5 refinements retain their own his
 
 Compressed Diagnosis is newer and requires separate v5.1 evaluation.
 
-The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) is designed to test cases where
+The [Full Stack v5 Evaluation Plan](./evaluation/full-stack-v5-evaluation-plan.md) is designed to test cases where
 
 - the diagnosis is correct but intervention is strategically inferior to non-intervention
 - an optimization has attractive expected upside but credible irreversible downside
@@ -514,7 +514,7 @@ The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.
 
 No v5 performance result is claimed until those tests are actually run and reviewed.
 
-The [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md) separately tests Compressed Diagnosis and regression risk without relabeling the earlier evidence.
+The [Full Stack v5.1 Evaluation Plan](./evaluation/full-stack-v5.1-evaluation-plan.md) separately tests Compressed Diagnosis and regression risk without relabeling the earlier evidence.
 
 Because current v5.1 differs from historical v5 in both Compressed Diagnosis and execution activation, the evaluation plan now uses a controlled v5.1 ablation when it needs to isolate the effect of Compressed Diagnosis. Historical v5 comparisons remain useful for architectural evolution but are not treated as clean causal isolation of the v5.1 capability.
 
@@ -565,7 +565,7 @@ A future **v6** should require a meaningful change in purpose, governing archite
 - [Full Stack v5 Public Architecture](./full-stack-v5-public-architecture.md)
 - [Human Pattern 1](./human-pattern-1.md)
 - [Full Stack v4 Public Architecture](./full-stack-v4-public-architecture.md)
-- [Building Friction Into AI](../docs/building-friction-into-ai.md)
-- [What I Mean by a Logic Lens](../docs/what-is-a-logic-lens.md)
-- [Full Stack v5.1 Evaluation Plan](../evaluation/full-stack-v5.1-evaluation-plan.md)
-- [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md)
+- [Building Friction Into AI](./docs/building-friction-into-ai.md)
+- [What I Mean by a Logic Lens](./docs/what-is-a-logic-lens.md)
+- [Full Stack v5.1 Evaluation Plan](./evaluation/full-stack-v5.1-evaluation-plan.md)
+- [Full Stack v5 Evaluation Plan](./evaluation/full-stack-v5-evaluation-plan.md)
