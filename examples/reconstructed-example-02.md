@@ -236,7 +236,7 @@ The baseline was already good enough to identify the likely misdiagnosis and sel
 
 ## Evidence Maturity
 
-**Repository-specific maturity level — 1. Anecdotal example**
+**Repository-specific maturity level. 1. Anecdotal example**
 
 This is a reconstructed demonstration.
 
