@@ -3,8 +3,8 @@
 ## Open-ended collaboration before the outcome is known
 
 > Contemporaneous observation | September 14, 2026  
-> Status: observation and working hypothesis, not validation  
-> Canonical Full Stack change: none
+> Status - observation and working hypothesis, not validation  
+> Canonical Full Stack change - none
 
 ## Why this entry exists
 
