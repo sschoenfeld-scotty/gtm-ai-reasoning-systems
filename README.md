@@ -60,7 +60,7 @@ Full Stack v5.1 preserves that reasoning spine and adds Compressed Diagnosis.
 
 v5 exists because diagnosis and strategic action needed to be separated. v5.1 exists because repeated prior evidence can sometimes justify reducing additional diagnostic expansion without skipping diagnosis.
 
-Current v5.1 also treats Full Stack invocation itself as the escalation. Ordinary invocation uses Deep Path and maximum Full Stack execution. Fast Path and Standard Path remain defined but dormant unless future canonical guidance reactivates them.
+Current v5.1 also treats Full Stack invocation itself as the escalation. Ordinary invocation uses Deep Path and maximum Full Stack execution. Fast and Standard remain defined but dormant unless future canonical guidance reactivates them.
 
 Maximum execution means the complete architecture is considered at the deepest available reasoning level. It does not mean endless evidence collection. The system continues while another increment of reasoning or evidence can materially improve the judgment and stops when that marginal value is no longer material.
 
@@ -204,7 +204,7 @@ It makes experienced judgment easier to retrieve, connect, inspect, challenge, a
 | **Full Stack v5.1** | Core reasoning harness for diagnosis and strategic decision support | Current canonical framework. Compressed Diagnosis requires v5.1-specific evaluation |
 | **Full Stack v5** | Prior Full Stack version that introduced Strategic Adjudication and accumulated the current v5 refinements | Historical architecture preserved with its own evidence boundary |
 | **Full Stack v4** | Prior major version that made the diagnostic architecture and recursive evidence loop explicit | Historical canonical version preserved for evidence and version history |
-| **GTM Diagnostic Framework v9** | Horizontal operating-domain reasoning system for governing commercial constraints and their connected dependencies | Current canonical GTM architecture. Field-test, not formally validated |
+| **GTM Diagnostic Framework v9** | Horizontal operating-domain reasoning system for diagnosing commercial constraints and designing operating interventions | Current canonical GTM architecture. Field-test, not formally validated |
 | **GTM Diagnostic Framework v8** | Prior GTM version that established the governing constraint as the intellectual center | Historical prior version preserved in the public evidence trail |
 | **Full Stack v5.1 Evaluation Plan** | Public plan for testing Compressed Diagnosis and current v5.1 execution behavior without relabeling earlier evidence | Work in progress |
 | **Full Stack v5 Evaluation Plan** | Public plan for testing Strategic Adjudication and v5 refinements | Preserved v5-specific evaluation work. Not validation of Compressed Diagnosis |
