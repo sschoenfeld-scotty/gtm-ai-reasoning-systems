@@ -36,6 +36,14 @@ A prompt mostly defines the output.
 
 A logic lens defines the reasoning path that should produce the output.
 
+**A logic lens can be specialized without being industry-specific.**
+
+Full Stack v5.1 provides broad reasoning discipline. The GTM Diagnostic Framework v9 is a separate system specialized around a **horizontal operating domain**. Go-to-market exists across industries, so the framework is organized around commercial decisions rather than one industry vertical.
+
+GTM's specialization is in the reasoning, not just the subject matter. It makes the dependencies inside a revenue system explicit and requires the diagnosis to change when those dependencies change. Industry requirements and company-specific evidence still shape how that reasoning is applied without automatically requiring a separate lens.
+
+These are related systems, not a mandatory stack of layers. [How a Logic Lens Can Be Specialized](docs/what-is-a-logic-lens.md#how-a-logic-lens-can-be-specialized) explains the distinction.
+
 When I use Full Stack with AI, it functions as a **human-directed reasoning harness applied at inference time**. It guides how an existing model's available capability is used on the task without retraining the model or changing its weights.
 
 The objective is more defensible judgment, not lower inference cost. The harness changes what must be inspected, challenged, distinguished, and pressure-tested before I trust the conclusion or act on it.
@@ -192,11 +200,11 @@ It makes experienced judgment easier to retrieve, connect, inspect, challenge, a
 
 | System or layer | Role | Current status |
 | --- | --- | --- |
-| **Logic Lens** | General concept for designing problem-specific reasoning discipline | Concept used across the current body of work |
+| **Logic Lens** | Concept for designing reasoning discipline around a decision environment, which need not follow industry boundaries | Concept used across the current body of work |
 | **Full Stack v5.1** | Core reasoning harness for diagnosis and strategic decision support | Current canonical framework. Compressed Diagnosis requires v5.1-specific evaluation |
 | **Full Stack v5** | Prior Full Stack version that introduced Strategic Adjudication and accumulated the current v5 refinements | Historical architecture preserved with its own evidence boundary |
 | **Full Stack v4** | Prior major version that made the diagnostic architecture and recursive evidence loop explicit | Historical canonical version preserved for evidence and version history |
-| **GTM Diagnostic Framework v9** | Applied GTM system for diagnosing governing constraints, connected dependencies, and operating interventions | Current canonical GTM architecture; field-test, not formally validated |
+| **GTM Diagnostic Framework v9** | Horizontal operating-domain reasoning system for governing commercial constraints and their connected dependencies | Current canonical GTM architecture. Field-test, not formally validated |
 | **GTM Diagnostic Framework v8** | Prior GTM version that established the governing constraint as the intellectual center | Historical prior version preserved in the public evidence trail |
 | **Full Stack v5.1 Evaluation Plan** | Public plan for testing Compressed Diagnosis and current v5.1 execution behavior without relabeling earlier evidence | Work in progress |
 | **Full Stack v5 Evaluation Plan** | Public plan for testing Strategic Adjudication and v5 refinements | Preserved v5-specific evaluation work. Not validation of Compressed Diagnosis |
