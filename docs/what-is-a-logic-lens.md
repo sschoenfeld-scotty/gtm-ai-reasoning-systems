@@ -12,6 +12,24 @@ Without a lens, AI can move from a prompt to a fluent answer too quickly. It can
 
 A logic lens deliberately interrupts that jump. It creates a repeatable discipline for establishing what is actually known before the model recommends, explains, writes, or acts.
 
+## How a Logic Lens Can Be Specialized
+
+A logic lens does not have to be defined by an industry.
+
+Some reasoning problems are better organized around an operating domain or recurring decision environment that appears across many industries.
+
+Go-to-market is one example. The [GTM Diagnostic Framework v9](../architecture/gtm-diagnostic-framework-v9-public-architecture.md) is specialized around the commercial system rather than around one market. Its value does not come only from knowing more GTM terminology or facts. It makes recurring dependencies inside the revenue system explicit and requires the diagnosis to change when those dependencies change.
+
+That distinction matters because specialization should improve the reasoning, not simply add more subject matter.
+
+Industry context can still affect what evidence matters, what constraints apply, and what decisions are available. Organization-specific experience can add another layer of context. Neither automatically requires a separate logic lens.
+
+A distinct specialized lens becomes more defensible when the recurring decision environment requires important relationships, evidence standards, or failure modes to be made explicit so they are applied more reliably.
+
+The useful boundary is therefore not automatically the industry.
+
+It is the reasoning environment the lens must handle well.
+
 ## Full Stack v5.1 Is One Logic Lens
 
 Full Stack v5.1 is designed to improve diagnosis before writing or action. Its core idea remains simple.
