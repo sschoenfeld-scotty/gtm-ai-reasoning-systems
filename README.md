@@ -60,7 +60,7 @@ Full Stack v5.1 preserves that reasoning spine and adds Compressed Diagnosis.
 
 v5 exists because diagnosis and strategic action needed to be separated. v5.1 exists because repeated prior evidence can sometimes justify reducing additional diagnostic expansion without skipping diagnosis.
 
-Current v5.1 also treats Full Stack invocation itself as the escalation. Ordinary invocation uses Deep Path and maximum Full Stack execution. Fast and Standard remain defined but dormant unless future canonical guidance reactivates them.
+Current v5.1 also treats Full Stack invocation itself as the escalation. Ordinary invocation uses Deep Path and maximum Full Stack execution. Fast Path and Standard Path remain defined but dormant unless future canonical guidance reactivates them.
 
 Maximum execution means the complete architecture is considered at the deepest available reasoning level. It does not mean endless evidence collection. The system continues while another increment of reasoning or evidence can materially improve the judgment and stops when that marginal value is no longer material.
 
