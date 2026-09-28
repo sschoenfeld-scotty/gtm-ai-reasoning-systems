@@ -2,9 +2,11 @@
 
 *A plain-English explanation using Full Stack v5.1 as the example*
 
-When I use the term **logic lens**, I mean a predefined way of examining a problem before AI produces an answer. It doesn’t just tell AI what to write. It tells AI what to inspect, what to challenge, what evidence to trust, and what the conclusion needs to survive before it is delivered.
+When I use the term **logic lens**, I mean a predefined, reusable reasoning discipline for examining a problem before AI produces an answer. It does more than tell AI what to write. It governs how evidence is treated, which assumptions are challenged, and what the conclusion needs to survive before it is delivered.
 
-> **A prompt mostly defines the output. A logic lens defines the reasoning path that should produce the output.**
+> **A prompt is an instruction surface. A logic lens is the reusable reasoning discipline that can be invoked through it.**
+
+A prompt can contain or invoke a logic lens. Detailed instructions alone do not make the prompt a logic lens.
 
 ## Why I Use Logic Lenses
 
@@ -32,11 +34,11 @@ It is the reasoning environment the lens must handle well.
 
 ## Full Stack v5.1 Is One Logic Lens
 
-Full Stack v5.1 is designed to improve diagnosis before writing or action. Its core idea remains simple.
+Full Stack v5.1 is one current example of a logic lens. It is designed to improve diagnosis before writing or action. Its core idea remains simple.
 
 **Better decisions come from better diagnosis.**
 
-Before producing the final output, it asks the model to work through questions like these.
+It is not a fixed checklist. Depending on what is material to the case, it asks the model to work through questions like these.
 
 - What is actually known, and what is being inferred?
 - What else could explain the same observable facts?
@@ -56,6 +58,8 @@ Current v5.1 invocation uses Deep Path and maximum Full Stack execution by defau
 
 ## The Two Parts of Full Stack v5.1
 
+These two components are maintained as a matched pair. They are not separate levels of reasoning quality.
+
 | | Operating Manual | Execution Prompt |
 | --- | --- | --- |
 | **Plain English** | The playbook | The game-day call sheet |
@@ -68,8 +72,12 @@ The goal isn’t to make AI sound smarter. It’s to make the reasoning more dis
 
 A useful logic lens should reduce reflexive agreement, make uncertainty visible, pressure-test the first explanation, and produce an answer that is more grounded in the actual problem.
 
+That is design intent, not proof of effectiveness. Practical use can generate observations, and structured evaluation can test performance under defined conditions, but neither should be described as formal validation unless the evidence supports it.
+
 Full Stack v5.1 extends that discipline by asking whether the diagnosis is right, whether acting on it is strategically warranted, and whether more diagnostic work has enough expected decision value to justify its cost or delay.
 
 The stopping rule is not a fixed number of questions or challenge passes. The lens keeps going while another increment can materially improve or weaken the conclusion, change confidence, favor a credible alternative, change the decision boundary, or change what should be done.
+
+A logic lens does not replace human judgment. It makes the reasoning easier to inspect before a person relies on it.
 
 > **The writing is the output. The logic lens is the thinking discipline behind it.**
