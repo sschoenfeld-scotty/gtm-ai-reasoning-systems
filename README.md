@@ -32,9 +32,9 @@ It is a public record of how reasoning systems are built, challenged, revised, t
 
 It is one implementation of a broader concept I call a **logic lens**.
 
-A prompt mostly defines the output.
+A prompt is an instruction surface. A logic lens is a reusable reasoning discipline that can be invoked through that surface.
 
-A logic lens defines the reasoning path that should produce the output.
+A prompt can contain or invoke a logic lens. Detailed instructions alone do not make it one.
 
 **A logic lens can be specialized without being industry-specific.**
 
@@ -320,7 +320,7 @@ It is not yet a formal benchmark demonstrating that the architectures consistent
 
 The [Independent Review Protocol v1](evaluation/independent-review-protocol.md) defines the external review process for the frozen v4 reconstructed cases.
 
-The [Full Stack v5.1 Evaluation Plan](evaluation/full-stack-v5.1-evaluation-plan.md) defines the current tests for Compressed Diagnosis. The historical [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) remains v5 evidence and does not silently validate Compressed Diagnosis.
+The [Full Stack v5.1 Evaluation Plan](evaluation/full-stack-v5.1-evaluation-plan.md) defines the current evaluation plan for Compressed Diagnosis. The historical [Full Stack v5 Evaluation Plan](evaluation/full-stack-v5-evaluation-plan.md) defines prospective tests of the preserved v5 architecture. Earlier results retain their original source attribution and do not silently validate Compressed Diagnosis.
 
 The [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md), [GTM Diagnostic Framework v9 Public Architecture](architecture/gtm-diagnostic-framework-v9-public-architecture.md), and [GTM Framework Evolution](architecture/gtm-evolution.md) are derived from the private GTM Diagnostic Framework v9.
 
