@@ -443,6 +443,54 @@ That evidence supports a bounded canonical refinement. It does not establish for
 - whether prior operating experience remains appropriately subordinate to material contradictory current evidence
 - whether bounded diagnostic probes improve causal learning without encouraging premature intervention
 
+## Canonical Refinement 009
+
+### Transfer Learning Across Contexts
+
+**Date captured**  
+September 2026
+
+**Source context**  
+Repeated operator work across materially different GTM preparation and field-operating artifacts exposed a recurring transfer problem.
+
+Successful prior work can contain reusable reasoning without making the prior implementation the right structure for the next case.
+
+The current framework already included Anchoring Resistance, experienced judgment, Scope Discipline, System Coherence, Evidence Re-entry, and field calibration. What remained less explicit was the abstraction step between prior success and current-context implementation.
+
+### Diagnostic distinction
+
+A prior successful artifact, operating mechanism, or intervention is evidence about what may be reusable. It is not the template for the next case.
+
+The reasoning relationship or candidate invariant may transfer. The current context still has to be diagnosed independently, and context-specific structure should be allowed to disappear when it no longer fits.
+
+### Canonical decision
+
+**Classification**  
+Diagnostic reasoning refinement
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The refinement makes transfer learning explicit inside existing evidence and anchoring disciplines.
+
+It does not create a new lens, Truth layer, engagement phase, reusable template, or exception to current evidence standards.
+
+### Evidence status
+
+The refinement is grounded in repeated operator practice across more than one GTM application family, plus a Full Stack v5.1 reconsideration of evidence sufficiency and reversibility.
+
+That evidence supports bounded canonical inclusion. It does not establish universal causal superiority or formal validation.
+
+### Field calibration question
+
+Whether explicit transfer-learning language improves retrieval of prior learning without causing a previous implementation to control the new diagnosis.
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
