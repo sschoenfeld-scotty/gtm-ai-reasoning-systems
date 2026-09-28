@@ -1,7 +1,7 @@
-# Full Stack-Assisted Instruction Architecture Survives Independent Audit
+# Full Stack-Assisted Instruction Architecture Survives Fresh-Context Audit
 
 > Naturalistic observational evidence | September 27, 2026  
-> Status | artifact robustness under independent review, not framework validation  
+> Status | artifact robustness under fresh-context review, not framework validation  
 > Canonical Full Stack change | none
 
 ## Why This Entry Exists
@@ -24,7 +24,7 @@ The development process was not compared against a control condition in which an
 
 The correct claim is therefore about provenance and downstream robustness.
 
-Full Stack was part of the design process. The finished artifact was later challenged independently.
+Full Stack was part of the design process. The finished artifact was later challenged in separate fresh contexts.
 
 ## The Frozen Artifact
 
@@ -96,7 +96,7 @@ The sequence was
 
 The useful observation is not that Full Stack graded its own work.
 
-The useful observation is that an artifact developed with Full Stack survived separate challenge after the design process was complete.
+The useful observation is that an artifact developed with Full Stack survived separate fresh-context challenge after the design process was complete.
 
 ## What This Supports
 
@@ -114,6 +114,8 @@ It does not establish that another design process would have produced a weaker r
 
 It does not convert two model reviews into formal validation.
 
+The two audits were separate and the second was not shown the first result. They still shared the same platform and broader product environment, so the reviews were not experimentally isolated.
+
 It does not establish that the instructions will be followed reliably in future execution.
 
 It does not show that reviewer agreement guarantees correctness.
@@ -128,7 +130,7 @@ The earlier case showed that a fresh reviewer can expose a valid miss that survi
 
 The current case shows the other possible outcome.
 
-Fresh independent review can also conclude that a finished artifact should remain unchanged.
+Fresh-context review can also conclude that a finished artifact should remain unchanged.
 
 That matters because review independence is useful only if the reviewer is free to preserve the artifact as well as challenge it.
 
