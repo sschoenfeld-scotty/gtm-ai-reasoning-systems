@@ -486,7 +486,9 @@ The v5 Strategic Adjudication capability and v5 refinements retain their own his
 
 Compressed Diagnosis is newer and requires separate v5.1 evaluation.
 
-The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) is designed to test cases where
+The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.md) targets Operating Manual revision 20 and Execution Prompt revision 16, both dated September 21, 2026, for prospective historical-v5 tests. This target does not retroactively identify the source revisions used in earlier evaluations.
+
+The plan is designed to test cases where
 
 - the diagnosis is correct but intervention is strategically inferior to non-intervention
 - an optimization has attractive expected upside but credible irreversible downside
@@ -496,11 +498,12 @@ The [Full Stack v5 Evaluation Plan](../evaluation/full-stack-v5-evaluation-plan.
 - an apparent reflexive loop is actually coincidence or post hoc storytelling
 - strategic intent mutates materially as it passes through organizational handoffs
 - local translation improves rather than degrades an executive decision
-- the user explicitly declares a task routine and the observable reasoning properties support Fast Path
-- consequence has not been declared and the framework must obtain it before producing a Full Stack output
-- a simple artifact is explicitly declared materially consequential and therefore cannot be routed shallowly
-- the user declares a task routine but observable reasoning risk warrants escalation
-- the user is unsure about consequence and Standard becomes the minimum route
+- the user selects a practical minimum and observable reasoning properties support Fast Path
+- minimum rigor has not been selected and the framework must obtain it before producing output
+- the user selects the deepest minimum for a short or apparently simple artifact
+- the user selects a practical minimum but observable reasoning risk warrants escalation
+- the user selects a pressure-testing minimum and Standard Path must remain the floor
+- consequence is uncertain and no minimum rigor has been selected, so the selection remains pending rather than defaulting to Standard
 - a retrospective explanation conflicts with contemporaneous decision evidence
 - a retrospective explanation is well supported and should not trigger manufactured skepticism
 - a contemporaneous record was itself strategic communication rather than a neutral record of decision reasoning

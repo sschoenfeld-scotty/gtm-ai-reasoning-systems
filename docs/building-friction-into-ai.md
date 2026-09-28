@@ -14,7 +14,7 @@ The risk is not just bad writing. It is bad intervention. The visible issue can 
 
 ## What I’m building
 
-I call the core approach a **logic lens**. A prompt mostly defines the output. A logic lens defines how the problem should be examined before the output is trusted.
+I call the core approach a **logic lens**. A prompt is an instruction surface through which I can invoke a reusable reasoning discipline. The lens governs how the problem is examined before the output is trusted. A prompt can contain or invoke that discipline, but detailed instructions alone do not make it a logic lens.
 
 The current implementation is **Full Stack v5.1**. It preserves the evidence discipline, competing explanations, causal diagnosis, prognosis, recursive evidence re-entry, and pressure testing developed through v4. It carries forward the strategic decision discipline introduced in v5 and adds Compressed Diagnosis before full diagnostic expansion when eligible.
 

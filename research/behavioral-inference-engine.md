@@ -5,11 +5,11 @@
 > Work in progress | September 2026  
 > Research direction, not a validated or standalone canonical framework
 
-> **Historical source context**
+> **Historical and current source context**
 >
-> This work-in-progress research note records development context drawn from Full Stack v4 and GTM Diagnostic Framework v8. References to current sources below describe that earlier context. The current canonical Full Stack and GTM Diagnostic Framework sources are authoritative. At the time of this note's most recent verification, those are [Full Stack v5.1](../architecture/full-stack-v5.1-public-architecture.md) and [GTM Diagnostic Framework v9](../architecture/gtm-diagnostic-framework-v9-public-architecture.md).
+> This research note began with Full Stack v4 and GTM Diagnostic Framework v8. Its Existing Guardrail and framework-relationship sections describe the current canonical sources, [Full Stack v5.1](../architecture/full-stack-v5.1-public-architecture.md) and [GTM Diagnostic Framework v9](../architecture/gtm-diagnostic-framework-v9-public-architecture.md).
 >
-> This note does not claim a complete reassessment of the Behavioral Inference Engine against the later private frameworks. A September 2026 N-of-1 pilot has been added below as bounded research evidence about the evidence environment. It does not make BIE canonical or validated.
+> Those relationship updates do not constitute a complete reassessment of BIE. The historical research and September 2026 N-of-1 pilot retain their original evidence status. BIE remains a research direction rather than a validated or standalone canonical framework.
 
 ## Status and Source Boundary
 
@@ -79,20 +79,21 @@ The current canonical Full Stack framework keeps observation, stated account, an
 
 GTM Diagnostic Framework v9 applies the same attribution discipline inside commercial diagnosis. It states that behavior does not prove motive and that incentives are relevant evidence rather than proof of intent.
 
-The current public reasoning pattern is
+At an architectural level, current GTM v9 connects behavioral evidence to diagnosis and a separate action decision.
 
 ```mermaid
 flowchart LR
-    A[Observable Behavior] --> B[Possible Explanation]
-    B --> C[Alternative Explanation]
-    C --> D[Evidence Required]
-    D --> E[Confidence]
-    E --> F[Intervention]
+    A["Behavioral evidence and stated accounts"] --> B["Competing explanations and structural context"]
+    B --> C["Causal diagnosis with calibrated uncertainty"]
+    C --> D["Strategic Action Gate when material"]
+    D --> E["Action decision"]
 ```
 
-This pattern is already established.
+The diagram summarizes the relationship rather than reproducing the private execution sequence. Stated accounts remain evidence to assess. Resolving a behavioral ambiguity matters when it could change the diagnosis or decision. Otherwise the uncertainty can remain visible without blocking progress.
 
-The Behavioral Inference Engine research direction asks what additional discipline is required when those observations accumulate **over time**.
+Behavioral inference informs causal diagnosis. The conditional Strategic Action Gate determines whether intervention is warranted when consequence, scarce-resource tradeoffs, or difficult-to-reverse downside are material.
+
+BIE asks what additional discipline is required when behavioral observations accumulate over time.
 
 ## Why Longitudinal Reasoning Is Harder
 
@@ -453,30 +454,23 @@ This export is an architecture decision inside the current canonical Full Stack 
 
 ## Relationship to GTM Diagnostic Framework v9
 
-GTM v9 treats leadership, manager, seller, buyer, and cross-functional behavior as part of the commercial operating system.
+GTM v9 treats human behavior as part of the commercial operating system.
 
-Its canonical behavioral guardrail remains
+Its governing boundary remains
 
 > **Behavior does not prove motive.**
 
-The current six-step reasoning pattern is
+The framework distinguishes observed behavior from the actor's stated account and the explanation inferred from it. Credible alternatives and structural conditions can change that explanation. Structural pressure and individual agency may both contribute.
 
-1. observable behavior
-2. possible explanation
-3. alternative explanation
-4. evidence required
-5. confidence
-6. intervention
+Behavioral inference supports causal diagnosis. When unresolved behavioral ambiguity could change the diagnosis or decision, the framework seeks evidence that can distinguish the explanations. When it would not, uncertainty can remain unresolved.
 
-GTM v9 also states
+A supported diagnosis does not automatically require intervention. The Strategic Action Gate applies when consequence, scarce-resource tradeoffs, or difficult-to-reverse downside make the action decision material.
 
-> **Incentives are relevant evidence. They are not proof of intent.**
+Incentives remain relevant evidence without proving intent. Confidence that behavior occurred remains separate from confidence about its cause.
 
-BIE extends the research question beyond a single diagnostic moment.
+BIE extends the research question across time. How should behavioral hypotheses persist or change as observations accumulate and contexts shift?
 
-It asks how behavioral hypotheses should persist, weaken, strengthen, decay, or change across time while preserving context and attribution discipline.
-
-The complete GTM v9 implementation remains private.
+That longitudinal research remains unresolved. The complete GTM v9 implementation remains private.
 
 ## What BIE Is Not
 

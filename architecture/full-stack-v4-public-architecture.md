@@ -4,7 +4,7 @@
 
 > **Historical architecture**
 >
-> Full Stack v4 is preserved as a historical version. [Full Stack v5](full-stack-v5-public-architecture.md) is the current Full Stack version.
+> Full Stack v4 is preserved as a historical version. [Full Stack v5.1](full-stack-v5.1-public-architecture.md) is the current Full Stack version.
 >
 > The status and present-tense descriptions below reflect the historical v4 snapshot.
 
