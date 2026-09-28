@@ -1,12 +1,16 @@
 # Full Stack v5 Evaluation Plan
 
-*How I plan to test the reasoning capability added in v5 and its current refinements without rewriting the v4 evidence history*
+*How I plan to test the preserved Full Stack v5 architecture without rewriting earlier evidence*
 
 > Work in progress | September 2026
 
 ## Status and Scope
 
-This document defines the public evaluation plan for the new reasoning capability introduced in Full Stack v5 and the later refinements now inside the current v5 architecture.
+This document defines prospective evaluation of the preserved Full Stack v5 architecture and its refinements.
+
+The target state is the private Full Stack v5 Operating Manual revision 20 and Execution Prompt revision 16, both dated September 21, 2026. References to v5 in this plan mean that matched historical state. Full Stack v5.1 governs new ordinary execution.
+
+This source designation applies to future runs under this plan. It does not establish which revisions were used in any completed evaluation. Earlier outputs and evidence records retain their actual source state. Where that state was not recorded, the uncertainty remains explicit.
 
 It is not evidence that v5 has already been validated.
 
@@ -27,7 +31,7 @@ That gate, **Strategic Adjudication**, asks two additional questions at a public
 
 A separate conditional **Communication Function** check is also available when misunderstanding the purpose or audience of a statement could materially change the diagnosis.
 
-Six later refinements now sit inside the same v5 architecture.
+Six refinements sit inside the preserved v5 architecture.
 
 - **Reasoning Depth Routing** requires explicit user-selected minimum rigor before routing, treats that declaration as the minimum reasoning depth, and allows observable reasoning risk to escalate the route.
 - **Reflexivity** sits inside System Dynamics and tests whether signaling itself changes the resources or behavior that govern feasibility.
@@ -48,7 +52,7 @@ The central evaluation question remains
 
 That isolates the major v5 reasoning capability rather than giving v5 credit for diagnostic improvements inherited from v4.
 
-The current refinements add six secondary questions.
+The preserved refinements add six secondary questions.
 
 > **Does v5 obtain explicit user-selected minimum rigor before routing, honor it as the minimum reasoning depth, and escalate only when observable reasoning risk warrants it?**
 
@@ -70,7 +74,7 @@ Both conditions should receive the same source packet, decision question, model 
 
 The v4 condition uses the preserved v4 implementation.
 
-The v5 condition uses the current v5 implementation.
+The v5 condition uses Operating Manual revision 20 and Execution Prompt revision 16, as specified in Status and Scope.
 
 The comparison should focus on whether the new decision gate or later v5 refinements change the recommendation, confidence, risk boundary, resource-allocation judgment, reasoning depth, causal model, execution assessment, interpretation of prior reasoning, or handling of a user-supplied preferred position in a way that is better supported by the same evidence.
 
@@ -139,41 +143,41 @@ A local manager or operating team modifies an executive directive because field 
 
 A strong v5 response should not treat every deviation from executive intent as execution failure.
 
-### Explicit routine consequence with Fast Path appropriate
+### Explicit practical minimum with Fast Path appropriate
 
-The user explicitly states that the task is routine and easily reversible. The evidence is adequate, the causal scope is narrow, and there is no material stakeholder complexity, scarce-resource tradeoff, or credible irreversible downside.
+The user explicitly selects the practical level of minimum rigor. The task is highly reversible, causally narrow, and adequately evidenced, with no material stakeholder complexity, scarce-resource tradeoff, or credible irreversible downside.
 
-A strong v5 response should make Fast Path eligible without adding analytical ceremony that does not improve the decision.
+Fast Path should be eligible. A description of the task as routine does not by itself establish the user's minimum-rigor selection.
 
-### No consequence declaration
+### No minimum-rigor selection
 
-The user invokes Full Stack but does not establish how consequential it would be to get the reasoning wrong.
+The user invokes historical Full Stack v5 without explicitly selecting minimum rigor.
 
-A strong v5 response should ask the mandatory consequence question and withhold the Full Stack framework output until the user answers.
+The framework should obtain that selection through the preserved v5 reasoning-depth gate and withhold framework output until the user answers.
 
-### Explicit consequential task with a simple artifact
+### Explicit deepest minimum with a simple artifact
 
-The requested artifact is short or apparently simple, but the user explicitly states that the underlying decision is materially consequential, sensitive, or difficult to reverse.
+The user selects the deepest level of minimum rigor even though the requested artifact is short or apparently simple.
 
-A strong v5 response should preserve Deep Path as the minimum regardless of artifact length.
+Deep Path remains the minimum. Artifact length does not justify downgrading the user's selection.
 
-### User declares routine but observable risk warrants escalation
+### Practical minimum with evidence-supported escalation
 
-The user describes the task as routine and easily reversible, but the frozen evidence contains material irreversibility, stakeholder complexity, scarce-resource tradeoffs, causal uncertainty, or another observable reason deeper reasoning is warranted.
+The user selects the practical level, but the frozen evidence contains observable reasoning risk that warrants a deeper route.
 
-A strong v5 response should escalate above the user's minimum and explain the evidence-supported reason without claiming the situation matters more to the user than the user stated.
+The framework should escalate and explain the evidence-supported reason without inventing personal or strategic importance.
 
-### Meaningful but recoverable consequence floor
+### Explicit pressure-testing minimum
 
-The user explicitly states that the task is meaningful but recoverable.
+The user selects the pressure-testing level of minimum rigor.
 
-A strong v5 response should keep Standard Path as the minimum even if the requested artifact appears easy or brief.
+Standard Path remains the minimum. Observable reasoning risk may justify escalation, but apparent simplicity does not justify a shallower route.
 
-### User unsure about consequence
+### Uncertain consequence without a minimum-rigor selection
 
-The user cannot confidently classify how consequential an error would be.
+The user is unsure about consequence and has not selected minimum rigor.
 
-A strong v5 response should use Standard Path as the minimum and inspect observable reasoning properties for possible escalation.
+The framework should obtain the missing selection. Uncertainty about consequence does not create an automatic Standard Path default.
 
 ### Retrospective rationale mismatch
 
@@ -251,7 +255,7 @@ A strong v5 response should preserve the uncertainty and continue rather than ad
 
 Two credible behavioral explanations would lead to materially different diagnoses, confidence judgments, prognoses, or candidate actions.
 
-A strong v5 response should use discriminating evidence and, when the user plausibly has relevant context the model lacks, seek one targeted clarification before carrying unresolved uncertainty forward.
+A strong v5 response should use discriminating evidence and seek relevant human context when it could materially reduce decision-relevant uncertainty. The user's interpretation should remain evidence to assess rather than automatic authority. Any unresolved uncertainty should remain explicit without itself forcing delay.
 
 ### Experience-based prior helps without becoming proof
 
@@ -281,7 +285,7 @@ Create a fixed evidence packet and decision question.
 
 Do not give one version evidence that the other does not receive.
 
-For routing cases, freeze whether user-selected minimum rigor is explicitly stated, unstated, lower than observable reasoning risk, or uncertain. Do not let reviewers infer a different reasoning-depth state after seeing the output.
+For routing cases, preserve the user's explicit minimum-rigor selection or record that it remains pending. Freeze the observable reasoning risk separately. Do not infer a selected minimum from a consequence description or reconstruct it after seeing the output.
 
 For Decision Trace Integrity cases, freeze the contemporaneous decision evidence separately from any later retrospective account so reviewers can determine whether the framework keeps those evidence states distinct.
 
@@ -295,7 +299,7 @@ Do not alter v4 to make it more competitive with v5.
 
 ### 3. Run the v5 condition
 
-Use the same case and context with the current v5 architecture.
+Use the same case and context with Operating Manual revision 20 and Execution Prompt revision 16. Preserve the source identifiers with the run record.
 
 Record whether user-selected minimum rigor was already explicit or had to be requested, the selected minimum rigor, the resulting minimum route, any evidence-supported escalation, the diagnosis, Strategic Adjudication result when material, any Reflexivity or Cascade Integrity finding when material, any Decision Trace Integrity finding when material, any Anchoring Resistance effect when triggered, any Behavioral Inference Discipline effect when triggered, confidence, recommendation, and supporting rationale.
 
@@ -341,13 +345,11 @@ For evaluation that depends on independent human-versus-model judgment, freeze t
 
 ### 6. Inspect Anchoring Resistance when triggered
 
-When the final route is Deep Path and the user supplied a substantive preferred hypothesis, diagnosis, conclusion, recommendation, or argument, inspect whether v5 establishes what the available evidence supports independently of that preference.
+When the final route is Deep Path and the user supplied a substantive preferred hypothesis, diagnosis, conclusion, recommendation, or argument, evaluate whether the conclusion is supported by the available evidence independently of that preference.
 
-Then ask whether the preferred position was evaluated in its strongest defensible form rather than weakened for comparison.
+The preferred position should receive a fair test in its strongest defensible form. Reviewers should look for material effects of the preference on evidence selection or weighting, including whether the collection process omitted evidence that could distinguish it from the strongest credible alternative. Evidence collected after a preference formed retains its evidentiary value and should not be rejected merely because of its timing.
 
-If the preferred position existed before some evidence was collected, inspect whether v5 tested the possibility that evidence selection itself was conditioned by the preference. The correct response is not to disqualify post-preference evidence. It is to ask what discriminating evidence may be missing and whether the strongest credible alternative has been tested fairly.
-
-Finally, record whether the initial framing materially changed evidence selection, weighting, confidence, diagnosis, or action. If the independent and preferred-position reads materially converge, extra visible framing analysis should count as unnecessary ceremony rather than improvement.
+Record framing effects when they materially change confidence, diagnosis, or action. A supported preferred position may remain the best conclusion. Manufactured disagreement and unnecessary visible framing analysis should count against the framework rather than as evidence of improvement.
 
 ### 6A. Inspect Behavioral Inference Discipline when triggered
 
@@ -359,7 +361,7 @@ Inspect whether relevant operator experience informed prior plausibility without
 
 Ask whether the unresolved behavioral distinction actually mattered to the diagnosis or decision. If it did not, additional behavioral analysis should count as unnecessary friction.
 
-When user context was requested, inspect whether the pre-user behavioral read was preserved and whether the new context was adjudicated rather than automatically adopted.
+When human context is requested, inspect whether it can materially reduce decision-relevant uncertainty and whether the resulting behavioral explanation remains supported by the case evidence and credible alternatives. The user's interpretation should be assessed as contextual evidence rather than adopted as automatic authority.
 
 If material uncertainty remained, inspect whether it was carried into Strategic Adjudication rather than converted into motive certainty or automatic delay.
 
@@ -450,8 +452,8 @@ Examples include
 - identifying a meaningful organizational translation failure that changes what the field or customer will actually experience
 - recognizing that local translation improved a weak executive decision rather than treating deviation as failure
 - obtaining user-selected minimum rigor before routing when it was not already explicit
-- honoring an explicit routine-and-reversible declaration and using Fast Path only when observable reasoning properties support it
-- preserving Standard or Deep as the minimum when the user declares greater consequence even if the artifact is simple
+- honoring an explicit practical minimum and using Fast Path only when observable reasoning properties support it
+- preserving the user's selected Standard or Deep minimum even when the requested artifact is simple
 - escalating above the user's minimum only when observable reasoning risk supports deeper scrutiny
 - distinguishing a current retrospective account from the evidence that actually existed when the original decision was made
 - allowing corroborated retrospective rationale to increase confidence instead of assuming it is unreliable
@@ -613,11 +615,11 @@ High confidence that a behavior repeats silently becomes high confidence about w
 
 ### Context-authority capture
 
-The model asks the user for behavioral context and then adopts the user's explanation as truth instead of comparing it with the preserved pre-user read and credible alternatives.
+The model treats the user's explanation of behavior as authoritative instead of assessing its support against the case evidence and credible alternatives.
 
 ### Clarification ceremony
 
-The framework interrupts for human context when the unresolved behavioral distinction would not materially change the diagnosis or decision, or repeatedly questions the user after one clarification fails to resolve the ambiguity.
+The framework requests human context when the unresolved behavioral distinction would not materially change the diagnosis or decision, or prolongs clarification without materially improving the basis for judgment.
 
 ### Motive-certainty paralysis
 
@@ -689,11 +691,11 @@ The current evidence status should remain explicit.
 
 Full Stack v4 has practical-use evidence, observed failure modes, iterative revisions, reconstructed comparisons, and an independent review protocol prepared around its frozen case set.
 
-Full Stack v5 inherits the architecture that produced that development history, but the new Strategic Adjudication capability and current v5 refinements have not yet earned the same evidence status.
+Full Stack v5 inherits the architecture that produced that development history, but the Strategic Adjudication capability and preserved v5 refinements have not yet earned the same evidence status.
 
 Until v5-specific cases are run and reviewed, the correct claim is
 
-> **v5 is an accepted architecture change with current refinements and a defined evaluation plan, not a validated improvement claim.**
+> **v5 is an accepted historical architecture with a defined evaluation plan, not a validated improvement claim.**
 
 ## Relationship to Existing Evaluation Artifacts
 
@@ -707,7 +709,7 @@ The [Independent Execution Variance evidence record](../evidence/2026-09-19-full
 
 The [CognitiveLens external evidence review](../evidence/2026-09-20-cognitivelens-external-evidence-review.md) preserves a separate external case about reference integrity and shared error. It does not validate v5. It adds a concrete evaluation failure mode that is now reflected in this plan.
 
-This v5 plan is additive. It exists to evaluate the new decision capability and current refinements without rewriting the meaning of earlier evidence.
+This plan supports prospective evaluation of the frozen v5 architecture without changing the meaning or source attribution of earlier evidence.
 
 ## Next Evidence Step
 

@@ -210,19 +210,21 @@ Record whether Compressed Diagnosis activated and why.
 
 Record what additional evidence was not pursued and why.
 
-### 5. Isolate the Compressed Diagnosis effect
+### 5. Compare Compressed Diagnosis availability
 
-Compare the controlled v5.1 ablation with the current v5.1 condition.
+Compare current v5.1 with Compressed Diagnosis available against the controlled v5.1 ablation. Both conditions retain the same current execution state apart from the specified ablation.
 
-Determine whether Compressed Diagnosis reduced, preserved, or increased diagnostic work and whether it changed the decision.
+Record whether availability changed diagnostic effort or the action decision, and whether the difference was defensible against the frozen evidence. Less analysis does not count as improvement by itself.
 
-Do not treat less analysis as improvement by itself.
+Use the Compressed Diagnosis comparison categories below. Record failures present in both conditions without attributing them automatically to Compressed Diagnosis.
 
 ### 6. Compare historical evolution
 
-Compare the historical v5 condition with current v5.1.
+Compare historical v5 against current v5.1 with Compressed Diagnosis available.
 
-Use this comparison to inspect overall architectural evolution. Do not attribute every difference to Compressed Diagnosis when current execution-routing behavior could also explain the change.
+Use the historical comparison categories below to assess the overall difference between the source states. This comparison includes changes in routing activation and stopping behavior as well as Compressed Diagnosis. It cannot isolate the contribution of Compressed Diagnosis.
+
+Keep the two comparison records separate even when they reach the same outcome.
 
 ### 7. Inspect residual uncertainty
 
@@ -250,20 +252,39 @@ A failed outcome can weaken confidence without proving that compression itself w
 
 ### 11. Preserve the original outputs
 
-Do not improve either condition after the comparison.
+Do not revise any of the three conditions' outputs after seeing the comparisons.
 
 If evaluation exposes a framework weakness, record it separately and test it before changing the framework again.
 
 ## Working Outcome Categories
 
+### Compressed Diagnosis comparison
+
+These categories apply to current v5.1 with Compressed Diagnosis available compared with the controlled v5.1 ablation.
+
 | Outcome | Meaning |
 | --- | --- |
-| **Material improvement** | v5.1 changes diagnostic effort or action in a way that improves decision quality or avoids material delay without weakening evidence discipline |
-| **Useful compression** | v5.1 reduces diagnostic work while preserving a defensible decision and visible uncertainty |
-| **No material difference** | v5 and v5.1 reach materially similar reasoning and action |
-| **Over-compression** | v5.1 acts on a prior that should have been challenged or expanded |
-| **Under-compression** | v5.1 gathers additional evidence that has little expected decision value relative to its cost |
-| **Indeterminate** | the case does not provide enough evidence to distinguish the conditions |
+| **Material improvement** | The full condition produces a better-supported decision or avoids material delay relative to the ablated condition without weakening evidence discipline |
+| **Useful compression** | The full condition reduces diagnostic work relative to the ablated condition while preserving a defensible decision and visible uncertainty |
+| **No material difference** | The full and ablated conditions show no material difference in diagnostic effort, reasoning, confidence, or action |
+| **Over-compression** | The full condition relies on a prior that the frozen evidence required it to challenge or investigate further. Record whether the ablated condition avoids or shares the failure |
+| **Under-compression** | The full condition pursues additional evidence with little expected decision value relative to its cost. Record whether the ablated condition behaves differently or shares the failure |
+| **Indeterminate** | The frozen evidence or comparison is insufficient to support a defensible judgment |
+
+A failure in the full condition does not by itself establish that Compressed Diagnosis caused it. The comparison must show what changed between conditions.
+
+### Historical v5 comparison
+
+These categories apply only to historical v5 compared with current v5.1 with Compressed Diagnosis available.
+
+| Outcome | Meaning |
+| --- | --- |
+| **Improved** | Current v5.1 produces a materially better-supported decision or execution path than historical v5 under the tested conditions |
+| **No material difference** | Historical v5 and current v5.1 show no material difference in decision quality or execution value |
+| **Degraded** | Current v5.1 produces a materially less defensible decision or execution path than historical v5 |
+| **Indeterminate** | The frozen evidence or comparison is insufficient to determine which source state performed better |
+
+Report the source states and comparator with every outcome. These are qualitative judgments about the tested cases. They do not establish formal validation.
 
 ## Failure Modes the Evaluation Must Look For
 
