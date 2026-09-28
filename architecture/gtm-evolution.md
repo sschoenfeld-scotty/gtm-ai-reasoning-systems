@@ -399,6 +399,28 @@ The change remains inside v9 because it makes the existing Test and Diagnose log
 
 Its field-calibration question is whether explicit evidence-sufficiency reasoning reduces unnecessary diagnostic delay without weakening the framework's evidence discipline.
 
+## 14. Transfer Learning Across Contexts Became Explicit
+
+Repeated operator work exposed a recurring problem in reusable GTM systems.
+
+A successful prior artifact can contain valuable learning while still being the wrong object to copy into the next context.
+
+v9 already prevented prior experience from becoming current fact through evidence discipline, Anchoring Resistance, Scope Discipline, System Coherence, and Evidence Re-entry.
+
+What remained less explicit was the transfer step itself.
+
+The framework now makes a bounded distinction between the reasoning relationship that may be reusable and the context-specific implementation that produced it.
+
+> **Reuse the reasoning, not the artifact.**
+
+> **Learning may transfer across contexts. Diagnosis does not.**
+
+The operator can identify a candidate invariant from prior success, but the current context must still be diagnosed independently before deciding what survives.
+
+Context-specific structure can disappear without invalidating the prior learning.
+
+This refinement does not add a new lens, engagement phase, or reasoning spine. It makes an existing evidence and judgment discipline easier to retrieve, so the change remains inside v9.
+
 ## What v9 Deliberately Preserves
 
 v9 does not replace the core framework architecture.
