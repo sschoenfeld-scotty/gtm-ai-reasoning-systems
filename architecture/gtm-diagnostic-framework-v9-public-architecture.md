@@ -195,6 +195,20 @@ This does not lower the evidence standards that establish buyer intent, stakehol
 
 When a bounded and reversible action can produce useful discriminating evidence, the observed response can re-enter the diagnostic loop as new evidence. The outcome does not automatically prove the original diagnosis.
 
+## Transfer Learning Across Contexts
+
+v9 also makes a related reuse discipline explicit.
+
+A prior successful GTM artifact, operating mechanism, or intervention can contain reusable learning without becoming the template for the next case.
+
+The framework identifies the reasoning relationship or candidate invariant that may transfer, then re-diagnoses the current context before deciding what survives. Context-specific structure can disappear without invalidating the prior learning.
+
+> **Reuse the reasoning, not the artifact.**
+
+> **Learning may transfer across contexts. Diagnosis does not.**
+
+This does not make prior success proof of causality or current fit. It makes transfer more inspectable inside the existing evidence, anchoring, scope, and re-entry disciplines.
+
 ## 5. Use a Strategic Action Gate When Consequence Warrants It
 
 A correct diagnosis does not automatically make every diagnosed problem worth fixing.
