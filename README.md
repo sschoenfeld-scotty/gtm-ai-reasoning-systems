@@ -198,6 +198,14 @@ The framework does not replace experienced judgment.
 
 It makes experienced judgment easier to retrieve, connect, inspect, challenge, and update.
 
+## Career Reasoning System
+
+The Career Reasoning System is another applied reasoning environment in this body of work. Career Apply governs role-specific application reasoning. Career Interview governs interview reasoning and live preparation.
+
+They share a representation of the role while remaining independently governed. Application reasoning can carry forward, but new employer evidence can change the opportunity interpretation. Reaching an interview does not prove the original model was correct, and truthful candidate claims must remain coherent as positioning changes.
+
+The application lens has undergone structured scenario testing. The interview lens has passed design and desk-based navigation tests, with live usability and measured retrieval evaluation still open. The overall system is not formally validated.
+
 ## Current Status of the Body of Work
 
 | System or layer | Role | Current status |
@@ -208,6 +216,7 @@ It makes experienced judgment easier to retrieve, connect, inspect, challenge, a
 | **Full Stack v4** | Prior major version that made the diagnostic architecture and recursive evidence loop explicit | Historical canonical version preserved for evidence and version history |
 | **GTM Diagnostic Framework v9** | Horizontal operating-domain reasoning system for diagnosing commercial constraints and designing operating interventions | Current canonical GTM architecture. Field-test, not formally validated |
 | **GTM Diagnostic Framework v8** | Prior GTM version that established the governing constraint as the intellectual center | Historical prior version preserved in the public evidence trail |
+| **Career Reasoning System** | Two specialized candidate-side reasoning lenses with shared role-representation infrastructure | Current architecture. Application scenario testing and interview design and desk tests. Live interview usability and measured retrieval validation remain open. Not formally validated |
 | **Full Stack v5.1 Evaluation Plan** | Public plan for testing Compressed Diagnosis and current v5.1 execution behavior without relabeling earlier evidence | Work in progress |
 | **Full Stack v5 Evaluation Plan** | Public plan for testing Strategic Adjudication and v5 refinements | Preserved v5-specific evaluation work. Not validation of Compressed Diagnosis |
 | **Behavioral Inference Engine** | Research direction for how behavioral hypotheses should persist and revise across time. Several bounded disciplines now inform Full Stack v5.1 | Work in progress |
@@ -358,6 +367,10 @@ The case remains in its own repository. It is not direct validation of Full Stac
 - [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) shows how the reasoning disciplines become practical commercial diagnosis.
 - [GTM Framework Evolution](architecture/gtm-evolution.md) documents the material changes from v7 through v9.
 - [GTM Calibration Log](architecture/gtm-calibration-log.md) preserves working observations without silently changing the framework.
+
+### Career application and interview
+
+- [Career Reasoning System](architecture/career-reasoning-system.md) explains the connected application and interview architecture, its shared role representation, and current evidence limits.
 
 ### Evaluation
 
