@@ -421,6 +421,26 @@ Context-specific structure can disappear without invalidating the prior learning
 
 This refinement does not add a new lens, engagement phase, or reasoning spine. It makes an existing evidence and judgment discipline easier to retrieve, so the change remains inside v9.
 
+## 15. Management Activity and Management Discipline Were Separated
+
+A later field-derived review exposed a management condition that current v9 could already reason through but did not state directly enough.
+
+An organization can generate a high volume of manager interaction, process, inspection, and corrective activity while still lacking coherent management discipline.
+
+v9 already included Manager Inspection Maturity, Execution Cascade Integrity, Change Absorption, Commercial System Coherence, Behavioral Inference, and installed operating discipline.
+
+What remained less explicit was that management volume is not evidence of management effectiveness.
+
+The framework now makes that distinction explicit inside the existing Leadership and Field Execution System.
+
+High management activity can coexist with weak management discipline when priorities are unclear, operating standards are unstable or conflicting, inspection is inconsistent, or coaching and accountability do not produce durable behavior change.
+
+When seller resistance is material, the framework tests both individual-accountability and operating-system explanations rather than assuming either one.
+
+This refinement does not add a new lens, management methodology, engagement phase, or generic anti-micromanagement rule.
+
+The proposed reinforcing loop between performance weakness, additional interventions, operating noise, and continued weakness remains a field hypothesis rather than canonical architecture.
+
 ## What v9 Deliberately Preserves
 
 v9 does not replace the core framework architecture.
