@@ -343,6 +343,16 @@ The additional v9 question is
 
 That question helps managers inspect the buying system rather than isolated facts.
 
+### Management Activity Is Not Management Discipline
+
+v9 does not treat the volume of manager interaction, inspection, process, or corrective activity as evidence that management is effective.
+
+High management activity can coexist with weak management discipline when priorities are unclear, operating standards are unstable or conflicting, inspection is inconsistent, or coaching and accountability do not produce durable behavior change.
+
+When seller resistance is material, the diagnostic distinguishes resistance to legitimate accountability from a possible response to fragmented, accumulating, or inconsistent operating demands.
+
+The purpose is not to reduce management by default. It is to determine whether management interactions reinforce a coherent and stable set of commercial priorities and standards.
+
 ## Commercial System Coherence
 
 v9 also makes an operating-system requirement explicit.
