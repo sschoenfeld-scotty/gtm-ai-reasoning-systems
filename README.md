@@ -14,7 +14,7 @@ In consequential work, the larger risk is not bad writing. It is bad diagnosis a
 
 AI can accept the premise too easily, overweight a vivid observation, collapse inference into fact, settle on the first plausible causal explanation, or make a weak intervention sound more convincing than the evidence deserves.
 
-I started building systems to introduce deliberate friction before that happens.
+I started building systems to slow the wrong jump, not the whole reasoning process. The goal is to add friction when the evidence does not yet support the conclusion and move faster once it does.
 
 The governing idea remains simple.
 
