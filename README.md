@@ -158,6 +158,7 @@ v9 therefore reasons more explicitly about
 - evidence re-entry when material facts change
 - a conditional Strategic Action Gate when a correct diagnosis does not automatically justify intervention
 - commercial system coherence across messaging, discovery, qualification, CRM, forecasting, inspection, coaching, and enablement
+- management activity versus management discipline so intervention volume is not mistaken for a coherent management system
 - operating continuity across commercial records, field guidance, handoffs, and changes in buying state
 - opportunity availability relative to commercial capacity when scarcity or overload changes decision thresholds
 - diagnostic evidence sufficiency when the expected value of more evidence no longer justifies commercial delay
