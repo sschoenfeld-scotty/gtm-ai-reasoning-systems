@@ -491,6 +491,58 @@ That evidence supports bounded canonical inclusion. It does not establish univer
 
 Whether explicit transfer-learning language improves retrieval of prior learning without causing a previous implementation to control the new diagnosis.
 
+## Canonical Refinement 010
+
+### Management Activity Is Not Management Discipline
+
+**Date captured**  
+September 2026
+
+**Source context**  
+A live GTM engagement surfaced an apparent management paradox.
+
+Sellers could experience a high volume of management interventions while leadership simultaneously experienced weak accountability and inconsistent execution.
+
+Review against current v9 showed substantial existing coverage through Manager Inspection Maturity, Execution Cascade Integrity, Commercial System Coherence, Change Absorption, Behavioral Inference, and Install. What remained less explicit was the distinction between management activity and management discipline.
+
+### Diagnostic distinction
+
+Management effectiveness should not be inferred from the volume of manager interaction, inspection, process, or corrective activity surrounding the seller.
+
+High management activity can coexist with weak management discipline when priorities are unclear, operating standards are unstable or conflicting, inspection is inconsistent, coaching does not follow observed gaps, or repeated gaps do not change the management response.
+
+When seller resistance is material, the diagnostic should distinguish resistance to legitimate accountability from a possible response to fragmented, accumulating, or inconsistent operating demands.
+
+### Canonical decision
+
+**Classification**  
+Leadership and field execution diagnostic refinement
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The refinement was added immediately after Manager Inspection Maturity inside the existing Leadership and Field Execution System.
+
+It does not create a new lens, management methodology, engagement phase, or anti-micromanagement principle. It does not reduce individual accountability or assume seller resistance proves management-system failure.
+
+### Evidence status
+
+The distinction is grounded in engagement-derived observation and an architecture sufficiency review against current v9.
+
+That evidence supports a bounded canonical clarification. It does not establish that high management activity is generally harmful or that seller resistance is caused by management fragmentation.
+
+The proposed reinforcing loop remains a field hypothesis rather than canonical architecture.
+
+### Field calibration question
+
+Whether explicitly separating management activity from management discipline improves diagnosis of manager effectiveness and seller resistance without weakening legitimate individual accountability.
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
