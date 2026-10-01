@@ -16,9 +16,11 @@ AI can accept the premise too easily, overweight a vivid observation, collapse i
 
 I started building systems to slow the wrong jump, not the whole reasoning process. The goal is to add friction when the evidence does not yet support the conclusion and move faster once it does.
 
+**I am not trying to make AI produce any answer, let alone a different one. I am trying to make it earn the answer before I trust it.**
+
 When I publish or deliver an artifact, the thinking, diagnosis, recommendations, and conclusions I stand behind are mine. AI helps me process more evidence, challenge assumptions, test alternative explanations, and turn the work into a usable artifact. I do not ask AI what is wrong, accept its answer, and put my name on it.
 
-My frameworks govern how I reason through the problem. I decide what matters, what I believe is supported, what remains uncertain, and what action I am willing to stand behind.
+In GTM work, the GTM Diagnostic Framework governs the commercial diagnosis. Full Stack pressure-tests the reasoning, challenges assumptions, and tries to break the conclusion before I rely on it. I decide what matters, what I believe is supported, what remains uncertain, and what action I am willing to stand behind.
 
 The governing idea remains simple.
 
