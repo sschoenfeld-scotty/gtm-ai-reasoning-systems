@@ -16,6 +16,10 @@ AI can accept the premise too easily, overweight a vivid observation, collapse i
 
 I started building systems to slow the wrong jump, not the whole reasoning process. The goal is to add friction when the evidence does not yet support the conclusion and move faster once it does.
 
+When I publish or deliver an artifact, the thinking, diagnosis, recommendations, and conclusions I stand behind are mine. AI helps me process more evidence, challenge assumptions, test alternative explanations, and turn the work into a usable artifact. I do not ask AI what is wrong, accept its answer, and put my name on it.
+
+My frameworks govern how I reason through the problem. I decide what matters, what I believe is supported, what remains uncertain, and what action I am willing to stand behind.
+
 The governing idea remains simple.
 
 > **Better decisions come from better diagnosis.**
