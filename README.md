@@ -4,7 +4,7 @@
 
 ## In 60 Seconds
 
-I am an enterprise GTM executive who uses AI as a reasoning and decision-support tool, not as a substitute for commercial judgment.
+I am an enterprise GTM executive who uses AI as a reasoning and decision-support tool, not as a substitute for my judgment.
 
 The problem that started this work was simple.
 
