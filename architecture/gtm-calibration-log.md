@@ -543,6 +543,104 @@ The proposed reinforcing loop remains a field hypothesis rather than canonical a
 
 Whether explicitly separating management activity from management discipline improves diagnosis of manager effectiveness and seller resistance without weakening legitimate individual accountability.
 
+## Canonical Refinement 011
+
+### Early Momentum Intervention
+
+**Date captured**  
+October 2026
+
+**Source context**  
+Framework review examined a recurring engagement-design question.
+
+A bounded intervention can sometimes create useful standalone operating value before the broader GTM diagnosis is complete. In favorable conditions, the intervention may also improve the organizational environment in which the larger strategy must be installed.
+
+Current v9 already allowed bounded and reversible action under diagnostic evidence-sufficiency logic. What remained less explicit was that an early intervention can create strategic value through execution momentum and operating runway as well as through its direct result.
+
+### Diagnostic distinction
+
+A local intervention may proceed early when the operating condition is sufficiently understood, the action remains useful even if the broader diagnosis later changes, downside is bounded and reversible, and acting is unlikely to materially distort evidence still required for the broader diagnosis.
+
+Expected organizational effects such as increased confidence, participation, leadership attention, or support for subsequent change remain behavioral hypotheses rather than guaranteed outcomes.
+
+Momentum alone is not sufficient reason to intervene.
+
+### Canonical decision
+
+**Classification**  
+Engagement-design refinement
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The refinement adds an optional Early Momentum Intervention mechanism inside the existing five-part engagement method.
+
+It does not create a new phase, move the Strategic Action Gate, reduce evidence standards, or require a quick win.
+
+### Evidence status
+
+The refinement is grounded in operator experience, practical engagement logic, and pressure testing against current v9 evidence, behavioral, and action disciplines.
+
+That evidence supports bounded canonical inclusion. It does not establish that early interventions generally improve transformation outcomes or that visible wins reliably produce organizational support.
+
+### Field calibration question
+
+Whether bounded early interventions with standalone value improve operating momentum without distorting the broader diagnosis or encouraging premature action.
+
+## Canonical Refinement 012
+
+### Field Enablement Translation
+
+**Date captured**  
+October 2026
+
+**Source context**  
+A field-enablement design review examined why strong seller-facing assets can still produce weak execution.
+
+Current v9 already included Commercial System Coherence, Enablement as Operating Reinforcement, and Field Usability Continuity. What remained less explicit was whether the relationships among seller-facing assets are sufficiently visible to the people using them in the flow of work.
+
+### Diagnostic distinction
+
+Seller-facing guidance should not be assessed only by the quality or volume of individual assets.
+
+The diagnostic should inspect whether sellers understand how those assets relate to the broader commercial motion and can reach relevant adjacent guidance without independently searching, sequencing, or reconstructing the relationship.
+
+This distinguishes content scarcity from field translation, navigation, sequencing, and usability problems.
+
+### Canonical decision
+
+**Classification**  
+Commercial system coherence refinement
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The refinement sits inside existing Commercial System Coherence and does not create a new lens, role requirement, content taxonomy, or prescribed remediation.
+
+A separate private operating pattern may be considered when the condition appears, but the public framework remains at the diagnostic-principle level.
+
+### Evidence status
+
+The refinement is grounded in commercial-system logic and practical field-use reasoning.
+
+That evidence supports a bounded diagnostic clarification. It does not establish that a specific content-navigation design will improve seller behavior or buyer progression.
+
+### Field calibration question
+
+Whether explicit Field Enablement Translation inspection reveals execution friction that existing content-quality and field-usability checks would otherwise miss or reach later.
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
