@@ -164,10 +164,12 @@ v9 therefore reasons more explicitly about
 - evidence re-entry when material facts change
 - a conditional Strategic Action Gate when a correct diagnosis does not automatically justify intervention
 - commercial system coherence across messaging, discovery, qualification, CRM, forecasting, inspection, coaching, and enablement
+- field enablement translation so seller-facing guidance is inspected as a connected field experience rather than a collection of isolated assets
 - management activity versus management discipline so intervention volume is not mistaken for a coherent management system
 - operating continuity across commercial records, field guidance, handoffs, and changes in buying state
 - opportunity availability relative to commercial capacity when scarcity or overload changes decision thresholds
 - diagnostic evidence sufficiency when the expected value of more evidence no longer justifies commercial delay
+- early momentum intervention when a bounded and reversible action has standalone value and may create operating runway without compromising the broader diagnosis
 - transfer learning across contexts so reusable reasoning can move forward without forcing a prior implementation onto the next diagnosis
 - anchoring resistance when a strong preferred explanation exists before evidence review
 - evidence dependency when apparent agreement may trace back to the same underlying source

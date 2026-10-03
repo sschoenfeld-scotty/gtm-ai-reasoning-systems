@@ -195,6 +195,22 @@ This does not lower the evidence standards that establish buyer intent, stakehol
 
 When a bounded and reversible action can produce useful discriminating evidence, the observed response can re-enter the diagnostic loop as new evidence. The outcome does not automatically prove the original diagnosis.
 
+## Early Momentum Intervention
+
+v9 also makes one bounded engagement-design option explicit.
+
+The broader GTM diagnosis does not need to be complete before every useful action can begin. A local intervention may proceed early when the operating condition is sufficiently understood, the action retains useful standalone value even if the broader diagnosis later changes, the downside is bounded and readily reversible, and acting is unlikely to materially distort evidence still needed for the broader diagnosis.
+
+The potential value can extend beyond the direct operating result. When the context supports it, an early visible improvement may reasonably be expected to increase organizational confidence, create execution momentum, preserve leadership attention, or strengthen the operating runway for broader change.
+
+That expected organizational response remains a behavioral hypothesis rather than a guaranteed outcome.
+
+Momentum alone is not sufficient reason to intervene. The action should remain worthwhile even if the expected organizational response does not appear.
+
+Success of an early intervention is evidence about the intervention. It does not establish that the broader governing constraint has been identified.
+
+Early Momentum Intervention is optional. It does not add a new engagement phase and does not create a requirement to manufacture a quick win.
+
 ## Transfer Learning Across Contexts
 
 v9 also makes a related reuse discipline explicit.
@@ -375,6 +391,18 @@ Examples include
 The requirement is coherence, not uniformity.
 
 The diagnostic does not assume every connected component should be redesigned at once. It identifies the governing break in coherence and prioritizes the highest-leverage repair.
+
+### Field Enablement Translation
+
+v9 also inspects whether seller-facing guidance is operationally connected in the flow of work.
+
+A company can have strong individual assets and still create weak field execution when sellers must independently search for related guidance, infer sequence, or reconstruct how the pieces fit into the broader commercial motion.
+
+The diagnostic therefore distinguishes content scarcity from field translation, navigation, sequencing, and usability problems.
+
+The public test asks whether the seller can understand where the current guidance fits in the broader commercial motion and reach the relevant adjacent or broader guidance without independently reconstructing the relationship.
+
+This does not prescribe a fixed content taxonomy, link structure, documentation format, or remediation pattern.
 
 ## Operating Continuity
 
