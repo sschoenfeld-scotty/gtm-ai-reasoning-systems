@@ -441,6 +441,40 @@ This refinement does not add a new lens, management methodology, engagement phas
 
 The proposed reinforcing loop between performance weakness, additional interventions, operating noise, and continued weakness remains a field hypothesis rather than canonical architecture.
 
+## 16. Early Momentum Intervention Became Explicit
+
+A later framework-development review exposed a sequencing question that existing evidence-sufficiency logic permitted but did not make explicit enough.
+
+A bounded local intervention can sometimes be worth starting before the broader GTM diagnosis is complete.
+
+The refinement requires that the local condition be sufficiently understood, the action retain standalone value if the broader diagnosis later changes, downside remain bounded and reversible, and the intervention not materially distort evidence still needed for the larger diagnosis.
+
+The additional insight is that the value of an early intervention can extend beyond its direct operating result.
+
+When supported by the context, a successful intervention may create execution momentum, increase organizational confidence, preserve leadership attention, or strengthen the operating runway needed for broader change.
+
+Those organizational effects remain behavioral hypotheses rather than assumed outcomes.
+
+Momentum alone does not justify action. Success of the early intervention also does not prove that the broader governing constraint has been identified.
+
+The change remains inside v9 because it adds a bounded engagement-design option without changing the five-part method, moving the Strategic Action Gate, or creating a mandatory quick-win phase.
+
+## 17. Field Enablement Translation Became Explicit
+
+A separate field-enablement review exposed another gap in explicitness.
+
+v9 already required Commercial System Coherence, operating reinforcement through enablement, and field usability. What remained less explicit was whether sellers experience the relationships among seller-facing assets or must reconstruct those relationships themselves.
+
+The framework now distinguishes strong individual collateral from a connected field experience.
+
+Seller-facing guidance can be accurate and useful in isolation while execution remains weak because sellers must search across sources, infer sequence, or determine how the pieces fit into the broader commercial motion.
+
+v9 now makes that field-translation condition explicitly inspectable.
+
+The change does not prescribe a content taxonomy, link structure, documentation format, or remediation pattern. The public framework remains diagnostic.
+
+The change remains inside v9 because it strengthens Commercial System Coherence and field usability without changing the six-lens architecture, governing-constraint center, or engagement sequence.
+
 ## What v9 Deliberately Preserves
 
 v9 does not replace the core framework architecture.
@@ -480,6 +514,8 @@ Several ideas remain explicitly separated as field hypotheses, including
 - whether constraint migration can be identified reliably enough in live work to improve diagnosis across unrelated cases
 - whether explicit commercial-system coherence inspection exposes execution failures that component-by-component inspection misses or reaches later
 - whether Operating Continuity inspection exposes failures in record handoff, field usability, or buying-state transition that coherence inspection alone does not surface
+- whether Early Momentum Intervention improves operating runway without encouraging premature action or weakening diagnostic integrity
+- whether explicit Field Enablement Translation inspection reveals execution friction that content-quality and field-usability checks would otherwise miss
 
 The correct next step is continued field use and calibration, not a dot release.
 
