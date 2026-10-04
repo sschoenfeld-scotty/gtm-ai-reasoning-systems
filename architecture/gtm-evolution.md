@@ -475,6 +475,22 @@ The change does not prescribe a content taxonomy, link structure, documentation 
 
 The change remains inside v9 because it strengthens Commercial System Coherence and field usability without changing the six-lens architecture, governing-constraint center, or engagement sequence.
 
+## 18. Executive Commitment and Mandate Alignment Became Explicit
+
+A later external-evidence review exposed an executive operating condition that current v9 could largely reason through but did not make explicit enough.
+
+v9 already inspected desired outcomes, commercial capacity, decision rights, causal dependencies, evidence progression, and executive resource allocation.
+
+What remained less explicit was the need to reconcile a material revenue or growth commitment with what the GTM system can credibly support within the required horizon.
+
+The framework now makes clear that a target expresses the desired outcome without proving that current capability can deliver it. When a material gap exists, the assumptions connecting planned operating changes to the required outcome should be inspectable.
+
+The refinement also makes a related mandate condition explicit. A sound operating plan can still be constrained when the accountable leader lacks sufficient authority or influence over the dependencies the plan requires, or when executive evaluation conditions conflict with the agreed operating logic.
+
+Required improvement is not treated as expected improvement. Target acceptance is not treated as forecast evidence. The refinement also does not promise operating runway or insulate a leader from accountability.
+
+The change remains inside v9 because it strengthens the existing Revenue Operating System without changing the six-lens architecture, Three Truths structure, engagement method, or forecast logic.
+
 ## What v9 Deliberately Preserves
 
 v9 does not replace the core framework architecture.
@@ -516,6 +532,7 @@ Several ideas remain explicitly separated as field hypotheses, including
 - whether Operating Continuity inspection exposes failures in record handoff, field usability, or buying-state transition that coherence inspection alone does not surface
 - whether Early Momentum Intervention improves operating runway without encouraging premature action or weakening diagnostic integrity
 - whether explicit Field Enablement Translation inspection reveals execution friction that content-quality and field-usability checks would otherwise miss
+- whether explicit Executive Commitment and Mandate Alignment inspection exposes unsupported growth commitments or execution-authority gaps that existing mechanisms would otherwise miss or reach later
 
 The correct next step is continued field use and calibration, not a dot release.
 
