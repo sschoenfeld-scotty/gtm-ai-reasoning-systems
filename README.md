@@ -170,6 +170,7 @@ v9 therefore reasons more explicitly about
 - opportunity availability relative to commercial capacity when scarcity or overload changes decision thresholds
 - diagnostic evidence sufficiency when the expected value of more evidence no longer justifies commercial delay
 - early momentum intervention when a bounded and reversible action has standalone value and may create operating runway without compromising the broader diagnosis
+- executive commitment and mandate alignment so material growth commitments are tested against supportable capability and the authority and evaluation conditions required to execute the plan
 - transfer learning across contexts so reusable reasoning can move forward without forcing a prior implementation onto the next diagnosis
 - anchoring resistance when a strong preferred explanation exists before evidence review
 - evidence dependency when apparent agreement may trace back to the same underlying source
