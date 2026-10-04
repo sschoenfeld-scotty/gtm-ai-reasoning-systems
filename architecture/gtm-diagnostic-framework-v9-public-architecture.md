@@ -269,6 +269,24 @@ Maturity can change where a critical GTM responsibility sits without eliminating
 
 Evidence standards become operational when they affect decisions. If required evidence is missing or insufficient, the associated decision should change or remain unresolved rather than proceed as though the evidence existed.
 
+## Executive Commitment and Mandate Alignment
+
+v9 also makes an executive operating distinction more explicit.
+
+A material revenue target or strategic growth commitment defines the outcome leadership wants. It does not establish that the current GTM system can produce that outcome within the required period.
+
+When the commitment is material, the diagnostic inspects whether market conditions, available commercial capacity, operating capability, and the time required for necessary changes make the commitment supportable. When a gap exists, the assumptions connecting planned operating changes to the required outcome should be explicit.
+
+Required improvement is not the same as expected improvement. A model showing what must become true does not prove that the proposed intervention will make it true.
+
+Target acceptance also does not become forecast evidence. Forecast confidence remains governed by buyer and opportunity evidence.
+
+The same operating review inspects whether the accountable leader has sufficient authority or influence over the dependencies the plan requires, whether cross-functional decision rights support execution, and whether executive sponsors understand how progress will be evaluated using the framework's existing leading-evidence, lagging-value, and reconsideration disciplines.
+
+This is not a promise of operating runway or a shield from accountability. When required authority or evaluation conditions materially conflict with the causal plan, that mismatch is itself an operating condition that can constrain execution.
+
+This refinement does not add a new lens, Truth layer, mandatory artifact, engagement phase, or forecast rule.
+
 ## Buyer Progression Without Becoming a Sales Methodology
 
 v9 makes several buyer dependencies more explicit without prescribing CRM stages.
