@@ -641,6 +641,56 @@ That evidence supports a bounded diagnostic clarification. It does not establish
 
 Whether explicit Field Enablement Translation inspection reveals execution friction that existing content-quality and field-usability checks would otherwise miss or reach later.
 
+## Canonical Refinement 013
+
+### Executive Commitment and Mandate Alignment
+
+**Date captured**  
+October 2026
+
+**Source context**  
+A framework-development review used an external revenue-leadership position paper as stimulus and compared its claims with current canonical GTM v9.
+
+The framework already inspected desired outcomes, capacity, decision rights, causal dependencies, evidence progression, and executive resource allocation.
+
+What remained less explicit was whether a material growth commitment is supportable within its required horizon and whether the authority and evaluation conditions surrounding the accountable leader are compatible with the operating changes the plan requires.
+
+### Diagnostic distinction
+
+A target expresses the outcome leadership wants. It does not establish that the current GTM system can produce that outcome within the required period.
+
+When a material commitment is set, accepted, or materially revised, the framework now makes the supportability question explicit. It also keeps required improvement separate from expected improvement and keeps target acceptance separate from forecast evidence.
+
+The refinement also inspects whether the accountable leader has sufficient authority or influence over the dependencies the plan requires and whether executive evaluation conditions are compatible with the agreed operating logic.
+
+### Canonical decision
+
+**Classification**  
+Executive operating-system refinement
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The refinement was added inside the existing Revenue Operating System.
+
+It does not create a new lens, Truth layer, mandatory artifact, engagement phase, forecast rule, guaranteed operating runway, or protection from legitimate executive accountability.
+
+### Evidence status
+
+The refinement is grounded in external operating claims, comparison with the existing canonical framework, and a reconstructed design example used to test whether the distinction can change an executive diagnosis or decision.
+
+That evidence supports bounded canonical inclusion. It does not establish that the refinement improves company performance, that target reconciliation will cause better outcomes, or that any specific leadership model is generally superior.
+
+### Field calibration question
+
+Whether explicit target-to-capability and mandate-alignment checks expose unsupported commitments or execution-authority gaps that existing v9 mechanisms would otherwise miss or reach later, and whether those findings change an actual executive decision.
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
