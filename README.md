@@ -398,6 +398,7 @@ The case remains in its own repository. It is not direct validation of Full Stac
 
 These entries preserve live observations and bounded external evidence. They do not establish formal validation.
 
+- [When a Drafting Task Became an Evidence Question](evidence/2026-10-06-whole-thread-evidence-reconstruction.md) reconstructs a supplied AI response that prioritized factual support before final drafting. It distinguishes reported history from observable recommendations and does not establish a completed outcome or framework validation.
 - [Full Stack v5 Routing Evaluation Case 01](examples/full-stack-v5-routing-evaluation-case-01.md) records sequential observations under changing information. The runs are consistent with intended routing behavior without isolating its causal effect.
 - [Full Stack v5 Evaluation Case 02](examples/full-stack-v5-audience-translation-evaluation-case-02.md) records a retrospective anonymized audience-translation case where factual accuracy remained intact but communication function and operating meaning changed across a stakeholder boundary.
 - [Full Stack v5 Evaluation Case 03](examples/full-stack-v5-behavioral-context-evaluation-case-03.md) records a retrospective anonymized high-context behavioral case that separates reasoning value from output value and preserves the possibility that the experienced human produced the stronger public expression.
