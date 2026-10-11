@@ -100,6 +100,18 @@ Field use and hiring outcomes are separate evidence categories. Application prog
 
 Publication makes the architecture inspectable. It does not validate it.
 
+## A Related Career and Role Success Master
+
+Alongside the candidate-side reasoning system, I've developed a separate private operating reference for career and role work. It can support ordinary work without invoking a specialized Logic Lens. Its purpose is to help people establish what the evidence supports and whether an existing document should be preserved, repaired or replaced for the decision at hand.
+
+For an employer, that can mean defining what a role must accomplish and what job-related evidence would support hiring preparation without inventing authority or requirements. For a candidate, it can mean selecting supportable career evidence for an opportunity. For an employee, it can mean identifying a worthwhile development step or exploring an internal role without implying a promotion commitment.
+
+These audiences may be discussing the same role, but they don't have the same information or decision rights. Employer hiring records, candidate evidence and employee development information need to remain within their authorized boundaries.
+
+The master is not a third Career Logic Lens, an employer-side hiring algorithm or a replacement for the shared Role Success Profile Schema. Career Apply and Career Interview still follow their separate canonical sources when invoked. The master can also be used independently for ordinary authoring work.
+
+The private master has been accepted as a reusable reference. That does not establish field effectiveness, hiring fairness or outcomes. The complete source, restricted records and execution instructions remain private.
+
 ## Public and private boundary
 
 This page explains the architecture and the relationship between stages. It does not publish the private canonical documents or replace their authority.

@@ -2,7 +2,7 @@
 
 *How I apply evidence discipline, causal diagnosis, and dynamic dependency reasoning to consequential GTM decisions*
 
-> Public application note | September 2026  
+> Public application note  
 > Derived from GTM Diagnostic Framework v9, the current private canonical field-test framework
 
 ## Status and Scope
@@ -388,6 +388,26 @@ It is stronger internal diagnostic capability.
 Maturity can change who performs a critical GTM responsibility. It does not make the responsibility disappear. I diagnose whether the work is owned and performed well enough for the motion rather than treating a missing specialized role title as the problem.
 
 Evidence standards also have to change decisions. If missing evidence never changes whether an opportunity advances, a forecast is accepted, or another operating decision is made, the standard is informational rather than governing.
+
+### Reusable Operating References
+
+A sound diagnosis may justify action, but it doesn't mean a company should adopt an entire playbook or template.
+
+I've built private operating references for recurring GTM work. They help translate commercial reasoning into decisions and usable guidance. They're not additional Logic Lenses or evidence that an operating system has been installed.
+
+| Operating reference | Decision it supports |
+| --- | --- |
+| Proof of value | Is there a buyer-relevant uncertainty worth investing technical resources to resolve, and what decision could follow successful proof? |
+| Messaging and positioning | Does the message actually need to change, or is the problem how it's being used? Preserve what works when the evidence supports it. |
+| Sales playbook | Which parts of the selling motion need guidance, and what should managers inspect? Adapt only what the company's operating reality requires. |
+
+**Reconstructed illustration**
+
+A leadership team asks for new messaging after inconsistent sales conversations. The existing message is accurate and buyers understand it, but sellers are working from different guidance.
+
+The better first action may be to restore consistent access and inspect field execution rather than rewrite the message. If new buyer evidence shows the message itself is failing, that decision should be reconsidered.
+
+This is a constructed example, not an observed client outcome. The private references are starting points for company-specific work. Their existence doesn't establish field adoption or commercial effectiveness.
 
 ## Commercial System Coherence
 
