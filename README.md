@@ -172,6 +172,7 @@ v9 therefore reasons more explicitly about
 - early momentum intervention when a bounded and reversible action has standalone value and may create operating runway without compromising the broader diagnosis
 - executive commitment and mandate alignment so material growth commitments are tested against supportable capability and the authority and evaluation conditions required to execute the plan
 - transfer learning across contexts so reusable reasoning can move forward without forcing a prior implementation onto the next diagnosis
+- operating design derivation integrity so reusable guidance is selectively adapted to a company's operating reality instead of being mistaken for an installed system
 - anchoring resistance when a strong preferred explanation exists before evidence review
 - evidence dependency when apparent agreement may trace back to the same underlying source
 - more disciplined behavioral attribution when human explanations materially affect causal diagnosis
