@@ -491,6 +491,20 @@ Required improvement is not treated as expected improvement. Target acceptance i
 
 The change remains inside v9 because it strengthens the existing Revenue Operating System without changing the six-lens architecture, Three Truths structure, engagement method, or forecast logic.
 
+## 19. Reusable Guidance Was Separated From Installed Operating Design
+
+A subsequent framework-development review examined the process of adapting reusable GTM operating guidance for different companies and commercial environments.
+
+v9 already distinguished transfer of reasoning from copying a prior artifact. It also inspected commercial-system coherence, continuity of evidence, and the installation of operating discipline. What remained less explicit was the step from a reusable reference to company-specific guidance that supports real decisions and behaviors.
+
+Operating Design Derivation Integrity makes that translation more explicit. A master can offer candidate mechanisms, but the current diagnosis and operating context determine what to retain, adapt, or omit. Material evidence requirements, ownership, dependencies, and exceptions must survive that adaptation.
+
+A reusable reference, an approved company-specific version, observed field adoption, and commercial results are different states. Constructed derivation checks may challenge the design. They cannot establish live effectiveness or causal revenue impact.
+
+The change belongs inside Design and Install rather than becoming another GTM lens or a new engagement phase. It does not require every engagement to use a master template.
+
+Its field-calibration question is whether explicitly inspecting this translation improves decisions and avoids importing unneeded structure or losing essential operating controls in real engagements.
+
 ## What v9 Deliberately Preserves
 
 v9 does not replace the core framework architecture.

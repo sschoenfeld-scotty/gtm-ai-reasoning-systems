@@ -269,6 +269,16 @@ Maturity can change where a critical GTM responsibility sits without eliminating
 
 Evidence standards become operational when they affect decisions. If required evidence is missing or insufficient, the associated decision should change or remain unresolved rather than proceed as though the evidence existed.
 
+### Operating Design Derivation Integrity
+
+Reusable operating guidance can inform an intervention, but a reference is not itself a company's approved or installed operating system.
+
+When a reusable blueprint informs a design, the current diagnosis determines what belongs in the company's commercial motion and operating environment. The resulting guidance needs to support the intended decisions and behaviors while preserving material evidence standards, decision ownership, dependencies, and exceptions. Unnecessary structure should not transfer simply because it existed in a prior version.
+
+A reusable master, company approval of an adapted version, adoption in the field, and observed commercial results are distinct states. A constructed design check can test whether a proposed adaptation is coherent, but it does not prove operating effectiveness.
+
+This is a bounded Design and Install discipline. It does not prescribe a master template, add a new engagement phase, or require an additional approval process.
+
 ## Executive Commitment and Mandate Alignment
 
 v9 also makes an executive operating distinction more explicit.

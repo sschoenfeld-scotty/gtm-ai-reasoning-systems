@@ -691,6 +691,52 @@ That evidence supports bounded canonical inclusion. It does not establish that t
 
 Whether explicit target-to-capability and mandate-alignment checks expose unsupported commitments or execution-authority gaps that existing v9 mechanisms would otherwise miss or reach later, and whether those findings change an actual executive decision.
 
+## Canonical Refinement 014
+
+### Operating Design Derivation Integrity
+
+**Date captured**  
+October 2026
+
+**Source context**  
+A private framework-development review examined the design and adaptation of reusable GTM operating references across different commercial contexts, including constructed derivation checks.
+
+The existing framework already covered transfer learning, commercial-system coherence, operating continuity, and the Design and Install method. The narrower gap was making the translation from reusable reference to authorized, context-specific operating guidance explicit.
+
+### Diagnostic distinction
+
+A reusable master may supply useful operating mechanisms. It does not establish that the same structures or controls fit a new company's actual commercial work.
+
+The current diagnosis determines what should be adapted. Guidance for the new environment must retain the evidence standards, decision rights, material dependencies, and exceptions needed for its intended decisions and behaviors while avoiding unnecessary transfer of prior structures.
+
+Master acceptance, approval of the company-specific guidance, field adoption, and observed business results are not equivalent.
+
+### Canonical decision
+
+**Classification**  
+Operating design and installation refinement
+
+**Canonical GTM v9 change**  
+Yes
+
+**Public architecture change**  
+Yes
+
+**Version decision**  
+Remain v9
+
+The change was inserted conditionally within the existing Design and Install methodology. It creates no new lens, mandatory master, engagement phase, or approval system.
+
+### Evidence status
+
+The source is a framework coverage review of private reusable operating references and their constructed design checks. Those checks support evaluation of whether a proposed adaptation preserves important decision logic. They are not observed client results, measured field adoption, or evidence that the refinement improves revenue.
+
+The private master contents and client-specific implementation remain outside the public repository.
+
+### Field calibration question
+
+Does making operating-design derivation explicit prevent material controls from being lost, or irrelevant structures from being carried forward, when reusable guidance is adapted to live GTM work? Does that inspection change an actual operating decision without introducing unnecessary process?
+
 ## Calibration Observation 001
 
 ### Diagnostic uncertainty can appear in different forms
