@@ -212,7 +212,9 @@ It makes experienced judgment easier to retrieve, connect, inspect, challenge, a
 
 The Career Reasoning System is another applied reasoning environment in this body of work. Career Apply governs role-specific application reasoning. Career Interview governs interview reasoning and live preparation.
 
-They share a representation of the role while remaining independently governed. Application reasoning can carry forward, but new employer evidence can change the opportunity interpretation. Reaching an interview does not prove the original model was correct, and truthful candidate claims must remain coherent as positioning changes.
+A [separate Career & Role Success master](architecture/career-reasoning-system.md#a-related-career-and-role-success-master) supports employer, candidate and employee work as a private operating reference, not as another Logic Lens.
+
+Career Apply and Career Interview share a representation of the role while remaining independently governed. Application reasoning can carry forward, but new employer evidence can change the opportunity interpretation. Reaching an interview does not prove the original model was correct, and truthful candidate claims must remain coherent as positioning changes.
 
 The application lens has undergone structured scenario testing. The interview lens has passed design and desk-based navigation tests, with live usability and measured retrieval evaluation still open. The overall system is not formally validated.
 
@@ -374,7 +376,7 @@ The case remains in its own repository. It is not direct validation of Full Stac
 
 - [GTM Diagnostic Framework v9 Public Architecture](architecture/gtm-diagnostic-framework-v9-public-architecture.md) is the compressed public architecture of the current private GTM v9 framework.
 - [GTM Diagnostic Framework v8 Public Architecture](architecture/gtm-diagnostic-framework-v8-public-architecture.md) preserves the prior GTM architecture as historical evidence.
-- [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) shows how the reasoning disciplines become practical commercial diagnosis.
+- [GTM Diagnostic Reasoning](applications/gtm-diagnostic-reasoning.md) shows how commercial diagnosis guides practical decisions, including [the role of private operating references](applications/gtm-diagnostic-reasoning.md#reusable-operating-references).
 - [GTM Framework Evolution](architecture/gtm-evolution.md) documents the material changes from v7 through v9.
 - [GTM Calibration Log](architecture/gtm-calibration-log.md) preserves working observations without silently changing the framework.
 
