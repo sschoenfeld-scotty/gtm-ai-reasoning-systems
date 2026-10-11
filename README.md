@@ -214,7 +214,7 @@ The Career Reasoning System is another applied reasoning environment in this bod
 
 A [separate Career & Role Success master](architecture/career-reasoning-system.md#a-related-career-and-role-success-master) supports employer, candidate and employee work as a private operating reference, not as another Logic Lens.
 
-They share a representation of the role while remaining independently governed. Application reasoning can carry forward, but new employer evidence can change the opportunity interpretation. Reaching an interview does not prove the original model was correct, and truthful candidate claims must remain coherent as positioning changes.
+Career Apply and Career Interview share a representation of the role while remaining independently governed. Application reasoning can carry forward, but new employer evidence can change the opportunity interpretation. Reaching an interview does not prove the original model was correct, and truthful candidate claims must remain coherent as positioning changes.
 
 The application lens has undergone structured scenario testing. The interview lens has passed design and desk-based navigation tests, with live usability and measured retrieval evaluation still open. The overall system is not formally validated.
 
