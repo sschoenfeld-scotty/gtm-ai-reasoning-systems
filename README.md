@@ -366,6 +366,7 @@ The case remains in its own repository. It is not direct validation of Full Stac
 - [Building Friction Into AI](docs/building-friction-into-ai.md) explains why the work started and how the reasoning system evolved.
 - [What I Mean by a Logic Lens](docs/what-is-a-logic-lens.md) gives a plain-English explanation of the core concept.
 - [Full Stack v5.1 Public Architecture](architecture/full-stack-v5.1-public-architecture.md) documents the high-level architecture behind the current reasoning harness.
+- [Instruction Architecture](architecture/instruction-architecture.md) explains operating responsibilities around the reasoning systems and the limits of source authority and portability.
 - [Self-Audit as a Reasoning Control](architecture/self-audit-as-a-reasoning-control.md) explains how model self-critique becomes a defined control, why embedded and standalone self-audit are not equivalent executions, and where execution fidelity and review independence create limits.
 - [Full Stack v5 Public Architecture](architecture/full-stack-v5-public-architecture.md) preserves the prior Full Stack version and its evidence boundary.
 - [Human Pattern 1](architecture/human-pattern-1.md) documents the public behavioral-reasoning architecture inside Full Stack v5.1 without exposing the complete operating implementation.
